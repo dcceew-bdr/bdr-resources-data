@@ -49,6 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/dataset/bdr/sma> ,
         <https://linked.data.gov.au/dataset/bdr/smrr> ,
         <https://linked.data.gov.au/dataset/bdr/statsprops> ,
+        <https://linked.data.gov.au/dataset/bdr/taxonomic-rank> ,
         <https://linked.data.gov.au/dataset/epbc/ts/cats> ,
         <https://linked.data.gov.au/def/abis/vocab-themes> ,
         <https://linked.data.gov.au/def/asgs/cat> ,

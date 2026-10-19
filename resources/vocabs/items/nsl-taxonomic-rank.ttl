@@ -1,0 +1,127 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/taxonomic-rank>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/2b6fae57-f28e-4f24-b6f9-19f114dbb61e>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:definition "species"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
+    skos:prefLabel "species"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/3ade9854-d90f-4709-bb5a-260d62a2c647>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:altLabel "division"@en ;
+    skos:definition "phylum"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/phylum> ;
+    skos:prefLabel "phylum"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/5fb9982c-8249-4d58-9f38-659e8c7c6daf>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:definition "genus"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
+    skos:prefLabel "genus"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/6605eecb-e8ba-47fc-a364-81aa3ba5ce69>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:altLabel "alliance"@en ;
+    skos:definition "order"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/order> ;
+    skos:prefLabel "order"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/6fa4ff0a-acc8-482b-a574-0ffbbab83ca5>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:altLabel "varietas"@en ;
+    skos:definition "variety"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/variety> ;
+    skos:prefLabel "variety"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:definition "subspecies"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
+    skos:prefLabel "subspecies"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/a27dc8c9-25ed-4a82-b797-b9dd0add6da2>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:altLabel "regnum"@en ;
+    skos:definition "kingdom"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/kingdom> ;
+    skos:prefLabel "kingdom"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/dae4d56e-7440-4ddd-90e7-9924b455ca40>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:altLabel "forma"@en ;
+    skos:definition "form"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/form> ;
+    skos:prefLabel "form"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/db985a35-6edb-4ba1-8939-b0a7b1efa287>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:definition "class"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/class> ;
+    skos:prefLabel "class"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/f2e2f14f-56d4-4d2f-9a37-7e140133cbd2>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> ;
+    skos:definition "family"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/family> ;
+    skos:prefLabel "family"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:seeAlso "https://en.wikipedia.org/wiki/Taxonomic_rank"^^xsd:anyURI ;
+    skos:definition """A taxonomic rank denotes the level that a group of organisms — either taxon or clade — occupies in a hierarchical system of classification, which is usually but not necessarily based on evolutionary relationships between those organisms.
+
+This vocabulary contains ranks present in the Australian National Species List (NSL)."""@en ;
+    skos:hasTopConcept
+        <http://linked.data.gov.au/def/tern-cv/2b6fae57-f28e-4f24-b6f9-19f114dbb61e> ,
+        <http://linked.data.gov.au/def/tern-cv/3ade9854-d90f-4709-bb5a-260d62a2c647> ,
+        <http://linked.data.gov.au/def/tern-cv/5fb9982c-8249-4d58-9f38-659e8c7c6daf> ,
+        <http://linked.data.gov.au/def/tern-cv/6605eecb-e8ba-47fc-a364-81aa3ba5ce69> ,
+        <http://linked.data.gov.au/def/tern-cv/6fa4ff0a-acc8-482b-a574-0ffbbab83ca5> ,
+        <http://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72> ,
+        <http://linked.data.gov.au/def/tern-cv/a27dc8c9-25ed-4a82-b797-b9dd0add6da2> ,
+        <http://linked.data.gov.au/def/tern-cv/dae4d56e-7440-4ddd-90e7-9924b455ca40> ,
+        <http://linked.data.gov.au/def/tern-cv/db985a35-6edb-4ba1-8939-b0a7b1efa287> ,
+        <http://linked.data.gov.au/def/tern-cv/f2e2f14f-56d4-4d2f-9a37-7e140133cbd2> ;
+    skos:historyNote "This vocabulary was developed to assist with the processing of submissions and updates to the Biodiversity Data Repository in March 2025" ;
+    skos:prefLabel "NSL Taxonomic Rank"@en ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2026-10-19"^^xsd:date ;
+    schema:dateModified "2026-10-19"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "1" ;
+.
