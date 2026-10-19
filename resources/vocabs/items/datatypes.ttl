@@ -89,6 +89,18 @@
     skos:topConceptOf cs: ;
     dcat:contactPoint <https://linked.data.gov.au/org/merit> .
 
+:NSLRankCode a rdfs:Datatype,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A string representing a taxonomic rank code recorded by the Australian National Species List, preserving its source spelling and nomenclatural-code qualifiers."@en ;
+    skos:scopeNote "Code strings are preserved verbatim, including case, whitespace and punctuation. This datatype identifies the source coding system; it does not establish an approved mapping to a taxonomic rank concept or restrict values to a particular BDR dataset snapshot."@en ;
+    skos:historyNote "Defined by the BDR team to identify NSL rank codes used as SKOS notations in the taxonomic rank vocabulary proposal for bdr-ops issue 299."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSL rank code"@en ;
+    skos:topConceptOf cs: ;
+    dcterms:source "Australian National Species List rank codes, observed in BDR data. This is a BDR-defined datatype, not an NSL-issued rank concept."@en ;
+    schema:dateCreated "2026-10-19"^^xsd:date .
+
 :nsw-bionet a rdfs:Datatype,
         skos:Concept ;
     dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/nsw-bionet> ;
@@ -172,6 +184,7 @@ cs: a skos:ConceptScheme ;
         :MERITProjectID ,
         :MERITSampleID ,
         :MonitorGitSHA1 ,
+        :NSLRankCode ,
         :nsw-bionet ,
         :NT-Atlas ,
         :Qld-WildNet ,
@@ -183,7 +196,7 @@ cs: a skos:ConceptScheme ;
     skos:prefLabel "BDR Datatypes"@en ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2024-07-09"^^xsd:date ;
-    schema:dateModified "2026-09-30"^^xsd:date ;
+    schema:dateModified "2026-10-19"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "2" .
+    schema:version "3" .
