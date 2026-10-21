@@ -30,6 +30,9 @@ jobs:
       - name: Install kgm
         run: uv tool install "kgm==${KGM_VERSION}"
 
+      - name: Validate manifest
+        run: kgm validate resources/manifest.ttl
+
       - name: Sync manifest to Fuseki
         env:
           FUSEKI_URL: ${{ vars.FUSEKI_URL }}
