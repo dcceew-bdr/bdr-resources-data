@@ -1,0 +1,42 @@
+name: Sync Data to Site
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-data-dev
+  cancel-in-progress: false
+
+env:
+  KGM_VERSION: "2.1.3"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    environment: dev
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Install kgm
+        run: uv tool install "kgm==${KGM_VERSION}"
+
+      - name: Sync manifest to Fuseki
+        env:
+          FUSEKI_URL: ${{ vars.FUSEKI_URL }}
+          FUSEKI_USER: ${{ vars.FUSEKI_USER }}
+          REFDATA_PASSWORD: ${{ secrets.REFDATA_PASSWORD }}
+        run: |
+          set -euo pipefail
+          kgm sync resources/manifest.ttl "$FUSEKI_URL" \
+            -u "$FUSEKI_USER" -p "$REFDATA_PASSWORD" \
+            True False True False
