@@ -15,7 +15,28 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
         ] ,
         [
             dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
-            prof:hasArtifact "vocabs/items/*.ttl" ;
+            prof:hasArtifact
+                "vocabs/items/abis-mapping/*.ttl" ,
+                "vocabs/items/asls/*.ttl" ,
+                "vocabs/items/RoleCode.ttl" ,
+                "vocabs/items/abis-themes.ttl" ,
+                "vocabs/items/datatypes.ttl" ,
+                "vocabs/items/epbc-ts-cats.ttl" ,
+                "vocabs/items/mesh-block-categories.ttl" ,
+                "vocabs/items/nsl-taxonomic-rank.ttl" ,
+                "vocabs/items/nsl-tn-types.ttl" ,
+                "vocabs/items/nsl-tnu-types.ttl" ,
+                "vocabs/items/obsprops.ttl" ,
+                "vocabs/items/rescope.ttl" ,
+                "vocabs/items/sma.ttl" ,
+                "vocabs/items/smrr.ttl" ,
+                "vocabs/items/statsprops.ttl" ,
+                "vocabs/items/tern-cv-categorical_concepts.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            # Temporary: orgs.ttl currently fails VocPub validation, which needs to be fixed
+            prof:hasArtifact "vocabs/items/orgs.ttl" ;
             prof:hasRole mrr:ResourceData ;
         ] ,
         [
