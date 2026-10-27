@@ -972,6 +972,7 @@ The observer wishing to record the severity of erosion may record it as minor, m
         :drainage-height ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Drainage height value in metres"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Drainage height value in metres"@en ;
     skos:topConceptOf cs: ;
 .
@@ -980,6 +981,7 @@ The observer wishing to record the severity of erosion may record it as minor, m
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Elevation value in metres"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Elevation value in metres"@en ;
     skos:topConceptOf cs: ;
 .
