@@ -10,6 +10,29 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<urn:McDonald,R.C.(RonaldC.)>
+a schema:Person ;
+schema:name "R.C. McDonald" ;
+.
+
+<http://www.publish.csiro.au> a schema:Organization ;
+schema:name "CSIRO Publishing" ;
+schema:url "https://publishing.csiro.au"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-0693-1899> a schema:Person ;
+schema:name "Linda Gregory" ;
+.
+
+<https://orcid.org/0000-0002-3884-3420> a schema:Person ;
+schema:name "Simon J D Cox" ;
+.
+
+<https://orcid.org/0000-0002-8742-7730> a schema:Person ;
+schema:name "Nicholas Car" ;
+schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
+.
+
 :Genesis
     a skos:Collection ;
     rdfs:isDefinedBy cs: ;
@@ -3122,11 +3145,7 @@ The substrate should be observed at the point of the soil profile observation or
         <https://orcid.org/0000-0002-8742-7730> ;
     schema:copyrightNotice "copyright CSIRO 2009, 2021. All rights reserved."@en ;
     schema:creator 
-        [
-            a schema:Person ;
-            schema:email ""^^xsd:anyURI ;
-            schema:name "R.C. McDonald" ;
-        ] ,
+        <urn:McDonald,R.C.(RonaldC.)> ,
         [
             a schema:Person ;
             schema:email ""^^xsd:anyURI ;
