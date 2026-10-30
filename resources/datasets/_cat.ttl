@@ -10,9 +10,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:contributor <https://kurrawong.ai> ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2025-07-24"^^xsd:date ;
-    schema:dateModified "2026-09-02"^^xsd:date ;
+    schema:dateModified "2026-10-30"^^xsd:date ;
     schema:description "References Datasets used by the Biodiversity Data Repository" ;
     schema:hasPart
+        <https://linked.data.gov.au/dataset/apni-common-names> ,
         <https://linked.data.gov.au/dataset/asgsed3> ,
         <https://linked.data.gov.au/dataset/epbc/mig> ,
         <https://linked.data.gov.au/dataset/epbc/ts> ,
@@ -22,6 +23,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "Reference Datasets Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "3" ;
+.
+
+<https://linked.data.gov.au/dataset/apni-common-names>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
 .
 
 <https://linked.data.gov.au/dataset/asgsed3>
