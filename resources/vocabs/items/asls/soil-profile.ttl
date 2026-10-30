@@ -12,6 +12,30 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX subst: <https://linked.data.gov.au/def/asls-substrate/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<urn:McDonald,R.C.(RonaldC.)>
+a schema:Person ;
+schema:name "R.C. McDonald" ;
+.
+
+<http://www.publish.csiro.au> a schema:Organization ;
+schema:name "CSIRO Publishing" ;
+schema:url "https://publishing.csiro.au"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-0693-1899> a schema:Person ;
+schema:name "Linda Gregory" ;
+.
+
+<https://orcid.org/0000-0002-3884-3420> a schema:Person ;
+schema:name "Simon J D Cox" ;
+.
+
+<https://orcid.org/0000-0002-8742-7730> a schema:Person ;
+schema:name "Nicholas Car" ;
+schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
+.
+
+
 :coarse-fragments
     a skos:Collection ;
     rdfs:isDefinedBy cs: ;
@@ -168,6 +192,7 @@ subst:material-strength
     a skos:Collection ;
     skos:definition "Strength of material - enumeration"@en ;
     skos:inScheme cs: ;
+	rdfs:isDefinedBy <https://linked.data.gov.au/def/asls-substrate> ;
     skos:member :placeholder ;
     skos:prefLabel "Strength of material - enumeration"@en ;
 .
@@ -179,6 +204,7 @@ ls:Coarse-fragments-abundance
     rdfs:subClassOf skos:Concept ;
     skos:definition "The percentage of coarse fragments."@en ;
     skos:inScheme <https://linked.data.gov.au/def/asls-land-surface> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/asls-land-surface> ;
     skos:member
         ls:coarse-fragments-abundance-0 ,
         ls:coarse-fragments-abundance-1 ,
@@ -199,6 +225,7 @@ ls:Coarse-fragments-shape
     rdfs:subClassOf skos:Concept ;
     skos:definition "The shape of coarse fragments is determined by referencing the chart that captures the roundness and sphericity. (Figure 12)"@en ;
     skos:inScheme <https://linked.data.gov.au/def/asls-land-surface> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/asls-land-surface> ;
     skos:member
         ls:coarse-fragments-shape-A ,
         ls:coarse-fragments-shape-AP ,
@@ -222,6 +249,7 @@ ls:Coarse-fragments-size
     rdfs:subClassOf skos:Concept ;
     skos:definition "The scale adopted employs class boundaries at (2 × 10n/2) mm, where n is an integer. This system is an extension of that used for particles smaller than 2 mm both in the scheme of the British Standards Institution and the Massachusetts Institute of Technology and the original Atterberg (1905) scheme on which the International Scheme was based. It is thus compatible with both the International Scheme referred to in the field texture section and the grain size criteria for substrate materials."@en ;
     skos:inScheme <https://linked.data.gov.au/def/asls-land-surface> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/asls-land-surface> ;
     skos:member
         ls:coarse-fragments-size-1 ,
         ls:coarse-fragments-size-2 ,
@@ -246,6 +274,7 @@ ls:Coarse-fragments-strength
     skos:altLabel "Strength of material"@en ;
     skos:definition "Strength of coarse fragments is the same as for 'Strength of material'. The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
     skos:inScheme <https://linked.data.gov.au/def/asls-land-surface> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/asls-land-surface> ;
     skos:member
         subst:material-strength-M ,
         subst:material-strength-S ,
@@ -262,6 +291,7 @@ ls:Lithology-coarse-fragments
     rdfs:subClassOf skos:Concept ;
     skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop. Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.    "@en ;
     skos:inScheme <https://linked.data.gov.au/def/asls-land-surface> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/asls-land-surface> ;
     skos:member
         ls:lithology-CC ,
         ls:lithology-IS ,
@@ -8017,7 +8047,8 @@ A soil profile is a vertical section of a soil from the soil surface through all
         <https://orcid.org/0000-0002-8742-7730> ;
     schema:copyrightNotice "copyright CSIRO 2009, 2021. All rights reserved."@en ;
     schema:creator 
-        [
+			<urn:McDonald,R.C.(RonaldC.)> ,
+		[
             a schema:Person ;
             schema:email ""^^xsd:anyURI ;
             schema:name "R.C. McDonald" ;
