@@ -12,6 +12,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<https://orcid.org/0000-0002-0693-1899> a schema:Person ;
+schema:name "Linda Gregory" ;
+.
+
 :air-photo-reference
     a skos:Collection ;
     rdfs:isDefinedBy cs: ;
@@ -588,11 +592,16 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     skos:topConceptOf cs: ;
 .
 
+# Provisional defining-source attribution: the original ASLS Location
+# publication describes gps-accuracy and map-scale. Its authoritative defining
+# vocabulary has not been confirmed. Retained for VocPub validation;
+# this does not attribute its origin to the BDR publication.
+
 <https://anzsoil.org/def/au/property/gps-accuracy>
     a
         skos:Concept ,
         sosa:ObservableProperty ;
-    rdfs:isDefinedBy cs: ;
+    rdfs:isDefinedBy <http://anzsoil.org/def/au/asls/location> ;
     skos:definition "GPS accuracy estimate"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GPS accuracy estimate"@en ;
@@ -603,7 +612,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a
         skos:Concept ,
         sosa:ObservableProperty ;
-    rdfs:isDefinedBy cs: ;
+    rdfs:isDefinedBy <http://anzsoil.org/def/au/asls/location> ;
     skos:definition "Map scale"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Map scale"@en ;
