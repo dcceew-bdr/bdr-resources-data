@@ -698,7 +698,7 @@ cs:
         ] ,
         <https://orcid.org/0000-0002-0693-1899> ;
     schema:dateCreated "2021-04-08"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-10-30"^^xsd:date ;
     schema:description "This vocabulary is a machine-readable representation of the classifiers described in chapter 3 Location, by L.J. Gregory, R.C. McDonald and R.F. Isbell in Australian Soil and Land Survey Field Handbook (3rd edn)" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <http://www.publish.csiro.au> ;
