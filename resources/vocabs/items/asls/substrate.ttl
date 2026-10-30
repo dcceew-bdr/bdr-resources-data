@@ -29,7 +29,7 @@ schema:name "Simon J D Cox" ;
 .
 
 <https://orcid.org/0000-0002-8742-7730> a schema:Person ;
-schema:name "Nicholas Car" ;
+schema:name "Nicholas J. Car" ;
 schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
 .
 

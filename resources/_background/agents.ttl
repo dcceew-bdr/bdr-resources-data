@@ -47,7 +47,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://orcid.org/0000-0003-3206-2268>
     a schema:Person ;
     schema:email ""^^xsd:anyURI ;
-    schema:name "Unknown Person" ;
+    schema:name "Richard Thackway" ;
 .
 
 <https://kurrawong.ai>
