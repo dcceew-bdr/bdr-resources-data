@@ -12,6 +12,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<https://orcid.org/0000-0002-0693-1899> a schema:Person ;
+schema:name "Linda Gregory" ;
+.
+
 :air-photo-reference
     a skos:Collection ;
     rdfs:isDefinedBy cs: ;
@@ -191,6 +195,7 @@ asgs-ste:1
     a skos:Concept ;
     rdfs:isDefinedBy <https://linked.data.gov.au/dataset/asgsed3> ;
     skos:definition "New South Wales"@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "NSW"@en ;
     skos:topConceptOf cs: ;
@@ -200,6 +205,7 @@ asgs-ste:2
     a skos:Concept ;
     rdfs:isDefinedBy <https://linked.data.gov.au/dataset/asgsed3> ;
     skos:definition "Victoria"@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "VIC"@en ;
     skos:topConceptOf cs: ;
@@ -209,6 +215,7 @@ asgs-ste:3
     a skos:Concept ;
     rdfs:isDefinedBy <https://linked.data.gov.au/dataset/asgsed3> ;
     skos:definition "Queensland"@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "QLD"@en ;
     skos:topConceptOf cs: ;
@@ -218,6 +225,7 @@ asgs-ste:4
     a skos:Concept ;
     rdfs:isDefinedBy <https://linked.data.gov.au/dataset/asgsed3> ;
     skos:definition "South Australia"@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "SA"@en ;
     skos:topConceptOf cs: ;
@@ -227,6 +235,7 @@ asgs-ste:5
     a skos:Concept ;
     rdfs:isDefinedBy <https://linked.data.gov.au/dataset/asgsed3> ;
     skos:definition "Western Australia"@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel "WA"@en ;
     skos:topConceptOf cs: ;
@@ -236,6 +245,7 @@ asgs-ste:6
     a skos:Concept ;
     rdfs:isDefinedBy <https://linked.data.gov.au/dataset/asgsed3> ;
     skos:definition "Tasmania"@en ;
+    skos:inScheme cs: ;
     skos:notation "6" ;
     skos:prefLabel "TAS"@en ;
     skos:topConceptOf cs: ;
@@ -245,6 +255,7 @@ asgs-ste:7
     a skos:Concept ;
     rdfs:isDefinedBy <https://linked.data.gov.au/dataset/asgsed3> ;
     skos:definition "Northern Territory"@en ;
+    skos:inScheme cs: ;
     skos:notation "7" ;
     skos:prefLabel "NT"@en ;
     skos:topConceptOf cs: ;
@@ -254,6 +265,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy <https://linked.data.gov.au/dataset/asgsed3> ;
     skos:definition "Australian Capital Territory"@en ;
+    skos:inScheme cs: ;
     skos:notation "8" ;
     skos:prefLabel "ACT"@en ;
     skos:topConceptOf cs: ;
@@ -263,6 +275,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "<1 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "<1 m"@en ;
     skos:topConceptOf cs: ;
@@ -272,6 +285,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1-5 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "1-5 m"@en ;
     skos:topConceptOf cs: ;
@@ -281,6 +295,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "5-15 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "5-15 m"@en ;
     skos:topConceptOf cs: ;
@@ -290,6 +305,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "15-30 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "15-30 m"@en ;
     skos:topConceptOf cs: ;
@@ -299,6 +315,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition ">30 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel ">30 m"@en ;
     skos:topConceptOf cs: ;
@@ -308,6 +325,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Australian Geodetic Datum 1966"@en ;
+    skos:inScheme cs: ;
     skos:notation "AGD66" ;
     skos:prefLabel "Australian Geodetic Datum 1966"@en ;
     skos:topConceptOf cs: ;
@@ -317,6 +335,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Australian Geodetic Datum 1984"@en ;
+    skos:inScheme cs: ;
     skos:notation "AGD84" ;
     skos:prefLabel "Australian Geodetic Datum 1984"@en ;
     skos:topConceptOf cs: ;
@@ -326,6 +345,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Geodetic Datum of Australia 1994"@en ;
+    skos:inScheme cs: ;
     skos:notation "GDA94" ;
     skos:prefLabel "Geodetic Datum of Australia 1994"@en ;
     skos:topConceptOf cs: ;
@@ -335,6 +355,7 @@ asgs-ste:8
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "World Geodetic SYstem 1984"@en ;
+    skos:inScheme cs: ;
     skos:notation "WGS84" ;
     skos:prefLabel "World Geodetic SYstem 1984"@en ;
     skos:topConceptOf cs: ;
@@ -346,6 +367,7 @@ asgs-ste:8
     skos:definition """Record easting and northing UTM projected coordinates, when reading from a topographic map. Give a 6-figure easting, a 7-figure northing and a 2-figure grid zone (49–56 in Australia), to as high a degree of accuracy as map scale permits. Location of the central point of a site on a map is unlikely to be much more accurate than 1 mm on the map, that is, 10 m on a 1:10 000 scale map, or 100 m on a 1:100 000 scale map. Example:
 Zone  Easting	Northing
 55	692084	6094905"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Easting, northing, zone"@en ;
     skos:topConceptOf cs: ;
 .
@@ -354,6 +376,7 @@ Zone  Easting	Northing
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Film number on photo"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Film number on photo"@en ;
     skos:topConceptOf cs: ;
 .
@@ -362,6 +385,7 @@ Zone  Easting	Northing
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "number of individual photo"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "number of individual photo"@en ;
     skos:topConceptOf cs: ;
 .
@@ -372,6 +396,7 @@ Zone  Easting	Northing
         sosa:Procedure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Differential GPS"@en ;
+    skos:inScheme cs: ;
     skos:notation "D" ;
     skos:prefLabel "Differential GPS"@en ;
     skos:topConceptOf cs: ;
@@ -383,6 +408,7 @@ Zone  Easting	Northing
         sosa:Procedure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Single unit GPS"@en ;
+    skos:inScheme cs: ;
     skos:notation "S" ;
     skos:prefLabel "Single unit GPS"@en ;
     skos:topConceptOf cs: ;
@@ -395,6 +421,7 @@ Zone  Easting	Northing
 Example:
 Latitude	Longitude
 –35.27058	149.11181"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Latitude, longitude"@en ;
     skos:topConceptOf cs: ;
 .
@@ -406,6 +433,7 @@ Latitude	Longitude
 Map scale	 8	7	6
 Map sheet number 	SH 50-15	8525	8727-III
 Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Map sheet"@en ;
     skos:topConceptOf cs: ;
 .
@@ -416,6 +444,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
         sosa:Procedure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "GPS"@en ;
+    skos:inScheme cs: ;
     skos:notation "G" ;
     skos:prefLabel "GPS"@en ;
     skos:topConceptOf cs: ;
@@ -427,6 +456,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
         sosa:Procedure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Map reference"@en ;
+    skos:inScheme cs: ;
     skos:notation "R" ;
     skos:prefLabel "Map reference"@en ;
     skos:topConceptOf cs: ;
@@ -438,6 +468,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
         sosa:Procedure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Survey"@en ;
+    skos:inScheme cs: ;
     skos:notation "S" ;
     skos:prefLabel "Survey"@en ;
     skos:topConceptOf cs: ;
@@ -447,6 +478,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "When using a GPS or a regional map, record coordinates in latitude and longitude. Record southern hemisphere latitudes as negative. "@en ;
+    skos:inScheme cs: ;
     skos:notation "L" ;
     skos:prefLabel "Geographic (latitude and longitude)"@en ;
     skos:topConceptOf cs: ;
@@ -456,6 +488,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Most topographic map sheets are projected onto the Universal Transverse Mercator (UTM) coordinate system. In Australia, this will be called the Australian Map Grid (AMG) or the Map Grid of Australia (MGA) depending on the datum used. The easting and northing coordinates taken from these sheets will have 6 digits and 7 digits respectively. The zone will also be required (49-56 in Australia). Do not use the Universal Grid Reference notation.3 "@en ;
+    skos:inScheme cs: ;
     skos:notation "M" ;
     skos:prefLabel "Projected by Universal Transverse Mercator system"@en ;
     skos:topConceptOf cs: ;
@@ -465,6 +498,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "number of run"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "number of run"@en ;
     skos:topConceptOf cs: ;
 .
@@ -473,6 +507,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1:1 000"@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "1:1 000"@en ;
     skos:topConceptOf cs: ;
@@ -482,6 +517,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1:2 500"@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "1:2 500"@en ;
     skos:topConceptOf cs: ;
@@ -491,6 +527,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1:5 000"@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "1:5 000"@en ;
     skos:topConceptOf cs: ;
@@ -500,6 +537,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1:10 000"@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "1:10 000"@en ;
     skos:topConceptOf cs: ;
@@ -509,6 +547,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1:25 000"@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel "1:25 000"@en ;
     skos:topConceptOf cs: ;
@@ -518,6 +557,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1:50 000"@en ;
+    skos:inScheme cs: ;
     skos:notation "6" ;
     skos:prefLabel "1:50 000"@en ;
     skos:topConceptOf cs: ;
@@ -527,6 +567,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1:100 000"@en ;
+    skos:inScheme cs: ;
     skos:notation "7" ;
     skos:prefLabel "1:100 000"@en ;
     skos:topConceptOf cs: ;
@@ -536,6 +577,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1:250 000"@en ;
+    skos:inScheme cs: ;
     skos:notation "8" ;
     skos:prefLabel "1:250 000"@en ;
     skos:topConceptOf cs: ;
@@ -545,16 +587,23 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "east (mm), north (mm)"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "east (mm), north (mm)"@en ;
     skos:topConceptOf cs: ;
 .
+
+# Provisional defining-source attribution: the original ASLS Location
+# publication describes gps-accuracy and map-scale. Its authoritative defining
+# vocabulary has not been confirmed. Retained for VocPub validation;
+# this does not attribute its origin to the BDR publication.
 
 <https://anzsoil.org/def/au/property/gps-accuracy>
     a
         skos:Concept ,
         sosa:ObservableProperty ;
-    rdfs:isDefinedBy cs: ;
+    rdfs:isDefinedBy <http://anzsoil.org/def/au/asls/location> ;
     skos:definition "GPS accuracy estimate"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "GPS accuracy estimate"@en ;
     skos:topConceptOf cs: ;
 .
@@ -563,8 +612,9 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a
         skos:Concept ,
         sosa:ObservableProperty ;
-    rdfs:isDefinedBy cs: ;
+    rdfs:isDefinedBy <http://anzsoil.org/def/au/asls/location> ;
     skos:definition "Map scale"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Map scale"@en ;
     skos:topConceptOf cs: ;
 .
@@ -648,7 +698,7 @@ cs:
         ] ,
         <https://orcid.org/0000-0002-0693-1899> ;
     schema:dateCreated "2021-04-08"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-10-30"^^xsd:date ;
     schema:description "This vocabulary is a machine-readable representation of the classifiers described in chapter 3 Location, by L.J. Gregory, R.C. McDonald and R.F. Isbell in Australian Soil and Land Survey Field Handbook (3rd edn)" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <http://www.publish.csiro.au> ;

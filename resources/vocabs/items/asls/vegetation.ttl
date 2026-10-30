@@ -10,6 +10,28 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<http://www.publish.csiro.au> a schema:Organization ;
+schema:name "CSIRO Publishing" ;
+schema:url "https://publishing.csiro.au"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0003-3206-2268> a schema:Person ;
+schema:name "Richard Thackway" ;
+.
+
+<https://orcid.org/0000-0002-0693-1899> a schema:Person ;
+schema:name "Linda Gregory" ;
+.
+
+<https://orcid.org/0000-0002-3884-3420> a schema:Person ;
+schema:name "Simon J D Cox" ;
+.
+
+<https://orcid.org/0000-0002-8742-7730> a schema:Person ;
+schema:name "Nicholas Car" ;
+schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
+.
+
 :condition
     a
         skos:Collection ,
@@ -233,6 +255,7 @@ The recorded heights can then be converted to height classes as shown in Table 2
     rdfs:isDefinedBy cs: ;
     skos:broader :life-form-w ;
     skos:definition "dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. (For convenience, may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hyper-saline. The code used (a1.0 or w) will depend on the particular emphases of the survey.)"@en ;
+    skos:inScheme cs: ;
     skos:notation "a1.0" ;
     skos:prefLabel "Aquatic higher plants"@en ;
 .
@@ -502,6 +525,7 @@ Many rainforest species occur in clusters of five or six trees. Care should be t
 •	A large range of growth forms, none of which tends to dominate, e.g. trunk bases usually obscured by climbing pandans, palms, ferns and aroids; robust and slender lianes are present; complex understorey consisting of shrubs, seedlings of larger trees, palms, gingers, pandans and ferns.
 •	The vegetation is not usually arranged into distinguishable, discrete strata.
 •	The stem diameters of the tallest non-emergent trees are usually uneven in size."""@en ;
+    skos:inScheme cs: ;
     skos:notation "C" ;
     skos:prefLabel "Complex"@en ;
     skos:topConceptOf cs: ;
@@ -516,6 +540,7 @@ Many rainforest species occur in clusters of five or six trees. Care should be t
 •	A tendency for one or two growth forms to be more conspicuous, e.g. trunks not usually obscured by climbing plants and epiphytes, but when they do one growth form usually dominates; or understorey layers may have a conspicuous growth form such as a tree fern layer, ground fern layer, shrub or palm layer.
 •	The stem diameters of the canopy trees are usually uniform in size.
 •	Discrete strata, e.g. a tree fern layer, an understorey tree layer or shrubs."""@en ;
+    skos:inScheme cs: ;
     skos:notation "S" ;
     skos:prefLabel "Simple"@en ;
     skos:topConceptOf cs: ;
@@ -525,6 +550,7 @@ Many rainforest species occur in clusters of five or six trees. Care should be t
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Forests with features of simple and complex forests. Use this category if in doubt or if the vegetation does not possess at least four out of the five properties listed for the other categories."@en ;
+    skos:inScheme cs: ;
     skos:notation "X" ;
     skos:prefLabel "Simple-complex"@en ;
     skos:topConceptOf cs: ;
@@ -563,6 +589,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Many individuals that cover <1/20 of the sample site, or scattered with cover up to 1/20 of the sample site"@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "<5%"@en ;
     skos:topConceptOf cs: ;
@@ -572,6 +599,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Any number of plants covering from 1/20 to ¼ of the sample site"@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "5-25%"@en ;
     skos:topConceptOf cs: ;
@@ -581,6 +609,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Any number of plants covering ¼ to ½ of the sample site"@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "25-50%"@en ;
     skos:topConceptOf cs: ;
@@ -590,6 +619,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Any number of plants covering from ½ to ¾ of the sample site"@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "50-75%"@en ;
     skos:topConceptOf cs: ;
@@ -599,6 +629,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Any number of plants covering more than ¾ of the sample site"@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel ">75%"@en ;
     skos:topConceptOf cs: ;
@@ -609,6 +640,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "(pronounced ‘cross’) Few individuals with small cover"@en ;
+    skos:inScheme cs: ;
     skos:notation "+" ;
     skos:prefLabel "Insignificant cover"@en ;
     skos:topConceptOf cs: ;
@@ -618,6 +650,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Single individual with small cover"@en ;
+    skos:inScheme cs: ;
     skos:notation "r" ;
     skos:prefLabel "Insignificant cover"@en ;
     skos:topConceptOf cs: ;
@@ -649,6 +682,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Common non sclerophyllous rainforest emergents include Agathis, Podocarpus, Araucaria, Flindersia and Erythrina."@en ;
+    skos:inScheme cs: ;
     skos:notation "A" ;
     skos:prefLabel "non-sclerophyllous rainforest emergents "@en ;
     skos:topConceptOf cs: ;
@@ -658,6 +692,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Common sclerophyllous emergents over rainforest include species of Eucalyptus, Corymbia, Acacia, Syncarpia, Casuarina, Lophostemon and Melaleuca."@en ;
+    skos:inScheme cs: ;
     skos:notation "E" ;
     skos:prefLabel "sclerophyllous emergents "@en ;
     skos:topConceptOf cs: ;
@@ -669,6 +704,7 @@ In broad-ranging surveys, it is usually better to have large numbers of samples 
         sosa:ObservableProperty ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Emergent taxon"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Emergent taxon"@en ;
     skos:topConceptOf cs: ;
 .
@@ -720,6 +756,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the sub-tidal level and down to 30 m below mean sea level. Occasionally exposed."@en ;
+    skos:inScheme cs: ;
     skos:notation "a2.0" ;
     skos:prefLabel "Seagrass: marine"@en ;
     skos:topConceptOf cs: ;
@@ -729,6 +766,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "a member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments."@en ;
+    skos:inScheme cs: ;
     skos:notation "a3.0" ;
     skos:prefLabel "Algae: fresh or brackish"@en ;
     skos:topConceptOf cs: ;
@@ -738,6 +776,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "a member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface-hugging layers to tall algal forests."@en ;
+    skos:inScheme cs: ;
     skos:notation "a4.0" ;
     skos:prefLabel "Algae: marine"@en ;
     skos:topConceptOf cs: ;
@@ -747,6 +786,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "soil, rock or water surfaces with less than 0.5% plant cover."@en ;
+    skos:inScheme cs: ;
     skos:notation "b1.0" ;
     skos:prefLabel "Bare surface"@en ;
     skos:topConceptOf cs: ;
@@ -756,6 +796,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants."@en ;
+    skos:inScheme cs: ;
     skos:notation "c1.0" ;
     skos:prefLabel "Surface crusts"@en ;
     skos:topConceptOf cs: ;
@@ -765,6 +806,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "cryptogam refers collectively to lichens and bryophytes."@en ;
+    skos:inScheme cs: ;
     skos:narrower
         :growth-form-l10 ,
         :growth-form-m10 ;
@@ -776,6 +818,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "a member of the Division Pterophyta, i.e., ferns and fern allies. Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure."@en ;
+    skos:inScheme cs: ;
     skos:notation "f1.0" ;
     skos:prefLabel "Fern (excluding tree ferns)"@en ;
     skos:topConceptOf cs: ;
@@ -785,6 +828,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "see Shrub: planted/cultivated (food) or Tree: planted/cultivated (food)."@en ;
+    skos:inScheme cs: ;
     skos:narrower
         :growth-form-w13 ,
         :growth-form-w34 ;
@@ -796,6 +840,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "member of the family Poaceae."@en ;
+    skos:inScheme cs: ;
     skos:notation "g1.0" ;
     skos:prefLabel "Grass"@en ;
     skos:topConceptOf cs: ;
@@ -805,6 +850,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa."@en ;
+    skos:inScheme cs: ;
     skos:notation "g2.0" ;
     skos:prefLabel "Hummock grass"@en ;
     skos:topConceptOf cs: ;
@@ -814,6 +860,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses."@en ;
+    skos:inScheme cs: ;
     skos:notation "g3.0" ;
     skos:prefLabel "Tussock grass"@en ;
     skos:topConceptOf cs: ;
@@ -823,6 +870,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "member of the Poaceae planted or cultivated for specific human uses, e.g. human or other animal food, lawn or other ground cover."@en ;
+    skos:inScheme cs: ;
     skos:narrower
         :growth-form-g41 ,
         :growth-form-g42 ,
@@ -836,6 +884,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges)."@en ;
+    skos:inScheme cs: ;
     skos:notation "g5.0" ;
     skos:prefLabel "Sedge"@en ;
     skos:topConceptOf cs: ;
@@ -845,6 +894,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. For the purpose of this chapter, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridaceae and the genus Lomandra, i.e., ‘graminoid’ or grass-like genera."@en ;
+    skos:inScheme cs: ;
     skos:notation "g6.0" ;
     skos:prefLabel "Rush"@en ;
     skos:topConceptOf cs: ;
@@ -854,6 +904,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "non-graminoid herbaceous plant."@en ;
+    skos:inScheme cs: ;
     skos:notation "h1.0" ;
     skos:prefLabel "Forb"@en ;
     skos:topConceptOf cs: ;
@@ -863,6 +914,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "herbaceous or slightly woody, annual or sometimes perennial plant (dicotyledon or monocotyledon)."@en ;
+    skos:inScheme cs: ;
     skos:narrower
         :growth-form-h21 ,
         :growth-form-h22 ,
@@ -877,6 +929,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "climbing, twining, winding or sprawling plants usually with a woody stem."@en ;
+    skos:inScheme cs: ;
     skos:notation "v1.0" ;
     skos:prefLabel "Vine"@en ;
     skos:topConceptOf cs: ;
@@ -886,6 +939,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs."@en ;
+    skos:inScheme cs: ;
     skos:narrower
         :growth-form-w11 ,
         :growth-form-w12 ,
@@ -900,6 +954,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs."@en ;
+    skos:inScheme cs: ;
     skos:notation "w2.0" ;
     skos:prefLabel "Woody plant (indeterminate tree or shrub)"@en ;
     skos:topConceptOf cs: ;
@@ -909,6 +964,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber."@en ;
+    skos:inScheme cs: ;
     skos:notation "w2.1" ;
     skos:prefLabel "Mallee (tree or shrub)"@en ;
     skos:topConceptOf cs: ;
@@ -918,6 +974,7 @@ When the tallest stratum is not the most significant stratum, the guidelines var
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees."@en ;
+    skos:inScheme cs: ;
     skos:narrower
         :growth-form-w31 ,
         :growth-form-w32 ,
@@ -939,6 +996,7 @@ Shrubs dominant	- Dominated by dense to sparse, well-developed but not mature pl
 Grasses and herbs dominant	- Vegetative growth abundant; plants approaching full mature size but reproductive material absent or in early stages only; soil surface largely obscured in average sites.
 
 Cryptogams dominant (mosses and lichens) - Cover of plants high for the site; some reproduction may be evident."""@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "Advanced regeneration"@en ;
     skos:topConceptOf cs: ;
@@ -954,6 +1012,7 @@ Shrubs dominant	- Dominated by small, juvenile, dense to very sparse regeneratin
 Grasses and herbs dominant	- Plants small and juvenile stages predominate; bare soil or old litter common.	
 
 Cryptogams dominant (mosses and lichens) - Thin growth of young plants or widely spaced clumps of young plants."""@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "Early regeneration"@en ;
     skos:topConceptOf cs: ;
@@ -969,6 +1028,7 @@ Shrubs dominant	- May have well-spaced mature-sized plants, or have very densely
 Grasses and herbs dominant	- Most plants of reproductive age; depending on vegetation type, reproduction evident, or would be if environmental conditions were appropriate (e.g. water availability).
 
 Cryptogams dominant (mosses and lichens) - Swards of plants common; plants of mature physiognomy (clump sizes and forms); reproduction common at appropriate times of year or drought/rain cycle; overall health and vigour high."""@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "Mature phase"@en ;
     skos:topConceptOf cs: ;
@@ -984,6 +1044,7 @@ Shrubs dominant	- Dominated by old plants (thick stems and primary branches, cro
 Grasses and herbs dominant	- In largely annual vegetation, reproduction is complete and plants are dying or mostly dead; in perennial vegetation, plants have lost vigour, are breaking down; large areas of soil are exposed. Litter accumulation may be high.
 
 Cryptogams dominant (mosses and lichens) - Clear evidence of the degeneration of plants or clumps; dead older parts of plants may be conspicuous."""@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel "Senescent phase"@en ;
     skos:topConceptOf cs: ;
@@ -999,6 +1060,7 @@ Shrubs dominant	- Mixed size and age classes; usually two or more strata dominat
 Grasses and herbs dominant	- A mixture of mature, perennial and immature annual species present on site.
 
 Cryptogams dominant (mosses and lichens) - A mixture of mature reproductive plants with immature regeneration."""@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "Uneven age"@en ;
     skos:topConceptOf cs: ;
@@ -1008,6 +1070,7 @@ Cryptogams dominant (mosses and lichens) - A mixture of mature reproductive plan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "<0.05 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "0" ;
     skos:prefLabel "Dwarf (nw)"@en ;
     skos:topConceptOf cs: ;
@@ -1017,6 +1080,7 @@ Cryptogams dominant (mosses and lichens) - A mixture of mature reproductive plan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "0.05-0.25 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel """Micro (w)
 Medium (nw)"""@en ;
@@ -1027,6 +1091,7 @@ Medium (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition ">50.01 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "10" ;
     skos:prefLabel "Giant (w)"@en ;
     skos:topConceptOf cs: ;
@@ -1036,6 +1101,7 @@ Medium (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "0.26-0.5 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel """Miniature (w)
 Tall (nw)"""@en ;
@@ -1046,6 +1112,7 @@ Tall (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "0.51–1 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel """Miniature (w)
 Tall (nw)"""@en ;
@@ -1056,6 +1123,7 @@ Tall (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "1.01–2 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel """Dwarf (w)
 Very tall (nw)"""@en ;
@@ -1066,6 +1134,7 @@ Very tall (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "2.01–5 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel """Low (w)
 Extermely tall (nw)"""@en ;
@@ -1076,6 +1145,7 @@ Extermely tall (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "5.01–10 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "6" ;
     skos:prefLabel """Medium (w)
 Giant (nw)"""@en ;
@@ -1086,6 +1156,7 @@ Giant (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "10.01–20 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "7" ;
     skos:prefLabel "Tall (w)"@en ;
     skos:topConceptOf cs: ;
@@ -1095,6 +1166,7 @@ Giant (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "20.01–35 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "8" ;
     skos:prefLabel "Very tall (w)"@en ;
     skos:topConceptOf cs: ;
@@ -1104,6 +1176,7 @@ Giant (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "35.01–50 m"@en ;
+    skos:inScheme cs: ;
     skos:notation "9" ;
     skos:prefLabel "Extremely tall (w)"@en ;
     skos:topConceptOf cs: ;
@@ -1113,6 +1186,7 @@ Giant (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Forests in which fan palms (palms with branches spreading out in a fan shape, for example Licuala or Livistona) form a dense/closed stratum (80–100% crown cover) below the tallest stratum. If they form a closed stratum within the upper stratum, it would be registered as the third example in the section ‘Coding tropical/subtropical rainforests’ below"@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "Fan palm"@en ;
     skos:topConceptOf cs: ;
@@ -1122,6 +1196,7 @@ Giant (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Forests in which feather palms (palms, such as coconut palms, with narrow long leaves that appear feather-like from a distance) form a dense/closed (80–100% crown cover) understorey stratum."@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "Feather palm"@en ;
     skos:topConceptOf cs: ;
@@ -1131,6 +1206,7 @@ Giant (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Tree ferns form a dense/closed (80–100% crown cover) and discrete understorey stratum."@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "Fern"@en ;
     skos:topConceptOf cs: ;
@@ -1140,6 +1216,7 @@ Giant (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Forests in which mosses and lichens almost completely replace vascular epiphytes and vines on the trunks and in the crowns."@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "Moss"@en ;
     skos:topConceptOf cs: ;
@@ -1149,6 +1226,7 @@ Giant (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "If none of the five growth forms above reaches the required level of dominance nominated, the description should record no dominant indicator growth form."@en ;
+    skos:inScheme cs: ;
     skos:notation "6" ;
     skos:prefLabel "Vine"@en ;
     skos:topConceptOf cs: ;
@@ -1158,6 +1236,7 @@ Giant (nw)"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Forests in which vines or twining or scrambling plants drape at least 60% of the tallest stratum and emergent trees. "@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel "Vine"@en ;
     skos:topConceptOf cs: ;
@@ -1169,6 +1248,7 @@ Giant (nw)"""@en ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 macro	
 
 Percentage of individuals in tallest stratum with specified leaf size: >50% macro"""@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "Macrophyll"@en ;
     skos:topConceptOf cs: ;
@@ -1180,6 +1260,7 @@ Percentage of individuals in tallest stratum with specified leaf size: >50% macr
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: 3-5 macro and 1-4 meso
 
 Percentage of individuals in tallest stratum with specified leaf size: 30-50% macro and 10-40% meso"""@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "Macrophyll-mesophyll"@en ;
     skos:topConceptOf cs: ;
@@ -1191,6 +1272,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% ma
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 meso
 
 Percentage of individuals in tallest stratum with specified leaf size: >50% meso"""@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "Mesophyll"@en ;
     skos:topConceptOf cs: ;
@@ -1202,6 +1284,7 @@ Percentage of individuals in tallest stratum with specified leaf size: >50% meso
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >3-5 meso and 1-4 noto
 
 Percentage of individuals in tallest stratum with specified leaf size: 30-50% meso and 10-40% noto"""@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "Mesophyll-notophyll"@en ;
     skos:topConceptOf cs: ;
@@ -1213,6 +1296,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% me
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 micro
 
 Percentage of individuals in tallest stratum with specified leaf size: >50% micro"""@en ;
+    skos:inScheme cs: ;
     skos:notation "7" ;
     skos:prefLabel "Microphyll"@en ;
     skos:topConceptOf cs: ;
@@ -1224,6 +1308,7 @@ Percentage of individuals in tallest stratum with specified leaf size: >50% micr
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: 3-5 micro and 1-4 nano
 
 Percentage of individuals in tallest stratum with specified leaf size: 30-50% micro and 10-40% nano"""@en ;
+    skos:inScheme cs: ;
     skos:notation "8" ;
     skos:prefLabel "Microphyll-nanophyll"@en ;
     skos:topConceptOf cs: ;
@@ -1235,6 +1320,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% mi
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 nano
 
 Percentage of individuals in tallest stratum with specified leaf size: >50% nano"""@en ;
+    skos:inScheme cs: ;
     skos:notation "9" ;
     skos:prefLabel "Nanophyll"@en ;
     skos:topConceptOf cs: ;
@@ -1246,6 +1332,7 @@ Percentage of individuals in tallest stratum with specified leaf size: >50% nano
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 noto
 
 Percentage of individuals in tallest stratum with specified leaf size: >50% noto"""@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel "Notophyll"@en ;
     skos:topConceptOf cs: ;
@@ -1257,6 +1344,7 @@ Percentage of individuals in tallest stratum with specified leaf size: >50% noto
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: 3-5 noto and 1-4 micro
 
 Percentage of individuals in tallest stratum with specified leaf size: 30-50% noto and 10-40% micro"""@en ;
+    skos:inScheme cs: ;
     skos:notation "6" ;
     skos:prefLabel "Notophyll-microphyll"@en ;
     skos:topConceptOf cs: ;
@@ -1266,6 +1354,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "All other plants with little or no woody tissue are classified as non-woody including annuals, grasses, grass-like plants, forbs, crusts, bryophytes and algae."@en ;
+    skos:inScheme cs: ;
     skos:notation "nw" ;
     skos:prefLabel "non-woody plants"@en ;
     skos:topConceptOf cs: ;
@@ -1275,6 +1364,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Maximum height"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Maximum height"@en ;
     skos:topConceptOf cs: ;
 .
@@ -1285,6 +1375,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
         sosa:ObservableProperty ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Median height"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Median height"@en ;
     skos:topConceptOf cs: ;
 .
@@ -1293,6 +1384,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Low forests dominated by Athrotaxis cupressoides and less commonly by A. selaginoides. The canopy is usually open with widely spaced trees, though dense clumps may occur. The understorey is dominated by low shrubs, grasses or mosses (Sphagnum). Shrub heights range from half to two-thirds the height of the canopy. Woody species diversity is relatively high."@en ;
+    skos:inScheme cs: ;
     skos:notation
         "5Sw1.1 /4Mw3.0 /0Dm1.0" ,
         "M" ;
@@ -1304,6 +1396,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Myrtle-beech"@en ;
+    skos:inScheme cs: ;
     skos:narrower
         :myrtle-beech-callidendrous ,
         :myrtle-beech-implicate ,
@@ -1316,6 +1409,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Medium to tall forest dominated by Nothofagus cunninghamii and/or Atherosperma moschatum. Trees well formed and widely spaced; understorey open, shady and park-like. Low diversity of woody species, which are sparse and inconspicuous in the understorey of most communities."@en ;
+    skos:inScheme cs: ;
     skos:notation
         "6–7Dw1.1" ,
         "C" ;
@@ -1327,6 +1421,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Low forest, with broken uneven canopies. Dominance is usually shared by several species including Nothofagus cunninghamii, N. gunnii (rarely), Eucryphia lucida, E. milliganii, Phyllocladus aspelniifolius, Athrotaxis selaginoides, Lagerostrobus franklinii, Diselma archeri, Leptospermum nitidum, L. glaucescens, L. scoparium, L. lanigerum, Melaleuca squarrosa and Acacia mucronata. The understorey is tangled and mostly forms a continuous layer from the ground to the canopy; emergents may be present. Species diversity is relatively high for trees and shrubs."@en ;
+    skos:inScheme cs: ;
     skos:notation
         "(E) /5Mw1.1 /4Sw3.0" ,
         "I" ;
@@ -1338,6 +1433,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Medium height forest dominated by two to five species, mostly of: Nothofagus cunninghamii, N. gunnii (rarely), Eucryphia lucida, E. milliganii, Atherosperma moschatum, Phyllocladus aspelniifolius, Lagerostrobus franklinii and Athrotaxis selaginoides. Trees well formed; a distinct shrub layer present."@en ;
+    skos:inScheme cs: ;
     skos:notation
         "6Mw1.1 /5Mw3.0" ,
         "T" ;
@@ -1349,6 +1445,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A placeholder concept used to make collections defined without members valid by having this as their sole member. This should be replace with real values"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Placeholder"@en ;
     skos:topConceptOf cs: ;
 .
@@ -1357,6 +1454,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "If sclerophyll species (defined above) are present in the dominant stratum, these should be recorded by adding the qualifying term ‘and sclerophylls’. If the sclerophylls can be identified, ‘sclerophyll’ should be replaced by the specific, generic or common name (for example ‘and wattles’). Where sclerophyll species are 50% of the crown cover of the canopy, this will have been recorded previously and need not be repeated."@en ;
+    skos:inScheme cs: ;
     skos:notation "S" ;
     skos:prefLabel "Sclerophyll species present"@en ;
     skos:topConceptOf cs: ;
@@ -1366,6 +1464,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "No one or two species combined make 50% or more of the crown cover in the tallest stratum."@en ;
+    skos:inScheme cs: ;
     skos:notation "M" ;
     skos:prefLabel "Mixed"@en ;
     skos:topConceptOf cs: ;
@@ -1375,6 +1474,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Although no species or two species combined make up 50% of the crown cover of the dominant stratum, one species (the one species nominated) is conspicuously abundant. As above, common, generic or specific names can be used except for feather or fan palms (for example Mixed Booyong; Mixed Argyrodendron; Mixed Argyrodendron trifoliolatum or ARTRI). This floristic term can be used to nominate species of particular indicator value to the user."@en ;
+    skos:inScheme cs: ;
     skos:notation "X" ;
     skos:prefLabel "Mixed plus one species"@en ;
     skos:topConceptOf cs: ;
@@ -1384,6 +1484,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The one or two species described constitute 50% or more of the crown cover of the tallest stratum. Common, generic or specific names can be used (for example Coachwood–crabapple; Ceratopetalum–Schizomeria; Ceratopetalum apetalum – Schizomeria ovata). Use species name abbreviations for coding (for example CEAPE.SCOVA) except for fan or feather palms, which should not be used as common names because they are used to denote structural features (see ‘Indicator growth forms’ below). Include sclerophyll species if they constitute 50% or more of the crown cover of the tallest stratum."@en ;
+    skos:inScheme cs: ;
     skos:notation "S" ;
     skos:prefLabel "One or two species description"@en ;
     skos:topConceptOf cs: ;
@@ -1393,6 +1494,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The tallest plants in some vegetation are so sparse that they no longer form the dominant or most significant layer. For example, a few tall Araucaria or Eucalyptus trees may rise above a closed rainforest canopy, or widely scattered eucalypts or acacias may rise above lower shrubs or grasses in semiarid regions. The tallest stratum is then classified as an ‘emergent layer’ (see the later section ‘Emergents’ on page xx for definition and discussion) and the dominant layer on which the vegetation will be classified is usually the next tallest layer."@en ;
+    skos:inScheme cs: ;
     skos:notation "E" ;
     skos:prefLabel "Emergent"@en ;
     skos:related :emergents ;
@@ -1403,6 +1505,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "can also be the dominant stratum, for example in places where grass cover is closed and trees are very sparse. There is no mandatory height limit on the ground layer, but it is usually less than 2.0 m tall. "@en ;
+    skos:inScheme cs: ;
     skos:notation "G" ;
     skos:prefLabel "Ground stratum"@en ;
     skos:topConceptOf cs: ;
@@ -1412,6 +1515,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)."@en ;
+    skos:inScheme cs: ;
     skos:narrower
         :stratum-M1 ,
         :stratum-M2 ;
@@ -1424,6 +1528,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)."@en ;
+    skos:inScheme cs: ;
     skos:notation "M1" ;
     skos:prefLabel "Mid-stratum 1"@en ;
     skos:topConceptOf cs: ;
@@ -1433,6 +1538,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)."@en ;
+    skos:inScheme cs: ;
     skos:notation "M2" ;
     skos:prefLabel "Mid-stratum 2"@en ;
     skos:topConceptOf cs: ;
@@ -1442,6 +1548,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)."@en ;
+    skos:inScheme cs: ;
     skos:notation "U" ;
     skos:prefLabel "Dominant or upper stratum"@en ;
     skos:topConceptOf cs: ;
@@ -1451,6 +1558,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Woody or herbaceous, not ephemeral"@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "Emergent, permanent"@en ;
     skos:topConceptOf cs: ;
@@ -1460,6 +1568,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Herbaceous, ephemeral"@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "Emergent, ephemeral"@en ;
     skos:topConceptOf cs: ;
@@ -1470,6 +1579,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     rdfs:isDefinedBy cs: ;
     skos:definition """Floating stems with leaves at the surface but roots in substrate	
 Herbaceous, leaves at surface"""@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "Floating stems"@en ;
     skos:topConceptOf cs: ;
@@ -1479,6 +1589,7 @@ Herbaceous, leaves at surface"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Predominantly herbaceous; for example grass mats not attached to substrate"@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "Floating mats"@en ;
     skos:topConceptOf cs: ;
@@ -1489,6 +1600,7 @@ Herbaceous, leaves at surface"""@en ;
     rdfs:isDefinedBy cs: ;
     skos:definition """Fully submerged with roots attached to substrate	
 Herbaceous with whole plant below surface; in some cases flowers may be emergent"""@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel "Fully submerged attached to substrate	"@en ;
     skos:topConceptOf cs: ;
@@ -1498,6 +1610,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Unattached plant, submerged; for example free-floating herbs or algae"@en ;
+    skos:inScheme cs: ;
     skos:notation "6" ;
     skos:prefLabel "Fully submerged, floating"@en ;
     skos:topConceptOf cs: ;
@@ -1507,6 +1620,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Marine waters—permanent shallow waters less than 6 m deep at low tide; includes sea bays, straits"@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "Marine waters"@en ;
     skos:topConceptOf cs: ;
@@ -1516,6 +1630,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Brackish to saline lagoons and marshes with one or more relatively narrow connections with the sea"@en ;
+    skos:inScheme cs: ;
     skos:notation "10" ;
     skos:prefLabel "Lagoons and marshes"@en ;
     skos:topConceptOf cs: ;
@@ -1525,6 +1640,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Freshwater lagoons and marshes in the coastal zone"@en ;
+    skos:inScheme cs: ;
     skos:notation "11" ;
     skos:prefLabel "Freshwater lagoons and marshes"@en ;
     skos:topConceptOf cs: ;
@@ -1534,6 +1650,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Non-tidal freshwater forested wetlands"@en ;
+    skos:inScheme cs: ;
     skos:notation "12" ;
     skos:prefLabel "Forested wetlands"@en ;
     skos:topConceptOf cs: ;
@@ -1543,6 +1660,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Permanent rivers and streams; includes waterfalls"@en ;
+    skos:inScheme cs: ;
     skos:notation "13" ;
     skos:prefLabel "Permanent rivers and streams"@en ;
     skos:topConceptOf cs: ;
@@ -1552,6 +1670,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Seasonal and irregular rivers and streams"@en ;
+    skos:inScheme cs: ;
     skos:notation "14" ;
     skos:prefLabel "Seasonal rivers and streams"@en ;
     skos:topConceptOf cs: ;
@@ -1561,6 +1680,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Inland deltas (permanent)"@en ;
+    skos:inScheme cs: ;
     skos:notation "15" ;
     skos:prefLabel "Inland deltas"@en ;
     skos:topConceptOf cs: ;
@@ -1570,6 +1690,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Riverine floodplains; includes seasonally flooded grassland, savanna and palm savanna; river flats; flooded river basins"@en ;
+    skos:inScheme cs: ;
     skos:notation "16" ;
     skos:prefLabel "Riverine floodplains"@en ;
     skos:topConceptOf cs: ;
@@ -1579,6 +1700,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Permanent freshwater lakes (>8 ha); includes large oxbow lakes"@en ;
+    skos:inScheme cs: ;
     skos:notation "17" ;
     skos:prefLabel "Permanent freshwater lakes"@en ;
     skos:topConceptOf cs: ;
@@ -1588,6 +1710,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Seasonal/intermittent freshwater lakes (>8 ha), floodplain lakes"@en ;
+    skos:inScheme cs: ;
     skos:notation "18" ;
     skos:prefLabel "Seasonal freshwater lakes"@en ;
     skos:topConceptOf cs: ;
@@ -1597,6 +1720,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Permanent saline/brackish lakes"@en ;
+    skos:inScheme cs: ;
     skos:notation "19" ;
     skos:prefLabel "Permanent saline/brackish lakes"@en ;
     skos:topConceptOf cs: ;
@@ -1606,6 +1730,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Sub-tidal aquatic beds; includes kelp beds, seagrasses, tropical marine meadows"@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "Sub-tidal aquatic beds"@en ;
     skos:topConceptOf cs: ;
@@ -1615,6 +1740,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Seasonal/intermittent saline lakes"@en ;
+    skos:inScheme cs: ;
     skos:notation "20" ;
     skos:prefLabel "Seasonal saline lakes"@en ;
     skos:topConceptOf cs: ;
@@ -1624,6 +1750,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Permanent freshwater ponds (<8 ha), marshes and swamps on inorganic soils; emergent vegetation is waterlogged for at least most of the growing season"@en ;
+    skos:inScheme cs: ;
     skos:notation "21" ;
     skos:prefLabel "Permanent freshwater ponds"@en ;
     skos:topConceptOf cs: ;
@@ -1633,6 +1760,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Seasonal/intermittent freshwater ponds and marshes on inorganic soils; includes billabongs, sloughs, potholes, seasonally flooded meadows, sedge marshes"@en ;
+    skos:inScheme cs: ;
     skos:notation "22" ;
     skos:prefLabel "Seasonal freshwater ponds"@en ;
     skos:topConceptOf cs: ;
@@ -1642,6 +1770,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Permanent saline/brackish marshes"@en ;
+    skos:inScheme cs: ;
     skos:notation "23" ;
     skos:prefLabel "Permanent saline/brackish marshes"@en ;
     skos:topConceptOf cs: ;
@@ -1651,6 +1780,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Seasonal saline marshes"@en ;
+    skos:inScheme cs: ;
     skos:notation "24" ;
     skos:prefLabel "Seasonal saline marshes"@en ;
     skos:topConceptOf cs: ;
@@ -1660,6 +1790,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Shrub swamps; includes shrub-dominated freshwater marsh, shrub carr, alder thicket on inorganic soils"@en ;
+    skos:inScheme cs: ;
     skos:notation "25" ;
     skos:prefLabel "Shrub swamps"@en ;
     skos:topConceptOf cs: ;
@@ -1669,6 +1800,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Freshwater swamp forest—seasonally flooded forest or wooded swamps on inorganic soils"@en ;
+    skos:inScheme cs: ;
     skos:notation "26" ;
     skos:prefLabel "Freshwater swamp forest"@en ;
     skos:topConceptOf cs: ;
@@ -1678,6 +1810,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Peatlands; includes forest, shrub or open bogs"@en ;
+    skos:inScheme cs: ;
     skos:notation "27" ;
     skos:prefLabel "Peatlands"@en ;
     skos:topConceptOf cs: ;
@@ -1687,6 +1820,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Alpine and tundra wetlands; includes alpine meadows, tundra pools, temporary waters from snow melt"@en ;
+    skos:inScheme cs: ;
     skos:notation "28" ;
     skos:prefLabel "Alpine and tundra wetlands"@en ;
     skos:topConceptOf cs: ;
@@ -1696,6 +1830,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Freshwater springs, oases and rock pools"@en ;
+    skos:inScheme cs: ;
     skos:notation "29" ;
     skos:prefLabel "Freshwater springs, oases and rock pools"@en ;
     skos:topConceptOf cs: ;
@@ -1705,6 +1840,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Coral reefs"@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "Coral reefs"@en ;
     skos:topConceptOf cs: ;
@@ -1714,6 +1850,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Geothermal wetlands"@en ;
+    skos:inScheme cs: ;
     skos:notation "30" ;
     skos:prefLabel "Geothermal wetlands"@en ;
     skos:topConceptOf cs: ;
@@ -1723,6 +1860,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Inland subterranean karst wetlands"@en ;
+    skos:inScheme cs: ;
     skos:notation "31" ;
     skos:prefLabel "Karst wetlands"@en ;
     skos:topConceptOf cs: ;
@@ -1732,6 +1870,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Water storage areas; includes reservoirs, barrages, hydroelectric dams, impoundments (generally >8 ha)"@en ;
+    skos:inScheme cs: ;
     skos:notation "32" ;
     skos:prefLabel "Water storage areas"@en ;
     skos:topConceptOf cs: ;
@@ -1741,6 +1880,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Ponds; includes farm and stock ponds, small tanks (generally <8 ha)"@en ;
+    skos:inScheme cs: ;
     skos:notation "33" ;
     skos:prefLabel "Ponds"@en ;
     skos:topConceptOf cs: ;
@@ -1750,6 +1890,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Aquaculture ponds; includes fish ponds, shrimp ponds"@en ;
+    skos:inScheme cs: ;
     skos:notation "34" ;
     skos:prefLabel "Aquaculture ponds"@en ;
     skos:topConceptOf cs: ;
@@ -1759,6 +1900,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Salt exploitation; includes salt pans, salines"@en ;
+    skos:inScheme cs: ;
     skos:notation "35" ;
     skos:prefLabel "Salt exploitation"@en ;
     skos:topConceptOf cs: ;
@@ -1768,6 +1910,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Excavations; includes gravel pits, borrow pits, mining pools"@en ;
+    skos:inScheme cs: ;
     skos:notation "36" ;
     skos:prefLabel "Excavations"@en ;
     skos:topConceptOf cs: ;
@@ -1777,6 +1920,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Wastewater treatment, sewage farms, settling ponds, oxidation basins"@en ;
+    skos:inScheme cs: ;
     skos:notation "37" ;
     skos:prefLabel "Wastewater treatment"@en ;
     skos:topConceptOf cs: ;
@@ -1786,6 +1930,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Irrigated land and irrigation channels; includes rice fields, canals, ditches"@en ;
+    skos:inScheme cs: ;
     skos:notation "38" ;
     skos:prefLabel "Irrigated land and channels"@en ;
     skos:topConceptOf cs: ;
@@ -1795,6 +1940,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Seasonally flooded arable land, farm land"@en ;
+    skos:inScheme cs: ;
     skos:notation "39" ;
     skos:prefLabel "Seasonally flooded farm land"@en ;
     skos:topConceptOf cs: ;
@@ -1804,6 +1950,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Rocky marine shores; includes rocky offshore islands, sea cliffs"@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "Rocky marine shores"@en ;
     skos:topConceptOf cs: ;
@@ -1813,6 +1960,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Canals"@en ;
+    skos:inScheme cs: ;
     skos:notation "40" ;
     skos:prefLabel "Canals"@en ;
     skos:topConceptOf cs: ;
@@ -1822,6 +1970,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Sand, shingle or pebble beaches, sand bars, spits, sandy islets"@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel "Beaches"@en ;
     skos:topConceptOf cs: ;
@@ -1831,6 +1980,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Estuarine waters; includes permanent waters of estuaries and estuarine systems of deltas"@en ;
+    skos:inScheme cs: ;
     skos:notation "6" ;
     skos:prefLabel "Estuarine waters"@en ;
     skos:topConceptOf cs: ;
@@ -1840,6 +1990,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Intertidal mud, sand or salt flats"@en ;
+    skos:inScheme cs: ;
     skos:notation "7" ;
     skos:prefLabel "Intertidal flats"@en ;
     skos:topConceptOf cs: ;
@@ -1849,6 +2000,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Intertidal marshes; includes salt marshes, salt meadows, raised salt marshes, tidal brackish and freshwater marshes"@en ;
+    skos:inScheme cs: ;
     skos:notation "8" ;
     skos:prefLabel "Intertidal marshes"@en ;
     skos:topConceptOf cs: ;
@@ -1858,6 +2010,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Intertidal forested wetlands; includes mangrove swamps, nipa swamps, tidal freshwater swamp forests"@en ;
+    skos:inScheme cs: ;
     skos:notation "9" ;
     skos:prefLabel "Intertidal forested wetlands"@en ;
     skos:topConceptOf cs: ;
@@ -1867,6 +2020,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Crowns touching to overlapping 	Crown separation ratio<0	Crown cover %>80%	Foliage cover %>70%"@en ;
+    skos:inScheme cs: ;
     skos:notation "D" ;
     skos:prefLabel "Closed or dense"@en ;
     skos:topConceptOf cs: ;
@@ -1876,6 +2030,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Emergent 	Crown separation ratio >3	Crown cover % <0.5% of total crown cover	Foliage cover % <3% of total foliage cover"@en ;
+    skos:inScheme cs: ;
     skos:notation "E" ;
     skos:prefLabel "Emergent"@en ;
     skos:topConceptOf cs: ;
@@ -1885,6 +2040,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Isolated plants: for trees about 100 m apart, shrubs about 20 m apart 	Crown separation ratio >20	Crown cover % <0.25%	Foliage cover % <0.20%"@en ;
+    skos:inScheme cs: ;
     skos:notation "I" ;
     skos:prefLabel "Isolated plants"@en ;
     skos:topConceptOf cs: ;
@@ -1894,6 +2050,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Isolated clumps of 2 to many plants about 200 m apart 	Crown separation ratio >20	Crown cover % <0.25%	Foliage cover % <0.20%"@en ;
+    skos:inScheme cs: ;
     skos:notation "L" ;
     skos:prefLabel "Isolated clumps"@en ;
     skos:topConceptOf cs: ;
@@ -1903,6 +2060,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Crowns touching or slightly separated   	Crown separation ratio 0-0.25	Crown cover % 50-80%	Foliage cover % 30-70%"@en ;
+    skos:inScheme cs: ;
     skos:notation "M" ;
     skos:prefLabel "Mid-dense"@en ;
     skos:topConceptOf cs: ;
@@ -1912,6 +2070,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Crowns clearly separated 	Crown separation ratio 0.25-1	Crown cover % 20-50%	Foliage cover % 10-30%"@en ;
+    skos:inScheme cs: ;
     skos:notation "S" ;
     skos:prefLabel "Sparse or open"@en ;
     skos:topConceptOf cs: ;
@@ -1921,6 +2080,7 @@ Herbaceous with whole plant below surface; in some cases flowers may be emergent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Crowns well separated 	Crown separation ratio 1-20	Crown cover % 0.25-20%	Foliage cover % 0.2-10%"@en ;
+    skos:inScheme cs: ;
     skos:notation "V" ;
     skos:prefLabel "Very sparse"@en ;
     skos:topConceptOf cs: ;
@@ -1938,6 +2098,7 @@ The ground layer normally comprises low shrubs, grasses, forbs, rushes, sedges e
 The method is intended for use in grass and low shrubs. Looking vertically down onto the tape and foliage, the amount of foliage intercepted along the tape is estimated, and expressed as a percentage of the transect length. It is easiest to estimate and record the amount of foliage intercepted per metre of tape and add these amounts at the completion of the transect.
 
 Two to four transects are usually needed per site depending on cover variability. For grass, a 10 m transect is usually enough; for small shrubs, 20 m. A longer transect will be needed where the ground layer is more patchy. In some situations – for example rangeland environments where the formation class may require subdivision – it is often useful to collect information about basal area and/or plant density and to record a number of cover classes in the <10% foliage cover class. Transects should be located independently of the ground layer so that the sample is not biased. The starting point and direction can be fixed in relation to some aspect of the plot or can be determined by using random numbers to locate the starting point and bearing."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Ground cover"@en ;
     skos:topConceptOf cs: ;
 .
@@ -1946,6 +2107,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "member of the Poaceae cultivated or maintained for the production of food for animals, whether harvested or grazed directly."@en ;
+    skos:inScheme cs: ;
     skos:notation "g4.1" ;
     skos:prefLabel "Grass: planted/cultivated (pasture)"@en ;
     skos:topConceptOf cs: ;
@@ -1955,6 +2117,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "member of the Poaceae cultivated as cereal food for human consumption."@en ;
+    skos:inScheme cs: ;
     skos:notation "g4.2" ;
     skos:prefLabel "Grass: planted/cultivated (cereals) "@en ;
     skos:topConceptOf cs: ;
@@ -1964,6 +2127,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "member of Poaceae cultivated or maintained for industrial purposes but not for food, e.g. turf farm for lawn-grasses, road batten stabilisation."@en ;
+    skos:inScheme cs: ;
     skos:notation "g4.3" ;
     skos:prefLabel "Grass: planted/cultivated (other industrial)"@en ;
     skos:topConceptOf cs: ;
@@ -1973,6 +2137,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "planted/cultivated perennial herbaceous plant (monocotyledon or dicotyledon); non-food."@en ;
+    skos:inScheme cs: ;
     skos:notation "h2.1" ;
     skos:prefLabel "Herb: planted/cultivated (perennial, non-food)"@en ;
     skos:topConceptOf cs: ;
@@ -1982,6 +2147,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "planted/cultivated annual herbaceous plant (monocotyledon or dicotyledon); non-food."@en ;
+    skos:inScheme cs: ;
     skos:notation "h2.2" ;
     skos:prefLabel "Herb: planted/cultivated (annual, non-food)"@en ;
     skos:topConceptOf cs: ;
@@ -1991,6 +2157,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "planted/cultivated annual herbaceous plant (monocotyledon or dicotyledon); food."@en ;
+    skos:inScheme cs: ;
     skos:notation "h2.3" ;
     skos:prefLabel "Herb: planted/cultivated (annual, food)"@en ;
     skos:topConceptOf cs: ;
@@ -2000,6 +2167,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "planted/cultivated perennial herbaceous plant (monocotyledon or dicotyledon); food."@en ;
+    skos:inScheme cs: ;
     skos:notation "h2.4" ;
     skos:prefLabel "Herb: planted/cultivated (perennial, food)"@en ;
     skos:topConceptOf cs: ;
@@ -2009,6 +2177,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "composite plant consisting of a fungus living symbiotically with algae; without true roots, stems or leaves."@en ;
+    skos:inScheme cs: ;
     skos:notation "l1.0" ;
     skos:prefLabel "Lichen"@en ;
     skos:topConceptOf cs: ;
@@ -2018,6 +2187,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "a member of the Division Bryophyta, i.e., mosses and liverworts. Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverworts are often moss-like in appearance or consist of a flat, ribbon-like, green thallus."@en ;
+    skos:inScheme cs: ;
     skos:notation "m1.0" ;
     skos:prefLabel "Bryophyte"@en ;
     skos:topConceptOf cs: ;
@@ -2028,6 +2198,7 @@ Two to four transects are usually needed per site depending on cover variability
     rdfs:isDefinedBy cs: ;
     skos:altLabel "Rainforest" ;
     skos:definition "no widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation."@en ;
+    skos:inScheme cs: ;
     skos:notation "w1.1" ;
     skos:prefLabel "Tree: rainforest"@en ;
     skos:topConceptOf cs: ;
@@ -2037,6 +2208,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "trees planted in rows for the intense production of non-food crops."@en ;
+    skos:inScheme cs: ;
     skos:notation "w1.2" ;
     skos:prefLabel "Tree: planted/cultivated (non-food)"@en ;
     skos:topConceptOf cs: ;
@@ -2046,6 +2218,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "trees planted in mostly urban/suburban settings such as gardens, along streets, and nurseries."@en ;
+    skos:inScheme cs: ;
     skos:notation "w1.4" ;
     skos:prefLabel "Tree: planted/cultivated (landscaping)"@en ;
     skos:topConceptOf cs: ;
@@ -2055,6 +2228,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "shrub usually less than 2 m tall, commonly with ericoid leaves (nanophyll, less than 225 mm2). Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates."@en ;
+    skos:inScheme cs: ;
     skos:notation "w3.1" ;
     skos:prefLabel "Heath or kwongan or wallum shrub"@en ;
     skos:topConceptOf cs: ;
@@ -2064,6 +2238,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "single- or multi-stemmed, semi-succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance."@en ;
+    skos:inScheme cs: ;
     skos:notation "w3.2" ;
     skos:prefLabel "Chenopod shrub"@en ;
     skos:topConceptOf cs: ;
@@ -2073,6 +2248,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "a subdivision of chenopod shrubs. Genera (of Tribe Salicornioideae, namely Halosarcia, Pachycornia, Sarcocornia, Sclerostegia, Tecticornia and Tegicornia) with articulate branches, fleshy stems and reduced flowers within the Chenopodiaceae family; succulent chenopods. Also the genus Suaeda."@en ;
+    skos:inScheme cs: ;
     skos:notation "w3.3" ;
     skos:prefLabel "Samphire shrub"@en ;
     skos:topConceptOf cs: ;
@@ -2082,6 +2258,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "shrubs planted in mostly urban/suburban settings such as gardens, along streets, and nurseries."@en ;
+    skos:inScheme cs: ;
     skos:notation "w3.5" ;
     skos:prefLabel "Shrub: planted/cultivated (non-food)"@en ;
     skos:topConceptOf cs: ;
@@ -2091,6 +2268,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Woody plants include all trees, palms, arborescent cycads, tree ferns, xanthorrhoeas, shrubs and woody vines. "@en ;
+    skos:inScheme cs: ;
     skos:notation "w" ;
     skos:prefLabel "woody plants"@en ;
     skos:topConceptOf cs: ;
@@ -2102,6 +2280,7 @@ Two to four transects are usually needed per site depending on cover variability
         sosa:ObservableProperty ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Estimate the openness of individual tree or shrub crowns by matching the crown with a photograph. The rows show similar crown types for different leaf size (large to small, left to right). Acacia phyllodes is in the right hand column. Most Australian woody plants are in the range 40–70%."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Crown type"@en ;
     skos:topConceptOf cs: ;
 .
@@ -2110,6 +2289,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Projective foliage cover (PFC) (Specht et al. 1974) is the percentage of the sample site occupied by the vertical projection of foliage only."@en ;
+    skos:inScheme cs: ;
     skos:notation "PFC" ;
     skos:prefLabel "Projected foliage cover"@en ;
     skos:topConceptOf cs: ;
@@ -2119,6 +2299,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "trees planted in rows for the production of food crops."@en ;
+    skos:inScheme cs: ;
     skos:notation "w1.3" ;
     skos:prefLabel "Tree: planted/cultivated (food)"@en ;
     skos:topConceptOf cs: ;
@@ -2128,6 +2309,7 @@ Two to four transects are usually needed per site depending on cover variability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "shrubs planted in rows for the production of food crops."@en ;
+    skos:inScheme cs: ;
     skos:notation "w3.4" ;
     skos:prefLabel "Shrub: planted/cultivated (food)"@en ;
     skos:topConceptOf cs: ;
@@ -2158,6 +2340,7 @@ To convert between crown separation ratio and crown cover percentage (Table 18),
 Crown cover (%) = k / (1+CSR)^2
 
 The constant k = 80.6 for samples taken along a zigzag transect as shown in Figure 5 (Penridge and Walker 1988)."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Crown separation ratio"@en ;
     skos:related :crown-cover ;
     skos:topConceptOf cs: ;
@@ -2182,6 +2365,7 @@ If CSR is 1.0, crown cover percentage = 20%.
 
 If crown openness (Figure 6) is 60%, 
 then foliage cover percentage = 20% × 60% = 12%."""@en ;
+    skos:inScheme cs: ;
     skos:narrower :foliage-cover-projected ;
     skos:notation "FC" ;
     skos:note "* The relationship between crown cover and foliage cover is described in more detail in the text." ;
@@ -2218,6 +2402,7 @@ If CSR is 1.0, crown cover percentage = 20%.
 
 If crown openness (Figure 6) is 60%, 
 then foliage cover percentage = 20% × 60% = 12%."""@en ;
+    skos:inScheme cs: ;
     skos:notation "C" ;
     skos:note "* The relationship between crown cover and foliage cover is described in more detail in the text." ;
     skos:prefLabel "Crown cover"@en ;
@@ -2423,7 +2608,7 @@ cs:
         ] ,
         <https://orcid.org/0000-0003-3206-2268> ;
     schema:dateCreated "2022-03-28"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-10-30"^^xsd:date ;
     schema:description "This vocabulary is a machine-readable representation of the classifiers described in chapter 6 Vegetation, by R.J. Hnatiuk, R. Thackway and J. Walker in Australian Soil and Land Survey Field Handbook (3rd edn)" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <http://www.publish.csiro.au> ;

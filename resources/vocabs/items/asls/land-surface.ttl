@@ -972,6 +972,7 @@ The observer wishing to record the severity of erosion may record it as minor, m
         :drainage-height ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Drainage height value in metres"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Drainage height value in metres"@en ;
     skos:topConceptOf cs: ;
 .
@@ -980,6 +981,7 @@ The observer wishing to record the severity of erosion may record it as minor, m
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Elevation value in metres"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Elevation value in metres"@en ;
     skos:topConceptOf cs: ;
 .
@@ -3357,7 +3359,7 @@ Land surface is concerned mainly with surface phenomena affecting land use and s
             schema:name "R.F. Isbell" ;
         ] ;
     schema:dateCreated "2020-10-13"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-10-30"^^xsd:date ;
     schema:description """This vocabulary is a machine-readable representation of the classifiers described in chapter 7 Land Surface, by R.C. McDonald, R.F. Isbell and J.G. Speight, in Australian soil and land survey field handbook (3rd edn).
 Land surface is concerned mainly with surface phenomena affecting land use and soil development that have traditionally been noted at the point of soil observation.""" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
