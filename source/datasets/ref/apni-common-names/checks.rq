@@ -1,0 +1,52 @@
+PREFIX nsl: <https://linked.data.gov.au/def/nsl/>
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?metric (COUNT(*) AS ?count)
+WHERE {
+  {
+    {
+      SELECT DISTINCT ?common ?scientific
+      WHERE {
+        ?usage nsl:usageOf ?common ; nsl:citing ?target .
+        ?target nsl:usageOf ?scientific .
+      }
+    }
+    BIND("distinct_name_id_pairs" AS ?metric)
+  } UNION {
+    ?usage a nsl:TaxonNameUsage .
+    BIND("usage_resources" AS ?metric)
+  } UNION {
+    ?usage nsl:citing ?target .
+    BIND("mapping_edges" AS ?metric)
+  } UNION {
+    ?usage nsl:citing ?target .
+    FILTER(isBlank(?target))
+    BIND("anonymous_scientific_usages" AS ?metric)
+  } UNION {
+    ?usage nsl:citing ?target .
+    FILTER(isIRI(?target))
+    BIND("identified_scientific_usages" AS ?metric)
+  } UNION {
+    ?name a nsl:TaxonName .
+    BIND("name_resources" AS ?metric)
+  } UNION {
+    ?usage nsl:citing ?target .
+    FILTER NOT EXISTS { ?target a nsl:TaxonNameUsage ; nsl:usageOf ?name }
+    BIND("broken_mapping_targets" AS ?metric)
+  } UNION {
+    ?usage a nsl:TaxonNameUsage .
+    FILTER NOT EXISTS { ?usage nsl:usageOf ?name ; schema:citation ?citation }
+    BIND("usages_missing_name_or_citation" AS ?metric)
+  } UNION {
+    ?usage nsl:usageOf ?first, ?second .
+    FILTER(?first != ?second)
+    BIND("usages_with_conflicting_name_ids" AS ?metric)
+  } UNION {
+    ?s ?predicate ?o .
+    FILTER(STRSTARTS(STR(?predicate), "http://rs.tdwg.org/dwc/"))
+    BIND("darwin_core_triples" AS ?metric)
+  }
+}
+GROUP BY ?metric
+ORDER BY ?metric

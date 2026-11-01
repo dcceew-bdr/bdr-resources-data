@@ -1,0 +1,53 @@
+{
+  "snapshot_date": "2026-10-30",
+  "dataset_iri": "https://linked.data.gov.au/dataset/apni-common-names",
+  "csv": "inputs/APNI-common-names-2026-10-30-5314.csv",
+  "license": "http://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "inputs/APNI-common-names-2026-10-30-5314.csv",
+      "sha256": "0f654184d6ae6f1f6b49e0b8ce357c0332440389fc9804b25c1bc00f75a2f4b7",
+      "bytes": 25115794,
+      "source_url": "https://biodiversity.org.au/nsl/services/export/index",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "path": "inputs/enrichment/51266104.json",
+      "sha256": "9e0eacd5411375234844482905d10d9dfa2a682b56c7847e456cb8cccabd2471",
+      "bytes": 2846,
+      "source_url": "https://id.biodiversity.org.au/instance/apni/51266104.json",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "path": "inputs/enrichment/51267250.json",
+      "sha256": "b0866589f9846a972c53c8c3ba273f6b50f642f3b076c423913b6d20a2060859",
+      "bytes": 2833,
+      "source_url": "https://id.biodiversity.org.au/instance/apni/51267250.json",
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "expected": {
+    "source_rows": 64714,
+    "converted_rows": 64714,
+    "rejected_rows": 0,
+    "enrichment_mismatch_rows": 0,
+    "resolved_scientific_usage_rows": 1,
+    "unresolved_scientific_usage_rows": 64713,
+    "distinct_common_name_ids": 28022,
+    "distinct_scientific_name_ids": 17204,
+    "distinct_name_id_pairs": 37165,
+    "triples": 895067
+  },
+  "structural_checks": {
+    "usage_resources": 129428,
+    "mapping_edges": 64714,
+    "name_resources": 45226,
+    "anonymous_scientific_usages": 64713,
+    "identified_scientific_usages": 1,
+    "distinct_name_id_pairs": 37165,
+    "broken_mapping_targets": 0,
+    "usages_missing_name_or_citation": 0,
+    "usages_with_conflicting_name_ids": 0,
+    "darwin_core_triples": 0
+  }
+}

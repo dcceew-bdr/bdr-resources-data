@@ -16,10 +16,10 @@
 d:
     a schema:Dataset ;
     schema:citation "https://biodiversity.org.au/nsl/services/export/index"^^xsd:anyURI ;
-    schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/blob/main/resources/datasets/items/apni-common-names-nsl.ttl"^^xsd:anyURI ;
+    schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/tree/main/source/datasets/ref/apni-common-names"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2026-10-30"^^xsd:date ;
-    schema:dateModified "2026-10-30"^^xsd:date ;
+    schema:dateModified "2026-11-02"^^xsd:date ;
     schema:description """Common-name mappings from the APNI common-name export downloaded on 30 October 2026, containing 64,714 source records and 37,165 distinct common-name and scientific-name identifier pairs.
 
 Names retain their APNI identifiers. Mappings are represented through NSL TaxonNameUsage resources, with the common-name usage linked to a scientific-name usage using nsl:citing. Source citation text, licence and attribution are retained.

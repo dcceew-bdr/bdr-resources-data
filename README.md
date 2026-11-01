@@ -12,6 +12,8 @@ Content here is _not_ the main data of the BDR - observations of species occurre
 The resources are managed using [kgm](https://kurrawong.github.io/kgm/), so there is a manifest at `resources/manifest.ttl`
 that links to and indicates roles for all the static resources.
 
+The [APNI common-name dataset source](source/datasets/ref/apni-common-names/README.md) includes the preserved inputs, locked conversion environment, mapping rules, and commands to regenerate and verify its RDF publication copy. Its reproduction workflow compares RDF statements independently of Turtle prefixes, ordering, and blank-node labels.
+
 ## License & Copyright
 
 The license for novel content in this repository is the standard Australian government open source license:
