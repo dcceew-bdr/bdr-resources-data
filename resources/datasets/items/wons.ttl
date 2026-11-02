@@ -47,7 +47,7 @@ d:
     schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/tree/main/source/datasets/ref/wons"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2026-05-15"^^xsd:date ;
-    schema:dateModified "2026-09-02"^^xsd:date ;
+    schema:dateModified "2026-11-02"^^xsd:date ;
     schema:description "Weeds listed as being of national significance by DCCEEW" ;
     schema:citation "https://www.agriculture.gov.au/biosecurity-trade/pests-diseases-weeds/pest-animals-and-weeds/established-weeds" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
@@ -55,3 +55,45 @@ d:
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "1" ;
 .
+
+
+# TEMPORARY: mock types for this dataset's members, so they can be listed and displayed.
+# Replace this block with the real species data when it is available.
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+
+apni:100521 a dwc:Taxon .
+apni:101259 a dwc:Taxon .
+apni:108846 a dwc:Taxon .
+apni:115330 a dwc:Taxon .
+apni:116244 a dwc:Taxon .
+apni:116436 a dwc:Taxon .
+apni:116682 a dwc:Taxon .
+apni:119305 a dwc:Taxon .
+apni:134846 a dwc:Taxon .
+apni:164929 a dwc:Taxon .
+apni:171296 a dwc:Taxon .
+apni:173623 a dwc:Taxon .
+apni:194694 a dwc:Taxon .
+apni:214158 a dwc:Taxon .
+apni:238650 a dwc:Taxon .
+apni:54839 a dwc:Taxon .
+apni:55057 a dwc:Taxon .
+apni:55079 a dwc:Taxon .
+apni:59669 a dwc:Taxon .
+apni:60722 a dwc:Taxon .
+apni:62625 a dwc:Taxon .
+apni:63783 a dwc:Taxon .
+apni:65315 a dwc:Taxon .
+apni:66041 a dwc:Taxon .
+apni:66092 a dwc:Taxon .
+apni:67853 a dwc:Taxon .
+apni:67864 a dwc:Taxon .
+apni:79993 a dwc:Taxon .
+apni:80023 a dwc:Taxon .
+apni:84286 a dwc:Taxon .
+apni:85694 a dwc:Taxon .
+apni:86777 a dwc:Taxon .
+apni:88828 a dwc:Taxon .
+apni:89390 a dwc:Taxon .
+apni:94061 a dwc:Taxon .
+apni:98714 a dwc:Taxon .

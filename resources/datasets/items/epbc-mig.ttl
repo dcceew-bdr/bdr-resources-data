@@ -149,10 +149,153 @@ d:
     schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/tree/main/source/datasets/ref/epbc/mig"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2026-05-15"^^xsd:date ;
-    schema:dateModified "2026-09-02"^^xsd:date ;
+    schema:dateModified "2026-11-02"^^xsd:date ;
     schema:description "Migratory Species under the EPBC Act 1999" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EPBC Migratory Species" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "1" ;
 .
+
+
+# TEMPORARY: mock types for this dataset's members, so they can be listed and displayed.
+# Replace this block with the real species data when it is available.
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+
+afd:0068714f-cc38-49e8-9541-7ff0e796b5f9 a dwc:Taxon .
+afd:00cf9ec9-1cd2-4389-a1fc-a080ee3c81d6 a dwc:Taxon .
+afd:0120164e-ebea-4367-863d-0bbf72ad8379 a dwc:Taxon .
+afd:0552a891-e2c8-4b8b-8fa2-37825fb24f88 a dwc:Taxon .
+afd:0974b5aa-f5bf-47cc-9cf3-337dcc113c19 a dwc:Taxon .
+afd:0c5bfca8-f73a-4c8e-be98-fa8c8556d06d a dwc:Taxon .
+afd:10df901b-8003-42bf-9885-7700f6ff9a88 a dwc:Taxon .
+afd:1265b13a-52b4-462f-8b28-0575df7ff68d a dwc:Taxon .
+afd:1441c509-faf3-405e-a534-c51cccc4d720 a dwc:Taxon .
+afd:177fbe63-4e52-4dd1-9f05-cf64ab8c48c8 a dwc:Taxon .
+afd:1df1b514-4e2d-45d7-b53d-146e265dc060 a dwc:Taxon .
+afd:2d605472-979b-49b4-aed3-03a384e9f706 a dwc:Taxon .
+afd:2ecff0de-1ba4-4b53-a368-0e01d36c289d a dwc:Taxon .
+afd:2f3ea648-36e2-4e5b-8d30-b6272a7efce4 a dwc:Taxon .
+afd:2fa47871-3637-4b3a-bfd8-89750d53e8fa a dwc:Taxon .
+afd:3191705d-10db-47a8-bbbf-1e232203bd22 a dwc:Taxon .
+afd:31a2070b-78a5-4600-8956-eff338f14607 a dwc:Taxon .
+afd:3320809b-5761-46db-8d60-e66586d98f8d a dwc:Taxon .
+afd:33e7df24-5f52-444c-ae64-64ace839a0bf a dwc:Taxon .
+afd:34e2fa52-63f3-4569-860d-53df5c3d4393 a dwc:Taxon .
+afd:35359d1d-71ec-4f5c-a11e-50dbe43d9a52 a dwc:Taxon .
+afd:35b4a9a6-6971-49f5-b884-8af33ec14298 a dwc:Taxon .
+afd:37dd0455-e35f-483b-882a-ad959a5c96d2 a dwc:Taxon .
+afd:383daf29-74b1-40b1-9014-51bbf3af8898 a dwc:Taxon .
+afd:391d9df2-001e-4237-9f80-7363c84f43c3 a dwc:Taxon .
+afd:3b0d9a98-3512-4a4b-bc1f-51f0331aa337 a dwc:Taxon .
+afd:3b2acd1a-e4f6-4456-b33b-8027263a0e1e a dwc:Taxon .
+afd:3ce5a7e3-24fb-4054-9f18-a1effb88d5a8 a dwc:Taxon .
+afd:3d2396a0-b532-410a-87e7-d1fe3ab497f6 a dwc:Taxon .
+afd:3e9c17c9-270f-4a74-9ed8-7ccabd575be9 a dwc:Taxon .
+afd:4090ad27-9c69-454d-aa47-23860b9ee50b a dwc:Taxon .
+afd:40d07e9c-276c-4dae-8691-813785a3b3e1 a dwc:Taxon .
+afd:42d3f3e2-b310-4515-aa96-304d232d172b a dwc:Taxon .
+afd:450bbdd2-cd50-4505-9466-15c1e24f7aa0 a dwc:Taxon .
+afd:45bd036a-9d52-48a0-bbb0-c76b206d2682 a dwc:Taxon .
+afd:46b0789b-9609-4424-8e7f-96b6b39f3b86 a dwc:Taxon .
+afd:47768940-d139-46b4-8be1-e883afdef248 a dwc:Taxon .
+afd:489b57c7-4f23-43c7-b465-fdc55f3baad3 a dwc:Taxon .
+afd:4a3251d7-ba3a-4d76-a3e4-0da76548c0be a dwc:Taxon .
+afd:4d92cf23-f867-4815-b28e-4f5a8f2827e0 a dwc:Taxon .
+afd:4de14593-cecd-4216-af1b-6f9f3909dd25 a dwc:Taxon .
+afd:4deec9e6-772f-41c6-8910-1a17eef68598 a dwc:Taxon .
+afd:4fbd4b05-2035-46d9-b4a3-2a177b1d4f44 a dwc:Taxon .
+afd:513d222e-5b4e-46c7-813e-03c4a0e80f15 a dwc:Taxon .
+afd:5295f399-684a-47b9-95b8-ebc35119e338 a dwc:Taxon .
+afd:5526c312-451f-4c90-a69e-088b55be6956 a dwc:Taxon .
+afd:57026f49-7348-48a4-895e-1ab655df3d2d a dwc:Taxon .
+afd:59683019-c7b6-45c4-afd9-cf93947fb7ac a dwc:Taxon .
+afd:5c1957dc-0780-47cb-9c89-0498340c1e62 a dwc:Taxon .
+afd:5c372f0e-d257-4cdb-b558-f1383c53c3ee a dwc:Taxon .
+afd:5c4819b5-6695-4eef-88a8-051ae9465079 a dwc:Taxon .
+afd:5c566548-e698-44bf-996f-8d9be78c02d8 a dwc:Taxon .
+afd:5d4fdfee-25a2-4697-8237-5a755f0d19cc a dwc:Taxon .
+afd:5e97f950-8fbd-4f4c-b996-76e6ce09ab27 a dwc:Taxon .
+afd:5ff29bca-f02f-468f-9f96-9ae956015e01 a dwc:Taxon .
+afd:6485cd0c-f104-4950-8cdf-be4d09fc6bbc a dwc:Taxon .
+afd:66cf9e86-f1f3-4716-a4d3-cd4650ff087a a dwc:Taxon .
+afd:67ab9a8c-5e66-4e3a-9062-82894aeb5f06 a dwc:Taxon .
+afd:68ec3f26-dcfb-4467-9deb-b3db3a3ac744 a dwc:Taxon .
+afd:6904e129-8196-4a7e-99d6-2db05adb58dc a dwc:Taxon .
+afd:6b5027fe-ea3b-4c7a-a0b3-18d347ea67f3 a dwc:Taxon .
+afd:702eb2fa-4723-4d0f-bca2-4e0d0770a6fb a dwc:Taxon .
+afd:70b173fb-a9cc-4b73-a9ee-598d1b5289a6 a dwc:Taxon .
+afd:70d0cb6f-e664-4b6c-9b8b-2b6c34143ad6 a dwc:Taxon .
+afd:729d4fff-3e86-4456-b77e-26ab264d835f a dwc:Taxon .
+afd:72b23d0a-7050-413f-9100-3562d383888e a dwc:Taxon .
+afd:77fde225-ce12-48fe-b697-60619d05159d a dwc:Taxon .
+afd:78aa4243-7c03-4d35-b5ed-7a54902c9077 a dwc:Taxon .
+afd:7980ad72-2f32-4d71-9d39-b8423c18d0f3 a dwc:Taxon .
+afd:7c138bfe-7dc0-42ca-8969-eeebf78fa806 a dwc:Taxon .
+afd:7dccf8d0-d4cb-4c64-ac85-93d52190e9e4 a dwc:Taxon .
+afd:7f11ef51-9180-45c9-b00b-dc4fb79aab7a a dwc:Taxon .
+afd:80cbab65-bdf7-4fd4-8666-f7579de78e4c a dwc:Taxon .
+afd:82ed0913-1b27-4b2b-b2b3-09d1b3ce6ae5 a dwc:Taxon .
+afd:837ee431-9604-4f4c-9d21-8fd27be9c93b a dwc:Taxon .
+afd:876e067e-712e-4adf-828f-b6070ec0bd64 a dwc:Taxon .
+afd:89b65b8d-5fc6-421d-8311-63265fd6eacf a dwc:Taxon .
+afd:8a41c428-e001-4259-934f-36d5b55e9541 a dwc:Taxon .
+afd:8a91dbb9-16cd-406f-a88f-2fac9e1c17e3 a dwc:Taxon .
+afd:8fa8d059-9ce9-41f4-b604-63408d1de0b4 a dwc:Taxon .
+afd:910b27e8-19c3-4194-b55a-fd95a80ccdf9 a dwc:Taxon .
+afd:93852469-f5e8-432e-ad53-fbd871afa035 a dwc:Taxon .
+afd:96133221-771a-40d0-8368-ad428a55aaaa a dwc:Taxon .
+afd:989a7126-df02-4f1f-a21f-feca59662947 a dwc:Taxon .
+afd:9a3c1090-cf5f-40bf-a663-62a9a21509d6 a dwc:Taxon .
+afd:9a977391-19d1-407a-b979-5d0fa4c49f32 a dwc:Taxon .
+afd:9b31383c-4745-4b8f-a3bd-8b9e91619e47 a dwc:Taxon .
+afd:9cc4adc1-2007-4319-bc7d-f75efdc44849 a dwc:Taxon .
+afd:9f562f99-aac8-4b16-b3c9-04a7eea35269 a dwc:Taxon .
+afd:a2a8fc54-88b7-4b1c-8f1b-ad15998322cd a dwc:Taxon .
+afd:a34dfb52-93d0-4e83-a8e6-470a98ba7d64 a dwc:Taxon .
+afd:a4f843bc-c592-48e7-bb32-7a305dea33b1 a dwc:Taxon .
+afd:a50b9689-8426-4311-b6bf-5f3901d90019 a dwc:Taxon .
+afd:a59d59b3-a9b5-4e6a-ab0e-7602c447d50e a dwc:Taxon .
+afd:a5a1af00-5927-4180-9c90-089a1c7854ae a dwc:Taxon .
+afd:a5b1896e-ef50-4571-ac94-7c1f1c031049 a dwc:Taxon .
+afd:a8dc4e72-b294-46ae-9f4a-a3da913ff4d3 a dwc:Taxon .
+afd:aa8790f9-977b-46cf-a8d3-3532c59f81ff a dwc:Taxon .
+afd:abeb5bf8-d03e-4b33-a1ea-bcfc0695102c a dwc:Taxon .
+afd:af4aa046-93bb-40b9-9114-71bbe1225eb5 a dwc:Taxon .
+afd:b0592117-21ee-4351-a745-cea3e2cbcfcf a dwc:Taxon .
+afd:b3e019a8-14ef-4490-a1e9-0b9f04d53a75 a dwc:Taxon .
+afd:b4971f23-99a4-419f-bf99-549741781cf9 a dwc:Taxon .
+afd:b97cb235-4a5c-4033-9922-06837b194de7 a dwc:Taxon .
+afd:bc2f1f65-2844-4e3c-a07e-b60717967b78 a dwc:Taxon .
+afd:bd20a15e-c723-49b5-9186-11ec37fb18e3 a dwc:Taxon .
+afd:be54a789-643e-4687-8f97-48361a4a045a a dwc:Taxon .
+afd:c179befb-7c52-4009-8f40-b9dd8940f493 a dwc:Taxon .
+afd:c96da60f-c179-43b5-8b6b-438264a91f65 a dwc:Taxon .
+afd:ca3c9112-78dc-434f-9668-f13c4cfc94d4 a dwc:Taxon .
+afd:cbef5be9-829a-4691-9de4-125356441b1f a dwc:Taxon .
+afd:d3093de6-25da-41e9-be3d-d91820b862c3 a dwc:Taxon .
+afd:d792ddc0-bdc2-4764-ab9c-ea9e43cd586e a dwc:Taxon .
+afd:d9c3c304-8f68-4f6b-a472-a96a99a3a4e9 a dwc:Taxon .
+afd:da100481-e4a7-4d6e-8535-89a748cf52ad a dwc:Taxon .
+afd:da1e1bf2-3684-4eea-b579-1d83507c020d a dwc:Taxon .
+afd:da8ab93e-9f6d-445a-8d9c-a7b3172dea11 a dwc:Taxon .
+afd:db2b1673-da53-47c6-9909-74af3a00dd7f a dwc:Taxon .
+afd:db8a3a39-1d47-4840-a77c-4ced27a2ad26 a dwc:Taxon .
+afd:dc021586-78cb-41f3-97db-c9b2bb218074 a dwc:Taxon .
+afd:dced77e3-0137-4bb4-a4d3-bc95ac71e81b a dwc:Taxon .
+afd:dfa14228-4f24-48be-b5e6-f91db5ddbbe1 a dwc:Taxon .
+afd:e0967c92-d815-44e3-965c-0e797dce3a3c a dwc:Taxon .
+afd:e0cb8aab-2a4a-467f-b420-958d21cd91c8 a dwc:Taxon .
+afd:e3a9fdc3-92ec-45fb-afae-2586f0876d2c a dwc:Taxon .
+afd:e3d014e2-456a-4ef8-8f5c-969263574a6e a dwc:Taxon .
+afd:e57c3c64-4b61-4769-9c9a-bf7c21bf3746 a dwc:Taxon .
+afd:e6ea1087-ce34-4cf8-be85-546a9d732965 a dwc:Taxon .
+afd:e933c4ad-fb66-4cfd-82e2-ad4ce0e36a2d a dwc:Taxon .
+afd:ed8c4f24-87e0-4875-a1c0-08d1b0a509e0 a dwc:Taxon .
+afd:f2daa035-4db2-4685-bec1-6b89c3274404 a dwc:Taxon .
+afd:f452242f-5a35-4d5d-a141-7e2dfb9f176b a dwc:Taxon .
+afd:f80f9c1c-c73d-4cfd-9946-0d06746cf61b a dwc:Taxon .
+afd:f949f55c-63e5-499a-86c5-c4409cbf6373 a dwc:Taxon .
+afd:fc76c5eb-bc35-402a-a5b9-649787fc6db8 a dwc:Taxon .
+afd:fd928615-5613-47eb-9cd4-7eb8e30a4993 a dwc:Taxon .
+afd:fef65ae9-949c-44ea-8533-1745bf097a74 a dwc:Taxon .
