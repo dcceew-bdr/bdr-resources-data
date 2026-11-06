@@ -1,8 +1,0 @@
-{
-  "shape-R0-HL1": true,
-  "shape-R0-HL2": true,
-  "shape-R0-HL3-2": true,
-  "all_33_members_reachable_by_catalogue_collection_path": true,
-  "listing_and_object_routes_include_new_shape": true,
-  "scope": "SHACL endpoint configuration and RDF path checks; not a deployed HTTP API test."
-}

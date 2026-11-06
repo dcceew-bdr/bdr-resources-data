@@ -1,37 +1,39 @@
-# TERN Taxon ranks publication
+# BDR taxonomic rank scheme using TERN concepts
 
-This publication replaces the temporary `nsl-taxonomic-rank.ttl` resource with the existing TERN Taxon ranks collection and all 33 of its currently published concepts. It preserves the HTTP concept identifiers used by NSL, including the original ten concepts' preferred labels and definitions. It changes reference vocabulary content, not NSL dataset values or ingestion scripts.
+The published vocabulary is BDR’s existing ConceptScheme, `https://linked.data.gov.au/dataset/bdr/taxonomic-rank`, expanded from ten to 33 existing TERN concepts. The file remains `resources/vocabs/items/nsl-taxonomic-rank.ttl`. Every concept retains its original HTTP TERN IRI, preferred labels and definitions. The BDR scheme provides a local management unit; TERN remains the source of the rank concepts.
 
-The upstream collection remains a `skos:Collection`. It is not retyped as a concept scheme or wrapped in a new BDR scheme. The manifest identifies the collection explicitly through `schema:mainEntity` and `schema:contentLocation`, outside the block claiming VocPub scheme conformance. This is a different resource type, not an exception to a failed scheme validation. The catalogue links directly to the TERN collection.
+This follows Nick’s advice on bdr-ops issue 299. A BDR scheme can reuse TERN concept IRIs without adopting TERN’s collection as its catalogue management structure. The previously proposed catalogue-level Collection publication and its extra API routes are superseded. TERN’s own collection is not retyped or changed.
 
-## Sources and reproduction
+## Rebuild the flat scheme
 
-`source-manifest.json` records the retrieved public collection, its 33 member IRIs, the request/resolved URLs and response SHA-256 values. `snapshots/` contains those responses. `replaced-nsl-taxonomic-rank.ttl` preserves the previous temporary resource for coverage comparison; neither it nor these snapshots is selected by the publication manifest.
-
-Rebuild and verify using an environment containing RDFLib (the existing Kurra runtime is sufficient):
+`build.py` reads the preserved individual TERN concept responses, verifies their checksums and bundles the concepts into the BDR scheme. No live download or database access occurs during a rebuild. All 33 concepts receive `skos:inScheme` and `skos:topConceptOf` pointing to the BDR scheme, which lists them with `skos:hasTopConcept`. No broader/narrower rank hierarchy is invented.
 
 ```bash
 python source/vocabs/tern-taxon-ranks/build.py
 python source/vocabs/tern-taxon-ranks/verify.py
-kurra shacl validate resources/vocabs/items/tern-cv-taxon-ranks.ttl -s source/vocabs/tern-taxon-ranks/shapes.ttl
+kurra shacl validate resources/vocabs/items/nsl-taxonomic-rank.ttl -s source/vocabs/tern-taxon-ranks/shapes.ttl
 ```
 
-The builder copies each resource's vocabulary description from its own response, retaining upstream labels, definitions, source citations, non-self exact matches and available scheme membership. It omits server-generated display annotations, inferred semantic/mapping/close-match closure, and redundant self exact matches. It does not introduce rewritten definitions, repair upstream scheme membership, or mint concepts. `verification.json` records the local coverage checks. The SHACL shapes verify this scoped collection and its labels/definitions; they do not assert completeness of NSL rank coverage.
+Use an environment with RDFLib; the existing Kurra runtime is sufficient. The file is selected by the ordinary VocPub-conforming ResourceData entry in `resources/manifest.ttl`, with the BDR scheme linked from the vocabulary catalogue. An isolated KGM/VocPub check validates this resource independently of the existing ASLS full-catalogue validation issue.
 
-KGM successfully expands the full manifest and selects the new collection instead of the temporary resource. An isolated manifest for the collection passes KGM validation. Full-manifest validation currently stops on an existing ASLS soil-profile person record without a required email address; this change does not bypass or repair that unrelated error.
+`source-manifest.json` records the original TERN collection, its member IRIs, request/resolved URLs and response checksums. `snapshots/` preserves the collection and individual concept responses. `replaced-nsl-taxonomic-rank.ttl` preserves the original ten-concept BDR version for comparison. These source files are outside the publication manifest.
 
-## What remains pending
+The builder copies only the basic concept fields from each response: RDF type, SKOS labels, definition, any scope note/notation, non-self exact matches and the original `rdfs:isDefinedBy`. All concept-level DCTERMS, `rdfs:label`, `rdfs:seeAlso`, duplicate `skos:note` descriptions, inferred mapping closure and self exact matches are omitted. The full upstream metadata remains in the source snapshots. The native BDR scheme keeps its own publication metadata and source citation. In this publication, membership is stated in the BDR scheme; the upstream TERN membership remains recorded in the source snapshots. The BDR scheme cites the TERN collection as its source.
 
-Refs [bdr-ops issue 299](https://github.com/dcceew-bdr/bdr-ops/issues/299); this change does not close the issue.
+`verification.json` records preservation of the ten original concepts, unchanged labels/definitions for all 33 TERN concepts, flat scheme membership, the ordinary catalogue-to-scheme-to-concept route and a literal/IRI display example. The scoped shapes check the scheme and its members. These checks do not prove live deployment or complete NSL rank coverage.
 
-Junrong's 22 October reply accepted adding alternative labels and said the data officers were still reviewing the changes. No final IRIs or completed review decisions have been supplied here for the seven proposed additions or four additional concepts under review. The richer existing-rank definitions also remain a separate review. This publication uses the existing public concepts and definitions and can be extended when TERN supplies those decisions.
+## Pending TERN advice
 
-Leave uncovered NSL values as their original literals. Temporary IRIs would add an identifier-migration obligation without confirmed equivalence to future TERN concepts. A mixture of rank IRIs and literals already exists in NSL; the publication does not alter it. Consumers must treat an IRI as a resource to label and a literal as the supplied text. A mandatory join to `skos:prefLabel` would discard literal-valued rows. `rank-display-example.rq` demonstrates an optional label lookup and literal fallback; it is an example, not a deployed API change. The existing ABIS mapping export is outside this replacement's scope.
+Refs [bdr-ops issue 299](https://github.com/dcceew-bdr/bdr-ops/issues/299); leave the issue open.
 
-## Deployment and removal of the old graph
+Junrong’s 22 October reply accepted the alternative-label suggestion and said the data officers were still reviewing the changes. Final additional concept IRIs, publication of alternative labels and definition-review decisions remain pending. The BDR scheme can add those concepts when TERN supplies them. This version uses the 33 existing public concepts and their current definitions; no proposed definitions or placeholder IRIs are included.
 
-The repository change replaces the temporary source artifact and catalogue entry atomically. It does not itself load production BDR GraphDB or the resources Fuseki database. During deployment, first deploy the companion `bdr-resources-site` endpoint change that admits `skos:Collection` at catalogue level and follows inverse `skos:member` paths for its concepts. Then load the new collection graph, check the original ten labels through the consuming API, then remove only the old temporary named graph `https://linked.data.gov.au/dataset/bdr/taxonomic-rank` and verify again. Manifest sync may preserve graphs no longer mentioned by the manifest, so removing a file is not proof that the old database graph is gone.
+NSL dataset values and ingestion scripts are not changed by this publication. Uncovered values remain their original literals. Consumers need an optional preferred-label lookup for IRIs and the supplied text for literals; `rank-display-example.rq` illustrates that fallback. The separate ABIS mapping export is outside this update.
 
-The replacement graph's main entity is `http://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685`. Confirm the actual graph naming/load convention separately in each target service. Do not remove the existing TERN reference graph or NSL version graph. Live service synchronization, API response checks and removal of the deployed temporary graph remain operational steps; the local checks do not claim those steps have happened.
+## Deployment: update the existing scheme graph
 
-The companion endpoint change preserves existing scheme and dataset-container routes. `endpoint-verification.json` records successful SHACL checks of the catalogue, collection and member route shapes against the replacement data, plus reachability of all 33 concepts. It is not a deployed HTTP test.
+Synchronize the expanded file into the existing BDR scheme graph according to the target service’s normal manifest handling. Keep `https://linked.data.gov.au/dataset/bdr/taxonomic-rank` as the management IRI. **Do not delete that graph**: it is the scheme being retained and expanded. Earlier advice to remove the temporary rank graph is superseded.
+
+The existing ConceptScheme API routes can expose this vocabulary and its 33 concepts. No catalogue-level Collection route or special API extension is required. The companion site change withdraws only the unnecessary routes introduced for the previous collection-based design, preserving existing scheme, collection-within-scheme and dataset-container routes.
+
+After synchronization, check the scheme and member-list endpoints and verify the original ten concept labels through the consuming API. The existing TERN reference graph and NSL version graph are unaffected. If the abandoned standalone collection graph was loaded, first confirm it is unused before considering a separate cleanup; its deletion is not part of updating the retained scheme.

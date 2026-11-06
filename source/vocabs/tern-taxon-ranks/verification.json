@@ -1,12 +1,17 @@
 {
   "existing_tern_rank_concepts": 33,
-  "replaced_temporary_concepts": 10,
+  "original_bdr_scheme_concepts": 10,
   "all_ten_labels_and_definitions_preserved": true,
   "all_members_have_labels_and_definitions": true,
   "http_identifiers_preserved": true,
-  "collection_not_retyped_as_scheme": true,
+  "bdr_scheme_iri_retained": true,
+  "tern_collection_not_retyped_as_scheme": true,
+  "all_33_tern_labels_and_definitions_unchanged": true,
+  "original_isDefinedBy_preserved": true,
+  "concept_dcterms_and_rdfs_label_removed": true,
   "no_placeholder_concepts_added": true,
-  "catalogue_references_collection_instead_of_temporary_scheme": true,
+  "catalogue_references_bdr_scheme": true,
+  "all_33_concepts_reachable_by_existing_scheme_path": true,
   "display_example_handles_iri_literal_and_unlabelled_iri": true,
   "scope": "Local replacement and query verification; not live API or database deployment verification."
 }
