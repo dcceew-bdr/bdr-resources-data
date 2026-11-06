@@ -1,17 +1,9 @@
 @prefix d: <https://linked.data.gov.au/dataset/apni-common-names> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix inst: <https://id.biodiversity.org.au/instance/apni/> .
 @prefix apni: <https://id.biodiversity.org.au/name/apni/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix ccby3: <http://creativecommons.org/licenses/by/3.0/> .
-@prefix csv: <urn:sha256:0f654184d6ae6f1f6b49e0b8ce357c0332440389fc9804b25c1bc00f75a2f4b7> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix nsl: <https://linked.data.gov.au/def/nsl/> .
-@prefix nt: <https://linked.data.gov.au/def/nsl/tn-types/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix schema: <https://schema.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 d:
     a schema:Dataset ;
@@ -19,17 +11,16 @@ d:
     schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/tree/main/source/datasets/ref/apni-common-names"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2026-10-30"^^xsd:date ;
-    schema:dateModified "2026-11-02"^^xsd:date ;
-    schema:description """Common-name mappings from the APNI common-name export downloaded on 30 October 2026, containing 64,714 source records and 37,165 distinct common-name and scientific-name identifier pairs.
+    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:description """Common-name lookups from the APNI common-name export downloaded on 30 October 2026. The 64,714 source records yield 37,160 distinct scientific-name IRI and common-name text pairs across 17,204 scientific-name IRIs.
 
-Names retain their APNI identifiers. Mappings are represented through NSL TaxonNameUsage resources, with the common-name usage linked to a scientific-name usage using nsl:citing. Source citation text, licence and attribution are retained.
-
-This is a draft conversion. The nsl:citing translation requires maintainer confirmation. Scientific-name usage identifiers are unresolved for 64,713 source records and are represented by anonymous nodes; these nodes do not assert distinct real-world usages. Publication identifiers and page numbers are included only where verified from APNI source evidence.""" ;
+Each scientific-name IRI has its scientific-name text and associated common-name texts expressed with dwc:scientificName and dwc:vernacularName. These APNI IRIs identify names; no taxon class assertions are added. Repeated lookup pairs are deduplicated while many-to-many associations are retained. Name-usage and citation evidence is available from the NSL; the original CSV is preserved with the reproducible method.""" ;
+    schema:creditText "Derived from the Australian Plant Name Index (APNI), National Species List. The preserved source CSV supplies citations and attribution IRIs, all of which identify the scientific-name resources used as lookup subjects. Adapted into a deduplicated common-name lookup dataset." ;
     schema:identifier "APNI" ;
     schema:isBasedOn <https://biodiversity.org.au/nsl/services/export/index> ;
-    schema:license ccby3: ;
+    schema:license <http://creativecommons.org/licenses/by/3.0/> ;
     schema:name "APNI Common Names" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "1" ;
-    prov:wasDerivedFrom csv: ;
+    prov:wasDerivedFrom <urn:sha256:0f654184d6ae6f1f6b49e0b8ce357c0332440389fc9804b25c1bc00f75a2f4b7> ;
 .
