@@ -1,0 +1,10387 @@
+PREFIX afd: <http://biodiversity.org.au/afd.taxon/>
+PREFIX apni: <https://id.biodiversity.org.au/name/apni/>
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+PREFIX schema: <https://schema.org/>
+
+afd:001dffd9-f4fa-4e9e-98a0-b4ceff6c9a4d
+    a dwc:Taxon ;
+.
+
+afd:003a110b-42c6-4d82-8172-e5531e03248a
+    a dwc:Taxon ;
+.
+
+afd:0058f9b2-a9c1-49a2-811b-9b2efcc8e279
+    a dwc:Taxon ;
+.
+
+afd:0068714f-cc38-49e8-9541-7ff0e796b5f9
+    a dwc:Taxon ;
+.
+
+afd:00a639e3-ddd3-4273-b8a2-d966e52a33aa
+    a dwc:Taxon ;
+.
+
+afd:00c729f6-36a4-440d-85e9-5e9ad83a5ca0
+    a dwc:Taxon ;
+.
+
+afd:00cf9ec9-1cd2-4389-a1fc-a080ee3c81d6
+    a dwc:Taxon ;
+.
+
+afd:0120164e-ebea-4367-863d-0bbf72ad8379
+    a dwc:Taxon ;
+.
+
+afd:013aaec6-a6ea-42fb-ac55-46928493aa50
+    a dwc:Taxon ;
+.
+
+afd:01c0c48d-e8a2-40a3-854e-67f82b07aea0
+    a dwc:Taxon ;
+.
+
+afd:01c82abd-dd9c-43e4-a4db-f5c0c6e5ff46
+    a dwc:Taxon ;
+.
+
+afd:01f4cef7-4dd4-40ab-b0e4-c8234b2164d2
+    a dwc:Taxon ;
+.
+
+afd:021abcd8-5f6c-4149-9759-182a96065bc8
+    a dwc:Taxon ;
+.
+
+afd:02542d2e-ee7e-45ba-b960-0e379d994d4c
+    a dwc:Taxon ;
+.
+
+afd:027e288a-6cdd-4ff8-9ef5-4d4b5690783d
+    a dwc:Taxon ;
+.
+
+afd:0337967c-90b3-4106-b211-b29f5ca7a9b7
+    a dwc:Taxon ;
+.
+
+afd:034518df-90f9-47fc-961b-cc3c9ca067b0
+    a dwc:Taxon ;
+.
+
+afd:038c39ed-1c57-4943-9528-61fd3c2bb31a
+    a dwc:Taxon ;
+.
+
+afd:045c0c03-1711-477e-8ee5-33c81eb42099
+    a dwc:Taxon ;
+.
+
+afd:050e7124-9060-46e5-859f-519e4d47730e
+    a dwc:Taxon ;
+    schema:name "Amytornis modestus" ;
+.
+
+afd:0552a891-e2c8-4b8b-8fa2-37825fb24f88
+    a dwc:Taxon ;
+.
+
+afd:068def1b-0d1a-407d-9131-54f6fb5d68c9
+    a dwc:Taxon ;
+.
+
+afd:06df1905-d2a1-464b-a25b-12623cfab707
+    a dwc:Taxon ;
+.
+
+afd:076b9d9c-cdfd-4d8f-8e73-eaaa00a33259
+    a dwc:Taxon ;
+.
+
+afd:0778c950-bab7-4e06-b45d-47990d1485f6
+    a dwc:Taxon ;
+.
+
+afd:07d71174-9ef7-44fc-b055-e62bdbb1830b
+    a dwc:Taxon ;
+.
+
+afd:082bed5b-72fa-440f-8b16-9c8f3cd8875d
+    a dwc:Taxon ;
+.
+
+afd:090674f8-fbc6-4044-997e-2479823bfde8
+    a dwc:Taxon ;
+.
+
+afd:0974b5aa-f5bf-47cc-9cf3-337dcc113c19
+    a dwc:Taxon ;
+.
+
+afd:097cb960-d24c-42d5-9ec1-a7e3cbf6fec1
+    a dwc:Taxon ;
+.
+
+afd:0a02d098-7006-43a3-bc9d-1dbd846cf5ce
+    a dwc:Taxon ;
+.
+
+afd:0a1c6c0a-4964-4dd7-8e5c-5a419dc1f4e4
+    a dwc:Taxon ;
+.
+
+afd:0a72ddbe-548a-431a-95cf-1e433f568479
+    a dwc:Taxon ;
+.
+
+afd:0ad9b5d2-0ddf-4cdf-aab5-c7c8e8016157
+    a dwc:Taxon ;
+.
+
+afd:0ae46629-cb16-4298-9ce0-1d2dddcf71a1
+    a dwc:Taxon ;
+.
+
+afd:0b112a11-cfec-4599-8c5a-056e19631bf7
+    a dwc:Taxon ;
+.
+
+afd:0b118f69-1672-4a1b-833e-23d2ad18adae
+    a dwc:Taxon ;
+.
+
+afd:0ba19a99-7771-4774-a5fb-857cee1cc65f
+    a dwc:Taxon ;
+.
+
+afd:0c5bfca8-f73a-4c8e-be98-fa8c8556d06d
+    a dwc:Taxon ;
+.
+
+afd:0d0dafa8-5aa2-4b42-8bce-7452db362ca5
+    a dwc:Taxon ;
+.
+
+afd:0d32676a-b908-42b4-b629-98b96b96343a
+    a dwc:Taxon ;
+.
+
+afd:0d382040-d26d-4009-921a-abf76013df3a
+    a dwc:Taxon ;
+.
+
+afd:0d73960c-5255-4146-93bd-b71d84d1867b
+    a dwc:Taxon ;
+.
+
+afd:0e647393-fbcb-470a-994f-068aebecfceb
+    a dwc:Taxon ;
+.
+
+afd:0e6710fa-db89-4947-ae35-c901be6dc3dd
+    a dwc:Taxon ;
+.
+
+afd:0ed8d52e-d2ad-4e2d-99ad-16da31618c1b
+    a dwc:Taxon ;
+.
+
+afd:0f0a9c3c-9097-4749-9427-ecbf937d1038
+    a dwc:Taxon ;
+.
+
+afd:0f438409-f71b-40f5-954a-6c9e49629473
+    a dwc:Taxon ;
+.
+
+afd:0f679c09-69ba-4eb8-8dd3-e127fe085134
+    a dwc:Taxon ;
+.
+
+afd:0f718997-2828-4e04-9bb5-d34e16deb827
+    a dwc:Taxon ;
+.
+
+afd:0fbbfc60-82fb-41a9-95f2-6dcadc7ffbf0
+    a dwc:Taxon ;
+.
+
+afd:10b4838c-82a1-49ae-a355-444602c006e2
+    a dwc:Taxon ;
+.
+
+afd:10b9c5a9-7c3f-4d71-940b-e0675adea0e3
+    a dwc:Taxon ;
+.
+
+afd:10df901b-8003-42bf-9885-7700f6ff9a88
+    a dwc:Taxon ;
+.
+
+afd:10fe0c0c-8472-47f9-bc57-fe66017f573a
+    a dwc:Taxon ;
+.
+
+afd:112ea671-d2d9-40d9-a507-dc1614e048c2
+    a dwc:Taxon ;
+.
+
+afd:119c0a0c-d104-4df2-8f72-764c6e4476a1
+    a dwc:Taxon ;
+.
+
+afd:119fa8ed-0b11-49ac-bf42-bde5a7a144e8
+    a dwc:Taxon ;
+.
+
+afd:121dedde-b1cc-47a3-bf8e-9323a7296b2e
+    a dwc:Taxon ;
+.
+
+afd:1243bf40-dbce-477f-8a63-5e81c4ba38ef
+    a dwc:Taxon ;
+.
+
+afd:1265b13a-52b4-462f-8b28-0575df7ff68d
+    a dwc:Taxon ;
+.
+
+afd:13a9b415-8fcb-4000-93d4-d2247439e1e9
+    a dwc:Taxon ;
+.
+
+afd:13ffb93f-1fa9-4fe5-8e60-3e88e079471a
+    a dwc:Taxon ;
+.
+
+afd:142a28c4-46f2-48c3-9f3f-de6f29193196
+    a dwc:Taxon ;
+.
+
+afd:1433e99d-5897-494b-98b2-1706f3505318
+    a dwc:Taxon ;
+.
+
+afd:1441c509-faf3-405e-a534-c51cccc4d720
+    a dwc:Taxon ;
+.
+
+afd:146c2075-050b-4395-8c8d-9ad756726bb5
+    a dwc:Taxon ;
+.
+
+afd:14aa4105-5988-48ac-b963-82e4856777cb
+    a dwc:Taxon ;
+.
+
+afd:14c1ae5d-9501-4222-b900-2dbd0cb00f0c
+    a dwc:Taxon ;
+.
+
+afd:14e659fa-e5c0-446c-aa07-c748889c8495
+    a dwc:Taxon ;
+.
+
+afd:15f8fca2-0bbd-4d4c-939f-3ca8f0cfaaa7
+    a dwc:Taxon ;
+.
+
+afd:16772382-1f5b-45a0-9954-43f9e34d762e
+    a dwc:Taxon ;
+.
+
+afd:169a9a4d-20a1-4f17-8cdc-c7b57bdb5857
+    a dwc:Taxon ;
+.
+
+afd:16ed6367-90fb-4c22-9953-f92c27d22e9f
+    a dwc:Taxon ;
+.
+
+afd:177fbe63-4e52-4dd1-9f05-cf64ab8c48c8
+    a dwc:Taxon ;
+.
+
+afd:19099d2f-b182-4871-9c22-7953d26d82c5
+    a dwc:Taxon ;
+.
+
+afd:19465e79-c34b-4da6-acf1-266d00c7b4d3
+    a dwc:Taxon ;
+.
+
+afd:194f92a8-346a-47cd-803a-17263f758b9d
+    a dwc:Taxon ;
+.
+
+afd:1958a1ff-0233-4257-9f8c-032dcadb6fea
+    a dwc:Taxon ;
+.
+
+afd:19c040a8-4605-44bd-ac9e-01a112dca4d4
+    a dwc:Taxon ;
+.
+
+afd:19ef682c-bb52-4f0f-962e-391fffc4f984
+    a dwc:Taxon ;
+.
+
+afd:1a8be414-b418-4d65-b0b1-70fe24e092ec
+    a dwc:Taxon ;
+.
+
+afd:1b34b331-a8df-4919-9b09-a2f1905c5abe
+    a dwc:Taxon ;
+.
+
+afd:1b4901b0-a4e2-42d0-9a33-e63992d44bf2
+    a dwc:Taxon ;
+.
+
+afd:1b98dfce-7d28-4513-a6f4-c9b95e760503
+    a dwc:Taxon ;
+.
+
+afd:1bacffb1-9a12-41e5-800b-5701f8d80910
+    a dwc:Taxon ;
+.
+
+afd:1c4c3c95-f463-4c0b-9b24-4780a08767bd
+    a dwc:Taxon ;
+.
+
+afd:1d139479-3450-4c0d-9d69-652e86dd8706
+    a dwc:Taxon ;
+.
+
+afd:1d1e8c5b-7e66-46c9-9f8c-477c9e70b69c
+    a dwc:Taxon ;
+.
+
+afd:1d7e49b0-fef7-40de-af52-332c419870d2
+    a dwc:Taxon ;
+    schema:name "Maccullochella macquariensis" ;
+.
+
+afd:1dd2fde9-3f0a-4f3e-a19c-1cd2b57e4f90
+    a dwc:Taxon ;
+.
+
+afd:1df1b514-4e2d-45d7-b53d-146e265dc060
+    a dwc:Taxon ;
+.
+
+afd:1e88bfbe-b8b8-403f-8cd3-c5f5b006e4ef
+    a dwc:Taxon ;
+.
+
+afd:1e9f1b49-78b5-409d-91f2-21615ce88e9d
+    a dwc:Taxon ;
+.
+
+afd:1ee2d2e0-082a-4ac2-957f-50d46b1ab6ac
+    a dwc:Taxon ;
+.
+
+afd:1f178bbc-b2e3-49fe-b5a4-5e76c510b82f
+    a dwc:Taxon ;
+.
+
+afd:1f3bf926-fd49-436c-9e1f-a71a2a3e3d6f
+    a dwc:Taxon ;
+.
+
+afd:1f9df97f-0954-4ec1-93ba-e712a1bfbbcc
+    a dwc:Taxon ;
+.
+
+afd:1fe2ae3f-6c6a-4036-b7a5-221fa0198e91
+    a dwc:Taxon ;
+.
+
+afd:2130b539-3403-459b-af47-b344c6487327
+    a dwc:Taxon ;
+.
+
+afd:215be62a-f17a-4aaa-afb7-4227dba97af1
+    a dwc:Taxon ;
+.
+
+afd:21c498a1-8389-4119-aaa3-082637aaa697
+    a dwc:Taxon ;
+.
+
+afd:21ec5581-bdb0-4e4d-8099-622f441a0ce0
+    a dwc:Taxon ;
+.
+
+afd:2312bcff-fa26-4a88-a63e-bbad04c1a478
+    a dwc:Taxon ;
+.
+
+afd:2595dcfd-30f7-48f6-a50e-af3551bd9cc8
+    a dwc:Taxon ;
+.
+
+afd:25d7e1f3-59e4-441b-81b0-c595c2bdd77d
+    a dwc:Taxon ;
+.
+
+afd:26189cec-225b-4e62-84c5-3090a13fa2f4
+    a dwc:Taxon ;
+.
+
+afd:26661cf7-c6ef-428a-8663-37ea8b94eec7
+    a dwc:Taxon ;
+.
+
+afd:272d7820-32ff-42c0-b8c7-e5b502c81dbc
+    a dwc:Taxon ;
+.
+
+afd:27484bb7-8d51-4387-8a2f-885e917fe440
+    a dwc:Taxon ;
+.
+
+afd:2760b380-f1c1-4508-a18e-bafb59e56c25
+    a dwc:Taxon ;
+.
+
+afd:27699746-d3eb-42da-9988-e34856295b2f
+    a dwc:Taxon ;
+.
+
+afd:27d0a357-0b52-4304-8dad-f354a8bf3c72
+    a dwc:Taxon ;
+.
+
+afd:284e5ae7-d20b-4b56-8f4f-87713cc0f2ed
+    a dwc:Taxon ;
+.
+
+afd:286824cf-fce6-4101-9c37-6dac6fcd9593
+    a dwc:Taxon ;
+.
+
+afd:28f73d5e-f172-44ce-ab4a-bbe9ce75ce14
+    a dwc:Taxon ;
+.
+
+afd:29ccdca6-c9e6-44da-8c88-891375f748c0
+    a dwc:Taxon ;
+.
+
+afd:2a4bcc53-5e3e-4583-ab87-1c09baac1933
+    a dwc:Taxon ;
+.
+
+afd:2a971680-b934-4709-86e7-80c5f3b9cf1b
+    a dwc:Taxon ;
+.
+
+afd:2ab44058-171c-4b04-a8d1-1b2121490df3
+    a dwc:Taxon ;
+.
+
+afd:2ad14c18-0bca-44bd-9284-e8651418288d
+    a dwc:Taxon ;
+.
+
+afd:2b23deb2-74be-4deb-ab3e-867d7d3414d2
+    a dwc:Taxon ;
+.
+
+afd:2b4f99a2-acd3-49ac-ba13-eb45ef63cce9
+    a dwc:Taxon ;
+.
+
+afd:2b7abc36-1341-4566-a887-a72b54381ddd
+    a dwc:Taxon ;
+.
+
+afd:2b8a85d4-ff15-47fe-b420-45cbf4126ddf
+    a dwc:Taxon ;
+.
+
+afd:2baeb4b1-98ca-497f-a3e8-0c215a4b69f7
+    a dwc:Taxon ;
+.
+
+afd:2c0e502e-f6ae-4efb-a023-d068a7955879
+    a dwc:Taxon ;
+.
+
+afd:2c30d58b-572b-4dab-8644-b222c28eb0ec
+    a dwc:Taxon ;
+.
+
+afd:2c409774-c534-4a3a-b61a-d95964b98a37
+    a dwc:Taxon ;
+.
+
+afd:2c8750a3-60ab-4cbf-ac00-c5c5bb7b28a8
+    a dwc:Taxon ;
+.
+
+afd:2cdbce86-4bc5-4d91-b435-f8a01277cda4
+    a dwc:Taxon ;
+.
+
+afd:2d605472-979b-49b4-aed3-03a384e9f706
+    a dwc:Taxon ;
+.
+
+afd:2d7f7bf4-2da9-4fea-874d-3a45813449de
+    a dwc:Taxon ;
+.
+
+afd:2da4cbaa-005f-4346-8e11-6a1e5ddd0444
+    a dwc:Taxon ;
+.
+
+afd:2ecff0de-1ba4-4b53-a368-0e01d36c289d
+    a dwc:Taxon ;
+.
+
+afd:2f2ceb96-42de-4259-8a84-a7733ffc14fb
+    a dwc:Taxon ;
+.
+
+afd:2f3ea648-36e2-4e5b-8d30-b6272a7efce4
+    a dwc:Taxon ;
+.
+
+afd:2fa47871-3637-4b3a-bfd8-89750d53e8fa
+    a dwc:Taxon ;
+.
+
+afd:30b4b2e5-0d5b-46cb-bddb-a2137a35fa2c
+    a dwc:Taxon ;
+.
+
+afd:30eb983b-9b23-498d-b4c1-d8b8c7353d6f
+    a dwc:Taxon ;
+.
+
+afd:30fdf6d4-ede8-41fc-a4fb-ee5b8c4387f6
+    a dwc:Taxon ;
+.
+
+afd:31816b09-0345-4cac-bd79-0706236891a7
+    a dwc:Taxon ;
+.
+
+afd:31869a0e-2ce5-40be-b6f6-c0231a48b414
+    a dwc:Taxon ;
+.
+
+afd:3191705d-10db-47a8-bbbf-1e232203bd22
+    a dwc:Taxon ;
+.
+
+afd:31a2070b-78a5-4600-8956-eff338f14607
+    a dwc:Taxon ;
+.
+
+afd:329f51e9-69c7-47e5-94af-38c99fc32d40
+    a dwc:Taxon ;
+.
+
+afd:3320809b-5761-46db-8d60-e66586d98f8d
+    a dwc:Taxon ;
+.
+
+afd:33e7df24-5f52-444c-ae64-64ace839a0bf
+    a dwc:Taxon ;
+.
+
+afd:340484bd-33f6-4b46-a63c-751f0b159ed1
+    a dwc:Taxon ;
+.
+
+afd:343baa6c-e0f2-46c7-80d9-85e843499472
+    a dwc:Taxon ;
+.
+
+afd:34832b73-b9cb-4e1b-97b3-a6b00ed8c9d8
+    a dwc:Taxon ;
+.
+
+afd:34bb3b12-72af-4d3e-b7ab-fa4b0a071934
+    a dwc:Taxon ;
+.
+
+afd:34e2fa52-63f3-4569-860d-53df5c3d4393
+    a dwc:Taxon ;
+.
+
+afd:35359d1d-71ec-4f5c-a11e-50dbe43d9a52
+    a dwc:Taxon ;
+.
+
+afd:35b4a9a6-6971-49f5-b884-8af33ec14298
+    a dwc:Taxon ;
+.
+
+afd:364e7d1c-d626-4b67-98b7-3608828b0dae
+    a dwc:Taxon ;
+.
+
+afd:37208f9a-2086-4b11-a4c1-1a5e313a1dc1
+    a dwc:Taxon ;
+.
+
+afd:37dd0455-e35f-483b-882a-ad959a5c96d2
+    a dwc:Taxon ;
+.
+
+afd:37ee8c4a-a0a0-4761-8f68-a6fea261a963
+    a dwc:Taxon ;
+.
+
+afd:38185d5b-f373-49a2-9e6f-e48481a128e8
+    a dwc:Taxon ;
+.
+
+afd:383a27a1-7995-44f4-b272-5b61ef79000c
+    a dwc:Taxon ;
+.
+
+afd:383daf29-74b1-40b1-9014-51bbf3af8898
+    a dwc:Taxon ;
+.
+
+afd:38494a6c-300d-4321-9d38-cae93b68803e
+    a dwc:Taxon ;
+.
+
+afd:38a5a409-3f58-4522-acec-61444d999bd2
+    a dwc:Taxon ;
+.
+
+afd:38b3394e-7f8c-46f4-a5b0-773aee68c0be
+    a dwc:Taxon ;
+.
+
+afd:38c54e96-231d-46bb-b695-55a1062aa396
+    a dwc:Taxon ;
+.
+
+afd:390e42c3-7942-4c02-b7d1-fc12dcf1f79e
+    a dwc:Taxon ;
+.
+
+afd:391d9df2-001e-4237-9f80-7363c84f43c3
+    a dwc:Taxon ;
+.
+
+afd:397effe0-0dd3-4f36-ae50-9bf890c854fe
+    a dwc:Taxon ;
+.
+
+afd:39d7a0d1-5bbf-458d-b7a9-88167ed3aec1
+    a dwc:Taxon ;
+.
+
+afd:3a012b1b-272d-460d-85d0-568a90fc4d78
+    a dwc:Taxon ;
+.
+
+afd:3a17e840-4a49-4354-b972-d04baffef264
+    a dwc:Taxon ;
+.
+
+afd:3b0d9a98-3512-4a4b-bc1f-51f0331aa337
+    a dwc:Taxon ;
+.
+
+afd:3b102dda-5119-4719-88f9-278dc9e661ea
+    a dwc:Taxon ;
+.
+
+afd:3b2acd1a-e4f6-4456-b33b-8027263a0e1e
+    a dwc:Taxon ;
+.
+
+afd:3c01eaa6-9604-4c5e-a871-129c5aa3ba4f
+    a dwc:Taxon ;
+.
+
+afd:3ce5a7e3-24fb-4054-9f18-a1effb88d5a8
+    a dwc:Taxon ;
+.
+
+afd:3d2396a0-b532-410a-87e7-d1fe3ab497f6
+    a dwc:Taxon ;
+.
+
+afd:3d4c3424-d202-49ab-ab52-58a0d7e5d9ed
+    a dwc:Taxon ;
+.
+
+afd:3d517625-8e5e-4e37-97d5-71c4d2c2052b
+    a dwc:Taxon ;
+.
+
+afd:3d6cb061-86d7-4d30-a5cf-69584279dd08
+    a dwc:Taxon ;
+.
+
+afd:3dc33778-3467-40f8-918a-3d8a2ef087a5
+    a dwc:Taxon ;
+    schema:name "Maccullochella macquariensis" ;
+.
+
+afd:3deb7140-b57f-4c54-a55a-4c2e5770dea4
+    a dwc:Taxon ;
+.
+
+afd:3e9c17c9-270f-4a74-9ed8-7ccabd575be9
+    a dwc:Taxon ;
+.
+
+afd:3ea16688-8600-4d08-a362-1d5bd33af2aa
+    a dwc:Taxon ;
+.
+
+afd:3f762b77-7558-46c9-8b92-8901a1385b3d
+    a dwc:Taxon ;
+.
+
+afd:3f801124-1c3c-4557-a727-c7dabcd89b2b
+    a dwc:Taxon ;
+.
+
+afd:3fbe55ce-7637-4abd-a61e-7100f6267f4e
+    a dwc:Taxon ;
+.
+
+afd:408f674e-5ac8-48dd-b365-a87363c486cc
+    a dwc:Taxon ;
+.
+
+afd:4090ad27-9c69-454d-aa47-23860b9ee50b
+    a dwc:Taxon ;
+.
+
+afd:40d07e9c-276c-4dae-8691-813785a3b3e1
+    a dwc:Taxon ;
+.
+
+afd:4136dd25-d0c3-4cec-bbfa-7016d6fcf02a
+    a dwc:Taxon ;
+.
+
+afd:41661a6d-9550-4583-9d6f-85957f9c6e7f
+    a dwc:Taxon ;
+.
+
+afd:4284bd98-dc7f-427b-baa2-147ef645090f
+    a dwc:Taxon ;
+.
+
+afd:42d29ac1-30bc-4420-a0f4-b10e888398e5
+    a dwc:Taxon ;
+.
+
+afd:42d3f3e2-b310-4515-aa96-304d232d172b
+    a dwc:Taxon ;
+.
+
+afd:42ffd1cc-f651-4139-9d56-ce662cfa1cbc
+    a dwc:Taxon ;
+.
+
+afd:438b3ad9-61f6-4a9f-84ea-395f1d13be74
+    a dwc:Taxon ;
+.
+
+afd:43b0abb2-bdfd-44ca-8880-5d3a1e9ab002
+    a dwc:Taxon ;
+.
+
+afd:43b7edc0-009d-432a-82f4-0e7f71e1f7cf
+    a dwc:Taxon ;
+.
+
+afd:43e4150d-240b-49df-a875-165b9d8b9865
+    a dwc:Taxon ;
+.
+
+afd:446bbd9b-4648-4356-975a-ee6b1a5f9846
+    a dwc:Taxon ;
+.
+
+afd:44b923c7-16f2-42ab-8b6c-67ee6e4da28f
+    a dwc:Taxon ;
+.
+
+afd:44e919a7-fa7e-4863-ba19-8277c7864bca
+    a dwc:Taxon ;
+.
+
+afd:450bbdd2-cd50-4505-9466-15c1e24f7aa0
+    a dwc:Taxon ;
+.
+
+afd:45824290-5e17-471e-a7e8-85ce4bbab20d
+    a dwc:Taxon ;
+.
+
+afd:4599875a-5bc9-4dde-99df-3b8b8692af88
+    a dwc:Taxon ;
+.
+
+afd:45b5aefd-c9c3-418b-804e-6647acc74bf2
+    a dwc:Taxon ;
+.
+
+afd:45bd036a-9d52-48a0-bbb0-c76b206d2682
+    a dwc:Taxon ;
+.
+
+afd:45dfd244-d0c9-447c-ab19-0ac46382e0de
+    a dwc:Taxon ;
+.
+
+afd:45fd32b2-f4b6-42c9-920e-424d8f9beced
+    a dwc:Taxon ;
+.
+
+afd:4674bbb7-2b1d-4223-96de-4a933c242092
+    a dwc:Taxon ;
+.
+
+afd:46b0789b-9609-4424-8e7f-96b6b39f3b86
+    a dwc:Taxon ;
+.
+
+afd:46b3b292-7795-4db3-b1cb-b8148a6223a7
+    a dwc:Taxon ;
+.
+
+afd:46fca72f-4a32-44c5-a67c-770bd5333f55
+    a dwc:Taxon ;
+.
+
+afd:4702b1f3-27eb-4fd1-bbde-18ff251f0586
+    a dwc:Taxon ;
+.
+
+afd:4719ff01-9ce1-46b7-9d07-6fb76bc33663
+    a dwc:Taxon ;
+.
+
+afd:47768940-d139-46b4-8be1-e883afdef248
+    a dwc:Taxon ;
+.
+
+afd:47b845bd-eb8e-4912-9785-4247a8219839
+    a dwc:Taxon ;
+.
+
+afd:47d90301-50df-4d0f-8bc4-e369c08275d6
+    a dwc:Taxon ;
+.
+
+afd:489b57c7-4f23-43c7-b465-fdc55f3baad3
+    a dwc:Taxon ;
+.
+
+afd:48c8fa2a-80e6-45a5-aeba-0867467f9c97
+    a dwc:Taxon ;
+.
+
+afd:49eab15a-4b40-45e5-a727-ab148a551afb
+    a dwc:Taxon ;
+.
+
+afd:49f21752-a75c-4f94-82fb-b3dad2328bbc
+    a dwc:Taxon ;
+.
+
+afd:4a019c0f-e4e0-49d9-abd4-b76a55793613
+    a dwc:Taxon ;
+.
+
+afd:4a07d197-6949-4954-9463-3d78b6e3e52e
+    a dwc:Taxon ;
+.
+
+afd:4a124472-f2b3-43e7-a30e-7fcc5bf479cf
+    a dwc:Taxon ;
+.
+
+afd:4a3105b5-ef0a-4e05-aeed-73683ad12b03
+    a dwc:Taxon ;
+.
+
+afd:4a3251d7-ba3a-4d76-a3e4-0da76548c0be
+    a dwc:Taxon ;
+.
+
+afd:4a364bfd-50a2-406b-a0a9-0b6580995221
+    a dwc:Taxon ;
+.
+
+afd:4aad68ad-4e06-4fa2-b76f-425a7f655963
+    a dwc:Taxon ;
+.
+
+afd:4b8ed0af-40ed-4105-8467-4d96b34f1951
+    a dwc:Taxon ;
+.
+
+afd:4babfbc7-acbe-419f-9778-997b42b1fe3a
+    a dwc:Taxon ;
+.
+
+afd:4bfad4eb-5bc5-4087-873a-b8976be9d7bd
+    a dwc:Taxon ;
+.
+
+afd:4c73a934-63ae-417d-af40-56a82ae68371
+    a dwc:Taxon ;
+.
+
+afd:4cb195fd-b127-44cb-ad85-a62d224e9a96
+    a dwc:Taxon ;
+.
+
+afd:4d92cf23-f867-4815-b28e-4f5a8f2827e0
+    a dwc:Taxon ;
+.
+
+afd:4de14593-cecd-4216-af1b-6f9f3909dd25
+    a dwc:Taxon ;
+.
+
+afd:4deec9e6-772f-41c6-8910-1a17eef68598
+    a dwc:Taxon ;
+.
+
+afd:4f0c4314-0796-45ea-85cf-3f4ca504ab0c
+    a dwc:Taxon ;
+.
+
+afd:4f718b07-6711-4026-8063-df878b23de0a
+    a dwc:Taxon ;
+.
+
+afd:4fbd4b05-2035-46d9-b4a3-2a177b1d4f44
+    a dwc:Taxon ;
+.
+
+afd:4ff2ca2f-f776-4d3a-bad3-6db61de6afbb
+    a dwc:Taxon ;
+.
+
+afd:512c4089-6b92-4da6-9dca-1cc7b922922d
+    a dwc:Taxon ;
+.
+
+afd:513d222e-5b4e-46c7-813e-03c4a0e80f15
+    a dwc:Taxon ;
+.
+
+afd:518f412b-8c3c-439f-bc53-4ea98d785c3a
+    a dwc:Taxon ;
+.
+
+afd:51a873f5-30e1-4e87-bf2b-455bbde028f6
+    a dwc:Taxon ;
+.
+
+afd:5295f399-684a-47b9-95b8-ebc35119e338
+    a dwc:Taxon ;
+.
+
+afd:530e0ecb-3344-459e-937e-00989c6e7320
+    a dwc:Taxon ;
+.
+
+afd:5346cce2-f174-4a8e-b4ca-b4be088ac7e0
+    a dwc:Taxon ;
+.
+
+afd:539bc9a5-3d64-4de2-9cc5-90aac7518dc6
+    a dwc:Taxon ;
+.
+
+afd:53bdaf8f-d7f9-44bb-9c25-53f2232a83bc
+    a dwc:Taxon ;
+.
+
+afd:5417442d-bd73-4dd5-ac8d-56d85d7019fe
+    a dwc:Taxon ;
+.
+
+afd:54cdb91c-74d5-4708-8bf5-46c30000d90b
+    a dwc:Taxon ;
+.
+
+afd:54f47b9a-6e0c-46af-9d19-31ee9166b50d
+    a dwc:Taxon ;
+.
+
+afd:5526c312-451f-4c90-a69e-088b55be6956
+    a dwc:Taxon ;
+.
+
+afd:55518eda-6aff-4057-b99b-f8642daffeef
+    a dwc:Taxon ;
+.
+
+afd:55a527a1-ba94-4f00-87f7-0f54b60d4ba5
+    a dwc:Taxon ;
+.
+
+afd:55e18d27-0d27-4dde-91e2-95c4f5ff4e28
+    a dwc:Taxon ;
+.
+
+afd:5603b0c9-01b3-4e76-97ec-ab9761794b42
+    a dwc:Taxon ;
+.
+
+afd:56bf25bb-3f1f-443e-9a8f-9f382d4419a8
+    a dwc:Taxon ;
+.
+
+afd:57026f49-7348-48a4-895e-1ab655df3d2d
+    a dwc:Taxon ;
+.
+
+afd:5757843b-b85b-4471-baa4-d7bf29a4414a
+    a dwc:Taxon ;
+.
+
+afd:585f6243-c390-4f82-a844-f020c7b02675
+    a dwc:Taxon ;
+.
+
+afd:59683019-c7b6-45c4-afd9-cf93947fb7ac
+    a dwc:Taxon ;
+.
+
+afd:59c897d9-9571-4554-b65a-84d0076d6999
+    a dwc:Taxon ;
+.
+
+afd:5a3de787-3376-4218-9fc4-9711cff0b53d
+    a dwc:Taxon ;
+.
+
+afd:5c1957dc-0780-47cb-9c89-0498340c1e62
+    a dwc:Taxon ;
+.
+
+afd:5c372f0e-d257-4cdb-b558-f1383c53c3ee
+    a dwc:Taxon ;
+.
+
+afd:5c4819b5-6695-4eef-88a8-051ae9465079
+    a dwc:Taxon ;
+.
+
+afd:5c566548-e698-44bf-996f-8d9be78c02d8
+    a dwc:Taxon ;
+.
+
+afd:5c571352-4a2a-4080-94ba-57b887d578f5
+    a dwc:Taxon ;
+.
+
+afd:5cd964a7-f378-4f32-86f8-51745c6debdf
+    a dwc:Taxon ;
+.
+
+afd:5cfb45ca-ee57-483e-a417-08114e87217c
+    a dwc:Taxon ;
+.
+
+afd:5d4fdfee-25a2-4697-8237-5a755f0d19cc
+    a dwc:Taxon ;
+.
+
+afd:5e2dc7c9-4cff-485b-9f71-5ed99c0c8d3e
+    a dwc:Taxon ;
+.
+
+afd:5e97f950-8fbd-4f4c-b996-76e6ce09ab27
+    a dwc:Taxon ;
+.
+
+afd:5fa98209-aa95-4b76-a2ce-afe104316f7c
+    a dwc:Taxon ;
+.
+
+afd:5fe128a9-8133-484f-bbd4-e4578bde913b
+    a dwc:Taxon ;
+.
+
+afd:5ff29bca-f02f-468f-9f96-9ae956015e01
+    a dwc:Taxon ;
+.
+
+afd:607ec6ae-18b6-43e8-9e02-23f946aabdf7
+    a dwc:Taxon ;
+.
+
+afd:60c7cfbe-44a8-498b-be62-18500c31f383
+    a dwc:Taxon ;
+.
+
+afd:60cee5f9-e925-417a-911c-2f634482fc5f
+    a dwc:Taxon ;
+.
+
+afd:61d239cd-2b92-496e-8b95-049f56d93fc7
+    a dwc:Taxon ;
+.
+
+afd:62435ea0-629e-428d-af1f-bb8aa0fb4129
+    a dwc:Taxon ;
+.
+
+afd:6307ee70-7aa4-4a40-8700-d4563d3935a5
+    a dwc:Taxon ;
+.
+
+afd:634cc836-dc6b-4ba0-843a-661910974ddb
+    a dwc:Taxon ;
+.
+
+afd:635ae1f9-e4fc-4258-87ad-ea62c89ba129
+    a dwc:Taxon ;
+.
+
+afd:6386ed15-b4da-42be-a05b-4c4e1a1510f4
+    a dwc:Taxon ;
+.
+
+afd:63ebb9d8-ec8f-4ae4-93c6-6bf553c2d2c9
+    a dwc:Taxon ;
+.
+
+afd:63fe26dc-b98f-4ee6-8ee1-39f25e55f398
+    a dwc:Taxon ;
+.
+
+afd:646286ce-2537-40bb-8a0e-2b774c654cfb
+    a dwc:Taxon ;
+.
+
+afd:6485cd0c-f104-4950-8cdf-be4d09fc6bbc
+    a dwc:Taxon ;
+.
+
+afd:64b6b0d7-9358-4e0c-8f28-220f069b0d0e
+    a dwc:Taxon ;
+.
+
+afd:66b0dc84-12dd-4aca-a7b8-82d1ae89bc18
+    a dwc:Taxon ;
+.
+
+afd:66cf9e86-f1f3-4716-a4d3-cd4650ff087a
+    a dwc:Taxon ;
+.
+
+afd:66f862f5-b913-4ed6-aef4-a77a27013122
+    a dwc:Taxon ;
+.
+
+afd:6765ea54-8c5c-474c-b670-ac58c32f5d62
+    a dwc:Taxon ;
+.
+
+afd:67ab9a8c-5e66-4e3a-9062-82894aeb5f06
+    a dwc:Taxon ;
+.
+
+afd:68942162-d312-4934-b633-aee95c166e00
+    a dwc:Taxon ;
+.
+
+afd:68ac5938-4e81-4cc7-865f-d46b7c177450
+    a dwc:Taxon ;
+.
+
+afd:68ec3f26-dcfb-4467-9deb-b3db3a3ac744
+    a dwc:Taxon ;
+.
+
+afd:68f1f148-9451-4fbd-b906-3f99f30908d5
+    a dwc:Taxon ;
+.
+
+afd:6904e129-8196-4a7e-99d6-2db05adb58dc
+    a dwc:Taxon ;
+.
+
+afd:69884ea9-fd20-41f0-8109-f9d2d91786ef
+    a dwc:Taxon ;
+.
+
+afd:69f112e8-3fb0-4ef4-a776-8b228b807d8d
+    a dwc:Taxon ;
+.
+
+afd:6a432022-bee9-4759-8b2f-82202ad99e11
+    a dwc:Taxon ;
+.
+
+afd:6b1e59ce-dece-4488-bcb7-c3270d3802e6
+    a dwc:Taxon ;
+.
+
+afd:6b5027fe-ea3b-4c7a-a0b3-18d347ea67f3
+    a dwc:Taxon ;
+.
+
+afd:6bdb6f06-0385-498c-bc01-ada1a5d02dd1
+    a dwc:Taxon ;
+.
+
+afd:6bdf10b0-3c46-42d3-818d-ea12992f000e
+    a dwc:Taxon ;
+.
+
+afd:6c07deb3-a684-4d03-bfdb-59e411b0b85a
+    a dwc:Taxon ;
+.
+
+afd:6c646af8-06fb-40ae-83aa-3dd001cc4ea6
+    a dwc:Taxon ;
+.
+
+afd:6d74feb3-5a52-468e-851a-14de78223598
+    a dwc:Taxon ;
+.
+
+afd:6d7724e6-18f0-427c-8e9b-d79511d9ea81
+    a dwc:Taxon ;
+.
+
+afd:6dad05af-065a-4b0f-ac18-ff00331a3f3e
+    a dwc:Taxon ;
+.
+
+afd:6dc47706-d939-403a-97ec-ad4af84bc462
+    a dwc:Taxon ;
+.
+
+afd:6e30b504-27d6-4e6a-8c6e-67da1bdc12f4
+    a dwc:Taxon ;
+.
+
+afd:6e872b58-55d1-443c-a30e-0d90a57e3240
+    a dwc:Taxon ;
+.
+
+afd:6eb0c964-bb32-4e1a-8e5b-036e686790b1
+    a dwc:Taxon ;
+.
+
+afd:6f5059d5-4afb-4b6e-abe1-2c719d26916c
+    a dwc:Taxon ;
+.
+
+afd:702eb2fa-4723-4d0f-bca2-4e0d0770a6fb
+    a dwc:Taxon ;
+.
+
+afd:70b173fb-a9cc-4b73-a9ee-598d1b5289a6
+    a dwc:Taxon ;
+.
+
+afd:70d0cb6f-e664-4b6c-9b8b-2b6c34143ad6
+    a dwc:Taxon ;
+.
+
+afd:70e48a70-9b58-4a40-9126-bfa0848b2e4d
+    a dwc:Taxon ;
+.
+
+afd:71feaa45-8cd2-4d09-968a-94baf51cdad6
+    a dwc:Taxon ;
+.
+
+afd:729d4fff-3e86-4456-b77e-26ab264d835f
+    a dwc:Taxon ;
+.
+
+afd:72b23d0a-7050-413f-9100-3562d383888e
+    a dwc:Taxon ;
+.
+
+afd:730ed01d-22d8-4568-9a27-4f410bddc423
+    a dwc:Taxon ;
+.
+
+afd:733c3f8a-73b6-449d-9f15-5e5f129aae80
+    a dwc:Taxon ;
+.
+
+afd:73b5649a-7ce3-4162-8744-db9dad6e35af
+    a dwc:Taxon ;
+.
+
+afd:73c685d6-9a53-4d72-a918-4dd2807df6c7
+    a dwc:Taxon ;
+.
+
+afd:73e872a7-45d2-4909-a2a2-8b20a82efb8a
+    a dwc:Taxon ;
+.
+
+afd:745e9d92-2a2f-4ac7-963a-7a7787050aff
+    a dwc:Taxon ;
+.
+
+afd:7471a6a4-bdc4-4926-bcda-b9214faff8a0
+    a dwc:Taxon ;
+.
+
+afd:747f32f1-637d-439d-8586-ef0bb6fbb73b
+    a dwc:Taxon ;
+.
+
+afd:7490e212-c6cf-4603-bb11-4010f8703696
+    a dwc:Taxon ;
+.
+
+afd:74b13769-4c67-4e13-8f9d-8ac9eb01edc6
+    a dwc:Taxon ;
+.
+
+afd:751db3c4-976d-4979-89f7-175755c11bda
+    a dwc:Taxon ;
+.
+
+afd:7584b629-9971-4709-98d9-851477a25613
+    a dwc:Taxon ;
+.
+
+afd:75d130e6-c6bf-4d94-9f64-7552ce04b783
+    a dwc:Taxon ;
+.
+
+afd:75f38563-ec77-45dc-9165-29537c5e7291
+    a dwc:Taxon ;
+.
+
+afd:7690bb13-a2fb-47c5-93ea-6661128fb149
+    a dwc:Taxon ;
+.
+
+afd:76bbd715-5428-429d-a00a-92835ce695e4
+    a dwc:Taxon ;
+.
+
+afd:773949e2-9a9c-4e6a-97d0-0d7f93082deb
+    a dwc:Taxon ;
+.
+
+afd:77b6e3b9-5130-4aea-8c6d-791c0b3d6539
+    a dwc:Taxon ;
+.
+
+afd:77bcae99-0037-44c6-9769-957a93215eba
+    a dwc:Taxon ;
+.
+
+afd:77fde225-ce12-48fe-b697-60619d05159d
+    a dwc:Taxon ;
+.
+
+afd:7815aeb7-c36e-400e-b7ae-36109cd26d0d
+    a dwc:Taxon ;
+.
+
+afd:784547a8-bb1f-430d-946d-8e65cb5818c3
+    a dwc:Taxon ;
+.
+
+afd:78aa4243-7c03-4d35-b5ed-7a54902c9077
+    a dwc:Taxon ;
+.
+
+afd:78f90c37-493d-4df6-9915-51abbff8334d
+    a dwc:Taxon ;
+.
+
+afd:7980ad72-2f32-4d71-9d39-b8423c18d0f3
+    a dwc:Taxon ;
+.
+
+afd:7993d9b8-c777-41fc-984c-a1fda2c8878f
+    a dwc:Taxon ;
+.
+
+afd:7a4e8688-c4bd-4837-ab1c-528ba8b1cc93
+    a dwc:Taxon ;
+.
+
+afd:7a89ce97-069c-4d8e-a632-4629cb6faa58
+    a dwc:Taxon ;
+.
+
+afd:7af35797-7374-49bb-8fb2-c05ead3a9ef0
+    a dwc:Taxon ;
+.
+
+afd:7b021b01-1075-41c7-add0-ce020380b346
+    a dwc:Taxon ;
+.
+
+afd:7c138bfe-7dc0-42ca-8969-eeebf78fa806
+    a dwc:Taxon ;
+.
+
+afd:7c3782b3-ada2-42e4-8a2b-3201a779e7f3
+    a dwc:Taxon ;
+.
+
+afd:7c5a8f30-a2e9-4e77-bfab-b9b58d5a3cac
+    a dwc:Taxon ;
+.
+
+afd:7d417612-72f5-43a0-98fe-0082168585c9
+    a dwc:Taxon ;
+.
+
+afd:7dccf8d0-d4cb-4c64-ac85-93d52190e9e4
+    a dwc:Taxon ;
+.
+
+afd:7ea6b547-e9fb-4e69-8827-323f40a9175e
+    a dwc:Taxon ;
+.
+
+afd:7f11ef51-9180-45c9-b00b-dc4fb79aab7a
+    a dwc:Taxon ;
+.
+
+afd:803be932-5e9e-48a1-a025-ba68962864f9
+    a dwc:Taxon ;
+.
+
+afd:80cbab65-bdf7-4fd4-8666-f7579de78e4c
+    a dwc:Taxon ;
+.
+
+afd:80cf15e7-fd8d-44b2-a376-5de7bdf13963
+    a dwc:Taxon ;
+.
+
+afd:815cda4d-1cc9-48c0-9bb3-7f45113cf69f
+    a dwc:Taxon ;
+.
+
+afd:8167ccd6-00df-48d2-814f-06d68e522ac2
+    a dwc:Taxon ;
+.
+
+afd:81857922-5356-4867-991e-978af0992154
+    a dwc:Taxon ;
+.
+
+afd:81eebc89-0c0a-421a-be94-5628816a4de5
+    a dwc:Taxon ;
+.
+
+afd:82071245-6483-4e2d-9663-e0a5399a38cc
+    a dwc:Taxon ;
+.
+
+afd:82ed0913-1b27-4b2b-b2b3-09d1b3ce6ae5
+    a dwc:Taxon ;
+.
+
+afd:8308a376-50a5-483b-ac9f-39d702b817ec
+    a dwc:Taxon ;
+.
+
+afd:8323dd58-6aa8-442e-9446-a5d5cfb69241
+    a dwc:Taxon ;
+.
+
+afd:837ee431-9604-4f4c-9d21-8fd27be9c93b
+    a dwc:Taxon ;
+.
+
+afd:83bc222c-16be-4eba-8859-7528837f47f9
+    a dwc:Taxon ;
+.
+
+afd:83c20290-732b-4378-beec-0c960c3210ae
+    a dwc:Taxon ;
+.
+
+afd:84172fda-a40d-429d-86ab-a06caf204695
+    a dwc:Taxon ;
+.
+
+afd:8417f80d-acd6-4c01-a621-ae56142d3470
+    a dwc:Taxon ;
+.
+
+afd:84ea0e40-1fd9-48a6-8f41-e0d5a0dbee14
+    a dwc:Taxon ;
+.
+
+afd:852443bc-3d46-4c64-a687-e7984db0fa15
+    a dwc:Taxon ;
+.
+
+afd:85a604f5-2c9c-42e4-9aad-2b8405b9a172
+    a dwc:Taxon ;
+.
+
+afd:8692cabf-977f-49be-b8e6-24bca257c0a8
+    a dwc:Taxon ;
+.
+
+afd:876e067e-712e-4adf-828f-b6070ec0bd64
+    a dwc:Taxon ;
+.
+
+afd:87b4e946-69ed-419b-95b2-4777b9a64a0b
+    a dwc:Taxon ;
+.
+
+afd:88165c61-7326-4296-a688-0c3f0ad871e9
+    a dwc:Taxon ;
+.
+
+afd:88398d84-527f-4095-bf73-138fed671907
+    a dwc:Taxon ;
+.
+
+afd:883ab7bf-0ef9-42f6-8444-dc798a46effa
+    a dwc:Taxon ;
+.
+
+afd:88653999-1e2f-47d1-87fa-1f6d3e47ffb8
+    a dwc:Taxon ;
+.
+
+afd:88baab7c-da9c-4069-9a4e-182d19fcd307
+    a dwc:Taxon ;
+.
+
+afd:898acfa0-1ff7-48b4-80bc-af9cb375616e
+    a dwc:Taxon ;
+.
+
+afd:89b65b8d-5fc6-421d-8311-63265fd6eacf
+    a dwc:Taxon ;
+.
+
+afd:8a41c428-e001-4259-934f-36d5b55e9541
+    a dwc:Taxon ;
+.
+
+afd:8a91dbb9-16cd-406f-a88f-2fac9e1c17e3
+    a dwc:Taxon ;
+.
+
+afd:8bb546b4-3092-4c57-8234-763bee7872d3
+    a dwc:Taxon ;
+.
+
+afd:8cd45a27-ba23-4dbc-b9be-d10ef2269b27
+    a dwc:Taxon ;
+.
+
+afd:8d138008-fe4e-45a0-934d-1858edcefb85
+    a dwc:Taxon ;
+.
+
+afd:8dca3b67-fc38-4866-9a75-60ff070cc019
+    a dwc:Taxon ;
+.
+
+afd:8dcbc1a9-590b-4c6a-9aa2-5ed6f199de0b
+    a dwc:Taxon ;
+.
+
+afd:8e3f2223-9df5-4696-85fd-3279379819bc
+    a dwc:Taxon ;
+.
+
+afd:8e706a39-e1cc-445d-be5a-71500dba29e4
+    a dwc:Taxon ;
+.
+
+afd:8eaed094-2c20-4a5b-815f-ffdd0dcb9647
+    a dwc:Taxon ;
+.
+
+afd:8ee2b3e0-1be9-45f7-a4b0-1f6e8d5a97a9
+    a dwc:Taxon ;
+.
+
+afd:8fa8d059-9ce9-41f4-b604-63408d1de0b4
+    a dwc:Taxon ;
+.
+
+afd:9018dd38-7b7e-4405-8e71-a12d29026274
+    a dwc:Taxon ;
+.
+
+afd:907bd7e6-8c6b-4827-a113-541414d441fd
+    a dwc:Taxon ;
+.
+
+afd:90c13414-5069-4125-8b56-0b5c59a752e3
+    a dwc:Taxon ;
+.
+
+afd:90f703ab-4732-4c2e-8d8f-80beea975179
+    a dwc:Taxon ;
+.
+
+afd:910b27e8-19c3-4194-b55a-fd95a80ccdf9
+    a dwc:Taxon ;
+.
+
+afd:91271b6f-e398-49f9-a742-c4f568981d6e
+    a dwc:Taxon ;
+.
+
+afd:9247668f-abad-4aee-b7ca-9c8974351537
+    a dwc:Taxon ;
+.
+
+afd:924da89f-f735-47f1-ab31-c84591c04710
+    a dwc:Taxon ;
+.
+
+afd:9256a004-d30f-45e6-b71d-15ddd204df6a
+    a dwc:Taxon ;
+.
+
+afd:92c4924d-4646-4f3d-9b21-8bccbb523bf2
+    a dwc:Taxon ;
+.
+
+afd:92d9e655-49c1-4ba7-a8b3-4e5cc0adda6c
+    a dwc:Taxon ;
+.
+
+afd:9345a9fc-3f18-4e56-9d40-07cafa45c9cc
+    a dwc:Taxon ;
+.
+
+afd:93852469-f5e8-432e-ad53-fbd871afa035
+    a dwc:Taxon ;
+.
+
+afd:93d8dfb7-fc66-4d39-b46a-1b4a531ab6cb
+    a dwc:Taxon ;
+.
+
+afd:942015d2-8e50-4f83-a42c-94a418044f3a
+    a dwc:Taxon ;
+.
+
+afd:942564ee-c0b7-4f04-b3fd-de918e7ddeac
+    a dwc:Taxon ;
+.
+
+afd:945ffddf-9ea7-4d91-af99-46f1927f60b0
+    a dwc:Taxon ;
+.
+
+afd:94937c1c-9b1a-4b64-ab31-0b3a29b60154
+    a dwc:Taxon ;
+.
+
+afd:955b13a7-5761-4a45-8939-8a634547e9eb
+    a dwc:Taxon ;
+.
+
+afd:95cf54aa-42aa-475f-88c8-fbd313f2511a
+    a dwc:Taxon ;
+    schema:name "Litoria littlejohni" ;
+.
+
+afd:9605957e-396d-43b5-9025-997e1fee039a
+    a dwc:Taxon ;
+.
+
+afd:96133221-771a-40d0-8368-ad428a55aaaa
+    a dwc:Taxon ;
+.
+
+afd:9678cb19-af06-4915-a32e-713edee5a026
+    a dwc:Taxon ;
+.
+
+afd:96ccefe1-b5cc-454f-91a1-d24161d92cd0
+    a dwc:Taxon ;
+.
+
+afd:976e8b1e-5f47-4c29-99d2-711a1e68bda4
+    a dwc:Taxon ;
+.
+
+afd:97c06994-4a3b-4c0f-9b18-0c0e0181e68a
+    a dwc:Taxon ;
+.
+
+afd:9870b898-1858-464f-9a0f-39530a4a42ec
+    a dwc:Taxon ;
+.
+
+afd:98792f62-18a2-4a32-aae2-d9a8e48ca9db
+    a dwc:Taxon ;
+.
+
+afd:989a7126-df02-4f1f-a21f-feca59662947
+    a dwc:Taxon ;
+.
+
+afd:98d5f4a9-4cfc-424e-a34d-0204457fb418
+    a dwc:Taxon ;
+.
+
+afd:98dbf46a-2d65-4d23-b1d1-e5f31efe94e0
+    a dwc:Taxon ;
+.
+
+afd:98dbf664-a454-4472-81bf-325fa41a1876
+    a dwc:Taxon ;
+.
+
+afd:98e0160e-0414-40c4-b4fc-f0bb7543859a
+    a dwc:Taxon ;
+.
+
+afd:98ee66ef-b850-4f51-aa27-6ef21fc1f7e5
+    a dwc:Taxon ;
+.
+
+afd:991a1b28-9ca7-448a-80d6-360eba273879
+    a dwc:Taxon ;
+.
+
+afd:9a04e73b-de12-4168-9aa1-3765c67c7534
+    a dwc:Taxon ;
+.
+
+afd:9a3c1090-cf5f-40bf-a663-62a9a21509d6
+    a dwc:Taxon ;
+.
+
+afd:9a4b76d9-d6b1-44dd-8923-09285a11d72a
+    a dwc:Taxon ;
+.
+
+afd:9a977391-19d1-407a-b979-5d0fa4c49f32
+    a dwc:Taxon ;
+.
+
+afd:9ad4a41c-3731-42d6-92b8-995e2630e436
+    a dwc:Taxon ;
+.
+
+afd:9ae0c59b-e998-495f-92b9-45e69b2c1da3
+    a dwc:Taxon ;
+.
+
+afd:9b0e7696-cce9-4d7f-9cb4-8e134b48b7aa
+    a dwc:Taxon ;
+.
+
+afd:9b31383c-4745-4b8f-a3bd-8b9e91619e47
+    a dwc:Taxon ;
+.
+
+afd:9bb1445f-39e4-417e-b384-60a277447a4a
+    a dwc:Taxon ;
+.
+
+afd:9bdd61c1-9b46-4590-bfd9-80b3bff08ccf
+    a dwc:Taxon ;
+.
+
+afd:9bf2ae93-1adf-4851-b794-db84a88cfdb3
+    a dwc:Taxon ;
+.
+
+afd:9c73df1d-400f-4657-b61c-a216be2a964d
+    a dwc:Taxon ;
+.
+
+afd:9cc4adc1-2007-4319-bc7d-f75efdc44849
+    a dwc:Taxon ;
+.
+
+afd:9ce0f328-e25e-4b42-9dae-0cf35f16a98f
+    a dwc:Taxon ;
+.
+
+afd:9d1d0dbb-2334-4533-b1b0-430a010dd625
+    a dwc:Taxon ;
+.
+
+afd:9d7100b2-fba4-4d8b-963e-2d577266336f
+    a dwc:Taxon ;
+.
+
+afd:9daf14f2-931d-44a6-8537-5127c56ab950
+    a dwc:Taxon ;
+.
+
+afd:9dc627a5-6d74-43bc-9f67-6967e22181bb
+    a dwc:Taxon ;
+.
+
+afd:9e6b4a35-ccee-4617-b5b1-769f94f4ba17
+    a dwc:Taxon ;
+.
+
+afd:9e7a332b-a69c-415a-b48d-26cd16fa716d
+    a dwc:Taxon ;
+.
+
+afd:9f562f99-aac8-4b16-b3c9-04a7eea35269
+    a dwc:Taxon ;
+.
+
+afd:9fe878db-cb42-4934-b27d-d345a09d68df
+    a dwc:Taxon ;
+.
+
+afd:a12af08d-2a17-4458-83f1-197ef5b8cb50
+    a dwc:Taxon ;
+.
+
+afd:a1591e76-2f0e-4107-a24d-9263f58b03eb
+    a dwc:Taxon ;
+.
+
+afd:a1fe2952-8ce0-45af-a9d8-d3c4341d91ce
+    a dwc:Taxon ;
+.
+
+afd:a2074cb8-e146-452c-b326-e2b583f51cc6
+    a dwc:Taxon ;
+.
+
+afd:a2a8fc54-88b7-4b1c-8f1b-ad15998322cd
+    a dwc:Taxon ;
+.
+
+afd:a34dfb52-93d0-4e83-a8e6-470a98ba7d64
+    a dwc:Taxon ;
+.
+
+afd:a3ab603e-bb65-4cf3-bf43-ecc478a9683c
+    a dwc:Taxon ;
+    schema:name "Tympanocryptis pinguicolla Critically" ;
+.
+
+afd:a4725730-265f-4182-854c-cbfded23d3fe
+    a dwc:Taxon ;
+.
+
+afd:a4f843bc-c592-48e7-bb32-7a305dea33b1
+    a dwc:Taxon ;
+.
+
+afd:a50b9689-8426-4311-b6bf-5f3901d90019
+    a dwc:Taxon ;
+.
+
+afd:a51dca29-50e7-49b4-ae35-5c35a9c4f854
+    a dwc:Taxon ;
+.
+
+afd:a594b07a-b282-4d60-b5d6-e72db7650721
+    a dwc:Taxon ;
+.
+
+afd:a59d59b3-a9b5-4e6a-ab0e-7602c447d50e
+    a dwc:Taxon ;
+.
+
+afd:a5a1af00-5927-4180-9c90-089a1c7854ae
+    a dwc:Taxon ;
+.
+
+afd:a5b1896e-ef50-4571-ac94-7c1f1c031049
+    a dwc:Taxon ;
+.
+
+afd:a5d53376-7cf7-4893-8a5a-3ecc11eb846c
+    a dwc:Taxon ;
+.
+
+afd:a5f510c9-b2ef-4670-a863-c58fa6273cd4
+    a dwc:Taxon ;
+.
+
+afd:a62393ae-c5d3-4563-bf90-1cc81b50cdfa
+    a dwc:Taxon ;
+.
+
+afd:a6a0b147-0b68-4042-b59d-252a051f95c9
+    a dwc:Taxon ;
+.
+
+afd:a7578d10-e7ae-48c2-9deb-bab619125a6c
+    a dwc:Taxon ;
+.
+
+afd:a7c7c1e0-85ee-41fe-8b79-ac12e24a67e1
+    a dwc:Taxon ;
+.
+
+afd:a7d6f4db-19a4-4cec-82b5-3fdfd2eaf31b
+    a dwc:Taxon ;
+.
+
+afd:a7ee0bea-3061-4277-975f-a6b512078689
+    a dwc:Taxon ;
+.
+
+afd:a8235a89-b330-4051-adbe-f9b6c5ecb5a4
+    a dwc:Taxon ;
+.
+
+afd:a8dc4e72-b294-46ae-9f4a-a3da913ff4d3
+    a dwc:Taxon ;
+.
+
+afd:a8f33be5-028d-456b-90a7-d0224b0ad6d9
+    a dwc:Taxon ;
+.
+
+afd:a9520d19-15d6-4403-bd10-e5908872c087
+    a dwc:Taxon ;
+.
+
+afd:a9be89de-3bea-47fe-9357-89ad32e46898
+    a dwc:Taxon ;
+.
+
+afd:a9d44d5e-ef68-4ef0-a658-888e9c1b750e
+    a dwc:Taxon ;
+.
+
+afd:a9fa919f-b99d-4dd9-ac34-cf4599776c73
+    a dwc:Taxon ;
+.
+
+afd:aa0bc655-0210-4948-b101-287a7c131416
+    a dwc:Taxon ;
+.
+
+afd:aa8790f9-977b-46cf-a8d3-3532c59f81ff
+    a dwc:Taxon ;
+.
+
+afd:abdeb0f6-25da-4ac6-a9cb-3db939a77785
+    a dwc:Taxon ;
+.
+
+afd:abeb5bf8-d03e-4b33-a1ea-bcfc0695102c
+    a dwc:Taxon ;
+.
+
+afd:abf97dfa-7a70-4ba6-8df8-670fd7e0db34
+    a dwc:Taxon ;
+.
+
+afd:ac93f7f0-0686-4589-801a-5832378cb7c1
+    a dwc:Taxon ;
+.
+
+afd:ad029e80-76fe-4266-9972-9d3b87ae9c21
+    a dwc:Taxon ;
+.
+
+afd:adb0490f-59d9-4207-ac01-b1134b16beb6
+    a dwc:Taxon ;
+.
+
+afd:af04f7f0-4f83-4e56-b00d-747aeb5ed536
+    a dwc:Taxon ;
+.
+
+afd:af4aa046-93bb-40b9-9114-71bbe1225eb5
+    a dwc:Taxon ;
+.
+
+afd:b042c17d-27fd-4154-8bdf-519aeb952836
+    a dwc:Taxon ;
+.
+
+afd:b0592117-21ee-4351-a745-cea3e2cbcfcf
+    a dwc:Taxon ;
+.
+
+afd:b0d2c067-3834-4a40-b8a1-a3bab445f409
+    a dwc:Taxon ;
+.
+
+afd:b111adb3-c191-4c2b-86c9-b4532373c18e
+    a dwc:Taxon ;
+.
+
+afd:b1d20965-e327-4067-aff7-dfafc23fda32
+    a dwc:Taxon ;
+.
+
+afd:b2e980a7-3afe-46a6-9843-b515a767c58d
+    a dwc:Taxon ;
+.
+
+afd:b3e019a8-14ef-4490-a1e9-0b9f04d53a75
+    a dwc:Taxon ;
+.
+
+afd:b3e86e3c-548e-4196-bcca-72964656261a
+    a dwc:Taxon ;
+.
+
+afd:b420f5c3-2ff8-42cc-bd16-2369172fcf4b
+    a dwc:Taxon ;
+.
+
+afd:b4971f23-99a4-419f-bf99-549741781cf9
+    a dwc:Taxon ;
+.
+
+afd:b4c1587d-e4a8-44b3-81ba-f9aa40527e4a
+    a dwc:Taxon ;
+.
+
+afd:b554c87f-5132-459e-ab38-e9dcf7eb690c
+    a dwc:Taxon ;
+.
+
+afd:b5981535-b6c0-41e3-b573-9e383b91a9a4
+    a dwc:Taxon ;
+.
+
+afd:b5d42ef1-2994-407e-8023-7032814bbd82
+    a dwc:Taxon ;
+.
+
+afd:b5e75f5a-8f6f-45be-a599-85afc38fd8e0
+    a dwc:Taxon ;
+.
+
+afd:b6045bad-6c5e-46ba-8644-15c0bd6320bb
+    a dwc:Taxon ;
+.
+
+afd:b611ae7a-9667-44fe-bba7-7c36a90a1eed
+    a dwc:Taxon ;
+.
+
+afd:b656fdb9-e0bc-4acb-ad99-5c6a57ae76a9
+    a dwc:Taxon ;
+.
+
+afd:b67cc91b-b9f7-4755-b474-63bbb3a55fcb
+    a dwc:Taxon ;
+    schema:name "Perameles myosurus" ;
+.
+
+afd:b7786ebe-4ec4-49a0-87c5-d2388818391b
+    a dwc:Taxon ;
+.
+
+afd:b7b336b9-8628-4fcd-8c3b-0ef3384126e7
+    a dwc:Taxon ;
+.
+
+afd:b82e4c1d-cf1b-4f02-91d8-84a4828672a4
+    a dwc:Taxon ;
+.
+
+afd:b8d24240-2a8b-4d25-84b7-4c529dd038d9
+    a dwc:Taxon ;
+.
+
+afd:b97cb235-4a5c-4033-9922-06837b194de7
+    a dwc:Taxon ;
+.
+
+afd:b9b253e9-a56c-4a72-8ce3-15de06ef8417
+    a dwc:Taxon ;
+.
+
+afd:b9bd553a-fc19-4cb7-822e-b56023f44181
+    a dwc:Taxon ;
+.
+
+afd:b9c53be6-af57-4ee8-86f7-7078daac16d1
+    a dwc:Taxon ;
+.
+
+afd:ba52b998-fe2d-4bb8-ba03-eac3777ee012
+    a dwc:Taxon ;
+.
+
+afd:bc150e0a-660a-48bc-be74-bca735d54179
+    a dwc:Taxon ;
+.
+
+afd:bc2f1f65-2844-4e3c-a07e-b60717967b78
+    a dwc:Taxon ;
+.
+
+afd:bc33a603-3b2b-44d3-a5d7-12485e4533c7
+    a dwc:Taxon ;
+.
+
+afd:bcc0b936-ca0f-4d3f-a6bb-cbeda0e4ae1b
+    a dwc:Taxon ;
+.
+
+afd:bd20a15e-c723-49b5-9186-11ec37fb18e3
+    a dwc:Taxon ;
+.
+
+afd:bd937fe6-430f-4d26-ab8e-3e4e34224896
+    a dwc:Taxon ;
+.
+
+afd:bd9486ed-bdba-45b4-ab1c-73cc2c7a6edf
+    a dwc:Taxon ;
+.
+
+afd:bdd6e28f-8085-409f-8e63-2afbf0d06d26
+    a dwc:Taxon ;
+.
+
+afd:be39baab-b1fe-484a-aafd-6844c52ea655
+    a dwc:Taxon ;
+.
+
+afd:be54a789-643e-4687-8f97-48361a4a045a
+    a dwc:Taxon ;
+.
+
+afd:be712ab1-0c93-42aa-a623-02abb0792153
+    a dwc:Taxon ;
+.
+
+afd:be7a08f5-387f-4156-91e2-77f0d3d09d8c
+    a dwc:Taxon ;
+.
+
+afd:bedc6085-4580-4c8a-bdda-27ba84837819
+    a dwc:Taxon ;
+.
+
+afd:bf8cbb68-a1ef-44c8-b086-274619303470
+    a dwc:Taxon ;
+.
+
+afd:bfeb0f1a-5581-4034-ba30-e330fe233af6
+    a dwc:Taxon ;
+.
+
+afd:c0508fdb-e903-40a1-9d16-5329fca956ad
+    a dwc:Taxon ;
+.
+
+afd:c0e8f4ca-3c7e-4b71-9d8f-992e3e3b07b9
+    a dwc:Taxon ;
+.
+
+afd:c0ecc524-4722-457a-bf1f-f67abd660cf8
+    a dwc:Taxon ;
+.
+
+afd:c0fd6ffe-8744-4ace-a4c7-7eca07428565
+    a dwc:Taxon ;
+    schema:name "Petaurus australis Wet Tropics subspecies" ;
+.
+
+afd:c14bfa02-3605-4efb-b1c2-86171cd31a3e
+    a dwc:Taxon ;
+.
+
+afd:c16fb041-45ee-4310-a4e1-3cf4d9946ae5
+    a dwc:Taxon ;
+.
+
+afd:c179befb-7c52-4009-8f40-b9dd8940f493
+    a dwc:Taxon ;
+.
+
+afd:c1aad750-971f-4ea8-808e-45f37f88242e
+    a dwc:Taxon ;
+.
+
+afd:c2bcc474-938b-4a02-aeaf-59f22483ff7c
+    a dwc:Taxon ;
+.
+
+afd:c3ee1656-d557-40d4-8251-817fbdaab7ba
+    a dwc:Taxon ;
+.
+
+afd:c4133c09-c46b-4a07-9322-ec6be2bdb578
+    a dwc:Taxon ;
+.
+
+afd:c4481033-9756-4634-ab30-7d5f42b4546b
+    a dwc:Taxon ;
+.
+
+afd:c44c9098-c4fc-4f64-884c-e367389b194f
+    a dwc:Taxon ;
+.
+
+afd:c4d41c94-ad01-4fc1-a797-032ff6a10233
+    a dwc:Taxon ;
+.
+
+afd:c4df667d-f909-4d6f-abe0-91270228e721
+    a dwc:Taxon ;
+.
+
+afd:c529485a-d037-4677-b94b-6a3d2a579dfd
+    a dwc:Taxon ;
+.
+
+afd:c630f3b0-528a-4686-a2a1-73113135f214
+    a dwc:Taxon ;
+.
+
+afd:c64f7dd8-8dbc-4686-b3ac-e7adb2b67bc3
+    a dwc:Taxon ;
+.
+
+afd:c6b5ff5a-a991-4972-b5b0-4214141d5bd6
+    a dwc:Taxon ;
+.
+
+afd:c6c14e66-6e81-4bca-9314-2f192742468a
+    a dwc:Taxon ;
+.
+
+afd:c6d51093-2855-44d1-a72b-b612305c7bd3
+    a dwc:Taxon ;
+.
+
+afd:c6f58e96-49d4-462e-a104-b1933b3cc4a6
+    a dwc:Taxon ;
+.
+
+afd:c6f6f549-559a-4aab-bf02-2c673f58076f
+    a dwc:Taxon ;
+.
+
+afd:c7327642-e36d-41d5-b884-59a0180780d2
+    a dwc:Taxon ;
+.
+
+afd:c73bee3e-40b5-4a4c-9049-2900805aeb61
+    a dwc:Taxon ;
+.
+
+afd:c74c3d35-c98c-4ef0-93bf-b9b6ace016b1
+    a dwc:Taxon ;
+.
+
+afd:c862056c-3c37-4daa-b7c1-a5a0c22f6e15
+    a dwc:Taxon ;
+.
+
+afd:c8872ea8-5574-4397-ace1-fe6be86451e5
+    a dwc:Taxon ;
+.
+
+afd:c8ddc708-d14a-4e6b-84b0-c3a5d837dda8
+    a dwc:Taxon ;
+.
+
+afd:c94dc6ef-b452-4b39-acb7-7b914b9ebedd
+    a dwc:Taxon ;
+.
+
+afd:c96da60f-c179-43b5-8b6b-438264a91f65
+    a dwc:Taxon ;
+.
+
+afd:c9c4c977-38ec-4261-9282-24524f9778ac
+    a dwc:Taxon ;
+.
+
+afd:c9fb6300-18c6-4a76-a187-a8b18943f6ac
+    a dwc:Taxon ;
+.
+
+afd:c9fbd26d-b314-4cff-aeed-c00ccd156c15
+    a dwc:Taxon ;
+.
+
+afd:ca3c9112-78dc-434f-9668-f13c4cfc94d4
+    a dwc:Taxon ;
+.
+
+afd:ca7db878-07f9-4c93-a611-5d0aa7dcf594
+    a dwc:Taxon ;
+.
+
+afd:ca936e1c-101a-4411-a3ef-88dba462b92e
+    a dwc:Taxon ;
+.
+
+afd:cb5d07e1-76ba-4e07-ae4b-200b0200a0cf
+    a dwc:Taxon ;
+.
+
+afd:cb7c357c-8cc7-4e68-adb8-6582edf6b677
+    a dwc:Taxon ;
+.
+
+afd:cbb95cf2-6b35-4ca0-9b99-ae47abf6c23f
+    a dwc:Taxon ;
+.
+
+afd:cbef5be9-829a-4691-9de4-125356441b1f
+    a dwc:Taxon ;
+.
+
+afd:cc917a18-4833-4983-af35-84e65228487e
+    a dwc:Taxon ;
+.
+
+afd:cc99bd2c-1fb0-42a0-9ceb-86b8b9e437b2
+    a dwc:Taxon ;
+.
+
+afd:ccae67ed-5ce5-4767-8b3e-c0243d615c92
+    a dwc:Taxon ;
+.
+
+afd:cce5d053-414a-40e0-87bd-ab8012287068
+    a dwc:Taxon ;
+.
+
+afd:cd13ba31-a4c2-4678-b815-6a56b4a12d31
+    a dwc:Taxon ;
+.
+
+afd:cd59af8b-4c24-4ba5-9660-23decdcbf16d
+    a dwc:Taxon ;
+.
+
+afd:cd5c5983-b843-4ebf-b332-484c8866f694
+    a dwc:Taxon ;
+.
+
+afd:cd651aef-f210-45b1-8652-3a33581d1beb
+    a dwc:Taxon ;
+.
+
+afd:d051536b-5b94-4317-a2b0-344a2ef25616
+    a dwc:Taxon ;
+.
+
+afd:d1433e40-4176-4632-8d11-30e06e1963bc
+    a dwc:Taxon ;
+.
+
+afd:d15e3357-827d-4dc8-820b-7223db4457a9
+    a dwc:Taxon ;
+.
+
+afd:d1a27333-c288-46d5-a034-f42920ddb1b8
+    a dwc:Taxon ;
+.
+
+afd:d1f1d092-af83-44b2-ba7d-6219ce2be271
+    a dwc:Taxon ;
+.
+
+afd:d2e67121-b3b9-4292-84f9-4f070a05b7d4
+    a dwc:Taxon ;
+.
+
+afd:d3093de6-25da-41e9-be3d-d91820b862c3
+    a dwc:Taxon ;
+.
+
+afd:d315deea-822c-4f2c-b439-da33d6af5fd6
+    a dwc:Taxon ;
+.
+
+afd:d33b3173-603b-4183-847e-c2ee1cc4df3e
+    a dwc:Taxon ;
+.
+
+afd:d36a1a8c-b150-4bc5-8d30-bce1f8683268
+    a dwc:Taxon ;
+.
+
+afd:d37e21f5-0afb-4d0e-8563-dc0f60cc4256
+    a dwc:Taxon ;
+.
+
+afd:d4125414-0a5c-4e7c-9eea-d8582d85c83d
+    a dwc:Taxon ;
+.
+
+afd:d457b60e-c039-42b7-a878-da1e02ab6e7d
+    a dwc:Taxon ;
+.
+
+afd:d4e349ad-073e-4e89-9681-ea89511fa365
+    a dwc:Taxon ;
+.
+
+afd:d4fe643e-881f-49de-a8c9-628d5bce2e24
+    a dwc:Taxon ;
+.
+
+afd:d604a048-e0ca-4edf-ab23-df03780af3c1
+    a dwc:Taxon ;
+.
+
+afd:d630e99a-5b97-44cc-a353-46facfee8364
+    a dwc:Taxon ;
+.
+
+afd:d6708b18-bc9a-4035-b31f-ac881e6decdc
+    a dwc:Taxon ;
+.
+
+afd:d74f38f8-8b2c-41f9-aada-698fb7cc7d44
+    a dwc:Taxon ;
+.
+
+afd:d760f75c-5c47-47e8-8a07-11906e966c37
+    a dwc:Taxon ;
+.
+
+afd:d792ddc0-bdc2-4764-ab9c-ea9e43cd586e
+    a dwc:Taxon ;
+.
+
+afd:d7af6e0b-8291-4176-9a53-a73a5299c81b
+    a dwc:Taxon ;
+.
+
+afd:d820f432-3cf3-408f-b219-3464aea421ab
+    a dwc:Taxon ;
+.
+
+afd:d8dc2794-e9fd-4386-b374-59224074525f
+    a dwc:Taxon ;
+.
+
+afd:d8f05749-250c-4942-865e-323971c85c39
+    a dwc:Taxon ;
+.
+
+afd:d9a226fd-069a-4fb5-88f4-d1939b47909d
+    a dwc:Taxon ;
+.
+
+afd:d9c3c304-8f68-4f6b-a472-a96a99a3a4e9
+    a dwc:Taxon ;
+.
+
+afd:d9d30981-82a0-44d9-9411-3b9b28a6505e
+    a dwc:Taxon ;
+.
+
+afd:d9f0cf7e-d2a8-4550-89ba-8d2f5a4c3b3c
+    a dwc:Taxon ;
+.
+
+afd:da100481-e4a7-4d6e-8535-89a748cf52ad
+    a dwc:Taxon ;
+.
+
+afd:da1e1bf2-3684-4eea-b579-1d83507c020d
+    a dwc:Taxon ;
+.
+
+afd:da8ab93e-9f6d-445a-8d9c-a7b3172dea11
+    a dwc:Taxon ;
+.
+
+afd:dab6e02d-b4a5-4009-81ea-14b9f139b910
+    a dwc:Taxon ;
+.
+
+afd:dadd0369-f5fe-4de0-8d37-6334f51e47f5
+    a dwc:Taxon ;
+.
+
+afd:db149801-d428-4239-ad03-a4483ea78de6
+    a dwc:Taxon ;
+.
+
+afd:db2b1673-da53-47c6-9909-74af3a00dd7f
+    a dwc:Taxon ;
+.
+
+afd:db85c20b-0b9e-487b-abee-7ec8f90d302e
+    a dwc:Taxon ;
+.
+
+afd:db8a3a39-1d47-4840-a77c-4ced27a2ad26
+    a dwc:Taxon ;
+.
+
+afd:dba78701-cae9-4afb-a41a-6697c52c5e34
+    a dwc:Taxon ;
+.
+
+afd:dc021586-78cb-41f3-97db-c9b2bb218074
+    a dwc:Taxon ;
+.
+
+afd:dc18af1d-f153-42fd-939a-6de0ee3bc6d1
+    a dwc:Taxon ;
+.
+
+afd:dc6467fe-af4a-42c8-8e6c-cc6f63eac09a
+    a dwc:Taxon ;
+.
+
+afd:dced77e3-0137-4bb4-a4d3-bc95ac71e81b
+    a dwc:Taxon ;
+.
+
+afd:dd9ccbd9-2b23-4e64-8a68-ec70e2146770
+    a dwc:Taxon ;
+.
+
+afd:ddbd8b01-aeed-404b-a198-fa2a9b25ae3e
+    a dwc:Taxon ;
+.
+
+afd:ddf63393-c25c-456b-a83e-a3ec3416d493
+    a dwc:Taxon ;
+.
+
+afd:de09c53f-2cd4-477e-a79e-32da14b50e9b
+    a dwc:Taxon ;
+.
+
+afd:de15c66f-5f21-4b9c-b3b2-1e46319d2096
+    a dwc:Taxon ;
+.
+
+afd:de1e2dfa-1ebd-4810-9186-0b5fe2947e7d
+    a dwc:Taxon ;
+.
+
+afd:de470429-7c6f-4559-bf1e-caf047684f7c
+    a dwc:Taxon ;
+.
+
+afd:df0ee124-e935-48d5-8d7a-3e133203ec7d
+    a dwc:Taxon ;
+.
+
+afd:df231331-b41e-4d34-8313-8e5875620b8c
+    a dwc:Taxon ;
+.
+
+afd:df4e5f69-d850-4d5b-8182-b525024c2902
+    a dwc:Taxon ;
+.
+
+afd:df5c846f-14a9-4f0a-93f4-92710cdb4cd7
+    a dwc:Taxon ;
+.
+
+afd:dfa14228-4f24-48be-b5e6-f91db5ddbbe1
+    a dwc:Taxon ;
+.
+
+afd:dfa94b2f-95cc-40dd-9313-85da77aefc0b
+    a dwc:Taxon ;
+.
+
+afd:dff740ed-d01b-4d86-bc9d-40dc8161b6b7
+    a dwc:Taxon ;
+.
+
+afd:e0967c92-d815-44e3-965c-0e797dce3a3c
+    a dwc:Taxon ;
+.
+
+afd:e0cb8aab-2a4a-467f-b420-958d21cd91c8
+    a dwc:Taxon ;
+.
+
+afd:e1e000ed-ac2e-453c-865d-65ac2f7d2813
+    a dwc:Taxon ;
+.
+
+afd:e20717ce-a432-4640-9840-ca0fb9e48b50
+    a dwc:Taxon ;
+.
+
+afd:e26aef43-95fe-434b-8984-8866d6671d95
+    a dwc:Taxon ;
+.
+
+afd:e2cc6576-d6d6-40a7-9f53-39b60b38403c
+    a dwc:Taxon ;
+.
+
+afd:e34d1659-1a1b-4d85-842e-3665edf32938
+    a dwc:Taxon ;
+.
+
+afd:e3a9fdc3-92ec-45fb-afae-2586f0876d2c
+    a dwc:Taxon ;
+.
+
+afd:e3d014e2-456a-4ef8-8f5c-969263574a6e
+    a dwc:Taxon ;
+.
+
+afd:e4d85845-3e34-4112-90a9-f954176721ec
+    a dwc:Taxon ;
+.
+
+afd:e4e65a5b-bcdf-4e8c-9fe2-34d4d7efad85
+    a dwc:Taxon ;
+.
+
+afd:e57c3c64-4b61-4769-9c9a-bf7c21bf3746
+    a dwc:Taxon ;
+.
+
+afd:e6350847-226c-44ad-a5ca-0031443209c9
+    a dwc:Taxon ;
+.
+
+afd:e6ea1087-ce34-4cf8-be85-546a9d732965
+    a dwc:Taxon ;
+.
+
+afd:e728bc3c-6c80-42ac-b2d8-9ee66e82fe85
+    a dwc:Taxon ;
+.
+
+afd:e7327128-839c-4f35-af8d-9f538f26309e
+    a dwc:Taxon ;
+.
+
+afd:e7f329cf-24c8-4ef8-8d43-93bf0dad03a6
+    a dwc:Taxon ;
+.
+
+afd:e865f4f9-dba4-4105-9222-dccde3901ccd
+    a dwc:Taxon ;
+.
+
+afd:e8c7dd46-d1c4-4156-b19f-a4697a8ca72a
+    a dwc:Taxon ;
+.
+
+afd:e9289876-b550-4278-a4db-336bd5f75e6a
+    a dwc:Taxon ;
+.
+
+afd:e933c4ad-fb66-4cfd-82e2-ad4ce0e36a2d
+    a dwc:Taxon ;
+.
+
+afd:e985914e-3435-4f6b-9978-2cbb19d29fee
+    a dwc:Taxon ;
+.
+
+afd:ea32c940-3b20-4d5a-8f0e-45b15080ce50
+    a dwc:Taxon ;
+.
+
+afd:eb6c5fd9-0f34-4d3c-a7b1-1112351c3760
+    a dwc:Taxon ;
+.
+
+afd:ebb36e48-4e64-42c5-a74c-309cc1e12961
+    a dwc:Taxon ;
+.
+
+afd:ec23a8e8-87e4-498b-bacb-5884fcb68bf7
+    a dwc:Taxon ;
+.
+
+afd:ed8c4f24-87e0-4875-a1c0-08d1b0a509e0
+    a dwc:Taxon ;
+.
+
+afd:efb64723-3d45-42f1-bcc3-7bd38f18fc90
+    a dwc:Taxon ;
+.
+
+afd:efeba6d6-1fef-48e7-ae4c-1f113518eab4
+    a dwc:Taxon ;
+.
+
+afd:f08089ba-e70e-4c94-8118-d627c65ca1ac
+    a dwc:Taxon ;
+.
+
+afd:f234f91f-8e00-405d-a89b-eb8fbc65a123
+    a dwc:Taxon ;
+.
+
+afd:f2daa035-4db2-4685-bec1-6b89c3274404
+    a dwc:Taxon ;
+.
+
+afd:f3f1ad24-212e-4c66-b118-a59c0a0e69b7
+    a dwc:Taxon ;
+.
+
+afd:f411b7e7-5818-45fc-b3d2-8dfa5ed45f1e
+    a dwc:Taxon ;
+.
+
+afd:f452242f-5a35-4d5d-a141-7e2dfb9f176b
+    a dwc:Taxon ;
+.
+
+afd:f57c715a-65ce-42ab-b2dd-3372632b7af0
+    a dwc:Taxon ;
+.
+
+afd:f59939ed-1c5c-439c-9aa5-971a3e6daa2d
+    a dwc:Taxon ;
+.
+
+afd:f75d01ff-5e60-414e-b4e3-5b1ecb3eea45
+    a dwc:Taxon ;
+.
+
+afd:f80f9c1c-c73d-4cfd-9946-0d06746cf61b
+    a dwc:Taxon ;
+.
+
+afd:f8953f6f-48f4-4daa-8679-45780339de24
+    a dwc:Taxon ;
+.
+
+afd:f949f55c-63e5-499a-86c5-c4409cbf6373
+    a dwc:Taxon ;
+.
+
+afd:f9a42b9a-7cc6-456a-b8e7-c1fdca1a33e4
+    a dwc:Taxon ;
+.
+
+afd:f9ec0b95-4a25-45db-a663-c4047c7f28d7
+    a dwc:Taxon ;
+.
+
+afd:fc76c5eb-bc35-402a-a5b9-649787fc6db8
+    a dwc:Taxon ;
+.
+
+afd:fc90eb47-4201-487d-9882-7bdffe1e25f6
+    a dwc:Taxon ;
+.
+
+afd:fd928615-5613-47eb-9cd4-7eb8e30a4993
+    a dwc:Taxon ;
+.
+
+afd:fdc417b8-2252-42f3-bd44-116e7154beae
+    a dwc:Taxon ;
+.
+
+afd:fe24603a-e20f-43c7-9809-702b4c5c6c50
+    a dwc:Taxon ;
+.
+
+afd:fe69a214-d43c-468f-bb83-06402ac95e35
+    a dwc:Taxon ;
+.
+
+afd:fe7de157-e9c1-4672-be08-71b411847570
+    a dwc:Taxon ;
+.
+
+afd:fec39cb0-353f-4e20-98d7-f097c4b65e36
+    a dwc:Taxon ;
+.
+
+afd:fef65ae9-949c-44ea-8533-1745bf097a74
+    a dwc:Taxon ;
+.
+
+afd:ff3efade-a30e-462a-ad6b-d58d0a98930f
+    a dwc:Taxon ;
+.
+
+afd:ff59d88c-1e72-4164-8dd1-063634c62f5d
+    a dwc:Taxon ;
+.
+
+afd:ffc13f29-e9bd-4d87-90f3-3633a4fb4b6d
+    a dwc:Taxon ;
+.
+
+afd:fffbb38d-6da5-4f88-bb1e-6bf0ef6af1b6
+    a dwc:Taxon ;
+.
+
+apni:100011
+    a dwc:Taxon ;
+    schema:name "Macadamia integrifolia" ;
+.
+
+apni:100081
+    a dwc:Taxon ;
+    schema:name "Macadamia ternifolia" ;
+.
+
+apni:100125
+    a dwc:Taxon ;
+    schema:name "Solanum bauerianum" ;
+.
+
+apni:100151
+    a dwc:Taxon ;
+    schema:name "Macadamia tetraphylla" ;
+.
+
+apni:100521
+    a dwc:Taxon ;
+.
+
+apni:100558
+    a dwc:Taxon ;
+    schema:name "Aristida annua" ;
+.
+
+apni:100576
+    a dwc:Taxon ;
+    schema:name "Pityrodia augustensis" ;
+.
+
+apni:100613
+    a dwc:Taxon ;
+    schema:name "Isopogon fletcheri" ;
+.
+
+apni:100832
+    a dwc:Taxon ;
+    schema:name "Aristida granitica" ;
+.
+
+apni:100981
+    a dwc:Taxon ;
+    schema:name "Hemigenia ramosissima" ;
+.
+
+apni:101051
+    a dwc:Taxon ;
+    schema:name "Calotis glandulosa" ;
+.
+
+apni:101148
+    a dwc:Taxon ;
+    schema:name "Solanum dunalianum" ;
+.
+
+apni:101196
+    a dwc:Taxon ;
+    schema:name "Senecio georgianus" ;
+.
+
+apni:101258
+    a dwc:Taxon ;
+    schema:name "Paspalidium grandispiculatum" ;
+.
+
+apni:101259
+    a dwc:Taxon ;
+.
+
+apni:101285
+    a dwc:Taxon ;
+    schema:name "Fontainea rostrata" ;
+.
+
+apni:101299
+    a dwc:Taxon ;
+    schema:name "Fontainea venosa" ;
+.
+
+apni:101310
+    a dwc:Taxon ;
+    schema:name "Maireana cheelii" ;
+.
+
+apni:101412
+    a dwc:Taxon ;
+    schema:name "Dichanthium queenslandicum" ;
+.
+
+apni:101452
+    a dwc:Taxon ;
+    schema:name "Xylosma parvifolia" ;
+.
+
+apni:101478
+    a dwc:Taxon ;
+    schema:name "Dichanthium setosum" ;
+.
+
+apni:101480
+    a dwc:Taxon ;
+    schema:name "Eucalyptus raveretiana" ;
+.
+
+apni:101532
+    a dwc:Taxon ;
+    schema:name "Eucalyptus recurva" ;
+.
+
+apni:101566
+    a dwc:Taxon ;
+    schema:name "Leptospermum thompsonii" ;
+.
+
+apni:101662
+    a dwc:Taxon ;
+    schema:name "Isopogon uncinatus" ;
+.
+
+apni:101981
+    a dwc:Taxon ;
+    schema:name "Eucalyptus rhodantha" ;
+.
+
+apni:102085
+    a dwc:Taxon ;
+    schema:name "Senecio macrocarpus" ;
+.
+
+apni:102088
+    a dwc:Taxon ;
+    schema:name "Lawrencia buchananensis" ;
+.
+
+apni:102124
+    a dwc:Taxon ;
+    schema:name "Frankenia conferta" ;
+.
+
+apni:102127
+    a dwc:Taxon ;
+    schema:name "Senecio megaglossus" ;
+.
+
+apni:102134
+    a dwc:Taxon ;
+    schema:name "Arthraxon hispidus" ;
+.
+
+apni:102322
+    a dwc:Taxon ;
+    schema:name "Verticordia hughanii" ;
+.
+
+apni:102603
+    a dwc:Taxon ;
+    schema:name "Olax angulata" ;
+.
+
+apni:103196
+    a dwc:Taxon ;
+    schema:name "Calystegia affinis" ;
+.
+
+apni:103552
+    a dwc:Taxon ;
+    schema:name "Asperula asthenes" ;
+.
+
+apni:103624
+    a dwc:Taxon ;
+    schema:name "Calytrix breviseta" ;
+.
+
+apni:103627
+    a dwc:Taxon ;
+    schema:name "Olearia astroloba" ;
+.
+
+apni:103750
+    a dwc:Taxon ;
+    schema:name "Homopholis belsonii" ;
+.
+
+apni:103758
+    a dwc:Taxon ;
+    schema:name "Eucalyptus virens" ;
+.
+
+apni:103800
+    a dwc:Taxon ;
+    schema:name "Homoranthus darwinioides" ;
+.
+
+apni:103887
+    a dwc:Taxon ;
+    schema:name "Trianthema cypseleoides" ;
+.
+
+apni:103914
+    a dwc:Taxon ;
+    schema:name "Calytrix gurulmundensis" ;
+.
+
+apni:104018
+    a dwc:Taxon ;
+    schema:name "Olearia cordata" ;
+.
+
+apni:104048
+    a dwc:Taxon ;
+    schema:name "Didymoglossum exiguum" ;
+.
+
+apni:104111
+    a dwc:Taxon ;
+    schema:name "Marsdenia longiloba" ;
+.
+
+apni:104245
+    a dwc:Taxon ;
+    schema:name "Olearia flocktoniae" ;
+.
+
+apni:104603
+    a dwc:Taxon ;
+    schema:name "Prasophyllum frenchii" ;
+.
+
+apni:104666
+    a dwc:Taxon ;
+    schema:name "Prasophyllum fuscum" ;
+.
+
+apni:104803
+    a dwc:Taxon ;
+    schema:name "Olearia hygrophila" ;
+.
+
+apni:104842
+    a dwc:Taxon ;
+    schema:name "Prasophyllum goldsackii" ;
+.
+
+apni:104962
+    a dwc:Taxon ;
+    schema:name "Olearia macdonnellensis" ;
+.
+
+apni:105016
+    a dwc:Taxon ;
+    schema:name "Olearia microdisca" ;
+.
+
+apni:105130
+    a dwc:Taxon ;
+    schema:name "Gyrostemon reticulatus" ;
+.
+
+apni:105144
+    a dwc:Taxon ;
+    schema:name "Floydia praealta" ;
+.
+
+apni:105198
+    a dwc:Taxon ;
+    schema:name "Symonanthus bancroftii" ;
+.
+
+apni:105255
+    a dwc:Taxon ;
+    schema:name "Olearia oliganthema" ;
+.
+
+apni:105308
+    a dwc:Taxon ;
+    schema:name "Olearia pannosa" ;
+.
+
+apni:105365
+    a dwc:Taxon ;
+    schema:name "Prasophyllum morganii" ;
+.
+
+apni:105443
+    a dwc:Taxon ;
+    schema:name "Rutidosis leiolepis" ;
+.
+
+apni:105484
+    a dwc:Taxon ;
+    schema:name "Rutidosis leptorhynchoides" ;
+.
+
+apni:105521
+    a dwc:Taxon ;
+    schema:name "Asplenium hookerianum" ;
+.
+
+apni:105585
+    a dwc:Taxon ;
+    schema:name "Ballantinia antipoda" ;
+.
+
+apni:105591
+    a dwc:Taxon ;
+    schema:name "Lobelia gelida" ;
+.
+
+apni:105606
+    a dwc:Taxon ;
+    schema:name "Tylophora woollsii" ;
+.
+
+apni:105702
+    a dwc:Taxon ;
+    schema:name "Uromyrtus australis" ;
+.
+
+apni:105753
+    a dwc:Taxon ;
+    schema:name "Baloghia marmorata" ;
+.
+
+apni:105808
+    a dwc:Taxon ;
+    schema:name "Prasophyllum pallidum" ;
+.
+
+apni:106062
+    a dwc:Taxon ;
+    schema:name "Myoporum obscurum" ;
+.
+
+apni:106077
+    a dwc:Taxon ;
+    schema:name "Prasophyllum pruinosum" ;
+.
+
+apni:106144
+    a dwc:Taxon ;
+    schema:name "Asplenium wildii" ;
+.
+
+apni:106206
+    a dwc:Taxon ;
+    schema:name "Prasophyllum robustum" ;
+.
+
+apni:106433
+    a dwc:Taxon ;
+    schema:name "Habenaria maccraithii" ;
+.
+
+apni:106442
+    a dwc:Taxon ;
+    schema:name "Grevillea batrachioides" ;
+.
+
+apni:106548
+    a dwc:Taxon ;
+    schema:name "Prasophyllum subbisectum" ;
+.
+
+apni:106586
+    a dwc:Taxon ;
+    schema:name "Astelia australiana" ;
+.
+
+apni:106609
+    a dwc:Taxon ;
+    schema:name "Eucalyptus pulverulenta" ;
+.
+
+apni:106666
+    a dwc:Taxon ;
+    schema:name "Banksia brownii" ;
+.
+
+apni:106709
+    a dwc:Taxon ;
+    schema:name "Eucalyptus pumila" ;
+.
+
+apni:106810
+    a dwc:Taxon ;
+    schema:name "Prasophyllum validum" ;
+.
+
+apni:106933
+    a dwc:Taxon ;
+    schema:name "Banksia cuneata" ;
+.
+
+apni:107005
+    a dwc:Taxon ;
+    schema:name "Gastrolobium lehmannii" ;
+.
+
+apni:107366
+    a dwc:Taxon ;
+    schema:name "Banksia goodii" ;
+.
+
+apni:107741
+    a dwc:Taxon ;
+    schema:name "Myriocephalus nudus" ;
+.
+
+apni:107796
+    a dwc:Taxon ;
+    schema:name "Symplocos baeuerlenii" ;
+.
+
+apni:107827
+    a dwc:Taxon ;
+    schema:name "Wurmbea tubulosa" ;
+.
+
+apni:107833
+    a dwc:Taxon ;
+    schema:name "Capparis thozetiana" ;
+.
+
+apni:108100
+    a dwc:Taxon ;
+    schema:name "Asterolasia buxifolia" ;
+.
+
+apni:108209
+    a dwc:Taxon ;
+    schema:name "Asterolasia nivea" ;
+.
+
+apni:108228
+    a dwc:Taxon ;
+    schema:name "Asterolasia phebalioides" ;
+.
+
+apni:108403
+    a dwc:Taxon ;
+    schema:name "Banksia oligantha" ;
+.
+
+apni:108446
+    a dwc:Taxon ;
+    schema:name "Grevillea beadleana" ;
+.
+
+apni:108457
+    a dwc:Taxon ;
+    schema:name "Grevillea bedggoodiana" ;
+.
+
+apni:108775
+    a dwc:Taxon ;
+    schema:name "Myriophyllum coronatum" ;
+.
+
+apni:108846
+    a dwc:Taxon ;
+.
+
+apni:109005
+    a dwc:Taxon ;
+    schema:name "Grevillea caleyi" ;
+.
+
+apni:109039
+    a dwc:Taxon ;
+    schema:name "Eucalyptus johnsoniana" ;
+.
+
+apni:109098
+    a dwc:Taxon ;
+    schema:name "Sophora fraseri" ;
+.
+
+apni:109142
+    a dwc:Taxon ;
+    schema:name "Banksia sphaerocarpa" ;
+.
+
+apni:109174
+    a dwc:Taxon ;
+    schema:name "Prostanthera albohirta" ;
+.
+
+apni:109306
+    a dwc:Taxon ;
+    schema:name "Astrotricha crassifolia" ;
+.
+
+apni:109348
+    a dwc:Taxon ;
+    schema:name "Prostanthera calycina" ;
+.
+
+apni:109380
+    a dwc:Taxon ;
+    schema:name "Banksia verticillata" ;
+.
+
+apni:109437
+    a dwc:Taxon ;
+    schema:name "Prostanthera cineolifera" ;
+.
+
+apni:109459
+    a dwc:Taxon ;
+    schema:name "Barbarea australis" ;
+.
+
+apni:109512
+    a dwc:Taxon ;
+    schema:name "Leucopogon marginatus" ;
+.
+
+apni:109667
+    a dwc:Taxon ;
+    schema:name "Prostanthera densa" ;
+.
+
+apni:109725
+    a dwc:Taxon ;
+    schema:name "Prostanthera discolor" ;
+.
+
+apni:109813
+    a dwc:Taxon ;
+    schema:name "Prostanthera eurybioides" ;
+.
+
+apni:109841
+    a dwc:Taxon ;
+    schema:name "Westringia crassifolia" ;
+.
+
+apni:109861
+    a dwc:Taxon ;
+    schema:name "Westringia cremnophila" ;
+.
+
+apni:109897
+    a dwc:Taxon ;
+    schema:name "Westringia davidii" ;
+.
+
+apni:110131
+    a dwc:Taxon ;
+    schema:name "Rhagodia acicularis" ;
+.
+
+apni:110219
+    a dwc:Taxon ;
+    schema:name "Westringia parvifolia" ;
+.
+
+apni:110359
+    a dwc:Taxon ;
+    schema:name "Prostanthera marifolia" ;
+.
+
+apni:110440
+    a dwc:Taxon ;
+    schema:name "Picris evae" ;
+.
+
+apni:110446
+    a dwc:Taxon ;
+    schema:name "Scaevola macrophylla" ;
+.
+
+apni:110576
+    a dwc:Taxon ;
+    schema:name "Prostanthera nudula" ;
+.
+
+apni:110590
+    a dwc:Taxon ;
+    schema:name "Westringia rupicola" ;
+.
+
+apni:110735
+    a dwc:Taxon ;
+    schema:name "Ozothamnus selaginoides" ;
+.
+
+apni:110920
+    a dwc:Taxon ;
+    schema:name "Limosella granitica" ;
+.
+
+apni:111141
+    a dwc:Taxon ;
+    schema:name "Prostanthera schultzii" ;
+.
+
+apni:111142
+    a dwc:Taxon ;
+    schema:name "Melaleuca sciotostyla" ;
+.
+
+apni:111314
+    a dwc:Taxon ;
+    schema:name "Prostanthera staurophylla" ;
+.
+
+apni:111383
+    a dwc:Taxon ;
+    schema:name "Prostanthera stricta" ;
+.
+
+apni:111571
+    a dwc:Taxon ;
+    schema:name "Persoonia acerosa" ;
+.
+
+apni:111593
+    a dwc:Taxon ;
+    schema:name "Atriplex infrequens" ;
+.
+
+apni:111618
+    a dwc:Taxon ;
+    schema:name "Endiandra cooperana" ;
+.
+
+apni:111743
+    a dwc:Taxon ;
+    schema:name "Endiandra floydii" ;
+.
+
+apni:111806
+    a dwc:Taxon ;
+    schema:name "Endiandra hayesii" ;
+.
+
+apni:111856
+    a dwc:Taxon ;
+    schema:name "Leucopogon obtectus" ;
+.
+
+apni:112033
+    a dwc:Taxon ;
+    schema:name "Euphrasia crassiuscula" ;
+.
+
+apni:112080
+    a dwc:Taxon ;
+    schema:name "Hibbertia crispula" ;
+.
+
+apni:112154
+    a dwc:Taxon ;
+    schema:name "Euphrasia eichleri" ;
+.
+
+apni:112288
+    a dwc:Taxon ;
+    schema:name "Eucalyptus ceracea" ;
+.
+
+apni:112326
+    a dwc:Taxon ;
+    schema:name "Pomaderris pallida" ;
+.
+
+apni:112406
+    a dwc:Taxon ;
+    schema:name "Euphrasia gibbsiae" ;
+.
+
+apni:112770
+    a dwc:Taxon ;
+    schema:name "Persoonia glaucescens" ;
+.
+
+apni:112824
+    a dwc:Taxon ;
+    schema:name "Vanda hindsii" ;
+.
+
+apni:113012
+    a dwc:Taxon ;
+    schema:name "Carronia pedicellata" ;
+.
+
+apni:113051
+    a dwc:Taxon ;
+    schema:name "Pomaderris sericea" ;
+.
+
+apni:113125
+    a dwc:Taxon ;
+    schema:name "Ricinocarpos gloria-medii" ;
+.
+
+apni:113130
+    a dwc:Taxon ;
+    schema:name "Persoonia hirsuta" ;
+.
+
+apni:113150
+    a dwc:Taxon ;
+    schema:name "Euphrasia phragmostoma" ;
+.
+
+apni:113323
+    a dwc:Taxon ;
+    schema:name "Ranunculus prasinus" ;
+.
+
+apni:113330
+    a dwc:Taxon ;
+    schema:name "Euphrasia semipicta" ;
+.
+
+apni:113348
+    a dwc:Taxon ;
+    schema:name "Pomaderris vacciniifolia" ;
+.
+
+apni:113510
+    a dwc:Taxon ;
+    schema:name "Eucalyptus conglomerata" ;
+.
+
+apni:113586
+    a dwc:Taxon ;
+    schema:name "Ricinocarpos trichophorus" ;
+.
+
+apni:113733
+    a dwc:Taxon ;
+    schema:name "Lindsaea pulchella" ;
+.
+
+apni:113939
+    a dwc:Taxon ;
+    schema:name "Persoonia marginata" ;
+.
+
+apni:114042
+    a dwc:Taxon ;
+    schema:name "Irenepharsus trypherus" ;
+.
+
+apni:114085
+    a dwc:Taxon ;
+    schema:name "Eucalyptus coronata" ;
+.
+
+apni:114099
+    a dwc:Taxon ;
+    schema:name "Eremophila lactea" ;
+.
+
+apni:114279
+    a dwc:Taxon ;
+    schema:name "Ristantia gouldii" ;
+.
+
+apni:114323
+    a dwc:Taxon ;
+    schema:name "Persoonia nutans" ;
+.
+
+apni:114412
+    a dwc:Taxon ;
+    schema:name "Persoonia oxycoccoides" ;
+.
+
+apni:114456
+    a dwc:Taxon ;
+    schema:name "Eremophila nivea" ;
+.
+
+apni:114562
+    a dwc:Taxon ;
+    schema:name "Eucalyptus crenulata" ;
+.
+
+apni:114588
+    a dwc:Taxon ;
+    schema:name "Eucalyptus crucis" ;
+.
+
+apni:114670
+    a dwc:Taxon ;
+    schema:name "Persoonia prostrata" ;
+.
+
+apni:114784
+    a dwc:Taxon ;
+    schema:name "Bertya ingramii" ;
+.
+
+apni:114822
+    a dwc:Taxon ;
+    schema:name "Bertya mollissima" ;
+.
+
+apni:114889
+    a dwc:Taxon ;
+    schema:name "Bertya opponens" ;
+.
+
+apni:114923
+    a dwc:Taxon ;
+    schema:name "Bertya pinifolia" ;
+.
+
+apni:115218
+    a dwc:Taxon ;
+    schema:name "Thelymitra epipactoides" ;
+.
+
+apni:115233
+    a dwc:Taxon ;
+    schema:name "Eremophila resinosa" ;
+.
+
+apni:115330
+    a dwc:Taxon ;
+.
+
+apni:115398
+    a dwc:Taxon ;
+    schema:name "Eremophila scaberula" ;
+.
+
+apni:115428
+    a dwc:Taxon ;
+    schema:name "Kennedia retrorsa" ;
+.
+
+apni:115695
+    a dwc:Taxon ;
+    schema:name "Eremophila ternifolia" ;
+.
+
+apni:115717
+    a dwc:Taxon ;
+    schema:name "Spyridium cinereum" ;
+.
+
+apni:115763
+    a dwc:Taxon ;
+    schema:name "Spyridium coactilifolium" ;
+.
+
+apni:115815
+    a dwc:Taxon ;
+    schema:name "Thelymitra mackibbinii" ;
+.
+
+apni:115819
+    a dwc:Taxon ;
+    schema:name "Beyeria lepidopetala" ;
+.
+
+apni:115881
+    a dwc:Taxon ;
+    schema:name "Thelymitra matthewsii" ;
+.
+
+apni:115904
+    a dwc:Taxon ;
+    schema:name "Eremophila verticillata" ;
+.
+
+apni:115913
+    a dwc:Taxon ;
+    schema:name "Eremophila virens" ;
+.
+
+apni:115914
+    a dwc:Taxon ;
+    schema:name "Beyeria subtecta" ;
+.
+
+apni:115954
+    a dwc:Taxon ;
+    schema:name "Eremophila viscida" ;
+.
+
+apni:115982
+    a dwc:Taxon ;
+    schema:name "Lambertia fairallii" ;
+.
+
+apni:115983
+    a dwc:Taxon ;
+    schema:name "Spyridium eriocephalum" ;
+.
+
+apni:116141
+    a dwc:Taxon ;
+    schema:name "Mitrantia bilocularis" ;
+.
+
+apni:116200
+    a dwc:Taxon ;
+    schema:name "Neoastelia spectabilis" ;
+.
+
+apni:116244
+    a dwc:Taxon ;
+.
+
+apni:116436
+    a dwc:Taxon ;
+.
+
+apni:116682
+    a dwc:Taxon ;
+.
+
+apni:116691
+    a dwc:Taxon ;
+    schema:name "Calophyllum bicolor" ;
+.
+
+apni:116776
+    a dwc:Taxon ;
+    schema:name "Rutidosis heterogama" ;
+.
+
+apni:116794
+    a dwc:Taxon ;
+    schema:name "Archidendron lovelliae" ;
+.
+
+apni:117120
+    a dwc:Taxon ;
+    schema:name "Phreatia paleata" ;
+.
+
+apni:117183
+    a dwc:Taxon ;
+    schema:name "Asplenium pellucidum" ;
+.
+
+apni:117195
+    a dwc:Taxon ;
+    schema:name "Xanthostemon formosus" ;
+.
+
+apni:117219
+    a dwc:Taxon ;
+    schema:name "Azorella macquariensis" ;
+.
+
+apni:117237
+    a dwc:Taxon ;
+    schema:name "Cassinia rugata" ;
+.
+
+apni:117248
+    a dwc:Taxon ;
+    schema:name "Pomaderris cocoparrana" ;
+.
+
+apni:117254
+    a dwc:Taxon ;
+    schema:name "Trichanthodium baracchianum" ;
+.
+
+apni:117269
+    a dwc:Taxon ;
+    schema:name "Pomaderris halmaturina" ;
+.
+
+apni:117273
+    a dwc:Taxon ;
+    schema:name "Hibbertia marginata" ;
+.
+
+apni:117286
+    a dwc:Taxon ;
+    schema:name "Clematis dubia" ;
+.
+
+apni:117315
+    a dwc:Taxon ;
+    schema:name "Pomaderris parrisiae" ;
+.
+
+apni:117351
+    a dwc:Taxon ;
+    schema:name "Caladenia argocalla" ;
+.
+
+apni:117353
+    a dwc:Taxon ;
+    schema:name "Caladenia brumalis" ;
+.
+
+apni:117359
+    a dwc:Taxon ;
+    schema:name "Caladenia colorata" ;
+.
+
+apni:117360
+    a dwc:Taxon ;
+    schema:name "Caladenia conferta" ;
+.
+
+apni:117373
+    a dwc:Taxon ;
+    schema:name "Caladenia macroclavia" ;
+.
+
+apni:117379
+    a dwc:Taxon ;
+    schema:name "Caladenia richardsiorum" ;
+.
+
+apni:117384
+    a dwc:Taxon ;
+    schema:name "Caladenia woolcockiorum" ;
+.
+
+apni:117386
+    a dwc:Taxon ;
+    schema:name "Caladenia xantholeuca" ;
+.
+
+apni:117388
+    a dwc:Taxon ;
+    schema:name "Chiloglottis anaticeps" ;
+.
+
+apni:117403
+    a dwc:Taxon ;
+    schema:name "Corybas dentatus" ;
+.
+
+apni:117414
+    a dwc:Taxon ;
+    schema:name "Dipodium campanulatum" ;
+.
+
+apni:117415
+    a dwc:Taxon ;
+    schema:name "Daviesia laevis" ;
+.
+
+apni:117438
+    a dwc:Taxon ;
+    schema:name "Diuris flavescens" ;
+.
+
+apni:117445
+    a dwc:Taxon ;
+    schema:name "Diuris micrantha" ;
+.
+
+apni:117449
+    a dwc:Taxon ;
+    schema:name "Diuris praecox" ;
+.
+
+apni:117478
+    a dwc:Taxon ;
+    schema:name "Acacia porcata" ;
+.
+
+apni:117479
+    a dwc:Taxon ;
+    schema:name "Genoplesium rhyoliticum" ;
+.
+
+apni:117494
+    a dwc:Taxon ;
+    schema:name "Genoplesium tectum" ;
+.
+
+apni:117510
+    a dwc:Taxon ;
+    schema:name "Prasophyllum petilum" ;
+.
+
+apni:117511
+    a dwc:Taxon ;
+    schema:name "Eucalyptus infera" ;
+.
+
+apni:117512
+    a dwc:Taxon ;
+    schema:name "Prasophyllum spicatum" ;
+.
+
+apni:117514
+    a dwc:Taxon ;
+    schema:name "Prasophyllum wallum" ;
+.
+
+apni:117517
+    a dwc:Taxon ;
+    schema:name "Pomaderris clivicola" ;
+.
+
+apni:117555
+    a dwc:Taxon ;
+    schema:name "Homoranthus decumbens" ;
+.
+
+apni:117556
+    a dwc:Taxon ;
+    schema:name "Homoranthus floydii" ;
+.
+
+apni:117558
+    a dwc:Taxon ;
+    schema:name "Homoranthus lunatus" ;
+.
+
+apni:117563
+    a dwc:Taxon ;
+    schema:name "Homoranthus montanus" ;
+.
+
+apni:117564
+    a dwc:Taxon ;
+    schema:name "Melicope littoralis" ;
+.
+
+apni:117565
+    a dwc:Taxon ;
+    schema:name "Homoranthus porteri" ;
+.
+
+apni:117569
+    a dwc:Taxon ;
+    schema:name "Homoranthus prolixus" ;
+.
+
+apni:117590
+    a dwc:Taxon ;
+    schema:name "Acacia dangarensis" ;
+.
+
+apni:117602
+    a dwc:Taxon ;
+    schema:name "Amperea xiphoclada" ;
+.
+
+apni:117609
+    a dwc:Taxon ;
+    schema:name "Tylophora linearis" ;
+.
+
+apni:117615
+    a dwc:Taxon ;
+    schema:name "Tylophora rupicola" ;
+.
+
+apni:117728
+    a dwc:Taxon ;
+    schema:name "Drosera oreopodion" ;
+.
+
+apni:117751
+    a dwc:Taxon ;
+    schema:name "Senecio evansianus" ;
+.
+
+apni:117757
+    a dwc:Taxon ;
+    schema:name "Senecio hooglandii" ;
+.
+
+apni:117775
+    a dwc:Taxon ;
+    schema:name "Acacia praemorsa" ;
+.
+
+apni:117776
+    a dwc:Taxon ;
+    schema:name "Poa sallacustris" ;
+.
+
+apni:117792
+    a dwc:Taxon ;
+    schema:name "Deyeuxia talariata" ;
+.
+
+apni:117798
+    a dwc:Taxon ;
+    schema:name "Calotis moorei" ;
+.
+
+apni:117808
+    a dwc:Taxon ;
+    schema:name "Pomaderris subplicata" ;
+.
+
+apni:117811
+    a dwc:Taxon ;
+    schema:name "Deyeuxia pungens" ;
+.
+
+apni:117812
+    a dwc:Taxon ;
+    schema:name "Eucalyptus nudicaulis" ;
+.
+
+apni:117815
+    a dwc:Taxon ;
+    schema:name "Eucalyptus strzeleckii" ;
+.
+
+apni:117819
+    a dwc:Taxon ;
+    schema:name "Macrozamia lomandroides" ;
+.
+
+apni:117828
+    a dwc:Taxon ;
+    schema:name "Atalaya collina" ;
+.
+
+apni:117844
+    a dwc:Taxon ;
+    schema:name "Hoya australis" ;
+.
+
+apni:117866
+    a dwc:Taxon ;
+    schema:name "Graptophyllum reticulatum" ;
+.
+
+apni:117925
+    a dwc:Taxon ;
+    schema:name "Caladenia xanthochila" ;
+.
+
+apni:117926
+    a dwc:Taxon ;
+    schema:name "Paspalum batianoffii" ;
+.
+
+apni:117935
+    a dwc:Taxon ;
+    schema:name "Grevillea brachystylis" ;
+.
+
+apni:117973
+    a dwc:Taxon ;
+    schema:name "Acacia awestoniana" ;
+.
+
+apni:117978
+    a dwc:Taxon ;
+    schema:name "Acacia lobulata" ;
+.
+
+apni:117986
+    a dwc:Taxon ;
+    schema:name "Acacia lanuginophylla" ;
+.
+
+apni:117993
+    a dwc:Taxon ;
+    schema:name "Callistemon pungens" ;
+.
+
+apni:118005
+    a dwc:Taxon ;
+    schema:name "Acacia unguicula" ;
+.
+
+apni:118007
+    a dwc:Taxon ;
+    schema:name "Acacia brachypoda" ;
+.
+
+apni:118010
+    a dwc:Taxon ;
+    schema:name "Macadamia jansenii" ;
+.
+
+apni:118024
+    a dwc:Taxon ;
+    schema:name "Acacia meiantha" ;
+.
+
+apni:118077
+    a dwc:Taxon ;
+    schema:name "Verticordia albida" ;
+.
+
+apni:118113
+    a dwc:Taxon ;
+    schema:name "Macrozamia johnsonii" ;
+.
+
+apni:118117
+    a dwc:Taxon ;
+    schema:name "Verticordia crebra" ;
+.
+
+apni:118129
+    a dwc:Taxon ;
+    schema:name "Verticordia densiflora" ;
+.
+
+apni:118173
+    a dwc:Taxon ;
+    schema:name "Plectranthus torrenticola" ;
+.
+
+apni:118174
+    a dwc:Taxon ;
+    schema:name "Plectranthus omissus" ;
+.
+
+apni:118187
+    a dwc:Taxon ;
+    schema:name "Plectranthus nitidus" ;
+.
+
+apni:118227
+    a dwc:Taxon ;
+    schema:name "Cycas silvestris" ;
+.
+
+apni:118243
+    a dwc:Taxon ;
+    schema:name "Cycas megacarpa" ;
+.
+
+apni:118245
+    a dwc:Taxon ;
+    schema:name "Cycas platyphylla" ;
+.
+
+apni:118246
+    a dwc:Taxon ;
+    schema:name "Cycas ophiolitica" ;
+.
+
+apni:118247
+    a dwc:Taxon ;
+    schema:name "Verticordia pityrhops" ;
+.
+
+apni:118249
+    a dwc:Taxon ;
+    schema:name "Verticordia plumosa" ;
+.
+
+apni:118254
+    a dwc:Taxon ;
+    schema:name "Verticordia plumosa" ;
+.
+
+apni:118272
+    a dwc:Taxon ;
+    schema:name "Verticordia spicata" ;
+.
+
+apni:118276
+    a dwc:Taxon ;
+    schema:name "Verticordia staminosa" ;
+.
+
+apni:118278
+    a dwc:Taxon ;
+    schema:name "Verticordia staminosa" ;
+.
+
+apni:118305
+    a dwc:Taxon ;
+    schema:name "Budawangia gnidioides" ;
+.
+
+apni:118306
+    a dwc:Taxon ;
+    schema:name "Calochilus psednus" ;
+.
+
+apni:118327
+    a dwc:Taxon ;
+    schema:name "Eucalyptus crispata" ;
+.
+
+apni:118379
+    a dwc:Taxon ;
+    schema:name "Eucalyptus absita" ;
+.
+
+apni:118382
+    a dwc:Taxon ;
+    schema:name "Eucalyptus argutifolia" ;
+.
+
+apni:118400
+    a dwc:Taxon ;
+    schema:name "Myriophyllum lapidicola" ;
+.
+
+apni:118445
+    a dwc:Taxon ;
+    schema:name "Goodenia integerrima" ;
+.
+
+apni:118480
+    a dwc:Taxon ;
+    schema:name "Schoenia filifolia" ;
+.
+
+apni:118482
+    a dwc:Taxon ;
+    schema:name "Styphelia perileuca" ;
+.
+
+apni:118509
+    a dwc:Taxon ;
+    schema:name "Goodenia quadrifida" ;
+.
+
+apni:118561
+    a dwc:Taxon ;
+    schema:name "Persoonia mollis" ;
+.
+
+apni:118574
+    a dwc:Taxon ;
+    schema:name "Angophora robur" ;
+.
+
+apni:118580
+    a dwc:Taxon ;
+    schema:name "Persoonia mollis" ;
+.
+
+apni:118623
+    a dwc:Taxon ;
+    schema:name "Ozothamnus eriocephalus" ;
+.
+
+apni:118638
+    a dwc:Taxon ;
+    schema:name "Eucalyptus parramattensis" ;
+.
+
+apni:118643
+    a dwc:Taxon ;
+    schema:name "Eucalyptus parvula" ;
+.
+
+apni:118664
+    a dwc:Taxon ;
+    schema:name "Eucalyptus aquatica" ;
+.
+
+apni:118671
+    a dwc:Taxon ;
+    schema:name "Eucalyptus rubida" ;
+.
+
+apni:118680
+    a dwc:Taxon ;
+    schema:name "Eucalyptus paedoglauca" ;
+.
+
+apni:118687
+    a dwc:Taxon ;
+    schema:name "Eucalyptus caleyi" ;
+.
+
+apni:118698
+    a dwc:Taxon ;
+    schema:name "Ozothamnus tesselatus" ;
+.
+
+apni:118702
+    a dwc:Taxon ;
+    schema:name "Ozothamnus vagans" ;
+.
+
+apni:118718
+    a dwc:Taxon ;
+    schema:name "Eucalyptus robertsonii" ;
+.
+
+apni:118719
+    a dwc:Taxon ;
+    schema:name "Eucalyptus langleyi" ;
+.
+
+apni:118720
+    a dwc:Taxon ;
+    schema:name "Eucalyptus copulans" ;
+.
+
+apni:118766
+    a dwc:Taxon ;
+    schema:name "Persoonia bargoensis" ;
+.
+
+apni:118772
+    a dwc:Taxon ;
+    schema:name "Persoonia laxa" ;
+.
+
+apni:118800
+    a dwc:Taxon ;
+    schema:name "Acacia blayana" ;
+.
+
+apni:118803
+    a dwc:Taxon ;
+    schema:name "Acacia courtii" ;
+.
+
+apni:118807
+    a dwc:Taxon ;
+    schema:name "Boronia umbellata" ;
+.
+
+apni:118817
+    a dwc:Taxon ;
+    schema:name "Almaleea cambagei" ;
+.
+
+apni:118820
+    a dwc:Taxon ;
+    schema:name "Asterolasia elegans" ;
+.
+
+apni:118821
+    a dwc:Taxon ;
+    schema:name "Astrotricha roddii" ;
+.
+
+apni:118828
+    a dwc:Taxon ;
+    schema:name "Eucalyptus kabiana" ;
+.
+
+apni:118829
+    a dwc:Taxon ;
+    schema:name "Eucalyptus beaniana" ;
+.
+
+apni:118850
+    a dwc:Taxon ;
+    schema:name "Grevillea calliantha" ;
+.
+
+apni:118856
+    a dwc:Taxon ;
+    schema:name "Swainsona pyrophila" ;
+.
+
+apni:118885
+    a dwc:Taxon ;
+    schema:name "Geniostoma huttonii" ;
+.
+
+apni:118918
+    a dwc:Taxon ;
+    schema:name "Grevillea wilkinsonii" ;
+.
+
+apni:118923
+    a dwc:Taxon ;
+    schema:name "Alloxylon flammeum" ;
+.
+
+apni:118926
+    a dwc:Taxon ;
+    schema:name "Eucalyptus pruiniramis" ;
+.
+
+apni:118953
+    a dwc:Taxon ;
+    schema:name "Eucalyptus recta" ;
+.
+
+apni:118984
+    a dwc:Taxon ;
+    schema:name "Westringia kydrensis" ;
+.
+
+apni:119017
+    a dwc:Taxon ;
+    schema:name "Boronia galbraithiae" ;
+.
+
+apni:119034
+    a dwc:Taxon ;
+    schema:name "Callistemon forresterae" ;
+.
+
+apni:119038
+    a dwc:Taxon ;
+    schema:name "Pterostylis" ;
+.
+
+apni:119039
+    a dwc:Taxon ;
+    schema:name "Pterostylis basaltica" ;
+.
+
+apni:119041
+    a dwc:Taxon ;
+    schema:name "Pterostylis cheraphila" ;
+.
+
+apni:119043
+    a dwc:Taxon ;
+    schema:name "Pterostylis chlorogramma" ;
+.
+
+apni:119060
+    a dwc:Taxon ;
+    schema:name "Caladenia formosa" ;
+.
+
+apni:119064
+    a dwc:Taxon ;
+    schema:name "Caladenia fulva" ;
+.
+
+apni:119065
+    a dwc:Taxon ;
+    schema:name "Caladenia insularis" ;
+.
+
+apni:119067
+    a dwc:Taxon ;
+    schema:name "Caladenia lowanensis" ;
+.
+
+apni:119071
+    a dwc:Taxon ;
+    schema:name "Caladenia robinsonii" ;
+.
+
+apni:119073
+    a dwc:Taxon ;
+    schema:name "Caladenia tensa" ;
+.
+
+apni:119074
+    a dwc:Taxon ;
+    schema:name "Caladenia thysanochila" ;
+.
+
+apni:119077
+    a dwc:Taxon ;
+    schema:name "Caladenia versicolor" ;
+.
+
+apni:119098
+    a dwc:Taxon ;
+    schema:name "Thomasia glabripetala" ;
+.
+
+apni:119244
+    a dwc:Taxon ;
+    schema:name "Melicytus latifolius" ;
+.
+
+apni:119247
+    a dwc:Taxon ;
+    schema:name "Melicytus ramiflorus" ;
+.
+
+apni:119275
+    a dwc:Taxon ;
+    schema:name "Typhonium jonesii" ;
+.
+
+apni:119305
+    a dwc:Taxon ;
+.
+
+apni:119312
+    a dwc:Taxon ;
+    schema:name "Colobanthus curtisiae" ;
+.
+
+apni:119388
+    a dwc:Taxon ;
+    schema:name "Corymbia clandestina" ;
+.
+
+apni:119418
+    a dwc:Taxon ;
+    schema:name "Corymbia leptoloma" ;
+.
+
+apni:119432
+    a dwc:Taxon ;
+    schema:name "Corymbia rhodops" ;
+.
+
+apni:119439
+    a dwc:Taxon ;
+    schema:name "Corymbia xanthope" ;
+.
+
+apni:119569
+    a dwc:Taxon ;
+    schema:name "Eucalyptus dolorosa" ;
+.
+
+apni:119572
+    a dwc:Taxon ;
+    schema:name "Eucalyptus leprophloia" ;
+.
+
+apni:119573
+    a dwc:Taxon ;
+    schema:name "Eucalyptus articulata" ;
+.
+
+apni:119588
+    a dwc:Taxon ;
+    schema:name "Eucalyptus crucis" ;
+.
+
+apni:119605
+    a dwc:Taxon ;
+    schema:name "Eucalyptus cuprea" ;
+.
+
+apni:119610
+    a dwc:Taxon ;
+    schema:name "Eucalyptus taurina" ;
+.
+
+apni:119616
+    a dwc:Taxon ;
+    schema:name "Eucalyptus alligatrix" ;
+.
+
+apni:119617
+    a dwc:Taxon ;
+    schema:name "Eucalyptus alligatrix" ;
+.
+
+apni:119797
+    a dwc:Taxon ;
+    schema:name "Lastreopsis calantha" ;
+.
+
+apni:120080
+    a dwc:Taxon ;
+    schema:name "Lemmaphyllum accedens" ;
+.
+
+apni:120671
+    a dwc:Taxon ;
+    schema:name "Zieria tuberculata" ;
+.
+
+apni:120676
+    a dwc:Taxon ;
+    schema:name "Zieria citriodora" ;
+.
+
+apni:121934
+    a dwc:Taxon ;
+    schema:name "Zieria obovata" ;
+.
+
+apni:121936
+    a dwc:Taxon ;
+    schema:name "Zieria verrucosa" ;
+.
+
+apni:122068
+    a dwc:Taxon ;
+    schema:name "Daviesia bursarioides" ;
+.
+
+apni:123013
+    a dwc:Taxon ;
+    schema:name "Caladenia excelsa" ;
+.
+
+apni:123341
+    a dwc:Taxon ;
+    schema:name "Epacris glabella" ;
+.
+
+apni:123541
+    a dwc:Taxon ;
+    schema:name "Dysoxylum bijugum" ;
+.
+
+apni:123621
+    a dwc:Taxon ;
+    schema:name "Pterostylis valida" ;
+.
+
+apni:124413
+    a dwc:Taxon ;
+    schema:name "Gastrolobium humile" ;
+.
+
+apni:124999
+    a dwc:Taxon ;
+    schema:name "Zieria ingramii" ;
+.
+
+apni:125816
+    a dwc:Taxon ;
+    schema:name "Achyranthes arborescens" ;
+.
+
+apni:125883
+    a dwc:Taxon ;
+    schema:name "Tmesipteris norfolkensis" ;
+.
+
+apni:125911
+    a dwc:Taxon ;
+    schema:name "Clausena excavata" ;
+.
+
+apni:126096
+    a dwc:Taxon ;
+    schema:name "Ileostylus micranthus" ;
+.
+
+apni:126098
+    a dwc:Taxon ;
+    schema:name "Pennantia endlicheri" ;
+.
+
+apni:126107
+    a dwc:Taxon ;
+    schema:name "Muehlenbeckia australis" ;
+.
+
+apni:126931
+    a dwc:Taxon ;
+    schema:name "Brachychiton" ;
+.
+
+apni:131126
+    a dwc:Taxon ;
+    schema:name "Zieria baeuerlenii" ;
+.
+
+apni:131131
+    a dwc:Taxon ;
+    schema:name "Zieria prostrata" ;
+.
+
+apni:131133
+    a dwc:Taxon ;
+    schema:name "Zieria covenyi" ;
+.
+
+apni:131436
+    a dwc:Taxon ;
+    schema:name "Hakea dohertyi" ;
+.
+
+apni:132554
+    a dwc:Taxon ;
+    schema:name "Guichenotia seorsiflora" ;
+.
+
+apni:133035
+    a dwc:Taxon ;
+    schema:name "Zieria formosa" ;
+.
+
+apni:133036
+    a dwc:Taxon ;
+    schema:name "Zieria buxijugum" ;
+.
+
+apni:133037
+    a dwc:Taxon ;
+    schema:name "Zieria parrisiae" ;
+.
+
+apni:134426
+    a dwc:Taxon ;
+    schema:name "Philotheca basistyla" ;
+.
+
+apni:134793
+    a dwc:Taxon ;
+    schema:name "Grevillea quadricauda" ;
+.
+
+apni:134846
+    a dwc:Taxon ;
+.
+
+apni:134921
+    a dwc:Taxon ;
+    schema:name "Acacia pygmaea" ;
+.
+
+apni:134952
+    a dwc:Taxon ;
+    schema:name "Asplenium listeri" ;
+.
+
+apni:135107
+    a dwc:Taxon ;
+    schema:name "Hakea archaeoides" ;
+.
+
+apni:135120
+    a dwc:Taxon ;
+    schema:name "Senecio psilocarpus" ;
+.
+
+apni:135246
+    a dwc:Taxon ;
+    schema:name "Leptospermum jingera" ;
+.
+
+apni:135260
+    a dwc:Taxon ;
+    schema:name "Grevillea masonii" ;
+.
+
+apni:135261
+    a dwc:Taxon ;
+    schema:name "Grevillea rhizomatosa" ;
+.
+
+apni:135262
+    a dwc:Taxon ;
+    schema:name "Grevillea mollis" ;
+.
+
+apni:135430
+    a dwc:Taxon ;
+    schema:name "Acacia whibleyana" ;
+.
+
+apni:135799
+    a dwc:Taxon ;
+    schema:name "Daviesia pseudaphylla" ;
+.
+
+apni:136887
+    a dwc:Taxon ;
+    schema:name "Grevillea raybrownii" ;
+.
+
+apni:136889
+    a dwc:Taxon ;
+    schema:name "Grevillea corrugata" ;
+.
+
+apni:137817
+    a dwc:Taxon ;
+    schema:name "Pterostylis metcalfei" ;
+.
+
+apni:137880
+    a dwc:Taxon ;
+    schema:name "Diuris ochroma" ;
+.
+
+apni:138370
+    a dwc:Taxon ;
+    schema:name "Prasophyllum stellatum" ;
+.
+
+apni:138767
+    a dwc:Taxon ;
+    schema:name "Prasophyllum suaveolens" ;
+.
+
+apni:138778
+    a dwc:Taxon ;
+    schema:name "Prasophyllum correctum" ;
+.
+
+apni:138784
+    a dwc:Taxon ;
+    schema:name "Prasophyllum castaneum" ;
+.
+
+apni:138812
+    a dwc:Taxon ;
+    schema:name "Triplarina nowraensis" ;
+.
+
+apni:138899
+    a dwc:Taxon ;
+    schema:name "Daviesia microcarpa" ;
+.
+
+apni:138967
+    a dwc:Taxon ;
+    schema:name "Caladenia granitora" ;
+.
+
+apni:138978
+    a dwc:Taxon ;
+    schema:name "Caladenia anthracina" ;
+.
+
+apni:139128
+    a dwc:Taxon ;
+    schema:name "Prasophyllum secutum" ;
+.
+
+apni:139130
+    a dwc:Taxon ;
+    schema:name "Caladenia dienema" ;
+.
+
+apni:139371
+    a dwc:Taxon ;
+    schema:name "Daviesia megacalyx" ;
+.
+
+apni:139377
+    a dwc:Taxon ;
+    schema:name "Daviesia speciosa" ;
+.
+
+apni:140472
+    a dwc:Taxon ;
+    schema:name "Caladenia harringtoniae" ;
+.
+
+apni:140522
+    a dwc:Taxon ;
+    schema:name "Verticordia fimbrilepis" ;
+.
+
+apni:140524
+    a dwc:Taxon ;
+    schema:name "Verticordia fimbrilepis" ;
+.
+
+apni:141458
+    a dwc:Taxon ;
+    schema:name "Acacia ataxiphylla" ;
+.
+
+apni:141643
+    a dwc:Taxon ;
+    schema:name "Daviesia elongata" ;
+.
+
+apni:143071
+    a dwc:Taxon ;
+    schema:name "Cordyline obtecta" ;
+.
+
+apni:143885
+    a dwc:Taxon ;
+    schema:name "Euphorbia norfolkiana" ;
+.
+
+apni:144373
+    a dwc:Taxon ;
+    schema:name "Sagina diemensis" ;
+.
+
+apni:144659
+    a dwc:Taxon ;
+    schema:name "Caladenia tonellii" ;
+.
+
+apni:146659
+    a dwc:Taxon ;
+    schema:name "Caladenia saggicola" ;
+.
+
+apni:147204
+    a dwc:Taxon ;
+    schema:name "Grevillea parviflora" ;
+.
+
+apni:147260
+    a dwc:Taxon ;
+    schema:name "Macrozamia parcifolia" ;
+.
+
+apni:147397
+    a dwc:Taxon ;
+    schema:name "Parsonsia dorrigoensis" ;
+.
+
+apni:147527
+    a dwc:Taxon ;
+    schema:name "Caladenia amoena" ;
+.
+
+apni:149108
+    a dwc:Taxon ;
+    schema:name "Hibiscus brennanii" ;
+.
+
+apni:149911
+    a dwc:Taxon ;
+    schema:name "Acacia aprica" ;
+.
+
+apni:150778
+    a dwc:Taxon ;
+    schema:name "Acacia auratiflora" ;
+.
+
+apni:150783
+    a dwc:Taxon ;
+    schema:name "Acacia aristulata" ;
+.
+
+apni:151130
+    a dwc:Taxon ;
+    schema:name "Sporobolus pamelae" ;
+.
+
+apni:151141
+    a dwc:Taxon ;
+    schema:name "Daphnandra johnsonii" ;
+.
+
+apni:151151
+    a dwc:Taxon ;
+    schema:name "Acacia imitans" ;
+.
+
+apni:151157
+    a dwc:Taxon ;
+    schema:name "Acacia recurvata" ;
+.
+
+apni:151309
+    a dwc:Taxon ;
+    schema:name "Acacia leptalea" ;
+.
+
+apni:151314
+    a dwc:Taxon ;
+    schema:name "Acacia rhamphophylla" ;
+.
+
+apni:151505
+    a dwc:Taxon ;
+    schema:name "Wurmbea calcicola" ;
+.
+
+apni:151968
+    a dwc:Taxon ;
+    schema:name "Dischidia litoralis" ;
+.
+
+apni:152953
+    a dwc:Taxon ;
+    schema:name "Acacia cochlocarpa" ;
+.
+
+apni:153115
+    a dwc:Taxon ;
+    schema:name "Acacia insolita" ;
+.
+
+apni:153433
+    a dwc:Taxon ;
+    schema:name "Acacia chapmanii" ;
+.
+
+apni:153457
+    a dwc:Taxon ;
+    schema:name "Acacia cochlocarpa" ;
+.
+
+apni:153479
+    a dwc:Taxon ;
+    schema:name "Pultenaea parrisiae" ;
+.
+
+apni:154023
+    a dwc:Taxon ;
+    schema:name "Boronia viridiflora" ;
+.
+
+apni:154057
+    a dwc:Taxon ;
+    schema:name "Chordifex abortivus" ;
+.
+
+apni:154082
+    a dwc:Taxon ;
+    schema:name "Persoonia hindii" ;
+.
+
+apni:154135
+    a dwc:Taxon ;
+    schema:name "Pomaderris delicata" ;
+.
+
+apni:154559
+    a dwc:Taxon ;
+    schema:name "Euphrasia fragosa" ;
+.
+
+apni:154560
+    a dwc:Taxon ;
+    schema:name "Canarium acutifolium" ;
+.
+
+apni:154563
+    a dwc:Taxon ;
+    schema:name "Archontophoenix myolensis" ;
+.
+
+apni:154586
+    a dwc:Taxon ;
+    schema:name "Epacris limbata" ;
+.
+
+apni:154587
+    a dwc:Taxon ;
+    schema:name "Eryngium fontanum" ;
+.
+
+apni:154591
+    a dwc:Taxon ;
+    schema:name "Grevillea banyabba" ;
+.
+
+apni:154592
+    a dwc:Taxon ;
+    schema:name "Grevillea christineae" ;
+.
+
+apni:154593
+    a dwc:Taxon ;
+    schema:name "Grevillea dryandroides" ;
+.
+
+apni:154594
+    a dwc:Taxon ;
+    schema:name "Grevillea dryandroides" ;
+.
+
+apni:154595
+    a dwc:Taxon ;
+    schema:name "Grevillea guthrieana" ;
+.
+
+apni:154596
+    a dwc:Taxon ;
+    schema:name "Grevillea pythara" ;
+.
+
+apni:154600
+    a dwc:Taxon ;
+    schema:name "Lambertia echinata" ;
+.
+
+apni:154602
+    a dwc:Taxon ;
+    schema:name "Macrozamia conferta" ;
+.
+
+apni:154603
+    a dwc:Taxon ;
+    schema:name "Macrozamia cranei" ;
+.
+
+apni:154604
+    a dwc:Taxon ;
+    schema:name "Macrozamia machinii" ;
+.
+
+apni:154605
+    a dwc:Taxon ;
+    schema:name "Marsdenia brevifolia" ;
+.
+
+apni:154606
+    a dwc:Taxon ;
+    schema:name "Marsdenia paludicola" ;
+.
+
+apni:154607
+    a dwc:Taxon ;
+    schema:name "Micromyrtus grandis" ;
+.
+
+apni:154608
+    a dwc:Taxon ;
+    schema:name "Microtis angusii" ;
+.
+
+apni:154609
+    a dwc:Taxon ;
+    schema:name "Omphalea celata" ;
+.
+
+apni:154610
+    a dwc:Taxon ;
+    schema:name "Parsonsia larcomensis" ;
+.
+
+apni:154612
+    a dwc:Taxon ;
+    schema:name "Plectranthus leiperi" ;
+.
+
+apni:154616
+    a dwc:Taxon ;
+    schema:name "Pterostylis saxicola" ;
+.
+
+apni:154619
+    a dwc:Taxon ;
+    schema:name "Pterostylis" ;
+.
+
+apni:154624
+    a dwc:Taxon ;
+    schema:name "Syzygium velarum" ;
+.
+
+apni:154626
+    a dwc:Taxon ;
+    schema:name "Triplarina imbricata" ;
+.
+
+apni:154629
+    a dwc:Taxon ;
+    schema:name "Huperzia serrata" ;
+.
+
+apni:154635
+    a dwc:Taxon ;
+    schema:name "Caladenia winfieldii" ;
+.
+
+apni:154638
+    a dwc:Taxon ;
+    schema:name "Darwinia ferricola" ;
+.
+
+apni:154644
+    a dwc:Taxon ;
+    schema:name "Grevillea elongata" ;
+.
+
+apni:154645
+    a dwc:Taxon ;
+    schema:name "Grevillea maccutcheonii" ;
+.
+
+apni:154647
+    a dwc:Taxon ;
+    schema:name "Livistona lanuginosa" ;
+.
+
+apni:154648
+    a dwc:Taxon ;
+    schema:name "Petrophile latericola" ;
+.
+
+apni:154649
+    a dwc:Taxon ;
+    schema:name "Pterostylis rubenachii" ;
+.
+
+apni:154651
+    a dwc:Taxon ;
+    schema:name "Zieria floydii" ;
+.
+
+apni:154666
+    a dwc:Taxon ;
+    schema:name "Macrozamia occidua" ;
+.
+
+apni:154669
+    a dwc:Taxon ;
+    schema:name "Plectranthus habrophyllus" ;
+.
+
+apni:154672
+    a dwc:Taxon ;
+    schema:name "Pterostylis commutata" ;
+.
+
+apni:154676
+    a dwc:Taxon ;
+    schema:name "Thomasia" ;
+.
+
+apni:154682
+    a dwc:Taxon ;
+    schema:name "Tetratheca paynterae" ;
+.
+
+apni:154683
+    a dwc:Taxon ;
+    schema:name "Zieria lasiocaulis" ;
+.
+
+apni:154685
+    a dwc:Taxon ;
+    schema:name "Lambertia echinata" ;
+.
+
+apni:154690
+    a dwc:Taxon ;
+    schema:name "Triplarina nitchaga" ;
+.
+
+apni:154692
+    a dwc:Taxon ;
+    schema:name "Eucalyptus pachycalyx" ;
+.
+
+apni:154737
+    a dwc:Taxon ;
+    schema:name "Amyema plicatula" ;
+.
+
+apni:154744
+    a dwc:Taxon ;
+    schema:name "Philotheca falcata" ;
+.
+
+apni:154745
+    a dwc:Taxon ;
+    schema:name "Philotheca wonganensis" ;
+.
+
+apni:154747
+    a dwc:Taxon ;
+    schema:name "Nematolepis rhytidophylla" ;
+.
+
+apni:154751
+    a dwc:Taxon ;
+    schema:name "Wollemia nobilis" ;
+.
+
+apni:154752
+    a dwc:Taxon ;
+    schema:name "Eucryphia wilkiei" ;
+.
+
+apni:154755
+    a dwc:Taxon ;
+    schema:name "Sankowskya stipularis" ;
+.
+
+apni:154765
+    a dwc:Taxon ;
+    schema:name "Leionema equestre" ;
+.
+
+apni:154766
+    a dwc:Taxon ;
+    schema:name "Leionema lachnaeoides" ;
+.
+
+apni:154767
+    a dwc:Taxon ;
+    schema:name "Leionema obtusifolium" ;
+.
+
+apni:154768
+    a dwc:Taxon ;
+    schema:name "Leionema ralstonii" ;
+.
+
+apni:154769
+    a dwc:Taxon ;
+    schema:name "Leionema sympetalum" ;
+.
+
+apni:154777
+    a dwc:Taxon ;
+    schema:name "Daviesia glossosema" ;
+.
+
+apni:154795
+    a dwc:Taxon ;
+    schema:name "Prostanthera junonis" ;
+.
+
+apni:154796
+    a dwc:Taxon ;
+    schema:name "Prostanthera palustris" ;
+.
+
+apni:154799
+    a dwc:Taxon ;
+    schema:name "Prostanthera askania" ;
+.
+
+apni:154803
+    a dwc:Taxon ;
+    schema:name "Callitris oblonga" ;
+.
+
+apni:154807
+    a dwc:Taxon ;
+    schema:name "Euphrasia ruptura" ;
+.
+
+apni:154811
+    a dwc:Taxon ;
+    schema:name "Grevillea humifusa" ;
+.
+
+apni:154932
+    a dwc:Taxon ;
+    schema:name "Daviesia cunderdin" ;
+.
+
+apni:154939
+    a dwc:Taxon ;
+    schema:name "Sphaerolobium acanthos" ;
+.
+
+apni:155032
+    a dwc:Taxon ;
+    schema:name "Eucalyptus canobolensis" ;
+.
+
+apni:155033
+    a dwc:Taxon ;
+    schema:name "Aponogeton prolifer" ;
+.
+
+apni:155072
+    a dwc:Taxon ;
+    schema:name "Banksia paludosa" ;
+.
+
+apni:155475
+    a dwc:Taxon ;
+    schema:name "Telopea aspera" ;
+.
+
+apni:155716
+    a dwc:Taxon ;
+    schema:name "Jacksonia pungens" ;
+.
+
+apni:156609
+    a dwc:Taxon ;
+    schema:name "Marianthus paralius" ;
+.
+
+apni:156762
+    a dwc:Taxon ;
+    schema:name "Hakea macrorrhyncha" ;
+.
+
+apni:156831
+    a dwc:Taxon ;
+    schema:name "Gastrolobium diabolophyllum" ;
+.
+
+apni:158307
+    a dwc:Taxon ;
+    schema:name "Aristida thompsonii" ;
+.
+
+apni:158313
+    a dwc:Taxon ;
+    schema:name "Pultenaea insularis" ;
+.
+
+apni:158745
+    a dwc:Taxon ;
+    schema:name "Synaphea stenoloba" ;
+.
+
+apni:159456
+    a dwc:Taxon ;
+    schema:name "Meryta latifolia" ;
+.
+
+apni:159759
+    a dwc:Taxon ;
+    schema:name "Conospermum quadripetalum" ;
+.
+
+apni:159774
+    a dwc:Taxon ;
+    schema:name "Synaphea quartzitica" ;
+.
+
+apni:159883
+    a dwc:Taxon ;
+    schema:name "Callistemon kenmorrisonii" ;
+.
+
+apni:159969
+    a dwc:Taxon ;
+    schema:name "Angophora inopina" ;
+.
+
+apni:160363
+    a dwc:Taxon ;
+    schema:name "Macarthuria keigheryi" ;
+.
+
+apni:160518
+    a dwc:Taxon ;
+    schema:name "Verticordia apecta" ;
+.
+
+apni:161108
+    a dwc:Taxon ;
+    schema:name "Pneumatopteris truncata" ;
+.
+
+apni:161435
+    a dwc:Taxon ;
+    schema:name "Conospermum densiflorum" ;
+.
+
+apni:161550
+    a dwc:Taxon ;
+    schema:name "Callitris oblonga" ;
+.
+
+apni:161635
+    a dwc:Taxon ;
+    schema:name "Muehlenbeckia tuggeranong" ;
+.
+
+apni:162213
+    a dwc:Taxon ;
+    schema:name "Acacia subflexuosa" ;
+.
+
+apni:162214
+    a dwc:Taxon ;
+    schema:name "Acacia wilsonii" ;
+.
+
+apni:162298
+    a dwc:Taxon ;
+    schema:name "Stonesiella selaginoides" ;
+.
+
+apni:162795
+    a dwc:Taxon ;
+    schema:name "Caladenia actensis" ;
+.
+
+apni:162808
+    a dwc:Taxon ;
+    schema:name "Caladenia campbellii" ;
+.
+
+apni:162831
+    a dwc:Taxon ;
+    schema:name "Prasophyllum pulchellum" ;
+.
+
+apni:162836
+    a dwc:Taxon ;
+    schema:name "Prasophyllum favonium" ;
+.
+
+apni:162951
+    a dwc:Taxon ;
+    schema:name "Correa eburnea" ;
+.
+
+apni:162996
+    a dwc:Taxon ;
+    schema:name "Callitris oblonga" ;
+.
+
+apni:163129
+    a dwc:Taxon ;
+    schema:name "Grevillea celata" ;
+.
+
+apni:163131
+    a dwc:Taxon ;
+    schema:name "Grevillea curviloba" ;
+.
+
+apni:163132
+    a dwc:Taxon ;
+    schema:name "Grevillea curviloba" ;
+.
+
+apni:163146
+    a dwc:Taxon ;
+    schema:name "Austrostipa metatoris" ;
+.
+
+apni:163178
+    a dwc:Taxon ;
+    schema:name "Austrostipa wakoolica" ;
+.
+
+apni:163358
+    a dwc:Taxon ;
+    schema:name "Grevillea althoferorum" ;
+.
+
+apni:163807
+    a dwc:Taxon ;
+    schema:name "Baeckea kandos" ;
+.
+
+apni:164131
+    a dwc:Taxon ;
+    schema:name "Thelymitra dedmaniarum" ;
+.
+
+apni:164174
+    a dwc:Taxon ;
+    schema:name "Eucalyptus scopulorum" ;
+.
+
+apni:164187
+    a dwc:Taxon ;
+    schema:name "Boronia exilis" ;
+.
+
+apni:164557
+    a dwc:Taxon ;
+    schema:name "Persoonia micranthera" ;
+.
+
+apni:164620
+    a dwc:Taxon ;
+    schema:name "Prostanthera cryptandroides" ;
+.
+
+apni:164694
+    a dwc:Taxon ;
+    schema:name "Nematolepis frondosa" ;
+.
+
+apni:164698
+    a dwc:Taxon ;
+    schema:name "Nematolepis squamea" ;
+.
+
+apni:164700
+    a dwc:Taxon ;
+    schema:name "Nematolepis wilsonii" ;
+.
+
+apni:164728
+    a dwc:Taxon ;
+    schema:name "Drummondita longifolia" ;
+.
+
+apni:164737
+    a dwc:Taxon ;
+    schema:name "Acacia carneorum" ;
+.
+
+apni:164871
+    a dwc:Taxon ;
+    schema:name "Prasophyllum apoxychilum" ;
+.
+
+apni:164929
+    a dwc:Taxon ;
+.
+
+apni:164941
+    a dwc:Taxon ;
+    schema:name "Hakea maconochieana" ;
+.
+
+apni:164959
+    a dwc:Taxon ;
+    schema:name "Banksia penicillata" ;
+.
+
+apni:165074
+    a dwc:Taxon ;
+    schema:name "Conospermum galeatum" ;
+.
+
+apni:165075
+    a dwc:Taxon ;
+    schema:name "Conospermum hookeri" ;
+.
+
+apni:165083
+    a dwc:Taxon ;
+    schema:name "Grevillea acropogon" ;
+.
+
+apni:165138
+    a dwc:Taxon ;
+    schema:name "Prasophyllum bagoense" ;
+.
+
+apni:165171
+    a dwc:Taxon ;
+    schema:name "Grevillea hodgei" ;
+.
+
+apni:165224
+    a dwc:Taxon ;
+    schema:name "Homoranthus croftianus" ;
+.
+
+apni:165275
+    a dwc:Taxon ;
+    schema:name "Grevillea rara" ;
+.
+
+apni:165405
+    a dwc:Taxon ;
+    schema:name "Lepidium ginninderrense" ;
+.
+
+apni:165412
+    a dwc:Taxon ;
+    schema:name "Prasophyllum amoenum" ;
+.
+
+apni:165497
+    a dwc:Taxon ;
+    schema:name "Boronia quadrilata" ;
+.
+
+apni:165572
+    a dwc:Taxon ;
+    schema:name "Xyris exilis" ;
+.
+
+apni:165590
+    a dwc:Taxon ;
+    schema:name "Persoonia pauciflora" ;
+.
+
+apni:165892
+    a dwc:Taxon ;
+    schema:name "Gastrolobium luteifolium" ;
+.
+
+apni:165914
+    a dwc:Taxon ;
+    schema:name "Gastrolobium vestitum" ;
+.
+
+apni:166245
+    a dwc:Taxon ;
+    schema:name "Dianella amoena" ;
+.
+
+apni:166306
+    a dwc:Taxon ;
+    schema:name "Epacris graniticola" ;
+.
+
+apni:166813
+    a dwc:Taxon ;
+    schema:name "Brachyscias verecundus" ;
+.
+
+apni:166842
+    a dwc:Taxon ;
+    schema:name "Blechnum norfolkianum" ;
+.
+
+apni:166880
+    a dwc:Taxon ;
+    schema:name "Pomaderris reperta" ;
+.
+
+apni:166887
+    a dwc:Taxon ;
+    schema:name "Rhodamnia angustifolia" ;
+.
+
+apni:166905
+    a dwc:Taxon ;
+    schema:name "Davidsonia jerseyana" ;
+.
+
+apni:166907
+    a dwc:Taxon ;
+    schema:name "Davidsonia johnsonii" ;
+.
+
+apni:167330
+    a dwc:Taxon ;
+    schema:name "Eremophila prostrata" ;
+.
+
+apni:167747
+    a dwc:Taxon ;
+    schema:name "Gastrolobium modestum" ;
+.
+
+apni:167751
+    a dwc:Taxon ;
+    schema:name "Gastrolobium papilio" ;
+.
+
+apni:167933
+    a dwc:Taxon ;
+    schema:name "Caladenia ornata" ;
+.
+
+apni:168155
+    a dwc:Taxon ;
+    schema:name "Prasophyllum murfetii" ;
+.
+
+apni:168881
+    a dwc:Taxon ;
+    schema:name "Acacia purpureopetala" ;
+.
+
+apni:168936
+    a dwc:Taxon ;
+    schema:name "Eremophila pinnatifida" ;
+.
+
+apni:169011
+    a dwc:Taxon ;
+    schema:name "Eremophila rostrata" ;
+.
+
+apni:169779
+    a dwc:Taxon ;
+    schema:name "Acacia atrox" ;
+.
+
+apni:169794
+    a dwc:Taxon ;
+    schema:name "Prostanthera galbraithiae" ;
+.
+
+apni:169933
+    a dwc:Taxon ;
+    schema:name "Corunastylis ectopa" ;
+.
+
+apni:170107
+    a dwc:Taxon ;
+    schema:name "Calectasia pignattiana" ;
+.
+
+apni:170161
+    a dwc:Taxon ;
+    schema:name "Lysiosepalum abollatum" ;
+.
+
+apni:170171
+    a dwc:Taxon ;
+    schema:name "Leiocarpa gatesii" ;
+.
+
+apni:170181
+    a dwc:Taxon ;
+    schema:name "Prasophyllum olidum" ;
+.
+
+apni:170725
+    a dwc:Taxon ;
+    schema:name "Eleocharis keigheryi" ;
+.
+
+apni:170733
+    a dwc:Taxon ;
+    schema:name "Stylidium semaphorum" ;
+.
+
+apni:170831
+    a dwc:Taxon ;
+    schema:name "Eucalyptus boliviana" ;
+.
+
+apni:170875
+    a dwc:Taxon ;
+    schema:name "Xerochrysum palustre" ;
+.
+
+apni:170941
+    a dwc:Taxon ;
+    schema:name "Solanum dissectum" ;
+.
+
+apni:171164
+    a dwc:Taxon ;
+    schema:name "Hibbertia humifusa" ;
+.
+
+apni:171165
+    a dwc:Taxon ;
+    schema:name "Hibbertia humifusa" ;
+.
+
+apni:171169
+    a dwc:Taxon ;
+    schema:name "Hibbertia tenuis" ;
+.
+
+apni:171175
+    a dwc:Taxon ;
+    schema:name "Kunzea ericifolia" ;
+.
+
+apni:171296
+    a dwc:Taxon ;
+.
+
+apni:171312
+    a dwc:Taxon ;
+    schema:name "Hibbertia praemorsa" ;
+.
+
+apni:171316
+    a dwc:Taxon ;
+    schema:name "Hibbertia superans" ;
+.
+
+apni:171412
+    a dwc:Taxon ;
+    schema:name "Caladenia amnicola" ;
+.
+
+apni:171464
+    a dwc:Taxon ;
+    schema:name "Dillwynia rupestris" ;
+.
+
+apni:171479
+    a dwc:Taxon ;
+    schema:name "Livistona mariae" ;
+.
+
+apni:171703
+    a dwc:Taxon ;
+    schema:name "Eucalyptus broviniensis" ;
+.
+
+apni:172123
+    a dwc:Taxon ;
+    schema:name "Meryta angustifolia" ;
+.
+
+apni:172359
+    a dwc:Taxon ;
+    schema:name "Pterostylis pratensis" ;
+.
+
+apni:172362
+    a dwc:Taxon ;
+    schema:name "Pterostylis wapstrarum" ;
+.
+
+apni:172364
+    a dwc:Taxon ;
+    schema:name "Pterostylis ziegeleri" ;
+.
+
+apni:172377
+    a dwc:Taxon ;
+    schema:name "Caladenia lodgeana" ;
+.
+
+apni:172431
+    a dwc:Taxon ;
+    schema:name "Prasophyllum perangustum" ;
+.
+
+apni:172472
+    a dwc:Taxon ;
+    schema:name "Prasophyllum tunbridgense" ;
+.
+
+apni:172486
+    a dwc:Taxon ;
+    schema:name "Typhonium praetermissum" ;
+.
+
+apni:172490
+    a dwc:Taxon ;
+    schema:name "Typhonium mirabile" ;
+.
+
+apni:172646
+    a dwc:Taxon ;
+    schema:name "Caladenia procera" ;
+.
+
+apni:172989
+    a dwc:Taxon ;
+    schema:name "Caladenia barbarella" ;
+.
+
+apni:172990
+    a dwc:Taxon ;
+    schema:name "Caladenia drakeoides" ;
+.
+
+apni:173297
+    a dwc:Taxon ;
+    schema:name "Caladenia luteola" ;
+.
+
+apni:173299
+    a dwc:Taxon ;
+    schema:name "Caladenia melanema" ;
+.
+
+apni:173623
+    a dwc:Taxon ;
+.
+
+apni:174200
+    a dwc:Taxon ;
+    schema:name "Caladenia williamsiae" ;
+.
+
+apni:174684
+    a dwc:Taxon ;
+    schema:name "Prasophyllum milfordense" ;
+.
+
+apni:174685
+    a dwc:Taxon ;
+    schema:name "Caladenia sylvicola" ;
+.
+
+apni:175383
+    a dwc:Taxon ;
+    schema:name "Caladenia attenuata" ;
+.
+
+apni:175501
+    a dwc:Taxon ;
+    schema:name "Cepobaculum carronii" ;
+.
+
+apni:176216
+    a dwc:Taxon ;
+    schema:name "Tropilis callitrophilis" ;
+.
+
+apni:176226
+    a dwc:Taxon ;
+    schema:name "Vappodes lithocola" ;
+.
+
+apni:176227
+    a dwc:Taxon ;
+    schema:name "Vappodes phalaenopsis" ;
+.
+
+apni:177180
+    a dwc:Taxon ;
+    schema:name "Lachnagrostis adamsonii" ;
+.
+
+apni:177188
+    a dwc:Taxon ;
+    schema:name "Lachnagrostis limitanea" ;
+.
+
+apni:177656
+    a dwc:Taxon ;
+    schema:name "Selaginella andrewsii" ;
+.
+
+apni:177937
+    a dwc:Taxon ;
+    schema:name "Antrophyum austroqueenslandicum" ;
+.
+
+apni:178271
+    a dwc:Taxon ;
+    schema:name "Asterolasia asteriscophora" ;
+.
+
+apni:178509
+    a dwc:Taxon ;
+    schema:name "Stylidium ensatum" ;
+.
+
+apni:178589
+    a dwc:Taxon ;
+    schema:name "Prostanthera clotteniana" ;
+.
+
+apni:178785
+    a dwc:Taxon ;
+    schema:name "Lasiopetalum" ;
+.
+
+apni:178792
+    a dwc:Taxon ;
+    schema:name "Thismia clavarioides" ;
+.
+
+apni:178800
+    a dwc:Taxon ;
+    schema:name "Craspedia preminghana" ;
+.
+
+apni:178801
+    a dwc:Taxon ;
+    schema:name "Eidothea hardeniana" ;
+.
+
+apni:178810
+    a dwc:Taxon ;
+    schema:name "Thynninorchis nothofagicola" ;
+.
+
+apni:178823
+    a dwc:Taxon ;
+    schema:name "Corunastylis brachystachya" ;
+.
+
+apni:178827
+    a dwc:Taxon ;
+    schema:name "Corunastylis firthii" ;
+.
+
+apni:178829
+    a dwc:Taxon ;
+    schema:name "Corunastylis insignis" ;
+.
+
+apni:178830
+    a dwc:Taxon ;
+    schema:name "Corunastylis littoralis" ;
+.
+
+apni:178866
+    a dwc:Taxon ;
+    schema:name "Pterostylis bryophila" ;
+.
+
+apni:178898
+    a dwc:Taxon ;
+    schema:name "Philotheca freyciana" ;
+.
+
+apni:178902
+    a dwc:Taxon ;
+    schema:name "Thelymitra jonesii" ;
+.
+
+apni:179714
+    a dwc:Taxon ;
+    schema:name "Leucopogon" ;
+.
+
+apni:180201
+    a dwc:Taxon ;
+    schema:name "Petrophile nivea" ;
+.
+
+apni:180461
+    a dwc:Taxon ;
+    schema:name "Microcarpaea agonis" ;
+.
+
+apni:180701
+    a dwc:Taxon ;
+    schema:name "Cyclophyllum costatum" ;
+.
+
+apni:180705
+    a dwc:Taxon ;
+    schema:name "Phaleria biflora" ;
+.
+
+apni:180770
+    a dwc:Taxon ;
+    schema:name "Decaspermum struckoilicum" ;
+.
+
+apni:180771
+    a dwc:Taxon ;
+    schema:name "Rhodamnia longisepala" ;
+.
+
+apni:180920
+    a dwc:Taxon ;
+    schema:name "Gossia gonoclada" ;
+.
+
+apni:180931
+    a dwc:Taxon ;
+    schema:name "Gossia fragrantissima" ;
+.
+
+apni:180947
+    a dwc:Taxon ;
+    schema:name "Boronia inflexa" ;
+.
+
+apni:180971
+    a dwc:Taxon ;
+    schema:name "Hibbertia priceana" ;
+.
+
+apni:181006
+    a dwc:Taxon ;
+    schema:name "Boronia imlayensis" ;
+.
+
+apni:181010
+    a dwc:Taxon ;
+    schema:name "Boronia hippopala" ;
+.
+
+apni:181011
+    a dwc:Taxon ;
+    schema:name "Boronia hemichiton" ;
+.
+
+apni:181124
+    a dwc:Taxon ;
+    schema:name "Boronia deanei" ;
+.
+
+apni:181125
+    a dwc:Taxon ;
+    schema:name "Boronia deanei" ;
+.
+
+apni:181127
+    a dwc:Taxon ;
+    schema:name "Boronia grimshawii" ;
+.
+
+apni:181985
+    a dwc:Taxon ;
+    schema:name "Ozothamnus reflexifolius" ;
+.
+
+apni:182210
+    a dwc:Taxon ;
+    schema:name "Bertya calycina" ;
+.
+
+apni:182214
+    a dwc:Taxon ;
+    schema:name "Bertya ernestiana" ;
+.
+
+apni:182216
+    a dwc:Taxon ;
+    schema:name "Bertya granitica" ;
+.
+
+apni:182231
+    a dwc:Taxon ;
+    schema:name "Bertya tasmanica" ;
+.
+
+apni:182278
+    a dwc:Taxon ;
+    schema:name "Caladenia bryceana" ;
+.
+
+apni:182279
+    a dwc:Taxon ;
+    schema:name "Caladenia bryceana" ;
+.
+
+apni:182280
+    a dwc:Taxon ;
+    schema:name "Caladenia busselliana" ;
+.
+
+apni:182282
+    a dwc:Taxon ;
+    schema:name "Caladenia caesarea" ;
+.
+
+apni:182284
+    a dwc:Taxon ;
+    schema:name "Caladenia christineae" ;
+.
+
+apni:182285
+    a dwc:Taxon ;
+    schema:name "Caladenia elegans" ;
+.
+
+apni:182286
+    a dwc:Taxon ;
+    schema:name "Caladenia hoffmanii" ;
+.
+
+apni:182287
+    a dwc:Taxon ;
+    schema:name "Caladenia viridescens" ;
+.
+
+apni:184829
+    a dwc:Taxon ;
+    schema:name "Croton mamillatus" ;
+.
+
+apni:184862
+    a dwc:Taxon ;
+    schema:name "Phebalium distans" ;
+.
+
+apni:185025
+    a dwc:Taxon ;
+    schema:name "Stachystemon nematophorus" ;
+.
+
+apni:186255
+    a dwc:Taxon ;
+    schema:name "Prasophyllum crebriflorum" ;
+.
+
+apni:186256
+    a dwc:Taxon ;
+    schema:name "Prasophyllum incorrectum" ;
+.
+
+apni:188200
+    a dwc:Taxon ;
+    schema:name "Acacia splendens" ;
+.
+
+apni:188229
+    a dwc:Taxon ;
+    schema:name "Thelymitra kangaloonica" ;
+.
+
+apni:188886
+    a dwc:Taxon ;
+    schema:name "Hypocalymma sylvestre" ;
+.
+
+apni:189000
+    a dwc:Taxon ;
+    schema:name "Prasophyllum taphanyx" ;
+.
+
+apni:189027
+    a dwc:Taxon ;
+    schema:name "Vrydagzynea grayi" ;
+.
+
+apni:189573
+    a dwc:Taxon ;
+    schema:name "Thelymitra cyanapicata" ;
+.
+
+apni:189788
+    a dwc:Taxon ;
+    schema:name "Argyrotegium nitidulum" ;
+.
+
+apni:191290
+    a dwc:Taxon ;
+    schema:name "Darwinia chapmaniana" ;
+.
+
+apni:191665
+    a dwc:Taxon ;
+    schema:name "Leionema ceratogynum" ;
+.
+
+apni:191669
+    a dwc:Taxon ;
+    schema:name "Leptospermum benwellii" ;
+.
+
+apni:191719
+    a dwc:Taxon ;
+    schema:name "Cassinia tegulata" ;
+.
+
+apni:191971
+    a dwc:Taxon ;
+    schema:name "Solanum johnsonianum" ;
+.
+
+apni:192017
+    a dwc:Taxon ;
+    schema:name "Solanum graniticum" ;
+.
+
+apni:192146
+    a dwc:Taxon ;
+    schema:name "Notelaea ipsviciensis" ;
+.
+
+apni:192618
+    a dwc:Taxon ;
+    schema:name "Toechima" ;
+.
+
+apni:192626
+    a dwc:Taxon ;
+    schema:name "Pimelea cremnophila" ;
+.
+
+apni:194042
+    a dwc:Taxon ;
+    schema:name "Caladenia orientalis" ;
+.
+
+apni:194058
+    a dwc:Taxon ;
+    schema:name "Rytidosperma pumilum" ;
+.
+
+apni:194183
+    a dwc:Taxon ;
+    schema:name "Burmannia" ;
+.
+
+apni:194245
+    a dwc:Taxon ;
+    schema:name "Chamelaucium" ;
+.
+
+apni:194254
+    a dwc:Taxon ;
+    schema:name "Chamelaucium" ;
+.
+
+apni:194267
+    a dwc:Taxon ;
+    schema:name "Crepidium lawleri" ;
+.
+
+apni:194306
+    a dwc:Taxon ;
+    schema:name "Eucalyptus gunnii" ;
+.
+
+apni:194333
+    a dwc:Taxon ;
+    schema:name "Euphrasia" ;
+.
+
+apni:194488
+    a dwc:Taxon ;
+    schema:name "Genoplesium vernale" ;
+.
+
+apni:194490
+    a dwc:Taxon ;
+    schema:name "Apium prostratum" ;
+.
+
+apni:194492
+    a dwc:Taxon ;
+    schema:name "Caladenia" ;
+.
+
+apni:194515
+    a dwc:Taxon ;
+    schema:name "Prostanthera" ;
+.
+
+apni:194551
+    a dwc:Taxon ;
+    schema:name "Phalaenopsis amabilis" ;
+.
+
+apni:194574
+    a dwc:Taxon ;
+    schema:name "Pultenaea" ;
+.
+
+apni:194586
+    a dwc:Taxon ;
+    schema:name "Jacksonia velveta" ;
+.
+
+apni:194638
+    a dwc:Taxon ;
+    schema:name "Melichrus" ;
+.
+
+apni:194694
+    a dwc:Taxon ;
+.
+
+apni:195051
+    a dwc:Taxon ;
+    schema:name "Polianthion minutiflorum" ;
+.
+
+apni:195226
+    a dwc:Taxon ;
+    schema:name "Boehmeria australis" ;
+.
+
+apni:195358
+    a dwc:Taxon ;
+    schema:name "Hibiscus cravenii" ;
+.
+
+apni:195771
+    a dwc:Taxon ;
+    schema:name "Isopogon robustus" ;
+.
+
+apni:195939
+    a dwc:Taxon ;
+    schema:name "Myrsine richmondensis" ;
+.
+
+apni:196559
+    a dwc:Taxon ;
+    schema:name "Pomaderris walshii" ;
+.
+
+apni:197119
+    a dwc:Taxon ;
+    schema:name "Synaphea" ;
+.
+
+apni:197122
+    a dwc:Taxon ;
+    schema:name "Synaphea" ;
+.
+
+apni:198035
+    a dwc:Taxon ;
+    schema:name "Hibbertia basaltica" ;
+.
+
+apni:198052
+    a dwc:Taxon ;
+    schema:name "Poranthera petalifera" ;
+.
+
+apni:198142
+    a dwc:Taxon ;
+    schema:name "Philotheca obovatifolia" ;
+.
+
+apni:198443
+    a dwc:Taxon ;
+    schema:name "Grevillea brachystylis" ;
+.
+
+apni:199454
+    a dwc:Taxon ;
+    schema:name "Ricinocarpos brevis" ;
+.
+
+apni:200281
+    a dwc:Taxon ;
+    schema:name "Philotheca papillata" ;
+.
+
+apni:200283
+    a dwc:Taxon ;
+    schema:name "Diuris eborensis" ;
+.
+
+apni:200945
+    a dwc:Taxon ;
+    schema:name "Rhinerrhizopsis matutina" ;
+.
+
+apni:201357
+    a dwc:Taxon ;
+    schema:name "Darwinia foetida" ;
+.
+
+apni:201359
+    a dwc:Taxon ;
+    schema:name "Tetratheca nephelioides" ;
+.
+
+apni:201361
+    a dwc:Taxon ;
+    schema:name "Eremophila koobabbiensis" ;
+.
+
+apni:201423
+    a dwc:Taxon ;
+    schema:name "Paracaleana dixonii" ;
+.
+
+apni:201803
+    a dwc:Taxon ;
+    schema:name "Taeniophyllum norfolkianum" ;
+.
+
+apni:202219
+    a dwc:Taxon ;
+    schema:name "Mitrella tiwiensis" ;
+.
+
+apni:202309
+    a dwc:Taxon ;
+    schema:name "Xylopia monosperma" ;
+.
+
+apni:203248
+    a dwc:Taxon ;
+    schema:name "Patersonia spirifolia" ;
+.
+
+apni:203251
+    a dwc:Taxon ;
+    schema:name "Rhaponticum australe" ;
+.
+
+apni:203398
+    a dwc:Taxon ;
+    schema:name "Myrsine ralstoniae" ;
+.
+
+apni:203421
+    a dwc:Taxon ;
+    schema:name "Cassinia heleniae" ;
+.
+
+apni:203827
+    a dwc:Taxon ;
+    schema:name "Zehneria baueriana" ;
+.
+
+apni:204388
+    a dwc:Taxon ;
+    schema:name "Acacia lumholtzii" ;
+.
+
+apni:204872
+    a dwc:Taxon ;
+    schema:name "Prasophyllum keltonii" ;
+.
+
+apni:204873
+    a dwc:Taxon ;
+    schema:name "Prasophyllum innubum" ;
+.
+
+apni:205075
+    a dwc:Taxon ;
+    schema:name "Banksia anatona" ;
+.
+
+apni:205081
+    a dwc:Taxon ;
+    schema:name "Banksia aurantia" ;
+.
+
+apni:205091
+    a dwc:Taxon ;
+    schema:name "Banksia catoglypta" ;
+.
+
+apni:205127
+    a dwc:Taxon ;
+    schema:name "Banksia fuscobractea" ;
+.
+
+apni:205132
+    a dwc:Taxon ;
+    schema:name "Banksia ionthocarpa" ;
+.
+
+apni:205138
+    a dwc:Taxon ;
+    schema:name "Banksia mimica" ;
+.
+
+apni:205139
+    a dwc:Taxon ;
+    schema:name "Banksia montana" ;
+.
+
+apni:205145
+    a dwc:Taxon ;
+    schema:name "Banksia nivea" ;
+.
+
+apni:205163
+    a dwc:Taxon ;
+    schema:name "Banksia pseudoplumosa" ;
+.
+
+apni:205172
+    a dwc:Taxon ;
+    schema:name "Banksia rufa" ;
+.
+
+apni:205179
+    a dwc:Taxon ;
+    schema:name "Banksia serratuloides" ;
+.
+
+apni:205180
+    a dwc:Taxon ;
+    schema:name "Banksia serratuloides" ;
+.
+
+apni:205192
+    a dwc:Taxon ;
+    schema:name "Banksia squarrosa" ;
+.
+
+apni:205215
+    a dwc:Taxon ;
+    schema:name "Calochilus pulchellus" ;
+.
+
+apni:205328
+    a dwc:Taxon ;
+    schema:name "Prasophyllum atratum" ;
+.
+
+apni:205755
+    a dwc:Taxon ;
+    schema:name "Prasophyllum limnetes" ;
+.
+
+apni:205918
+    a dwc:Taxon ;
+    schema:name "Eucalyptus platydisca" ;
+.
+
+apni:206058
+    a dwc:Taxon ;
+    schema:name "Caladenia cremna" ;
+.
+
+apni:206060
+    a dwc:Taxon ;
+    schema:name "Nematoceras dienemum" ;
+.
+
+apni:206061
+    a dwc:Taxon ;
+    schema:name "Prasophyllum" ;
+.
+
+apni:206418
+    a dwc:Taxon ;
+    schema:name "Pomaderris pilifera" ;
+.
+
+apni:206419
+    a dwc:Taxon ;
+    schema:name "Acriopsis emarginata" ;
+.
+
+apni:206475
+    a dwc:Taxon ;
+    schema:name "Diuris basaltica" ;
+.
+
+apni:206479
+    a dwc:Taxon ;
+    schema:name "Caladenia ancylosa" ;
+.
+
+apni:206532
+    a dwc:Taxon ;
+    schema:name "Veronica derwentiana" ;
+.
+
+apni:206535
+    a dwc:Taxon ;
+    schema:name "Veronica lithophila" ;
+.
+
+apni:207069
+    a dwc:Taxon ;
+    schema:name "Sannantha tozerensis" ;
+.
+
+apni:207073
+    a dwc:Taxon ;
+    schema:name "Kardomia granitica" ;
+.
+
+apni:207076
+    a dwc:Taxon ;
+    schema:name "Kardomia prominens" ;
+.
+
+apni:207077
+    a dwc:Taxon ;
+    schema:name "Kardomia silvestris" ;
+.
+
+apni:207082
+    a dwc:Taxon ;
+    schema:name "Tecticornia bulbosa" ;
+.
+
+apni:207090
+    a dwc:Taxon ;
+    schema:name "Tecticornia flabelliformis" ;
+.
+
+apni:207193
+    a dwc:Taxon ;
+    schema:name "Eremophila denticulata" ;
+.
+
+apni:207195
+    a dwc:Taxon ;
+    schema:name "Eremophila denticulata" ;
+.
+
+apni:207239
+    a dwc:Taxon ;
+    schema:name "Eremophila subteretifolia" ;
+.
+
+apni:207251
+    a dwc:Taxon ;
+    schema:name "Eremophila vernicosa" ;
+.
+
+apni:207389
+    a dwc:Taxon ;
+    schema:name "Eremophila ciliata" ;
+.
+
+apni:207505
+    a dwc:Taxon ;
+    schema:name "Polystichum moorei" ;
+.
+
+apni:207836
+    a dwc:Taxon ;
+    schema:name "Zieria bifida" ;
+.
+
+apni:207842
+    a dwc:Taxon ;
+    schema:name "Zieria exsul" ;
+.
+
+apni:208537
+    a dwc:Taxon ;
+    schema:name "Eremophila glabra" ;
+.
+
+apni:208990
+    a dwc:Taxon ;
+    schema:name "Galium antarcticum" ;
+.
+
+apni:211111
+    a dwc:Taxon ;
+    schema:name "Zieria odorifera" ;
+.
+
+apni:211515
+    a dwc:Taxon ;
+    schema:name "Leucopogon spectabilis" ;
+.
+
+apni:211518
+    a dwc:Taxon ;
+    schema:name "Andersonia annelsii" ;
+.
+
+apni:211580
+    a dwc:Taxon ;
+    schema:name "Acacia woodmaniorum" ;
+.
+
+apni:211843
+    a dwc:Taxon ;
+    schema:name "Kunzea similis" ;
+.
+
+apni:211879
+    a dwc:Taxon ;
+    schema:name "Stylidium applanatum" ;
+.
+
+apni:211901
+    a dwc:Taxon ;
+    schema:name "Stylidium coroniforme" ;
+.
+
+apni:211902
+    a dwc:Taxon ;
+    schema:name "Stylidium coroniforme" ;
+.
+
+apni:211903
+    a dwc:Taxon ;
+    schema:name "Stylidium amabile" ;
+.
+
+apni:212436
+    a dwc:Taxon ;
+    schema:name "Jacksonia quairading" ;
+.
+
+apni:214158
+    a dwc:Taxon ;
+.
+
+apni:214316
+    a dwc:Taxon ;
+    schema:name "Grevillea bracteosa" ;
+.
+
+apni:214396
+    a dwc:Taxon ;
+    schema:name "Elaeocarpus sedentarius" ;
+.
+
+apni:214688
+    a dwc:Taxon ;
+    schema:name "Callistemon wimmerensis" ;
+.
+
+apni:214920
+    a dwc:Taxon ;
+    schema:name "Sannantha crenulata" ;
+.
+
+apni:215165
+    a dwc:Taxon ;
+    schema:name "Ctenopterella blechnoides" ;
+.
+
+apni:215193
+    a dwc:Taxon ;
+    schema:name "Tomophyllum walleri" ;
+.
+
+apni:215198
+    a dwc:Taxon ;
+    schema:name "Oreogrammitis reinwardtii" ;
+.
+
+apni:215950
+    a dwc:Taxon ;
+    schema:name "Veronica ciliolata" ;
+.
+
+apni:216020
+    a dwc:Taxon ;
+    schema:name "Prasophyllum laxum" ;
+.
+
+apni:216055
+    a dwc:Taxon ;
+    schema:name "Olearia arckaringensis" ;
+.
+
+apni:216096
+    a dwc:Taxon ;
+    schema:name "Caladenia intuta" ;
+.
+
+apni:216108
+    a dwc:Taxon ;
+    schema:name "Pterostylis mirabilis" ;
+.
+
+apni:216109
+    a dwc:Taxon ;
+    schema:name "Pterostylis psammophila" ;
+.
+
+apni:217815
+    a dwc:Taxon ;
+    schema:name "Brachyscome brownii" ;
+.
+
+apni:217946
+    a dwc:Taxon ;
+    schema:name "Asperula tetraphylla" ;
+.
+
+apni:218823
+    a dwc:Taxon ;
+    schema:name "Bruguiera" ;
+.
+
+apni:219741
+    a dwc:Taxon ;
+    schema:name "Drakaea concolor" ;
+.
+
+apni:219742
+    a dwc:Taxon ;
+    schema:name "Drakaea confluens" ;
+.
+
+apni:219744
+    a dwc:Taxon ;
+    schema:name "Drakaea isolata" ;
+.
+
+apni:219745
+    a dwc:Taxon ;
+    schema:name "Drakaea micrantha" ;
+.
+
+apni:220513
+    a dwc:Taxon ;
+    schema:name "Deyeuxia ramosa" ;
+.
+
+apni:222246
+    a dwc:Taxon ;
+    schema:name "Darwinia whicherensis" ;
+.
+
+apni:222248
+    a dwc:Taxon ;
+    schema:name "Darwinia nubigena" ;
+.
+
+apni:222249
+    a dwc:Taxon ;
+    schema:name "Darwinia polychroma" ;
+.
+
+apni:223310
+    a dwc:Taxon ;
+    schema:name "Ornduffia calthifolia" ;
+.
+
+apni:223340
+    a dwc:Taxon ;
+    schema:name "Bossiaea fragrans" ;
+.
+
+apni:223369
+    a dwc:Taxon ;
+    schema:name "Solanum sulphureum" ;
+.
+
+apni:223990
+    a dwc:Taxon ;
+    schema:name "Prasophyllum uvidulum" ;
+.
+
+apni:224087
+    a dwc:Taxon ;
+    schema:name "Hibbertia abyssus" ;
+.
+
+apni:224179
+    a dwc:Taxon ;
+    schema:name "Andersonia pinaster" ;
+.
+
+apni:224712
+    a dwc:Taxon ;
+    schema:name "Lasiopetalum pterocarpum" ;
+.
+
+apni:226087
+    a dwc:Taxon ;
+    schema:name "Corybas sulcatus" ;
+.
+
+apni:226098
+    a dwc:Taxon ;
+    schema:name "Pterostylis lepida" ;
+.
+
+apni:226107
+    a dwc:Taxon ;
+    schema:name "Pterostylis vernalis" ;
+.
+
+apni:227545
+    a dwc:Taxon ;
+    schema:name "Chamelaucium" ;
+.
+
+apni:227683
+    a dwc:Taxon ;
+    schema:name "Hypocalymma angustifolium" ;
+.
+
+apni:227716
+    a dwc:Taxon ;
+    schema:name "Pterostylis sinuata" ;
+.
+
+apni:228660
+    a dwc:Taxon ;
+    schema:name "Pelargonium" ;
+.
+
+apni:229216
+    a dwc:Taxon ;
+    schema:name "Elaeocarpus miegei" ;
+.
+
+apni:229354
+    a dwc:Taxon ;
+    schema:name "Solanum orgadophilum" ;
+.
+
+apni:229447
+    a dwc:Taxon ;
+    schema:name "Samadera" ;
+.
+
+apni:229875
+    a dwc:Taxon ;
+    schema:name "Eucalyptus forresterae" ;
+.
+
+apni:230259
+    a dwc:Taxon ;
+    schema:name "Thelymitra hygrophila" ;
+.
+
+apni:230283
+    a dwc:Taxon ;
+    schema:name "Choretrum spicatum" ;
+.
+
+apni:230405
+    a dwc:Taxon ;
+    schema:name "Baloskion longipes" ;
+.
+
+apni:230729
+    a dwc:Taxon ;
+    schema:name "Commersonia prostrata" ;
+.
+
+apni:230731
+    a dwc:Taxon ;
+    schema:name "Commersonia apella" ;
+.
+
+apni:231706
+    a dwc:Taxon ;
+    schema:name "Austrostipa jacobsiana" ;
+.
+
+apni:233597
+    a dwc:Taxon ;
+    schema:name "Prostanthera" ;
+.
+
+apni:233691
+    a dwc:Taxon ;
+    schema:name "Thelymitra adorata" ;
+.
+
+apni:233702
+    a dwc:Taxon ;
+    schema:name "Paragoodia crenulata" ;
+.
+
+apni:233718
+    a dwc:Taxon ;
+    schema:name "Limonium australe" ;
+.
+
+apni:234420
+    a dwc:Taxon ;
+    schema:name "Leucopogon nitidus" ;
+.
+
+apni:235406
+    a dwc:Taxon ;
+    schema:name "Duma horrida" ;
+.
+
+apni:235967
+    a dwc:Taxon ;
+    schema:name "Commersonia erythrogyna" ;
+.
+
+apni:235986
+    a dwc:Taxon ;
+    schema:name "Androcalva adenothalia" ;
+.
+
+apni:235995
+    a dwc:Taxon ;
+    schema:name "Androcalva beeronensis" ;
+.
+
+apni:235996
+    a dwc:Taxon ;
+    schema:name "Androcalva bivillosa" ;
+.
+
+apni:236019
+    a dwc:Taxon ;
+    schema:name "Androcalva inglewoodensis" ;
+.
+
+apni:236038
+    a dwc:Taxon ;
+    schema:name "Androcalva perlaria" ;
+.
+
+apni:236039
+    a dwc:Taxon ;
+    schema:name "Androcalva procumbens" ;
+.
+
+apni:236042
+    a dwc:Taxon ;
+    schema:name "Androcalva rosea" ;
+.
+
+apni:236249
+    a dwc:Taxon ;
+    schema:name "Hibbertia cistiflora" ;
+.
+
+apni:236632
+    a dwc:Taxon ;
+    schema:name "Homoranthus bebo" ;
+.
+
+apni:236636
+    a dwc:Taxon ;
+    schema:name "Homoranthus elusus" ;
+.
+
+apni:236637
+    a dwc:Taxon ;
+    schema:name "Homoranthus bruhlii" ;
+.
+
+apni:236641
+    a dwc:Taxon ;
+    schema:name "Stylidium asymmetricum" ;
+.
+
+apni:237287
+    a dwc:Taxon ;
+    schema:name "Helicteres macrothrix" ;
+.
+
+apni:238495
+    a dwc:Taxon ;
+    schema:name "Callistemon megalongensis" ;
+.
+
+apni:238506
+    a dwc:Taxon ;
+    schema:name "Spyridium fontis-woodii" ;
+.
+
+apni:238507
+    a dwc:Taxon ;
+    schema:name "Spyridium furculentum" ;
+.
+
+apni:238650
+    a dwc:Taxon ;
+.
+
+apni:238686
+    a dwc:Taxon ;
+    schema:name "Boronia boliviensis" ;
+.
+
+apni:240166
+    a dwc:Taxon ;
+    schema:name "Tarennoidea wallichii" ;
+.
+
+apni:240243
+    a dwc:Taxon ;
+    schema:name "Bossiaea peninsularis" ;
+.
+
+apni:240429
+    a dwc:Taxon ;
+    schema:name "Hibbertia acaulothrix" ;
+.
+
+apni:240441
+    a dwc:Taxon ;
+    schema:name "Hibbertia puberula" ;
+.
+
+apni:240543
+    a dwc:Taxon ;
+    schema:name "Prostanthera tallowa" ;
+.
+
+apni:240589
+    a dwc:Taxon ;
+    schema:name "Gaultheria viridicarpa" ;
+.
+
+apni:240839
+    a dwc:Taxon ;
+    schema:name "Caladenia graniticola" ;
+.
+
+apni:241370
+    a dwc:Taxon ;
+    schema:name "Backhousia tetraptera" ;
+.
+
+apni:241495
+    a dwc:Taxon ;
+    schema:name "Astrotricha" ;
+.
+
+apni:241686
+    a dwc:Taxon ;
+    schema:name "Atalaya brevialata" ;
+.
+
+apni:241951
+    a dwc:Taxon ;
+    schema:name "Polyphlebium endlicherianum" ;
+.
+
+apni:242107
+    a dwc:Taxon ;
+    schema:name "Pityrodia scabra" ;
+.
+
+apni:242127
+    a dwc:Taxon ;
+    schema:name "Olearia rugosa" ;
+.
+
+apni:242245
+    a dwc:Taxon ;
+    schema:name "Eucalyptus phoenix" ;
+.
+
+apni:242303
+    a dwc:Taxon ;
+    schema:name "Phlegmariurus carinatus" ;
+.
+
+apni:242304
+    a dwc:Taxon ;
+    schema:name "Phlegmariurus dalhousieanus" ;
+.
+
+apni:242305
+    a dwc:Taxon ;
+    schema:name "Phlegmariurus filiformis" ;
+.
+
+apni:242306
+    a dwc:Taxon ;
+    schema:name "Phlegmariurus lockyeri" ;
+.
+
+apni:242307
+    a dwc:Taxon ;
+    schema:name "Phlegmariurus marsupiiformis" ;
+.
+
+apni:242312
+    a dwc:Taxon ;
+    schema:name "Phlegmariurus squarrosus" ;
+.
+
+apni:242313
+    a dwc:Taxon ;
+    schema:name "Phlegmariurus tetrastichoides" ;
+.
+
+apni:244159
+    a dwc:Taxon ;
+    schema:name "Androcalva perkinsiana" ;
+.
+
+apni:244335
+    a dwc:Taxon ;
+    schema:name "Phebalium speciosum" ;
+.
+
+apni:244542
+    a dwc:Taxon ;
+    schema:name "Gingidia rupicola" ;
+.
+
+apni:246583
+    a dwc:Taxon ;
+    schema:name "Acacia equisetifolia" ;
+.
+
+apni:246635
+    a dwc:Taxon ;
+    schema:name "Banksia vincentia" ;
+.
+
+apni:246710
+    a dwc:Taxon ;
+    schema:name "Pityrodia" ;
+.
+
+apni:247495
+    a dwc:Taxon ;
+    schema:name "Anthosachne kingiana" ;
+.
+
+apni:247968
+    a dwc:Taxon ;
+    schema:name "Sannantha whitei" ;
+.
+
+apni:248011
+    a dwc:Taxon ;
+    schema:name "Gastrolobium argyrotrichum" ;
+.
+
+apni:249016
+    a dwc:Taxon ;
+    schema:name "Breynia macrantha" ;
+.
+
+apni:3621826
+    a dwc:Taxon ;
+    schema:name "Kelleria bogongensis" ;
+.
+
+apni:3892193
+    a dwc:Taxon ;
+    schema:name "Caladenia hopperiana" ;
+.
+
+apni:3895354
+    a dwc:Taxon ;
+    schema:name "Caladenia leucochila" ;
+.
+
+apni:4432940
+    a dwc:Taxon ;
+    schema:name "Leucochrysum albicans" ;
+.
+
+apni:4543997
+    a dwc:Taxon ;
+    schema:name "Prostanthera spathulata" ;
+.
+
+apni:4630985
+    a dwc:Taxon ;
+    schema:name "Callistemon purpurascens" ;
+.
+
+apni:4910291
+    a dwc:Taxon ;
+    schema:name "Calectasia elegans" ;
+.
+
+apni:4951507
+    a dwc:Taxon ;
+    schema:name "Hibbertia spanantha" ;
+.
+
+apni:50024025
+    a dwc:Taxon ;
+    schema:name "Rhizanthella johnstonii" ;
+.
+
+apni:50587775
+    a dwc:Taxon ;
+    schema:name "Eremophila" ;
+.
+
+apni:50631502
+    a dwc:Taxon ;
+    schema:name "Leionema westonii" ;
+.
+
+apni:50726564
+    a dwc:Taxon ;
+    schema:name "Hibbertia circinata" ;
+.
+
+apni:51257948
+    a dwc:Taxon ;
+    schema:name "Lobelia claviflora" ;
+.
+
+apni:51306587
+    a dwc:Taxon ;
+    schema:name "Eucalyptus dalveenica" ;
+.
+
+apni:51306646
+    a dwc:Taxon ;
+    schema:name "Hibbertia wheelerae" ;
+.
+
+apni:51337110
+    a dwc:Taxon ;
+    schema:name "Brachychiton guymeri" ;
+.
+
+apni:51337271
+    a dwc:Taxon ;
+    schema:name "Danhatchia copelandii" ;
+.
+
+apni:51337400
+    a dwc:Taxon ;
+    schema:name "Coleus insularis" ;
+.
+
+apni:51337770
+    a dwc:Taxon ;
+    schema:name "Acacia forsteri" ;
+.
+
+apni:51348224
+    a dwc:Taxon ;
+    schema:name "Ptilotus uncinellus" ;
+.
+
+apni:51350031
+    a dwc:Taxon ;
+    schema:name "Grammosolen odgersii" ;
+.
+
+apni:51357463
+    a dwc:Taxon ;
+    schema:name "Denhamia megacarpa" ;
+.
+
+apni:51371534
+    a dwc:Taxon ;
+    schema:name "Lordhowea pilosicrista" ;
+.
+
+apni:51372135
+    a dwc:Taxon ;
+    schema:name "Pterostylis" ;
+.
+
+apni:51381018
+    a dwc:Taxon ;
+    schema:name "Melichrus gibberagee" ;
+.
+
+apni:51402183
+    a dwc:Taxon ;
+    schema:name "Leichhardtia araujacea" ;
+.
+
+apni:51424266
+    a dwc:Taxon ;
+    schema:name "Pultenaea elusa" ;
+.
+
+apni:51441360
+    a dwc:Taxon ;
+    schema:name "Corunastylis" ;
+.
+
+apni:51445433
+    a dwc:Taxon ;
+    schema:name "Grevillea" ;
+.
+
+apni:5152951
+    a dwc:Taxon ;
+    schema:name "Prostanthera gilesii" ;
+.
+
+apni:51693100
+    a dwc:Taxon ;
+    schema:name "Pultenaea aculeata" ;
+.
+
+apni:51734387
+    a dwc:Taxon ;
+    schema:name "Pittosporum kororoense" ;
+.
+
+apni:51764149
+    a dwc:Taxon ;
+    schema:name "Typhonium" ;
+.
+
+apni:5431799
+    a dwc:Taxon ;
+    schema:name "Atriplex yeelirrie" ;
+.
+
+apni:5439372
+    a dwc:Taxon ;
+    schema:name "Leionema lamprophyllum" ;
+.
+
+apni:5440466
+    a dwc:Taxon ;
+    schema:name "Grevillea burrowa" ;
+.
+
+apni:54724
+    a dwc:Taxon ;
+    schema:name "Lambertia orbifolia" ;
+.
+
+apni:54727
+    a dwc:Taxon ;
+    schema:name "Spyridium lawrencei" ;
+.
+
+apni:54765
+    a dwc:Taxon ;
+    schema:name "Thelymitra psammophila" ;
+.
+
+apni:54769
+    a dwc:Taxon ;
+    schema:name "Hakea pulvinifera" ;
+.
+
+apni:54839
+    a dwc:Taxon ;
+.
+
+apni:54853
+    a dwc:Taxon ;
+    schema:name "Spyridium obcordatum" ;
+.
+
+apni:54915
+    a dwc:Taxon ;
+    schema:name "Cassinia theodorii" ;
+.
+
+apni:55000
+    a dwc:Taxon ;
+    schema:name "Thelymitra stellata" ;
+.
+
+apni:55057
+    a dwc:Taxon ;
+.
+
+apni:55064
+    a dwc:Taxon ;
+    schema:name "Thelymitra variegata" ;
+.
+
+apni:55079
+    a dwc:Taxon ;
+.
+
+apni:55098
+    a dwc:Taxon ;
+    schema:name "Xanthostemon oppositifolius" ;
+.
+
+apni:55121
+    a dwc:Taxon ;
+    schema:name "Grevillea rivularis" ;
+.
+
+apni:55296
+    a dwc:Taxon ;
+    schema:name "Drosera prolifera" ;
+.
+
+apni:55302
+    a dwc:Taxon ;
+    schema:name "Zieria obcordata" ;
+.
+
+apni:55441
+    a dwc:Taxon ;
+    schema:name "Drosera schizandra" ;
+.
+
+apni:55482
+    a dwc:Taxon ;
+    schema:name "Zieria rimulosa" ;
+.
+
+apni:55540
+    a dwc:Taxon ;
+    schema:name "Eucalyptus tetrapleura" ;
+.
+
+apni:55974
+    a dwc:Taxon ;
+    schema:name "Drummondita ericoides" ;
+.
+
+apni:56206
+    a dwc:Taxon ;
+    schema:name "Eucalyptus merrickiae" ;
+.
+
+apni:56224
+    a dwc:Taxon ;
+    schema:name "Thesium australe" ;
+.
+
+apni:56543
+    a dwc:Taxon ;
+    schema:name "Abutilon julianae" ;
+.
+
+apni:56573
+    a dwc:Taxon ;
+    schema:name "Eucalyptus mooreana" ;
+.
+
+apni:56699
+    a dwc:Taxon ;
+    schema:name "Eucalyptus morrisbyi" ;
+.
+
+apni:56769
+    a dwc:Taxon ;
+    schema:name "Hakea trineura" ;
+.
+
+apni:57260
+    a dwc:Taxon ;
+    schema:name "Ptychosema pusillum" ;
+.
+
+apni:57764
+    a dwc:Taxon ;
+    schema:name "Pultenaea aristata" ;
+.
+
+apni:57897
+    a dwc:Taxon ;
+    schema:name "Pultenaea baeuerlenii" ;
+.
+
+apni:58168
+    a dwc:Taxon ;
+    schema:name "Frankenia decurrens" ;
+.
+
+apni:58340
+    a dwc:Taxon ;
+    schema:name "Acacia ammophila" ;
+.
+
+apni:58354
+    a dwc:Taxon ;
+    schema:name "Macropteranthes montana" ;
+.
+
+apni:58370
+    a dwc:Taxon ;
+    schema:name "Owenia cepiodora" ;
+.
+
+apni:58556
+    a dwc:Taxon ;
+    schema:name "Acacia anomala" ;
+.
+
+apni:58565
+    a dwc:Taxon ;
+    schema:name "Acacia aphylla" ;
+.
+
+apni:58567
+    a dwc:Taxon ;
+    schema:name "Tetratheca aphylla" ;
+.
+
+apni:58598
+    a dwc:Taxon ;
+    schema:name "Acacia araneosa" ;
+.
+
+apni:58699
+    a dwc:Taxon ;
+    schema:name "Frankenia parvula" ;
+.
+
+apni:58800
+    a dwc:Taxon ;
+    schema:name "Tetratheca deltoidea" ;
+.
+
+apni:58892
+    a dwc:Taxon ;
+    schema:name "Eucalyptus beardiana" ;
+.
+
+apni:58895
+    a dwc:Taxon ;
+    schema:name "Frankenia plicata" ;
+.
+
+apni:58907
+    a dwc:Taxon ;
+    schema:name "Acacia attenuata" ;
+.
+
+apni:58994
+    a dwc:Taxon ;
+    schema:name "Eucalyptus benthamii" ;
+.
+
+apni:59024
+    a dwc:Taxon ;
+    schema:name "Acacia axillaris" ;
+.
+
+apni:59042
+    a dwc:Taxon ;
+    schema:name "Centrolepis pedderensis" ;
+.
+
+apni:59103
+    a dwc:Taxon ;
+    schema:name "Tetratheca fasciculata" ;
+.
+
+apni:59217
+    a dwc:Taxon ;
+    schema:name "Acacia baueri" ;
+.
+
+apni:59234
+    a dwc:Taxon ;
+    schema:name "Boronia adamsiana" ;
+.
+
+apni:59296
+    a dwc:Taxon ;
+    schema:name "Helichrysum calvertianum" ;
+.
+
+apni:59359
+    a dwc:Taxon ;
+    schema:name "Tetratheca gunnii" ;
+.
+
+apni:59497
+    a dwc:Taxon ;
+    schema:name "Pultenaea glabra" ;
+.
+
+apni:59523
+    a dwc:Taxon ;
+    schema:name "Macrozamia macdonnellii" ;
+.
+
+apni:59542
+    a dwc:Taxon ;
+    schema:name "Boronia capitata" ;
+.
+
+apni:59582
+    a dwc:Taxon ;
+    schema:name "Boronia clavata" ;
+.
+
+apni:59669
+    a dwc:Taxon ;
+.
+
+apni:59710
+    a dwc:Taxon ;
+    schema:name "Macrozamia pauli-guilielmi" ;
+.
+
+apni:59847
+    a dwc:Taxon ;
+    schema:name "Macrozamia platyrhachis" ;
+.
+
+apni:59969
+    a dwc:Taxon ;
+    schema:name "Acacia bynoeana" ;
+.
+
+apni:59987
+    a dwc:Taxon ;
+    schema:name "Acacia caerulescens" ;
+.
+
+apni:60053
+    a dwc:Taxon ;
+    schema:name "Boronia granitica" ;
+.
+
+apni:60082
+    a dwc:Taxon ;
+    schema:name "Boronia gunnii" ;
+.
+
+apni:60173
+    a dwc:Taxon ;
+    schema:name "Graptophyllum ilicifolium" ;
+.
+
+apni:60191
+    a dwc:Taxon ;
+    schema:name "Tribonanthes purpurea" ;
+.
+
+apni:60240
+    a dwc:Taxon ;
+    schema:name "Boronia keysii" ;
+.
+
+apni:60568
+    a dwc:Taxon ;
+    schema:name "Pultenaea maidenii" ;
+.
+
+apni:60722
+    a dwc:Taxon ;
+.
+
+apni:60740
+    a dwc:Taxon ;
+    schema:name "Acacia constablei" ;
+.
+
+apni:60786
+    a dwc:Taxon ;
+    schema:name "Samadera bidwillii" ;
+.
+
+apni:60982
+    a dwc:Taxon ;
+    schema:name "Acacia cretacea" ;
+.
+
+apni:61004
+    a dwc:Taxon ;
+    schema:name "Acacia crombiei" ;
+.
+
+apni:61032
+    a dwc:Taxon ;
+    schema:name "Boronia repanda" ;
+.
+
+apni:61054
+    a dwc:Taxon ;
+    schema:name "Boronia revoluta" ;
+.
+
+apni:61102
+    a dwc:Taxon ;
+    schema:name "Acacia curranii" ;
+.
+
+apni:61113
+    a dwc:Taxon ;
+    schema:name "Eucalyptus glaucina" ;
+.
+
+apni:61169
+    a dwc:Taxon ;
+    schema:name "Pultenaea parviflora" ;
+.
+
+apni:61216
+    a dwc:Taxon ;
+    schema:name "Pultenaea pauciflora" ;
+.
+
+apni:61237
+    a dwc:Taxon ;
+    schema:name "Boronia subulifolia" ;
+.
+
+apni:61604
+    a dwc:Taxon ;
+    schema:name "Leptomeria dielsiana" ;
+.
+
+apni:61680
+    a dwc:Taxon ;
+    schema:name "Acacia denticulosa" ;
+.
+
+apni:61761
+    a dwc:Taxon ;
+    schema:name "Acacia depressa" ;
+.
+
+apni:61790
+    a dwc:Taxon ;
+    schema:name "Acacia deuteroneura" ;
+.
+
+apni:61809
+    a dwc:Taxon ;
+    schema:name "Borya mirabilis" ;
+.
+
+apni:61948
+    a dwc:Taxon ;
+    schema:name "Kunzea cambagei" ;
+.
+
+apni:61985
+    a dwc:Taxon ;
+    schema:name "Grevillea evansiana" ;
+.
+
+apni:62034
+    a dwc:Taxon ;
+    schema:name "Bosistoa transversa" ;
+.
+
+apni:62201
+    a dwc:Taxon ;
+    schema:name "Romnalda strobilacea" ;
+.
+
+apni:62206
+    a dwc:Taxon ;
+    schema:name "Pultenaea setulosa" ;
+.
+
+apni:62586
+    a dwc:Taxon ;
+    schema:name "Acacia enterocarpa" ;
+.
+
+apni:62625
+    a dwc:Taxon ;
+.
+
+apni:62649
+    a dwc:Taxon ;
+    schema:name "Acacia eremophiloides" ;
+.
+
+apni:62677
+    a dwc:Taxon ;
+    schema:name "Bossiaea oligosperma" ;
+.
+
+apni:62808
+    a dwc:Taxon ;
+    schema:name "Hibiscus insularis" ;
+.
+
+apni:62823
+    a dwc:Taxon ;
+    schema:name "Cheiranthera volubilis" ;
+.
+
+apni:62879
+    a dwc:Taxon ;
+    schema:name "Pultenaea trichophylla" ;
+.
+
+apni:62974
+    a dwc:Taxon ;
+    schema:name "Sarcochilus fitzgeraldii" ;
+.
+
+apni:63020
+    a dwc:Taxon ;
+    schema:name "Bothriochloa bunyensis" ;
+.
+
+apni:63075
+    a dwc:Taxon ;
+    schema:name "Sarcochilus hartmannii" ;
+.
+
+apni:63124
+    a dwc:Taxon ;
+    schema:name "Epacris apsleyensis" ;
+.
+
+apni:63127
+    a dwc:Taxon ;
+    schema:name "Sarcochilus hirticalcar" ;
+.
+
+apni:63155
+    a dwc:Taxon ;
+    schema:name "Eucalyptus largeana" ;
+.
+
+apni:63159
+    a dwc:Taxon ;
+    schema:name "Acacia flocktoniae" ;
+.
+
+apni:63177
+    a dwc:Taxon ;
+    schema:name "Pultenaea villifera" ;
+.
+
+apni:63198
+    a dwc:Taxon ;
+    schema:name "Epacris barbata" ;
+.
+
+apni:63207
+    a dwc:Taxon ;
+    schema:name "Acacia forrestiana" ;
+.
+
+apni:63300
+    a dwc:Taxon ;
+    schema:name "Grevillea scapigera" ;
+.
+
+apni:63336
+    a dwc:Taxon ;
+    schema:name "Grevillea scortechinii" ;
+.
+
+apni:63478
+    a dwc:Taxon ;
+    schema:name "Acacia georgensis" ;
+.
+
+apni:63502
+    a dwc:Taxon ;
+    schema:name "Planchonella costata" ;
+.
+
+apni:63524
+    a dwc:Taxon ;
+    schema:name "Pultenaea williamsoniana" ;
+.
+
+apni:63582
+    a dwc:Taxon ;
+    schema:name "Grevillea shiressii" ;
+.
+
+apni:63594
+    a dwc:Taxon ;
+    schema:name "Acacia glandulicarpa" ;
+.
+
+apni:63618
+    a dwc:Taxon ;
+    schema:name "Sarcochilus weinthalii" ;
+.
+
+apni:63783
+    a dwc:Taxon ;
+.
+
+apni:63812
+    a dwc:Taxon ;
+    schema:name "Acacia gordonii" ;
+.
+
+apni:63868
+    a dwc:Taxon ;
+    schema:name "Acacia grandifolia" ;
+.
+
+apni:64048
+    a dwc:Taxon ;
+    schema:name "Epacris exserta" ;
+.
+
+apni:64171
+    a dwc:Taxon ;
+    schema:name "Acacia handonis" ;
+.
+
+apni:64539
+    a dwc:Taxon ;
+    schema:name "Musa fitzalanii" ;
+.
+
+apni:64727
+    a dwc:Taxon ;
+    schema:name "Syzygium hodgkinsoniae" ;
+.
+
+apni:64787
+    a dwc:Taxon ;
+    schema:name "Syzygium moorei" ;
+.
+
+apni:64806
+    a dwc:Taxon ;
+    schema:name "Syzygium paniculatum" ;
+.
+
+apni:64875
+    a dwc:Taxon ;
+    schema:name "Chingia australis" ;
+.
+
+apni:65055
+    a dwc:Taxon ;
+    schema:name "Acacia kingiana" ;
+.
+
+apni:65098
+    a dwc:Taxon ;
+    schema:name "Sclerolaena blakei" ;
+.
+
+apni:65124
+    a dwc:Taxon ;
+    schema:name "Acacia lanigera" ;
+.
+
+apni:65314
+    a dwc:Taxon ;
+    schema:name "Acacia latzii" ;
+.
+
+apni:65315
+    a dwc:Taxon ;
+.
+
+apni:65324
+    a dwc:Taxon ;
+    schema:name "Acacia lauta" ;
+.
+
+apni:65349
+    a dwc:Taxon ;
+    schema:name "Brachyscome muelleri" ;
+.
+
+apni:65357
+    a dwc:Taxon ;
+    schema:name "Brachyscome muelleroides" ;
+.
+
+apni:65385
+    a dwc:Taxon ;
+    schema:name "Thomasia gardneri" ;
+.
+
+apni:65455
+    a dwc:Taxon ;
+    schema:name "Brachyscome papillosa" ;
+.
+
+apni:65504
+    a dwc:Taxon ;
+    schema:name "Acacia leptoneura" ;
+.
+
+apni:65587
+    a dwc:Taxon ;
+    schema:name "Phaius australis" ;
+.
+
+apni:65641
+    a dwc:Taxon ;
+    schema:name "Phaius bernaysii" ;
+.
+
+apni:65653
+    a dwc:Taxon ;
+    schema:name "Thomasia montana" ;
+.
+
+apni:6586527
+    a dwc:Taxon ;
+    schema:name "Seringia exastia" ;
+.
+
+apni:66005
+    a dwc:Taxon ;
+    schema:name "Phaius pictus" ;
+.
+
+apni:66041
+    a dwc:Taxon ;
+.
+
+apni:66092
+    a dwc:Taxon ;
+.
+
+apni:66121
+    a dwc:Taxon ;
+    schema:name "Stackhousia annua" ;
+.
+
+apni:66142
+    a dwc:Taxon ;
+    schema:name "Genoplesium baueri" ;
+.
+
+apni:66143
+    a dwc:Taxon ;
+    schema:name "Sclerolaena napiformis" ;
+.
+
+apni:66184
+    a dwc:Taxon ;
+    schema:name "Genoplesium plumosum" ;
+.
+
+apni:66411
+    a dwc:Taxon ;
+    schema:name "Stenanthemum pimeleoides" ;
+.
+
+apni:66509
+    a dwc:Taxon ;
+    schema:name "Acacia macnuttiana" ;
+.
+
+apni:66624
+    a dwc:Taxon ;
+    schema:name "Indigofera efoliata" ;
+.
+
+apni:66632
+    a dwc:Taxon ;
+    schema:name "Sclerolaena walkeri" ;
+.
+
+apni:66714
+    a dwc:Taxon ;
+    schema:name "Acacia menzelii" ;
+.
+
+apni:66943
+    a dwc:Taxon ;
+    schema:name "Pimelea axiflora" ;
+.
+
+apni:67014
+    a dwc:Taxon ;
+    schema:name "Pimelea bracteata" ;
+.
+
+apni:67023
+    a dwc:Taxon ;
+    schema:name "Diospyros mabacea" ;
+.
+
+apni:67061
+    a dwc:Taxon ;
+    schema:name "Eleocharis obicis" ;
+.
+
+apni:67089
+    a dwc:Taxon ;
+    schema:name "Chorizema humile" ;
+.
+
+apni:67207
+    a dwc:Taxon ;
+    schema:name "Eleocharis papillosa" ;
+.
+
+apni:67226
+    a dwc:Taxon ;
+    schema:name "Hypolepis dicksonioides" ;
+.
+
+apni:67246
+    a dwc:Taxon ;
+    schema:name "Hypolepis distans" ;
+.
+
+apni:67334
+    a dwc:Taxon ;
+    schema:name "Eleocharis retroflexa" ;
+.
+
+apni:67409
+    a dwc:Taxon ;
+    schema:name "Chorizema varium" ;
+.
+
+apni:67432
+    a dwc:Taxon ;
+    schema:name "Pimelea curviflora" ;
+.
+
+apni:67660
+    a dwc:Taxon ;
+    schema:name "Grevillea thelemanniana" ;
+.
+
+apni:67708
+    a dwc:Taxon ;
+    schema:name "Rhaphidospora bonneyana" ;
+.
+
+apni:67785
+    a dwc:Taxon ;
+    schema:name "Grevillea treueriana" ;
+.
+
+apni:67853
+    a dwc:Taxon ;
+.
+
+apni:67864
+    a dwc:Taxon ;
+.
+
+apni:68275
+    a dwc:Taxon ;
+    schema:name "Rhizanthella gardneri" ;
+.
+
+apni:68289
+    a dwc:Taxon ;
+    schema:name "Rhizanthella slateri" ;
+.
+
+apni:68505
+    a dwc:Taxon ;
+    schema:name "Acacia peuce" ;
+.
+
+apni:68507
+    a dwc:Taxon ;
+    schema:name "Veronica parnkalliana" ;
+.
+
+apni:68523
+    a dwc:Taxon ;
+    schema:name "Acacia pharangites" ;
+.
+
+apni:68526
+    a dwc:Taxon ;
+    schema:name "Acacia phasmoides" ;
+.
+
+apni:68588
+    a dwc:Taxon ;
+    schema:name "Acacia pickardii" ;
+.
+
+apni:68635
+    a dwc:Taxon ;
+    schema:name "Acacia pinguifolia" ;
+.
+
+apni:68663
+    a dwc:Taxon ;
+    schema:name "Rhodamnia maideniana" ;
+.
+
+apni:68708
+    a dwc:Taxon ;
+    schema:name "Rhodamnia rubescens" ;
+.
+
+apni:68728
+    a dwc:Taxon ;
+    schema:name "Rhodamnia sessiliflora" ;
+.
+
+apni:68838
+    a dwc:Taxon ;
+    schema:name "Rhodamnia whiteana" ;
+.
+
+apni:68889
+    a dwc:Taxon ;
+    schema:name "Acacia praetermissa" ;
+.
+
+apni:68896
+    a dwc:Taxon ;
+    schema:name "Solanum karsense" ;
+.
+
+apni:68957
+    a dwc:Taxon ;
+    schema:name "Pimelea leptospermoides" ;
+.
+
+apni:68966
+    a dwc:Taxon ;
+    schema:name "Acacia prismifolia" ;
+.
+
+apni:68999
+    a dwc:Taxon ;
+    schema:name "Lepidium aschersonii" ;
+.
+
+apni:69166
+    a dwc:Taxon ;
+    schema:name "Acacia pubescens" ;
+.
+
+apni:69183
+    a dwc:Taxon ;
+    schema:name "Acacia pubifolia" ;
+.
+
+apni:69209
+    a dwc:Taxon ;
+    schema:name "Rhodomyrtus psidioides" ;
+.
+
+apni:69281
+    a dwc:Taxon ;
+    schema:name "Lepidium drummondii" ;
+.
+
+apni:69465
+    a dwc:Taxon ;
+    schema:name "Acacia pycnostachya" ;
+.
+
+apni:69536
+    a dwc:Taxon ;
+    schema:name "Bulbophyllum globuliforme" ;
+.
+
+apni:69540
+    a dwc:Taxon ;
+    schema:name "Bulbophyllum gracillimum" ;
+.
+
+apni:69604
+    a dwc:Taxon ;
+    schema:name "Bulbophyllum longiflorum" ;
+.
+
+apni:69612
+    a dwc:Taxon ;
+    schema:name "Elaeocarpus williamsianus" ;
+.
+
+apni:69709
+    a dwc:Taxon ;
+    schema:name "Acacia rhetinocarpa" ;
+.
+
+apni:69888
+    a dwc:Taxon ;
+    schema:name "Acacia ruppii" ;
+.
+
+apni:69911
+    a dwc:Taxon ;
+    schema:name "Pimelea pagophila" ;
+.
+
+apni:70040
+    a dwc:Taxon ;
+    schema:name "Acacia sciophanes" ;
+.
+
+apni:70059
+    a dwc:Taxon ;
+    schema:name "Elatostema montanum" ;
+.
+
+apni:70079
+    a dwc:Taxon ;
+    schema:name "Grevillea glossadenia" ;
+.
+
+apni:70179
+    a dwc:Taxon ;
+    schema:name "Hakea fraseri" ;
+.
+
+apni:70319
+    a dwc:Taxon ;
+    schema:name "Velleia perfoliata" ;
+.
+
+apni:70438
+    a dwc:Taxon ;
+    schema:name "Grevillea iaspicula" ;
+.
+
+apni:70603
+    a dwc:Taxon ;
+    schema:name "Acacia spilleriana" ;
+.
+
+apni:70616
+    a dwc:Taxon ;
+    schema:name "Pimelea spicata" ;
+.
+
+apni:70630
+    a dwc:Taxon ;
+    schema:name "Pimelea spinescens" ;
+.
+
+apni:70633
+    a dwc:Taxon ;
+    schema:name "Pimelea spinescens" ;
+.
+
+apni:70642
+    a dwc:Taxon ;
+    schema:name "Grevillea infecunda" ;
+.
+
+apni:70664
+    a dwc:Taxon ;
+    schema:name "Grevillea infundibularis" ;
+.
+
+apni:70920
+    a dwc:Taxon ;
+    schema:name "Pimelea venosa" ;
+.
+
+apni:70995
+    a dwc:Taxon ;
+    schema:name "Hexaspora pubescens" ;
+.
+
+apni:71292
+    a dwc:Taxon ;
+    schema:name "Myriophyllum porcatum" ;
+.
+
+apni:71364
+    a dwc:Taxon ;
+    schema:name "Haloragis exalata" ;
+.
+
+apni:71402
+    a dwc:Taxon ;
+    schema:name "Haloragis exalata" ;
+.
+
+apni:71416
+    a dwc:Taxon ;
+    schema:name "Haloragis eyreana" ;
+.
+
+apni:71509
+    a dwc:Taxon ;
+    schema:name "Acacia undoolyana" ;
+.
+
+apni:71543
+    a dwc:Taxon ;
+    schema:name "Eucalyptus imlayensis" ;
+.
+
+apni:71653
+    a dwc:Taxon ;
+    schema:name "Acacia vassalii" ;
+.
+
+apni:71771
+    a dwc:Taxon ;
+    schema:name "Clematis fawcettii" ;
+.
+
+apni:71857
+    a dwc:Taxon ;
+    schema:name "Acacia volubilis" ;
+.
+
+apni:71877
+    a dwc:Taxon ;
+    schema:name "Microcorys eremophiloides" ;
+.
+
+apni:72025
+    a dwc:Taxon ;
+    schema:name "Haloragis platycarpa" ;
+.
+
+apni:72216
+    a dwc:Taxon ;
+    schema:name "Tephrosia leveillei" ;
+.
+
+apni:72333
+    a dwc:Taxon ;
+    schema:name "Dodonaea procumbens" ;
+.
+
+apni:72400
+    a dwc:Taxon ;
+    schema:name "Xerothamnella herbacea" ;
+.
+
+apni:72407
+    a dwc:Taxon ;
+    schema:name "Xerothamnella parvifolia" ;
+.
+
+apni:72433
+    a dwc:Taxon ;
+    schema:name "Dodonaea rupicola" ;
+.
+
+apni:72554
+    a dwc:Taxon ;
+    schema:name "Dodonaea subglandulifera" ;
+.
+
+apni:72571
+    a dwc:Taxon ;
+    schema:name "Microlepidium alatum" ;
+.
+
+apni:72668
+    a dwc:Taxon ;
+    schema:name "Acanthocladium dockeri" ;
+.
+
+apni:72720
+    a dwc:Taxon ;
+    schema:name "Haloragodendron lucasii" ;
+.
+
+apni:72793
+    a dwc:Taxon ;
+    schema:name "Micromyrtus blakelyi" ;
+.
+
+apni:72804
+    a dwc:Taxon ;
+    schema:name "Eucalyptus insularis" ;
+.
+
+apni:72816
+    a dwc:Taxon ;
+    schema:name "Pteris kingiana" ;
+.
+
+apni:72826
+    a dwc:Taxon ;
+    schema:name "Isoglossa eranthemoides" ;
+.
+
+apni:72967
+    a dwc:Taxon ;
+    schema:name "Codonocarpus pyramidalis" ;
+.
+
+apni:72974
+    a dwc:Taxon ;
+    schema:name "Pteris zahlbruckneriana" ;
+.
+
+apni:73020
+    a dwc:Taxon ;
+    schema:name "Micromyrtus minutiflora" ;
+.
+
+apni:73128
+    a dwc:Taxon ;
+    schema:name "Coleanthera virgata" ;
+.
+
+apni:73206
+    a dwc:Taxon ;
+    schema:name "Acianthus ledwardii" ;
+.
+
+apni:73251
+    a dwc:Taxon ;
+    schema:name "Tetratheca harperi" ;
+.
+
+apni:73338
+    a dwc:Taxon ;
+    schema:name "Tetratheca juncea" ;
+.
+
+apni:73530
+    a dwc:Taxon ;
+    schema:name "Eucalyptus brevipes" ;
+.
+
+apni:73643
+    a dwc:Taxon ;
+    schema:name "Medicosma elliptica" ;
+.
+
+apni:73650
+    a dwc:Taxon ;
+    schema:name "Medicosma obovata" ;
+.
+
+apni:73680
+    a dwc:Taxon ;
+    schema:name "Eriocaulon australasicum" ;
+.
+
+apni:73716
+    a dwc:Taxon ;
+    schema:name "Tetraria australiensis" ;
+.
+
+apni:73731
+    a dwc:Taxon ;
+    schema:name "Eucalyptus burdettiana" ;
+.
+
+apni:73940
+    a dwc:Taxon ;
+    schema:name "Microtis globula" ;
+.
+
+apni:73953
+    a dwc:Taxon ;
+    schema:name "Acronychia littoralis" ;
+.
+
+apni:74085
+    a dwc:Taxon ;
+    schema:name "Acrophyllum australe" ;
+.
+
+apni:74152
+    a dwc:Taxon ;
+    schema:name "Pterostylis arenicola" ;
+.
+
+apni:74171
+    a dwc:Taxon ;
+    schema:name "Comesperma oblongatum" ;
+.
+
+apni:74183
+    a dwc:Taxon ;
+    schema:name "Pterostylis bicornis" ;
+.
+
+apni:74286
+    a dwc:Taxon ;
+    schema:name "Eucalyptus nicholii" ;
+.
+
+apni:74401
+    a dwc:Taxon ;
+    schema:name "Pterostylis cucullata" ;
+.
+
+apni:74529
+    a dwc:Taxon ;
+    schema:name "Pterostylis despectans" ;
+.
+
+apni:74689
+    a dwc:Taxon ;
+    schema:name "Pterostylis gibbosa" ;
+.
+
+apni:74718
+    a dwc:Taxon ;
+    schema:name "Actephila foetida" ;
+.
+
+apni:74954
+    a dwc:Taxon ;
+    schema:name "Gardenia actinocarpa" ;
+.
+
+apni:74975
+    a dwc:Taxon ;
+    schema:name "Hybanthus cymulosus" ;
+.
+
+apni:75177
+    a dwc:Taxon ;
+    schema:name "Actinotus schwarzii" ;
+.
+
+apni:75185
+    a dwc:Taxon ;
+    schema:name "Pterostylis oreophila" ;
+.
+
+apni:75285
+    a dwc:Taxon ;
+    schema:name "Gardenia psidioides" ;
+.
+
+apni:75341
+    a dwc:Taxon ;
+    schema:name "Pterostylis pulchella" ;
+.
+
+apni:75620
+    a dwc:Taxon ;
+    schema:name "Adenanthos dobagii" ;
+.
+
+apni:75640
+    a dwc:Taxon ;
+    schema:name "Adenanthos ellipticus" ;
+.
+
+apni:75647
+    a dwc:Taxon ;
+    schema:name "Adenanthos eyrei" ;
+.
+
+apni:75772
+    a dwc:Taxon ;
+    schema:name "Grevillea flexuosa" ;
+.
+
+apni:75835
+    a dwc:Taxon ;
+    schema:name "Adenanthos pungens" ;
+.
+
+apni:75842
+    a dwc:Taxon ;
+    schema:name "Adenanthos pungens" ;
+.
+
+apni:75851
+    a dwc:Taxon ;
+    schema:name "Grevillea floripendula" ;
+.
+
+apni:75884
+    a dwc:Taxon ;
+    schema:name "Pterostylis tenuissima" ;
+.
+
+apni:75910
+    a dwc:Taxon ;
+    schema:name "Trachymene scapigera" ;
+.
+
+apni:75937
+    a dwc:Taxon ;
+    schema:name "Adenanthos velutinus" ;
+.
+
+apni:76100
+    a dwc:Taxon ;
+    schema:name "Pterostylis xerophila" ;
+.
+
+apni:76290
+    a dwc:Taxon ;
+    schema:name "Kunzea rupestris" ;
+.
+
+apni:76519
+    a dwc:Taxon ;
+    schema:name "Hakea aculeata" ;
+.
+
+apni:76558
+    a dwc:Taxon ;
+    schema:name "Eucalyptus scoparia" ;
+.
+
+apni:76876
+    a dwc:Taxon ;
+    schema:name "Hensmania chapmanii" ;
+.
+
+apni:76908
+    a dwc:Taxon ;
+    schema:name "Conospermum undulatum" ;
+.
+
+apni:77009
+    a dwc:Taxon ;
+    schema:name "Ptilotus beckerianus" ;
+.
+
+apni:77043
+    a dwc:Taxon ;
+    schema:name "Ptilotus brachyanthus" ;
+.
+
+apni:77182
+    a dwc:Taxon ;
+    schema:name "Planchonella eerwah" ;
+.
+
+apni:77418
+    a dwc:Taxon ;
+    schema:name "Diplazium cordifolium" ;
+.
+
+apni:77419
+    a dwc:Taxon ;
+    schema:name "Conostylis dielsii" ;
+.
+
+apni:77427
+    a dwc:Taxon ;
+    schema:name "Conostylis drummondii" ;
+.
+
+apni:77512
+    a dwc:Taxon ;
+    schema:name "Diplazium pallidum" ;
+.
+
+apni:77539
+    a dwc:Taxon ;
+    schema:name "Conostylis lepidospermoides" ;
+.
+
+apni:77576
+    a dwc:Taxon ;
+    schema:name "Conostylis micrantha" ;
+.
+
+apni:77588
+    a dwc:Taxon ;
+    schema:name "Conostylis misera" ;
+.
+
+apni:77607
+    a dwc:Taxon ;
+    schema:name "Epacris grandis" ;
+.
+
+apni:77686
+    a dwc:Taxon ;
+    schema:name "Epacris hamiltonii" ;
+.
+
+apni:77718
+    a dwc:Taxon ;
+    schema:name "Roycea pycnophylloides" ;
+.
+
+apni:77734
+    a dwc:Taxon ;
+    schema:name "Conostylis rogeri" ;
+.
+
+apni:77751
+    a dwc:Taxon ;
+    schema:name "Conostylis seorsiflora" ;
+.
+
+apni:77768
+    a dwc:Taxon ;
+    schema:name "Conostylis setigera" ;
+.
+
+apni:77864
+    a dwc:Taxon ;
+    schema:name "Conostylis wonganensis" ;
+.
+
+apni:77945
+    a dwc:Taxon ;
+    schema:name "Eucalyptus aggregata" ;
+.
+
+apni:78012
+    a dwc:Taxon ;
+    schema:name "Diploglottis campbellii" ;
+.
+
+apni:78157
+    a dwc:Taxon ;
+    schema:name "Neisosperma kilneri" ;
+.
+
+apni:78241
+    a dwc:Taxon ;
+    schema:name "Diplolaena andrewsii" ;
+.
+
+apni:78705
+    a dwc:Taxon ;
+    schema:name "Coopernookia georgei" ;
+.
+
+apni:78709
+    a dwc:Taxon ;
+    schema:name "Diuris aequalis" ;
+.
+
+apni:78722
+    a dwc:Taxon ;
+    schema:name "Coopernookia scabridiuscula" ;
+.
+
+apni:78799
+    a dwc:Taxon ;
+    schema:name "Coprosma baueri" ;
+.
+
+apni:78804
+    a dwc:Taxon ;
+    schema:name "Diuris bracteata" ;
+.
+
+apni:78877
+    a dwc:Taxon ;
+    schema:name "Coprosma pilosa" ;
+.
+
+apni:79058
+    a dwc:Taxon ;
+    schema:name "Grevillea acanthifolia" ;
+.
+
+apni:79063
+    a dwc:Taxon ;
+    schema:name "Corchorus cunninghamii" ;
+.
+
+apni:79071
+    a dwc:Taxon ;
+    schema:name "Diuris drummondii" ;
+.
+
+apni:79212
+    a dwc:Taxon ;
+    schema:name "Diuris fragrantissima" ;
+.
+
+apni:79257
+    a dwc:Taxon ;
+    schema:name "Diuris lanceolata" ;
+.
+
+apni:79490
+    a dwc:Taxon ;
+    schema:name "Dipodium pictum" ;
+.
+
+apni:79670
+    a dwc:Taxon ;
+    schema:name "Ptilotus pyramidatus" ;
+.
+
+apni:79833
+    a dwc:Taxon ;
+    schema:name "Neoroepera buxifolia" ;
+.
+
+apni:79901
+    a dwc:Taxon ;
+    schema:name "Epacris sparsa" ;
+.
+
+apni:79991
+    a dwc:Taxon ;
+    schema:name "Corokia whiteana" ;
+.
+
+apni:79993
+    a dwc:Taxon ;
+.
+
+apni:80010
+    a dwc:Taxon ;
+    schema:name "Epacris stuartii" ;
+.
+
+apni:80023
+    a dwc:Taxon ;
+.
+
+apni:80110
+    a dwc:Taxon ;
+    schema:name "Darwinia acerosa" ;
+.
+
+apni:80115
+    a dwc:Taxon ;
+    schema:name "Darwinia apiculata" ;
+.
+
+apni:80132
+    a dwc:Taxon ;
+    schema:name "Darwinia biflora" ;
+.
+
+apni:80164
+    a dwc:Taxon ;
+    schema:name "Gentiana baeuerlenii" ;
+.
+
+apni:80167
+    a dwc:Taxon ;
+    schema:name "Gentiana bredboensis" ;
+.
+
+apni:80179
+    a dwc:Taxon ;
+    schema:name "Darwinia carnea" ;
+.
+
+apni:80185
+    a dwc:Taxon ;
+    schema:name "Hymenophyllum lobbii" ;
+.
+
+apni:80191
+    a dwc:Taxon ;
+    schema:name "Epacris virgata" ;
+.
+
+apni:80216
+    a dwc:Taxon ;
+    schema:name "Darwinia collina" ;
+.
+
+apni:80362
+    a dwc:Taxon ;
+    schema:name "Correa baeuerlenii" ;
+.
+
+apni:80378
+    a dwc:Taxon ;
+    schema:name "Gentiana wingecarribiensis" ;
+.
+
+apni:80382
+    a dwc:Taxon ;
+    schema:name "Correa calycina" ;
+.
+
+apni:80384
+    a dwc:Taxon ;
+    schema:name "Gentiana wissmannii" ;
+.
+
+apni:80481
+    a dwc:Taxon ;
+    schema:name "Darwinia masonii" ;
+.
+
+apni:80493
+    a dwc:Taxon ;
+    schema:name "Taraxacum cygnorum" ;
+.
+
+apni:80494
+    a dwc:Taxon ;
+    schema:name "Darwinia meeboldii" ;
+.
+
+apni:80569
+    a dwc:Taxon ;
+    schema:name "Darwinia oxylepis" ;
+.
+
+apni:80621
+    a dwc:Taxon ;
+    schema:name "Correa lawrenceana" ;
+.
+
+apni:80733
+    a dwc:Taxon ;
+    schema:name "Hymenophyllum whitei" ;
+.
+
+apni:80744
+    a dwc:Taxon ;
+    schema:name "Darwinia squarrosa" ;
+.
+
+apni:80954
+    a dwc:Taxon ;
+    schema:name "Darwinia wittwerorum" ;
+.
+
+apni:80992
+    a dwc:Taxon ;
+    schema:name "Dasymalla axillaris" ;
+.
+
+apni:81075
+    a dwc:Taxon ;
+    schema:name "Alectryon ramiflorus" ;
+.
+
+apni:81133
+    a dwc:Taxon ;
+    schema:name "Tasmannia glaucifolia" ;
+.
+
+apni:81305
+    a dwc:Taxon ;
+    schema:name "Leptospermum crassifolium" ;
+.
+
+apni:81578
+    a dwc:Taxon ;
+    schema:name "Phebalium daviesii" ;
+.
+
+apni:81726
+    a dwc:Taxon ;
+    schema:name "Corybas montanus" ;
+.
+
+apni:81913
+    a dwc:Taxon ;
+    schema:name "Corynocarpus rupestris" ;
+.
+
+apni:82106
+    a dwc:Taxon ;
+    schema:name "Phebalium glandulosum" ;
+.
+
+apni:82241
+    a dwc:Taxon ;
+    schema:name "Allocasuarina defungens" ;
+.
+
+apni:82257
+    a dwc:Taxon ;
+    schema:name "Allocasuarina emuina" ;
+.
+
+apni:82264
+    a dwc:Taxon ;
+    schema:name "Allocasuarina fibrosa" ;
+.
+
+apni:82270
+    a dwc:Taxon ;
+    schema:name "Allocasuarina glareicola" ;
+.
+
+apni:82332
+    a dwc:Taxon ;
+    schema:name "Allocasuarina portuensis" ;
+.
+
+apni:82344
+    a dwc:Taxon ;
+    schema:name "Allocasuarina robusta" ;
+.
+
+apni:82349
+    a dwc:Taxon ;
+    schema:name "Allocasuarina simulans" ;
+.
+
+apni:82358
+    a dwc:Taxon ;
+    schema:name "Allocasuarina thalassoscopica" ;
+.
+
+apni:82361
+    a dwc:Taxon ;
+    schema:name "Allocasuarina tortiramula" ;
+.
+
+apni:82399
+    a dwc:Taxon ;
+    schema:name "Cossinia australiana" ;
+.
+
+apni:8249481
+    a dwc:Taxon ;
+    schema:name "Kunzea juniperoides" ;
+.
+
+apni:82542
+    a dwc:Taxon ;
+    schema:name "Phebalium lowanense" ;
+.
+
+apni:82549
+    a dwc:Taxon ;
+    schema:name "Daviesia dielsii" ;
+.
+
+apni:82556
+    a dwc:Taxon ;
+    schema:name "Daviesia discolor" ;
+.
+
+apni:82609
+    a dwc:Taxon ;
+    schema:name "Plectranthus gratus" ;
+.
+
+apni:82626
+    a dwc:Taxon ;
+    schema:name "Daviesia euphorbioides" ;
+.
+
+apni:82653
+    a dwc:Taxon ;
+    schema:name "Hemiandra gardneri" ;
+.
+
+apni:82889
+    a dwc:Taxon ;
+    schema:name "Oberonia attenuata" ;
+.
+
+apni:83059
+    a dwc:Taxon ;
+    schema:name "Tectaria devexa" ;
+.
+
+apni:83174
+    a dwc:Taxon ;
+    schema:name "Daviesia obovata" ;
+.
+
+apni:83218
+    a dwc:Taxon ;
+    schema:name "Daviesia ovata" ;
+.
+
+apni:83507
+    a dwc:Taxon ;
+    schema:name "Eucalyptus kartzoffiana" ;
+.
+
+apni:83534
+    a dwc:Taxon ;
+    schema:name "Lepidium hyssopifolium" ;
+.
+
+apni:83694
+    a dwc:Taxon ;
+    schema:name "Drakaea elastica" ;
+.
+
+apni:83808
+    a dwc:Taxon ;
+    schema:name "Phebalium whitei" ;
+.
+
+apni:83940
+    a dwc:Taxon ;
+    schema:name "Lepidium monoplocoides" ;
+.
+
+apni:84098
+    a dwc:Taxon ;
+    schema:name "Senecio australis" ;
+.
+
+apni:84229
+    a dwc:Taxon ;
+    schema:name "Lepidium peregrinum" ;
+.
+
+apni:84237
+    a dwc:Taxon ;
+    schema:name "Pherosphaera fitzgeraldii" ;
+.
+
+apni:84247
+    a dwc:Taxon ;
+    schema:name "Senecio behrianus" ;
+.
+
+apni:84286
+    a dwc:Taxon ;
+.
+
+apni:84350
+    a dwc:Taxon ;
+    schema:name "Plesioneuron tuberculatum" ;
+.
+
+apni:84379
+    a dwc:Taxon ;
+    schema:name "Lepidium pseudopapillosum" ;
+.
+
+apni:84460
+    a dwc:Taxon ;
+    schema:name "Newcastelia velutina" ;
+.
+
+apni:84623
+    a dwc:Taxon ;
+    schema:name "Marattia salicina" ;
+.
+
+apni:84776
+    a dwc:Taxon ;
+    schema:name "Phreatia limenophylax" ;
+.
+
+apni:84821
+    a dwc:Taxon ;
+    schema:name "Polyscias bellendenkerensis" ;
+.
+
+apni:84876
+    a dwc:Taxon ;
+    schema:name "Dendrobium antennatum" ;
+.
+
+apni:84946
+    a dwc:Taxon ;
+    schema:name "Dendrobium bigibbum" ;
+.
+
+apni:85016
+    a dwc:Taxon ;
+    schema:name "Ochrosia moorei" ;
+.
+
+apni:85031
+    a dwc:Taxon ;
+    schema:name "Grevillea involucrata" ;
+.
+
+apni:85051
+    a dwc:Taxon ;
+    schema:name "Lepidorrhachis mooreana" ;
+.
+
+apni:85066
+    a dwc:Taxon ;
+    schema:name "Grevillea jephcottii" ;
+.
+
+apni:85122
+    a dwc:Taxon ;
+    schema:name "Verticordia carinata" ;
+.
+
+apni:85184
+    a dwc:Taxon ;
+    schema:name "Dendrobium brachypus" ;
+.
+
+apni:85237
+    a dwc:Taxon ;
+    schema:name "Grevillea kennedyana" ;
+.
+
+apni:85510
+    a dwc:Taxon ;
+    schema:name "Pleuropappus phyllocalymmeus" ;
+.
+
+apni:85603
+    a dwc:Taxon ;
+    schema:name "Sphenotoma drummondii" ;
+.
+
+apni:85606
+    a dwc:Taxon ;
+    schema:name "Plinthanthesis rodwayi" ;
+.
+
+apni:85690
+    a dwc:Taxon ;
+    schema:name "Verticordia helichrysantha" ;
+.
+
+apni:85694
+    a dwc:Taxon ;
+.
+
+apni:85737
+    a dwc:Taxon ;
+    schema:name "Dendrobium johannis" ;
+.
+
+apni:85943
+    a dwc:Taxon ;
+    schema:name "Ammobium craspedioides" ;
+.
+
+apni:86033
+    a dwc:Taxon ;
+    schema:name "Dendrobium mirbelianum" ;
+.
+
+apni:86076
+    a dwc:Taxon ;
+    schema:name "Dendrobium nindii" ;
+.
+
+apni:86142
+    a dwc:Taxon ;
+    schema:name "Myrmecodia beccarii" ;
+.
+
+apni:86217
+    a dwc:Taxon ;
+    schema:name "Lasiopetalum joyceae" ;
+.
+
+apni:86287
+    a dwc:Taxon ;
+    schema:name "Lasiopetalum longistamineum" ;
+.
+
+apni:86430
+    a dwc:Taxon ;
+    schema:name "Amphibromus fluitans" ;
+.
+
+apni:86466
+    a dwc:Taxon ;
+    schema:name "Amphibromus whitei" ;
+.
+
+apni:86614
+    a dwc:Taxon ;
+    schema:name "Lepidosperma rostratum" ;
+.
+
+apni:86734
+    a dwc:Taxon ;
+    schema:name "Lasiopetalum rotundifolium" ;
+.
+
+apni:86777
+    a dwc:Taxon ;
+.
+
+apni:86784
+    a dwc:Taxon ;
+    schema:name "Spirogardnera rubescens" ;
+.
+
+apni:86794
+    a dwc:Taxon ;
+    schema:name "Prasophyllum affine" ;
+.
+
+apni:87088
+    a dwc:Taxon ;
+    schema:name "Eucalyptus paliformis" ;
+.
+
+apni:87204
+    a dwc:Taxon ;
+    schema:name "Denhamia parvifolia" ;
+.
+
+apni:87400
+    a dwc:Taxon ;
+    schema:name "Ungeria floribunda" ;
+.
+
+apni:87437
+    a dwc:Taxon ;
+    schema:name "Lastreopsis walleri" ;
+.
+
+apni:87457
+    a dwc:Taxon ;
+    schema:name "Prasophyllum diversiflorum" ;
+.
+
+apni:87981
+    a dwc:Taxon ;
+    schema:name "Hydriastele costata" ;
+.
+
+apni:88132
+    a dwc:Taxon ;
+    schema:name "Wikstroemia australis" ;
+.
+
+apni:88165
+    a dwc:Taxon ;
+    schema:name "Epilobium brunnescens" ;
+.
+
+apni:88305
+    a dwc:Taxon ;
+    schema:name "Cryptocarya foetida" ;
+.
+
+apni:88396
+    a dwc:Taxon ;
+    schema:name "Myoporum cordifolium" ;
+.
+
+apni:88446
+    a dwc:Taxon ;
+    schema:name "Melaleuca biconvexa" ;
+.
+
+apni:88473
+    a dwc:Taxon ;
+    schema:name "Trithuria occidentalis" ;
+.
+
+apni:88512
+    a dwc:Taxon ;
+    schema:name "Andersonia axilliflora" ;
+.
+
+apni:88688
+    a dwc:Taxon ;
+    schema:name "Andersonia gracilis" ;
+.
+
+apni:88757
+    a dwc:Taxon ;
+    schema:name "Gastrolobium appressum" ;
+.
+
+apni:88828
+    a dwc:Taxon ;
+.
+
+apni:88859
+    a dwc:Taxon ;
+    schema:name "Eriocaulon carsonii" ;
+.
+
+apni:89001
+    a dwc:Taxon ;
+    schema:name "Cryptostylis hunteriana" ;
+.
+
+apni:89172
+    a dwc:Taxon ;
+    schema:name "Gastrolobium glaucum" ;
+.
+
+apni:89220
+    a dwc:Taxon ;
+    schema:name "Gastrolobium graniticum" ;
+.
+
+apni:89229
+    a dwc:Taxon ;
+    schema:name "Gastrolobium hamulosum" ;
+.
+
+apni:89304
+    a dwc:Taxon ;
+    schema:name "Triunia robusta" ;
+.
+
+apni:89390
+    a dwc:Taxon ;
+.
+
+apni:89392
+    a dwc:Taxon ;
+    schema:name "Melaleuca deanei" ;
+.
+
+apni:8940166
+    a dwc:Taxon ;
+    schema:name "Hibbertia" ;
+.
+
+apni:89474
+    a dwc:Taxon ;
+    schema:name "Cadellia pentastylis" ;
+.
+
+apni:90244
+    a dwc:Taxon ;
+    schema:name "Eremochloa muricata" ;
+.
+
+apni:90247
+    a dwc:Taxon ;
+    schema:name "Ixodia achillaeoides" ;
+.
+
+apni:90407
+    a dwc:Taxon ;
+    schema:name "Cupaniopsis shirleyana" ;
+.
+
+apni:90412
+    a dwc:Taxon ;
+    schema:name "Cupaniopsis tomentella" ;
+.
+
+apni:90429
+    a dwc:Taxon ;
+    schema:name "Pandanus spiralis" ;
+.
+
+apni:90627
+    a dwc:Taxon ;
+    schema:name "Caladenia arenaria" ;
+.
+
+apni:90639
+    a dwc:Taxon ;
+    schema:name "Caladenia atroclavia" ;
+.
+
+apni:90645
+    a dwc:Taxon ;
+    schema:name "Caladenia audasii" ;
+.
+
+apni:90675
+    a dwc:Taxon ;
+    schema:name "Caladenia behrii" ;
+.
+
+apni:90676
+    a dwc:Taxon ;
+    schema:name "Minuria tridens" ;
+.
+
+apni:90700
+    a dwc:Taxon ;
+    schema:name "Caladenia brachyscapa" ;
+.
+
+apni:90755
+    a dwc:Taxon ;
+    schema:name "Caladenia calcicola" ;
+.
+
+apni:90974
+    a dwc:Taxon ;
+    schema:name "Caladenia caudata" ;
+.
+
+apni:90994
+    a dwc:Taxon ;
+    schema:name "Caladenia concolor" ;
+.
+
+apni:91029
+    a dwc:Taxon ;
+    schema:name "Melaleuca kunzeoides" ;
+.
+
+apni:91187
+    a dwc:Taxon ;
+    schema:name "Caladenia dorrienii" ;
+.
+
+apni:91249
+    a dwc:Taxon ;
+    schema:name "Eucalyptus cadens" ;
+.
+
+apni:91302
+    a dwc:Taxon ;
+    schema:name "Goodenia arthrotricha" ;
+.
+
+apni:91520
+    a dwc:Taxon ;
+    schema:name "Caladenia gladiolata" ;
+.
+
+apni:91574
+    a dwc:Taxon ;
+    schema:name "Euphorbia carissoides" ;
+.
+
+apni:91585
+    a dwc:Taxon ;
+    schema:name "Caladenia hastata" ;
+.
+
+apni:91613
+    a dwc:Taxon ;
+    schema:name "Cyathea exilis" ;
+.
+
+apni:91624
+    a dwc:Taxon ;
+    schema:name "Caladenia huegelii" ;
+.
+
+apni:91765
+    a dwc:Taxon ;
+    schema:name "Caladenia lindleyana" ;
+.
+
+apni:92030
+    a dwc:Taxon ;
+    schema:name "Caladenia ovata" ;
+.
+
+apni:92039
+    a dwc:Taxon ;
+    schema:name "Caladenia pallida" ;
+.
+
+apni:92187
+    a dwc:Taxon ;
+    schema:name "Streblus pendulinus" ;
+.
+
+apni:92252
+    a dwc:Taxon ;
+    schema:name "Caladenia pumila" ;
+.
+
+apni:92279
+    a dwc:Taxon ;
+    schema:name "Anigozanthos bicolor" ;
+.
+
+apni:92294
+    a dwc:Taxon ;
+    schema:name "Cycas cairnsiana" ;
+.
+
+apni:92320
+    a dwc:Taxon ;
+    schema:name "Logania diffusa" ;
+.
+
+apni:92363
+    a dwc:Taxon ;
+    schema:name "Caladenia rigida" ;
+.
+
+apni:92380
+    a dwc:Taxon ;
+    schema:name "Caladenia rosella" ;
+.
+
+apni:92495
+    a dwc:Taxon ;
+    schema:name "Caladenia tessellata" ;
+.
+
+apni:92531
+    a dwc:Taxon ;
+    schema:name "Logania insularis" ;
+.
+
+apni:92585
+    a dwc:Taxon ;
+    schema:name "Anigozanthos viridis" ;
+.
+
+apni:92644
+    a dwc:Taxon ;
+    schema:name "Caladenia wanosa" ;
+.
+
+apni:9301689
+    a dwc:Taxon ;
+    schema:name "Asterolasia beckersii" ;
+.
+
+apni:93079
+    a dwc:Taxon ;
+    schema:name "Randia moorei" ;
+.
+
+apni:93121
+    a dwc:Taxon ;
+    schema:name "Eucalyptus steedmanii" ;
+.
+
+apni:93249
+    a dwc:Taxon ;
+    schema:name "Euphorbia obliqua" ;
+.
+
+apni:93252
+    a dwc:Taxon ;
+    schema:name "Persicaria elatior" ;
+.
+
+apni:93304
+    a dwc:Taxon ;
+    schema:name "Eucalyptus stenostoma" ;
+.
+
+apni:93479
+    a dwc:Taxon ;
+    schema:name "Euphrasia amphisysepala" ;
+.
+
+apni:93493
+    a dwc:Taxon ;
+    schema:name "Hicksbeachia pinnatifolia" ;
+.
+
+apni:93513
+    a dwc:Taxon ;
+    schema:name "Pomaderris brunnea" ;
+.
+
+apni:93518
+    a dwc:Taxon ;
+    schema:name "Euphrasia arguta" ;
+.
+
+apni:93545
+    a dwc:Taxon ;
+    schema:name "Euphrasia bella" ;
+.
+
+apni:93571
+    a dwc:Taxon ;
+    schema:name "Euphrasia bowdeniae" ;
+.
+
+apni:93660
+    a dwc:Taxon ;
+    schema:name "Ranunculus anemoneus" ;
+.
+
+apni:93750
+    a dwc:Taxon ;
+    schema:name "Pomaderris cotoneaster" ;
+.
+
+apni:93852
+    a dwc:Taxon ;
+    schema:name "Eucalyptus sturgissiana" ;
+.
+
+apni:93899
+    a dwc:Taxon ;
+    schema:name "Eucalyptus suberea" ;
+.
+
+apni:93948
+    a dwc:Taxon ;
+    schema:name "Opercularia acolytantha" ;
+.
+
+apni:94053
+    a dwc:Taxon ;
+    schema:name "Eucalyptus synandra" ;
+.
+
+apni:94061
+    a dwc:Taxon ;
+.
+
+apni:94074
+    a dwc:Taxon ;
+    schema:name "Euphrasia collina" ;
+.
+
+apni:94111
+    a dwc:Taxon ;
+    schema:name "Pomaderris gilmourii" ;
+.
+
+apni:94114
+    a dwc:Taxon ;
+    schema:name "Pomaderris gilmourii" ;
+.
+
+apni:94126
+    a dwc:Taxon ;
+    schema:name "Euphrasia collina" ;
+.
+
+apni:94203
+    a dwc:Taxon ;
+    schema:name "Cynanchum elegans" ;
+.
+
+apni:94295
+    a dwc:Taxon ;
+    schema:name "Thryptomene wittweri" ;
+.
+
+apni:94333
+    a dwc:Taxon ;
+    schema:name "Eucalyptus camfieldii" ;
+.
+
+apni:94414
+    a dwc:Taxon ;
+    schema:name "Viola improcera" ;
+.
+
+apni:94515
+    a dwc:Taxon ;
+    schema:name "Fimbristylis adjuncta" ;
+.
+
+apni:94679
+    a dwc:Taxon ;
+    schema:name "Swainsona murrayana" ;
+.
+
+apni:94894
+    a dwc:Taxon ;
+    schema:name "Lechenaultia chlorantha" ;
+.
+
+apni:94944
+    a dwc:Taxon ;
+    schema:name "Hakea megalosperma" ;
+.
+
+apni:94946
+    a dwc:Taxon ;
+    schema:name "Calectasia cyanea" ;
+.
+
+apni:95070
+    a dwc:Taxon ;
+    schema:name "Anthocercis gracilis" ;
+.
+
+apni:95250
+    a dwc:Taxon ;
+    schema:name "Notelaea lloydii" ;
+.
+
+apni:95303
+    a dwc:Taxon ;
+    schema:name "Eucalyptus argophloia" ;
+.
+
+apni:95350
+    a dwc:Taxon ;
+    schema:name "Swainsona plagiotropis" ;
+.
+
+apni:95389
+    a dwc:Taxon ;
+    schema:name "Stylidium galioides" ;
+.
+
+apni:95391
+    a dwc:Taxon ;
+    schema:name "Lechenaultia laricina" ;
+.
+
+apni:95473
+    a dwc:Taxon ;
+    schema:name "Lomatia tasmanica" ;
+.
+
+apni:95481
+    a dwc:Taxon ;
+    schema:name "Swainsona recta" ;
+.
+
+apni:95577
+    a dwc:Taxon ;
+    schema:name "Grevillea maxwellii" ;
+.
+
+apni:95708
+    a dwc:Taxon ;
+    schema:name "Glyceria drummondii" ;
+.
+
+apni:95715
+    a dwc:Taxon ;
+    schema:name "Reedia spathacea" ;
+.
+
+apni:95776
+    a dwc:Taxon ;
+    schema:name "Grevillea molyneuxii" ;
+.
+
+apni:95826
+    a dwc:Taxon ;
+    schema:name "Grevillea montis-cole" ;
+.
+
+apni:95941
+    a dwc:Taxon ;
+    schema:name "Grevillea murex" ;
+.
+
+apni:95963
+    a dwc:Taxon ;
+    schema:name "Diuris pedunculata" ;
+.
+
+apni:96309
+    a dwc:Taxon ;
+    schema:name "Glycine latrobeana" ;
+.
+
+apni:96313
+    a dwc:Taxon ;
+    schema:name "Grevillea obtusiflora" ;
+.
+
+apni:96443
+    a dwc:Taxon ;
+    schema:name "Eucalyptus hallii" ;
+.
+
+apni:96464
+    a dwc:Taxon ;
+    schema:name "Xanthorrhoea arenaria" ;
+.
+
+apni:96514
+    a dwc:Taxon ;
+    schema:name "Diuris purdiei" ;
+.
+
+apni:96560
+    a dwc:Taxon ;
+    schema:name "Xanthorrhoea bracteata" ;
+.
+
+apni:96626
+    a dwc:Taxon ;
+    schema:name "Phyllota humifusa" ;
+.
+
+apni:96660
+    a dwc:Taxon ;
+    schema:name "Kennedia glabrata" ;
+.
+
+apni:96716
+    a dwc:Taxon ;
+    schema:name "Cyperus cephalotes" ;
+.
+
+apni:96785
+    a dwc:Taxon ;
+    schema:name "Kennedia lateritia" ;
+.
+
+apni:96794
+    a dwc:Taxon ;
+    schema:name "Apatophyllum olsenii" ;
+.
+
+apni:96826
+    a dwc:Taxon ;
+    schema:name "Tmesipteris lanceolata" ;
+.
+
+apni:96950
+    a dwc:Taxon ;
+    schema:name "Diuris venosa" ;
+.
+
+apni:97075
+    a dwc:Taxon ;
+    schema:name "Eucalyptus macarthurii" ;
+.
+
+apni:97318
+    a dwc:Taxon ;
+    schema:name "Toechima pterocarpum" ;
+.
+
+apni:97567
+    a dwc:Taxon ;
+    schema:name "Aponogeton bullosus" ;
+.
+
+apni:97770
+    a dwc:Taxon ;
+    schema:name "Leptospermum deanei" ;
+.
+
+apni:97917
+    a dwc:Taxon ;
+    schema:name "Lycopodium volubile" ;
+.
+
+apni:97921
+    a dwc:Taxon ;
+    schema:name "Zieria adenophora" ;
+.
+
+apni:98046
+    a dwc:Taxon ;
+    schema:name "Zieria collina" ;
+.
+
+apni:98245
+    a dwc:Taxon ;
+    schema:name "Monogramma dareicarpa" ;
+.
+
+apni:98249
+    a dwc:Taxon ;
+    schema:name "Zieria granulata" ;
+.
+
+apni:98279
+    a dwc:Taxon ;
+    schema:name "Desmodium acanthocladum" ;
+.
+
+apni:98355
+    a dwc:Taxon ;
+    schema:name "Zieria involucrata" ;
+.
+
+apni:98476
+    a dwc:Taxon ;
+    schema:name "Leucopogon confertus" ;
+.
+
+apni:98505
+    a dwc:Taxon ;
+    schema:name "Zeuxine polygonoides" ;
+.
+
+apni:98604
+    a dwc:Taxon ;
+    schema:name "Zieria murphyi" ;
+.
+
+apni:98614
+    a dwc:Taxon ;
+    schema:name "Hypocalymma longifolium" ;
+.
+
+apni:98637
+    a dwc:Taxon ;
+    schema:name "Leucopogon cryptanthus" ;
+.
+
+apni:98714
+    a dwc:Taxon ;
+.
+
+apni:98872
+    a dwc:Taxon ;
+    schema:name "Germainia capitata" ;
+.
+
+apni:98982
+    a dwc:Taxon ;
+    schema:name "Cyperus semifertilis" ;
+.
+
+apni:98986
+    a dwc:Taxon ;
+    schema:name "Calochilus cupreus" ;
+.
+
+apni:99082
+    a dwc:Taxon ;
+    schema:name "Calochilus richiae" ;
+.
+
+apni:99193
+    a dwc:Taxon ;
+    schema:name "Leucopogon exolasius" ;
+.
+
+apni:99353
+    a dwc:Taxon ;
+    schema:name "Deyeuxia appressa" ;
+.
+
+apni:99408
+    a dwc:Taxon ;
+    schema:name "Pittosporum bracteolatum" ;
+.
+
+apni:99476
+    a dwc:Taxon ;
+    schema:name "Eucalyptus mckieana" ;
+.
+
+apni:99482
+    a dwc:Taxon ;
+    schema:name "Fontainea australis" ;
+.
+
+apni:99487
+    a dwc:Taxon ;
+    schema:name "Fontainea oraria" ;
+.
+
+apni:99501
+    a dwc:Taxon ;
+    schema:name "Deyeuxia drummondii" ;
+.
+
+apni:99545
+    a dwc:Taxon ;
+    schema:name "Hemiandra rutilans" ;
+.
+
+apni:99612
+    a dwc:Taxon ;
+    schema:name "Leucopogon gnaphalioides" ;
+.
+
+apni:99618
+    a dwc:Taxon ;
+    schema:name "Deyeuxia lawrencei" ;
+.
+
+apni:99631
+    a dwc:Taxon ;
+    schema:name "Monotoca rotundifolia" ;
+.
+
+apni:99825
+    a dwc:Taxon ;
+    schema:name "Leptospermum petraeum" ;
+.
+
+apni:99934
+    a dwc:Taxon ;
+    schema:name "Cyphanthera scabrella" ;
+.

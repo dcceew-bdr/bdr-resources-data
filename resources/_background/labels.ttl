@@ -450,9 +450,7 @@ skos:relatedMatch
 .
 
 skos:scopeNote
-    schema:name
-        "Description" ,
-        "scope note" ;
+    schema:name "scope note" ;
 .
 
 skos:topConceptOf
@@ -677,6 +675,10 @@ sh:NodeShape
 
 sh:PropertyShape
     schema:name "Property shape"@en ;
+.
+
+sh:ShapesGraph
+    schema:name "Shapes Graph" ;
 .
 
 sh:Violation
@@ -1205,8 +1207,4 @@ schema:version
 
 <https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1>
     schema:name "CSIRO" ;
-.
-
-sh:ShapesGraph
-    schema:name "Shapes Graph" ;
 .
