@@ -1,0 +1,8 @@
+{
+  "http://linked.data.gov.au/def/tern-cv/8d227e73-f906-4d5f-9f15-8ae8bf29b2ce": {
+    "source_label": "infragenericname",
+    "preferred_label": "infrageneric name",
+    "language": "en",
+    "reason": "BDR display-label correction following review; concept IRI and definition are unchanged."
+  }
+}

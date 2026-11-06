@@ -184,7 +184,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Used for any other unspecific rank below genera and above species."@en ;
     skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/infragenericname> ;
     skos:inScheme <https://linked.data.gov.au/dataset/bdr/taxonomic-rank> ;
-    skos:prefLabel "infragenericname"@en ;
+    skos:prefLabel "infrageneric name"@en ;
     skos:topConceptOf <https://linked.data.gov.au/dataset/bdr/taxonomic-rank> ;
 .
 

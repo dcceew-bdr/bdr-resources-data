@@ -1,6 +1,6 @@
 # BDR taxonomic rank scheme using TERN concepts
 
-The published vocabulary is BDR’s existing ConceptScheme, `https://linked.data.gov.au/dataset/bdr/taxonomic-rank`, expanded from ten to 33 existing TERN concepts. The file remains `resources/vocabs/items/nsl-taxonomic-rank.ttl`. Every concept retains its original HTTP TERN IRI, preferred labels and definitions. The BDR scheme provides a local management unit; TERN remains the source of the rank concepts.
+The published vocabulary is BDR’s existing ConceptScheme, `https://linked.data.gov.au/dataset/bdr/taxonomic-rank`, expanded from ten to 33 existing TERN concepts. The file remains `resources/vocabs/items/nsl-taxonomic-rank.ttl`. Every concept retains its original HTTP TERN IRI and definition. Preferred labels follow TERN except for the explicitly documented local correction below. The BDR scheme provides a local management unit; TERN remains the source of the rank concepts.
 
 This follows Nick’s advice on bdr-ops issue 299. A BDR scheme can reuse TERN concept IRIs without adopting TERN’s collection as its catalogue management structure. The previously proposed catalogue-level Collection publication and its extra API routes are superseded. TERN’s own collection is not retyped or changed.
 
@@ -20,7 +20,13 @@ Use an environment with RDFLib; the existing Kurra runtime is sufficient. The fi
 
 The builder copies only the basic concept fields from each response: RDF type, SKOS labels, definition, any scope note/notation, non-self exact matches and the original `rdfs:isDefinedBy`. All concept-level DCTERMS, `rdfs:label`, `rdfs:seeAlso`, duplicate `skos:note` descriptions, inferred mapping closure and self exact matches are omitted. The full upstream metadata remains in the source snapshots. The native BDR scheme keeps its own publication metadata and source citation. In this publication, membership is stated in the BDR scheme; the upstream TERN membership remains recorded in the source snapshots. The BDR scheme cites the TERN collection as its source.
 
-`verification.json` records preservation of the ten original concepts, unchanged labels/definitions for all 33 TERN concepts, flat scheme membership, the ordinary catalogue-to-scheme-to-concept route and a literal/IRI display example. The scoped shapes check the scheme and its members. These checks do not prove live deployment or complete NSL rank coverage.
+`verification.json` records preservation of the ten original concepts, unchanged definitions for all 33 TERN concepts and unchanged preferred labels for the 32 without a local correction, flat scheme membership, the ordinary catalogue-to-scheme-to-concept route and a literal/IRI display example. The scoped shapes check the scheme and its members. These checks do not prove live deployment or complete NSL rank coverage.
+
+## Local display-label correction
+
+`label-overrides.json` changes the BDR publication’s English preferred label for `8d227e73-f906-4d5f-9f15-8ae8bf29b2ce` from `infragenericname` to `infrageneric name`. The builder checks the original label before applying this exception. The original source response remains unchanged, and the concept IRI, definition, GBIF exact match and `rdfs:isDefinedBy` are preserved. No label change is asserted in TERN’s source or any existing live reference graph.
+
+The BDR publication does not contain TERN’s Categorical Concepts membership or self exact matches. These may still appear in the preserved upstream responses. A self exact match can arise through SKOS symmetry/transitivity; it is redundant for this publication and is filtered out. `skos:inScheme` itself states scheme membership; a scheme’s top-concept list is not a mandatory listing of every member.
 
 ## Pending TERN advice
 

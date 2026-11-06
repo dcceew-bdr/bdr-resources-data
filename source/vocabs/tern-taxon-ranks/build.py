@@ -24,6 +24,8 @@ def main():
     metadata = json.loads((HERE / 'source-manifest.json').read_text())
     collection = URIRef(metadata['collection'])
     members = {URIRef(iri) for iri in metadata['members']}
+    overrides = json.loads((HERE / 'label-overrides.json').read_text())
+    assert set(overrides) <= {str(member) for member in members}
     result = Graph()
     for prefix, ns in [('skos', SKOS), ('rdf', RDF), ('rdfs', RDFS), ('dcterms', DCTERMS), ('schema', SCHEMA)]:
         result.bind(prefix, ns)
@@ -39,6 +41,13 @@ def main():
         for s, p, o in source.triples((subject, None, None)):
             if p in PREDICATES and not (p == SKOS.exactMatch and s == o):
                 result.add((s, p, o))
+        if str(subject) in overrides:
+            override = overrides[str(subject)]
+            original = Literal(override['source_label'], lang=override['language'])
+            assert set(result.objects(subject, SKOS.prefLabel)) == {original}, subject
+            result.remove((subject, SKOS.prefLabel, original))
+            result.add((subject, SKOS.prefLabel,
+                        Literal(override['preferred_label'], lang=override['language'])))
         # This publication states membership in BDR's management scheme; it
         # does not change the concept's IRI or its TERN definition.
         result.add((subject, SKOS.inScheme, SCHEME))

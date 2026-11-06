@@ -15,6 +15,7 @@ def main():
     current = Graph().parse(ROOT / 'resources/vocabs/items/nsl-taxonomic-rank.ttl')
     previous = Graph().parse(HERE / 'replaced-nsl-taxonomic-rank.ttl')
     members = set(current.subjects(SKOS.inScheme, SCHEME))
+    overrides = json.loads((HERE / 'label-overrides.json').read_text())
     assert members == set(current.objects(SCHEME, SKOS.hasTopConcept))
     old_concepts = set(previous.subjects(RDF.type, SKOS.Concept))
     assert len(members) == 33 and len(old_concepts) == 10
@@ -29,8 +30,17 @@ def main():
         assert list(current.objects(member, SKOS.definition))
         assert 'example.com' not in str(member)
         source = Graph().parse(HERE / 'snapshots' / (str(member).rsplit('/', 1)[-1] + '.ttl'))
-        for predicate in (SKOS.prefLabel, SKOS.definition, RDFS.isDefinedBy):
+        for predicate in (SKOS.definition, RDFS.isDefinedBy):
             assert set(source.objects(member, predicate)) == set(current.objects(member, predicate))
+        if str(member) in overrides:
+            override = overrides[str(member)]
+            assert set(source.objects(member, SKOS.prefLabel)) == {
+                Literal(override['source_label'], lang=override['language'])}
+            assert set(current.objects(member, SKOS.prefLabel)) == {
+                Literal(override['preferred_label'], lang=override['language'])}
+        else:
+            assert set(source.objects(member, SKOS.prefLabel)) == set(current.objects(member, SKOS.prefLabel))
+        assert (member, SKOS.exactMatch, member) not in current
         assert not list(current.objects(member, RDFS.label))
         assert not any(str(p).startswith('http://purl.org/dc/terms/') for p in current.predicates(member))
     assert (SCHEME, RDF.type, SKOS.ConceptScheme) in current
@@ -70,7 +80,10 @@ def main():
         'http_identifiers_preserved': True,
         'bdr_scheme_iri_retained': True,
         'tern_collection_not_retyped_as_scheme': True,
-        'all_33_tern_labels_and_definitions_unchanged': True,
+        'all_33_definitions_unchanged': True,
+        'preferred_labels_unchanged': len(members) - len(overrides),
+        'documented_local_label_overrides': len(overrides),
+        'no_published_self_exact_matches': True,
         'original_isDefinedBy_preserved': True,
         'concept_dcterms_and_rdfs_label_removed': True,
         'no_placeholder_concepts_added': True,
