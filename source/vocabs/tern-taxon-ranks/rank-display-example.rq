@@ -1,0 +1,13 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+
+# Local display example. In an API, obtain ?rank from the NSL source graph and
+# resolve its label from the reference graph(s), outside the source graph block.
+SELECT ?name ?rank ?displayLabel WHERE {
+  ?name dwc:taxonRank ?rank .
+  OPTIONAL {
+    ?rank skos:prefLabel ?label .
+    FILTER(LANG(?label) = "" || LANGMATCHES(LANG(?label), "en"))
+  }
+  BIND(IF(isLiteral(?rank), STR(?rank), COALESCE(STR(?label), STR(?rank))) AS ?displayLabel)
+}
