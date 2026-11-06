@@ -49,7 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/dataset/bdr/sma> ,
         <https://linked.data.gov.au/dataset/bdr/smrr> ,
         <https://linked.data.gov.au/dataset/bdr/statsprops> ,
-        <http://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685> ,
+        <https://linked.data.gov.au/dataset/bdr/taxonomic-rank> ,
         <https://linked.data.gov.au/dataset/epbc/ts/cats> ,
         <https://linked.data.gov.au/def/abis/vocab-themes> ,
         <https://linked.data.gov.au/def/asgs/cat> ,
@@ -263,6 +263,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
 .
 
-<http://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+<https://linked.data.gov.au/dataset/bdr/taxonomic-rank>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
 .
