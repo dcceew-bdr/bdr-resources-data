@@ -1,6 +1,7 @@
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX mrr: <https://prez.dev/ManifestResourceRoles/>
 PREFIX prez: <https://prez.dev/>
+PREFIX schema: <https://schema.org/>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 
 []    a prez:Manifest ;
@@ -23,7 +24,6 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
                 "vocabs/items/datatypes.ttl" ,
                 "vocabs/items/epbc-ts-cats.ttl" ,
                 "vocabs/items/mesh-block-categories.ttl" ,
-                "vocabs/items/nsl-taxonomic-rank.ttl" ,
                 "vocabs/items/nsl-tn-types.ttl" ,
                 "vocabs/items/nsl-tnu-types.ttl" ,
                 "vocabs/items/obsprops.ttl" ,
@@ -32,6 +32,15 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
                 "vocabs/items/smrr.ttl" ,
                 "vocabs/items/statsprops.ttl" ,
                 "vocabs/items/tern-cv-categorical_concepts.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            # TERN defines Taxon ranks as a Collection, not a ConceptScheme.
+            # Identify it explicitly; the VocPub scheme profile does not apply.
+            prof:hasArtifact [
+                schema:mainEntity <http://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685> ;
+                schema:contentLocation "vocabs/items/tern-cv-taxon-ranks.ttl" ;
+            ] ;
             prof:hasRole mrr:ResourceData ;
         ] ,
         [

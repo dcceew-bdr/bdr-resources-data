@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/" ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2023"^^xsd:gYear ;
-    schema:dateModified "2026-09-21"^^xsd:date ;
+    schema:dateModified "2026-11-06"^^xsd:date ;
     schema:description "Vocabularies used by the Biodiversity Data Repository" ;
     schema:hasPart
         <https://def.isotc211.org/codeset/RoleCode> ,
@@ -49,7 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/dataset/bdr/sma> ,
         <https://linked.data.gov.au/dataset/bdr/smrr> ,
         <https://linked.data.gov.au/dataset/bdr/statsprops> ,
-        <https://linked.data.gov.au/dataset/bdr/taxonomic-rank> ,
+        <http://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685> ,
         <https://linked.data.gov.au/dataset/epbc/ts/cats> ,
         <https://linked.data.gov.au/def/abis/vocab-themes> ,
         <https://linked.data.gov.au/def/asgs/cat> ,
@@ -260,5 +260,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
 .

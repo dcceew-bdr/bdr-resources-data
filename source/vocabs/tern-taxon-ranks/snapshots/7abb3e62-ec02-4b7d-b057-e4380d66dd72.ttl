@@ -1,0 +1,37 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72> a skos:Concept;
+  rdfs:label "subspecies"@en;
+  rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml>;
+  rdfs:seeAlso <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml>;
+  <http://purl.org/dc/terms/contributor> "https://www.gaiaresources.com.au/"^^xsd:anyURI;
+  skos:definition "subspecies"@en;
+  skos:inScheme <http://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0>;
+  skos:prefLabel "subspecies"@en;
+  skos:note "subspecies"@en;
+  skos:semanticRelation <http://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72>,
+    <http://rs.gbif.org/vocabulary/gbif/rank/subspecies>;
+  skos:mappingRelation <http://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72>,
+    <http://rs.gbif.org/vocabulary/gbif/rank/subspecies>;
+  skos:exactMatch <http://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72>,
+    <http://rs.gbif.org/vocabulary/gbif/rank/subspecies>;
+  skos:closeMatch <http://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72>,
+    <http://rs.gbif.org/vocabulary/gbif/rank/subspecies>;
+  <http://purl.org/dc/terms/modified> "2026-10-19T05:29:51Z"^^xsd:dateTime;
+  <http://purl.org/dc/terms/publisher> <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66>;
+  <http://purl.org/dc/terms/date> "2026-10-19T05:29:51Z"^^xsd:dateTime;
+  <http://purl.org/dc/terms/relation> <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml>;
+  <http://purl.org/dc/terms/source> <http://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml> .
+
+skos:Concept rdfs:label "Concept"@en .
+
+<http://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0> rdfs:label
+    "Categorical Concepts"@en;
+  skos:prefLabel "Categorical Concepts"@en .

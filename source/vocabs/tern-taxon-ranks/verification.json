@@ -1,0 +1,12 @@
+{
+  "existing_tern_rank_concepts": 33,
+  "replaced_temporary_concepts": 10,
+  "all_ten_labels_and_definitions_preserved": true,
+  "all_members_have_labels_and_definitions": true,
+  "http_identifiers_preserved": true,
+  "collection_not_retyped_as_scheme": true,
+  "no_placeholder_concepts_added": true,
+  "catalogue_references_collection_instead_of_temporary_scheme": true,
+  "display_example_handles_iri_literal_and_unlabelled_iri": true,
+  "scope": "Local replacement and query verification; not live API or database deployment verification."
+}

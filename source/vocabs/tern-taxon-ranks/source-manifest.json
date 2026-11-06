@@ -1,0 +1,278 @@
+{
+  "collection": "http://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685",
+  "retrieved_at_utc": "2026-11-06T09:26:48.992778+00:00",
+  "members": [
+    "http://linked.data.gov.au/def/tern-cv/22829f2d-461d-4cf6-acbc-5b8f7d2d9c77",
+    "http://linked.data.gov.au/def/tern-cv/2b6fae57-f28e-4f24-b6f9-19f114dbb61e",
+    "http://linked.data.gov.au/def/tern-cv/367a27ee-7c6f-48a0-ba50-ff137ed1fe0c",
+    "http://linked.data.gov.au/def/tern-cv/3ade9854-d90f-4709-bb5a-260d62a2c647",
+    "http://linked.data.gov.au/def/tern-cv/40d5f3d3-dfbb-4718-9f66-29b5f735142f",
+    "http://linked.data.gov.au/def/tern-cv/445b6830-8e31-4fab-889b-f18f88f382c0",
+    "http://linked.data.gov.au/def/tern-cv/45d214c6-894b-4fe5-a9ce-2db3a1fc3a7d",
+    "http://linked.data.gov.au/def/tern-cv/49849796-fc73-444f-a375-32fc0048a18b",
+    "http://linked.data.gov.au/def/tern-cv/50d96a8d-aa2a-4629-9caa-76637c619851",
+    "http://linked.data.gov.au/def/tern-cv/5fb9982c-8249-4d58-9f38-659e8c7c6daf",
+    "http://linked.data.gov.au/def/tern-cv/61a34b22-555e-431d-848c-95bb6a364a9a",
+    "http://linked.data.gov.au/def/tern-cv/6605eecb-e8ba-47fc-a364-81aa3ba5ce69",
+    "http://linked.data.gov.au/def/tern-cv/6e50f0de-0847-4db3-8bc3-f7e796ed32bf",
+    "http://linked.data.gov.au/def/tern-cv/6fa4ff0a-acc8-482b-a574-0ffbbab83ca5",
+    "http://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72",
+    "http://linked.data.gov.au/def/tern-cv/86a64fd0-7aa6-4ef1-93cc-45ae722ec6a7",
+    "http://linked.data.gov.au/def/tern-cv/892fed0b-70cc-48d4-ac3f-0b0b495cc0c0",
+    "http://linked.data.gov.au/def/tern-cv/8d227e73-f906-4d5f-9f15-8ae8bf29b2ce",
+    "http://linked.data.gov.au/def/tern-cv/9eeb2dcf-ec0c-4541-a409-28722e9b4f26",
+    "http://linked.data.gov.au/def/tern-cv/a27dc8c9-25ed-4a82-b797-b9dd0add6da2",
+    "http://linked.data.gov.au/def/tern-cv/a68fa217-969b-48ea-a08a-bb7618079edb",
+    "http://linked.data.gov.au/def/tern-cv/a8889e2e-8eb3-4ed3-8d32-3974adae6158",
+    "http://linked.data.gov.au/def/tern-cv/b06ee648-55e2-435f-b453-2f6639addbcb",
+    "http://linked.data.gov.au/def/tern-cv/b49af045-88c2-44c0-ad34-901d1ff46d7a",
+    "http://linked.data.gov.au/def/tern-cv/baefb9ce-5f98-44a7-acc3-5bd1247c8d54",
+    "http://linked.data.gov.au/def/tern-cv/bc6b552f-5ab0-4d46-a236-a99fc2005c93",
+    "http://linked.data.gov.au/def/tern-cv/cb2627f0-e121-474b-a354-dd0e392daa84",
+    "http://linked.data.gov.au/def/tern-cv/d3f48baa-7a29-4b4f-9d92-bb5276ab8710",
+    "http://linked.data.gov.au/def/tern-cv/d43fd16c-73c3-4578-a359-7168a0876aaf",
+    "http://linked.data.gov.au/def/tern-cv/dae4d56e-7440-4ddd-90e7-9924b455ca40",
+    "http://linked.data.gov.au/def/tern-cv/db985a35-6edb-4ba1-8939-b0a7b1efa287",
+    "http://linked.data.gov.au/def/tern-cv/f2e2f14f-56d4-4d2f-9a37-7e140133cbd2",
+    "http://linked.data.gov.au/def/tern-cv/fdbe211f-33d6-4446-a1fb-5eb8de45dd57"
+  ],
+  "resources": [
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685",
+      "file": "snapshots/collection.ttl",
+      "sha256": "5cbd80c72ad144712dffb351a2b66365f2e2e5f834fe003c8aa8b88cf597ce18"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/22829f2d-461d-4cf6-acbc-5b8f7d2d9c77",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/22829f2d-461d-4cf6-acbc-5b8f7d2d9c77",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:22829f2d-461d-4cf6-acbc-5b8f7d2d9c77?format=text/turtle",
+      "file": "snapshots/22829f2d-461d-4cf6-acbc-5b8f7d2d9c77.ttl",
+      "sha256": "dbcc06c5a68a0683536ee9b77890d80ad4a2f13533e10d306edba5f9bc7d07d1"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/2b6fae57-f28e-4f24-b6f9-19f114dbb61e",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/2b6fae57-f28e-4f24-b6f9-19f114dbb61e",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:2b6fae57-f28e-4f24-b6f9-19f114dbb61e?format=text/turtle",
+      "file": "snapshots/2b6fae57-f28e-4f24-b6f9-19f114dbb61e.ttl",
+      "sha256": "69930bf9aa1f663ef5392d8893f83632f144801d6d3225df2f5f564684b4dc0b"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/367a27ee-7c6f-48a0-ba50-ff137ed1fe0c",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/367a27ee-7c6f-48a0-ba50-ff137ed1fe0c",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:367a27ee-7c6f-48a0-ba50-ff137ed1fe0c?format=text/turtle",
+      "file": "snapshots/367a27ee-7c6f-48a0-ba50-ff137ed1fe0c.ttl",
+      "sha256": "d4f86a2f806624690ea8f6f6f1b45a79ec67a00acfa8b9c466397fa4a4f84270"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/3ade9854-d90f-4709-bb5a-260d62a2c647",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/3ade9854-d90f-4709-bb5a-260d62a2c647",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:3ade9854-d90f-4709-bb5a-260d62a2c647?format=text/turtle",
+      "file": "snapshots/3ade9854-d90f-4709-bb5a-260d62a2c647.ttl",
+      "sha256": "03cb7e3b9f651d77ccca92353b46bfc72e6bb3aa6081239ba6a7fce0cb532d22"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/40d5f3d3-dfbb-4718-9f66-29b5f735142f",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/40d5f3d3-dfbb-4718-9f66-29b5f735142f",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:40d5f3d3-dfbb-4718-9f66-29b5f735142f?format=text/turtle",
+      "file": "snapshots/40d5f3d3-dfbb-4718-9f66-29b5f735142f.ttl",
+      "sha256": "6fc69881e49743b111f423edb969688c8d4867779cc48434bb015a3d665d2d3c"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/445b6830-8e31-4fab-889b-f18f88f382c0",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/445b6830-8e31-4fab-889b-f18f88f382c0",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:445b6830-8e31-4fab-889b-f18f88f382c0?format=text/turtle",
+      "file": "snapshots/445b6830-8e31-4fab-889b-f18f88f382c0.ttl",
+      "sha256": "4c0945b79ff552cb8e7d50ff2f833bf92fd61d6b9c3fd60ffcc63e709c38c22f"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/45d214c6-894b-4fe5-a9ce-2db3a1fc3a7d",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/45d214c6-894b-4fe5-a9ce-2db3a1fc3a7d",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:45d214c6-894b-4fe5-a9ce-2db3a1fc3a7d?format=text/turtle",
+      "file": "snapshots/45d214c6-894b-4fe5-a9ce-2db3a1fc3a7d.ttl",
+      "sha256": "06dd4198760738f9b8bfe8dea918b027bc801322b86b3ef879808b35ff40982a"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/49849796-fc73-444f-a375-32fc0048a18b",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/49849796-fc73-444f-a375-32fc0048a18b",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:49849796-fc73-444f-a375-32fc0048a18b?format=text/turtle",
+      "file": "snapshots/49849796-fc73-444f-a375-32fc0048a18b.ttl",
+      "sha256": "6a571487009142665d9fa9a0cbe9a9ee5be910bf4a4df72f377f9f9ba616e0d9"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/50d96a8d-aa2a-4629-9caa-76637c619851",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/50d96a8d-aa2a-4629-9caa-76637c619851",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:50d96a8d-aa2a-4629-9caa-76637c619851?format=text/turtle",
+      "file": "snapshots/50d96a8d-aa2a-4629-9caa-76637c619851.ttl",
+      "sha256": "7bda3bcefd651ad3804ab82ef34c151ef9f7fc6fa1ca88948eb4069c568cf170"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/5fb9982c-8249-4d58-9f38-659e8c7c6daf",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/5fb9982c-8249-4d58-9f38-659e8c7c6daf",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:5fb9982c-8249-4d58-9f38-659e8c7c6daf?format=text/turtle",
+      "file": "snapshots/5fb9982c-8249-4d58-9f38-659e8c7c6daf.ttl",
+      "sha256": "5158b23a711fdb6cb41bde4fa2b382aab4e30db27cbd7e238c055d0f3d093c1c"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/61a34b22-555e-431d-848c-95bb6a364a9a",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/61a34b22-555e-431d-848c-95bb6a364a9a",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:61a34b22-555e-431d-848c-95bb6a364a9a?format=text/turtle",
+      "file": "snapshots/61a34b22-555e-431d-848c-95bb6a364a9a.ttl",
+      "sha256": "a51f2602c16511752964b788d6bb4b3166cd5bec4b26352a354a6f37d1a3dcd4"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/6605eecb-e8ba-47fc-a364-81aa3ba5ce69",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/6605eecb-e8ba-47fc-a364-81aa3ba5ce69",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:6605eecb-e8ba-47fc-a364-81aa3ba5ce69?format=text/turtle",
+      "file": "snapshots/6605eecb-e8ba-47fc-a364-81aa3ba5ce69.ttl",
+      "sha256": "31beab8fa568667086fe1cabd9340270c42d584fdded20d61e11b1132c0a3e5a"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/6e50f0de-0847-4db3-8bc3-f7e796ed32bf",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/6e50f0de-0847-4db3-8bc3-f7e796ed32bf",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:6e50f0de-0847-4db3-8bc3-f7e796ed32bf?format=text/turtle",
+      "file": "snapshots/6e50f0de-0847-4db3-8bc3-f7e796ed32bf.ttl",
+      "sha256": "93e9949463b8f36719d0eb1be556cce0ba126acc51b030765f5211ab40d0c227"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/6fa4ff0a-acc8-482b-a574-0ffbbab83ca5",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/6fa4ff0a-acc8-482b-a574-0ffbbab83ca5",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:6fa4ff0a-acc8-482b-a574-0ffbbab83ca5?format=text/turtle",
+      "file": "snapshots/6fa4ff0a-acc8-482b-a574-0ffbbab83ca5.ttl",
+      "sha256": "afcbdd6864b1f8aa5ed6f52b60f844d63da497d831eb3431369e007d65508b3c"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/7abb3e62-ec02-4b7d-b057-e4380d66dd72",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:7abb3e62-ec02-4b7d-b057-e4380d66dd72?format=text/turtle",
+      "file": "snapshots/7abb3e62-ec02-4b7d-b057-e4380d66dd72.ttl",
+      "sha256": "2cf589c565efe022351787b8217ed07fa40cf6b32a3ccb168ddb4512a557d7fe"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/86a64fd0-7aa6-4ef1-93cc-45ae722ec6a7",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/86a64fd0-7aa6-4ef1-93cc-45ae722ec6a7",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:86a64fd0-7aa6-4ef1-93cc-45ae722ec6a7?format=text/turtle",
+      "file": "snapshots/86a64fd0-7aa6-4ef1-93cc-45ae722ec6a7.ttl",
+      "sha256": "b0d02367841636efcd4a8e9a9641bf1ea972abb6e74f608cc0854ad1c4e1fa04"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/892fed0b-70cc-48d4-ac3f-0b0b495cc0c0",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/892fed0b-70cc-48d4-ac3f-0b0b495cc0c0",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:892fed0b-70cc-48d4-ac3f-0b0b495cc0c0?format=text/turtle",
+      "file": "snapshots/892fed0b-70cc-48d4-ac3f-0b0b495cc0c0.ttl",
+      "sha256": "e6c7990b7a36cec0e50136cf96514ee010c9f34b6a3f225bc84ab5836064bde1"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/8d227e73-f906-4d5f-9f15-8ae8bf29b2ce",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/8d227e73-f906-4d5f-9f15-8ae8bf29b2ce",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:8d227e73-f906-4d5f-9f15-8ae8bf29b2ce?format=text/turtle",
+      "file": "snapshots/8d227e73-f906-4d5f-9f15-8ae8bf29b2ce.ttl",
+      "sha256": "630a9ff78324af52d904c81f3eb3efd350bfdbb9387dc5255a6638fc922175ce"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/9eeb2dcf-ec0c-4541-a409-28722e9b4f26",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/9eeb2dcf-ec0c-4541-a409-28722e9b4f26",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:9eeb2dcf-ec0c-4541-a409-28722e9b4f26?format=text/turtle",
+      "file": "snapshots/9eeb2dcf-ec0c-4541-a409-28722e9b4f26.ttl",
+      "sha256": "aa464b038aad48328d8fc3b4bcb60857170076a1608f99ffc7bbfe7171e4fdd0"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/a27dc8c9-25ed-4a82-b797-b9dd0add6da2",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/a27dc8c9-25ed-4a82-b797-b9dd0add6da2",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:a27dc8c9-25ed-4a82-b797-b9dd0add6da2?format=text/turtle",
+      "file": "snapshots/a27dc8c9-25ed-4a82-b797-b9dd0add6da2.ttl",
+      "sha256": "34a9eeb18dfcc27cfaace5417a811e388d02b06d3b29c531a0bbf56361812908"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/a68fa217-969b-48ea-a08a-bb7618079edb",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/a68fa217-969b-48ea-a08a-bb7618079edb",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:a68fa217-969b-48ea-a08a-bb7618079edb?format=text/turtle",
+      "file": "snapshots/a68fa217-969b-48ea-a08a-bb7618079edb.ttl",
+      "sha256": "9b7e35f36f1ea7d14aa1a0671b71e19e9d5b59308d6f55ad087045d5a990f283"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/a8889e2e-8eb3-4ed3-8d32-3974adae6158",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/a8889e2e-8eb3-4ed3-8d32-3974adae6158",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:a8889e2e-8eb3-4ed3-8d32-3974adae6158?format=text/turtle",
+      "file": "snapshots/a8889e2e-8eb3-4ed3-8d32-3974adae6158.ttl",
+      "sha256": "7f8a198991b5ab95d8b0d4b355ca8b1c1cd1eddbd11152327f54235392a3becd"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/b06ee648-55e2-435f-b453-2f6639addbcb",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/b06ee648-55e2-435f-b453-2f6639addbcb",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:b06ee648-55e2-435f-b453-2f6639addbcb?format=text/turtle",
+      "file": "snapshots/b06ee648-55e2-435f-b453-2f6639addbcb.ttl",
+      "sha256": "478fe4e25ce575ba4fbed255a572494a444770144188315c949ecef53e0dfd83"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/b49af045-88c2-44c0-ad34-901d1ff46d7a",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/b49af045-88c2-44c0-ad34-901d1ff46d7a",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:b49af045-88c2-44c0-ad34-901d1ff46d7a?format=text/turtle",
+      "file": "snapshots/b49af045-88c2-44c0-ad34-901d1ff46d7a.ttl",
+      "sha256": "f8d769a643b806280a306a337cb02bd83c43ff948b420ad5c6ccfb199eda73cd"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/baefb9ce-5f98-44a7-acc3-5bd1247c8d54",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/baefb9ce-5f98-44a7-acc3-5bd1247c8d54",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:baefb9ce-5f98-44a7-acc3-5bd1247c8d54?format=text/turtle",
+      "file": "snapshots/baefb9ce-5f98-44a7-acc3-5bd1247c8d54.ttl",
+      "sha256": "a4b525c153d844cc1e9b314fba100898334361b09e75bf48eaa209117b74b57e"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/bc6b552f-5ab0-4d46-a236-a99fc2005c93",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/bc6b552f-5ab0-4d46-a236-a99fc2005c93",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:bc6b552f-5ab0-4d46-a236-a99fc2005c93?format=text/turtle",
+      "file": "snapshots/bc6b552f-5ab0-4d46-a236-a99fc2005c93.ttl",
+      "sha256": "e3400d68dda52c0ad0ceef05e1204d6c16db0ed73fe180dd8a28edd179a1750e"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/cb2627f0-e121-474b-a354-dd0e392daa84",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/cb2627f0-e121-474b-a354-dd0e392daa84",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:cb2627f0-e121-474b-a354-dd0e392daa84?format=text/turtle",
+      "file": "snapshots/cb2627f0-e121-474b-a354-dd0e392daa84.ttl",
+      "sha256": "b52444b5a57e17ffbeb315b98288baf5a74cafaf6905b688e387f3b971978152"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/d3f48baa-7a29-4b4f-9d92-bb5276ab8710",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/d3f48baa-7a29-4b4f-9d92-bb5276ab8710",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:d3f48baa-7a29-4b4f-9d92-bb5276ab8710?format=text/turtle",
+      "file": "snapshots/d3f48baa-7a29-4b4f-9d92-bb5276ab8710.ttl",
+      "sha256": "1b4d0a34e132bb9a89e1d03ab590b8f5c8386549607d2611951230dafeb73d05"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/d43fd16c-73c3-4578-a359-7168a0876aaf",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/d43fd16c-73c3-4578-a359-7168a0876aaf",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:d43fd16c-73c3-4578-a359-7168a0876aaf?format=text/turtle",
+      "file": "snapshots/d43fd16c-73c3-4578-a359-7168a0876aaf.ttl",
+      "sha256": "51d7ad5f20ceb9bd146745f62d3722b41f3fdc52f0320768e4ad7ec1654dc8c4"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/dae4d56e-7440-4ddd-90e7-9924b455ca40",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/dae4d56e-7440-4ddd-90e7-9924b455ca40",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:dae4d56e-7440-4ddd-90e7-9924b455ca40?format=text/turtle",
+      "file": "snapshots/dae4d56e-7440-4ddd-90e7-9924b455ca40.ttl",
+      "sha256": "a3cad4ef9a08168b0b596dae54c55b44ffed05b86459ff8ca8219e5ee572614b"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/db985a35-6edb-4ba1-8939-b0a7b1efa287",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/db985a35-6edb-4ba1-8939-b0a7b1efa287",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:db985a35-6edb-4ba1-8939-b0a7b1efa287?format=text/turtle",
+      "file": "snapshots/db985a35-6edb-4ba1-8939-b0a7b1efa287.ttl",
+      "sha256": "c8726a3f8ae85d1cdecf8bebc116c5c72ba17aef7b4e1d229b50114c2eabed91"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/f2e2f14f-56d4-4d2f-9a37-7e140133cbd2",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/f2e2f14f-56d4-4d2f-9a37-7e140133cbd2",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:f2e2f14f-56d4-4d2f-9a37-7e140133cbd2?format=text/turtle",
+      "file": "snapshots/f2e2f14f-56d4-4d2f-9a37-7e140133cbd2.ttl",
+      "sha256": "fd72a8d724a2a04711d6e841fccdfb32730e0f065ee6850c2d77501b2eebc609"
+    },
+    {
+      "iri": "http://linked.data.gov.au/def/tern-cv/fdbe211f-33d6-4446-a1fb-5eb8de45dd57",
+      "request_url": "https://linked.data.gov.au/def/tern-cv/fdbe211f-33d6-4446-a1fb-5eb8de45dd57",
+      "resolved_url": "https://linkeddata.tern.org.au/prez/tern-cv/v/vocab/trn-cv:9bf5755a-0ccb-4575-afde-35bf99b8f7b0/trn-cv:fdbe211f-33d6-4446-a1fb-5eb8de45dd57?format=text/turtle",
+      "file": "snapshots/fdbe211f-33d6-4446-a1fb-5eb8de45dd57.ttl",
+      "sha256": "6860dfbe4198b270f51e027bfd66771d63f9425329f0cb363694e9b513512f31"
+    }
+  ]
+}

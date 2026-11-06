@@ -1,0 +1,14 @@
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<urn:bdr:validation:PublishedRank> a sh:NodeShape ;
+    sh:targetClass skos:Concept ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:uniqueLang true ; sh:nodeKind sh:Literal ] ;
+    sh:property [ sh:path skos:definition ; sh:minCount 1 ; sh:nodeKind sh:Literal ] .
+
+<urn:bdr:validation:RankCollection> a sh:NodeShape ;
+    sh:targetNode <http://linked.data.gov.au/def/tern-cv/c14559b5-6a80-4045-ab48-a70d1612a685> ;
+    sh:class skos:Collection ;
+    sh:not [ sh:class skos:ConceptScheme ] ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:uniqueLang true ] ;
+    sh:property [ sh:path skos:member ; sh:minCount 33 ; sh:maxCount 33 ; sh:class skos:Concept ] .
