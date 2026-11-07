@@ -139,7 +139,7 @@ def main():
         require_equivalent(graph, args.check_existing)
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = output.with_name(output.name + ".tmp")
-    graph.serialize(destination=temporary, format="turtle")
+    graph.serialize(destination=temporary, format="longturtle")
     temporary.write_bytes(temporary.read_bytes().rstrip(b"\n") + b"\n")
     temporary.replace(output)
     summary["rdf_bytes"] = output.stat().st_size
