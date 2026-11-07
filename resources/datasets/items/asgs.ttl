@@ -13,6 +13,5 @@ d:
     schema:description "Australian Statistical Geography Standard (ASGS) Edition 3 States and Territories, represented with reduced-resolution geometries for BDR reference-data discovery and display." ;
     schema:name "Australian Statistical Geography Standard Edition 3 — States and Territories" ;
     schema:publisher <https://linked.data.gov.au/org/abs> ;
-    schema:version "Edition 3, July 2021–June 2026" ;
     schema:version "1" ;
 .
