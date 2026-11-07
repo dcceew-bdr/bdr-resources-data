@@ -1,31 +1,22 @@
 PREFIX : <https://linked.data.gov.au/def/sosa-validator/>
 PREFIX ont: <https://linked.data.gov.au/def/sosa-validator>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX prov: <http://www.w3.org/ns/prov#> 
 PREFIX schema: <https://schema.org/>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-
-ont:
-	a owl:Ontology ;
-  	schema:name "BDR SOSA Validator" ;
-	schema:description """This is a [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/) file that specifies validation rules for testing RDF data claiming conformance to the W3C's Sensor, Observation, Sample, and Actuator (SOSA) ontology, as needed by the Biodiversity Data Repository (BDR)
-
-Not that this is not an official SOSA validator, only a part-validator for elements of SOSA relevant to the BDR."""@en ;
-	schema:publisher <https://linked.data.gov.au/org/ausbigg> ;
-	schema:creator <https://linked.data.gov.au/org/bdr-team> ;
-	schema:dateCreated "2024-09-23"^^xsd:date ;
-	schema:dateModified "2026-04-07"^^xsd:date ;
-    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-	schema:copyrightNotice "(c) 2024 AusBIGG" ;
-	owl:versionInfo "1.0" ;
-	owl:versionIRI :1.0 ;
-    schema:hasPart
-        :shape-01 ;
+:shape-01-property-01
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy ont: ;
+    prov:wasDerivedFrom :shape-01 ;
+    sh:message "Values of sosa:usedProcedure MUST be IRIs" ;
+    sh:nodeKind sh:IRI ;
+    sh:path sosa:usedProcedure ;
+    schema:description "Checks that each value of sosa:usedProcedure is an IRI." ;
+    schema:name "usedProcedure value is IRI" ;
 .
 
 <https://linked.data.gov.au/org/ausbigg>
@@ -40,22 +31,28 @@ Not that this is not an official SOSA validator, only a part-validator for eleme
     schema:url "https://bdr.gov.au/"^^xsd:anyURI ;
 .
 
-:shape-01
-    a sh:NodeShape ;
-    sh:targetSubjectsOf sosa:usedProcedure ;
-    sh:property :shape-01-property-01 ;
-    rdfs:isDefinedBy ont: ;
-    schema:name "Use Procedure IRIs" ;
-    schema:description "Checks that data using sosa:usedProcedure uses IRI values." ;
+ont:
+    a owl:Ontology ;
+    rdfs:member :shape-01 ;
+    owl:versionIRI :2 ;
+    owl:versionInfo "2" ;
+    schema:copyrightNotice "(c) 2024 AusBIGG" ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2024-09-23"^^xsd:date ;
+    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:description """This is a [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/) file that specifies validation rules for testing RDF data claiming conformance to the W3C's Sensor, Observation, Sample, and Actuator (SOSA) ontology, as needed by the Biodiversity Data Repository (BDR)
+
+Not that this is not an official SOSA validator, only a part-validator for elements of SOSA relevant to the BDR."""@en ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "BDR SOSA Validator" ;
+    schema:publisher <https://linked.data.gov.au/org/ausbigg> ;
 .
 
-:shape-01-property-01
-    a sh:PropertyShape ;
-    sh:path sosa:usedProcedure ;
-    sh:nodeKind sh:IRI ;
-    sh:message "Values of sosa:usedProcedure MUST be IRIs" ;
+:shape-01
+    a sh:NodeShape ;
     rdfs:isDefinedBy ont: ;
-    schema:name "usedProcedure value is IRI" ;
-    schema:description "Checks that each value of sosa:usedProcedure is an IRI." ;
-    prov:wasDerivedFrom :shape-01 ;
+    sh:property :shape-01-property-01 ;
+    sh:targetSubjectsOf sosa:usedProcedure ;
+    schema:description "Checks that data using sosa:usedProcedure uses IRI values." ;
+    schema:name "Use Procedure IRIs" ;
 .

@@ -1,9 +1,8 @@
 PREFIX : <https://linked.data.gov.au/def/abis/validator/>
-PREFIX sg: <https://linked.data.gov.au/def/abis/validator>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
+PREFIX sg: <https://linked.data.gov.au/def/abis/validator>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
@@ -11,51 +10,62 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 sg:
     a sh:ShapesGraph ;
-  owl:imports
-    [
-        schema:identifier "http://www.opengis.net/def/geosparql/validator" ;
-        schema:name "GeoSPARQL Validator" ;
-        schema:url
-            "file://geo.ttl" ,
-            "http://www.opengis.net/def/geosparql/validator" ;
-    ] ,
-    [
-        schema:identifier "https://linked.data.gov.au/def/sosa-validator" ;
-        schema:name "SOSA Validator" ;
-        schema:url
-            "file://sosa.ttl" ,
-            "https://linked.data.gov.au/def/sosa-validator" ;
-    ] ,
-    [
-        schema:identifier "https://w3id.org/tern/shapes/tern/" ;
-        schema:name "TERN Ontology Validator" ;
-        schema:url
-            "file://tern.ttl" ,
-            "https://w3id.org/tern/shapes/tern/" ;
-    ] ,
-    [
-        schema:identifier "https://linked.data.gov.au/def/vocpub/validator" ;
-        schema:name "VocPub Validator" ;
-        schema:url
-            "file://vocpub.ttl" ,
-            "https://linked.data.gov.au/def/vocpub/validator" ;
-    ] ;
-    
-    owl:versionIRI :1.1 ;
+    rdfs:member :shape-01 ;
+    owl:imports 
+        [
+            schema:identifier "https://linked.data.gov.au/def/vocpub/validator" ;
+            schema:name "VocPub Validator" ;
+            schema:url
+                "file://vocpub.ttl" ,
+                "https://linked.data.gov.au/def/vocpub/validator" ;
+        ] ,
+        [
+            schema:identifier "https://w3id.org/tern/shapes/tern/" ;
+            schema:name "TERN Ontology Validator" ;
+            schema:url
+                "file://tern.ttl" ,
+                "https://w3id.org/tern/shapes/tern/" ;
+        ] ,
+        [
+            schema:identifier "https://linked.data.gov.au/def/sosa-validator" ;
+            schema:name "SOSA Validator" ;
+            schema:url
+                "file://sosa.ttl" ,
+                "https://linked.data.gov.au/def/sosa-validator" ;
+        ] ,
+        [
+            schema:identifier "http://www.opengis.net/def/geosparql/validator" ;
+            schema:name "GeoSPARQL Validator" ;
+            schema:url
+                "file://geo.ttl" ,
+                "http://www.opengis.net/def/geosparql/validator" ;
+        ] ;
+    owl:versionIRI :2 ;
     owl:versionInfo "1.0 First version - stub" ;
+    schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/"^^xsd:anyURI ;
+    schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
     schema:copyrightNotice "(c) 2024 AusBIGG" ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2022-05-11"^^xsd:date ;
-    schema:dateModified "2026-09-02"^^xsd:date ;
+    schema:dateModified "2026-11-07"^^xsd:date ;
     schema:description "SHACL validator for the Australian Biodiversity Information Standard, ABIS" ;
-    schema:hasPart
-        :shape-01 ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-    schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
     schema:name "ABIS Validator" ;
     schema:publisher <https://linked.data.gov.au/org/ausbigg> ;
-    schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/"^^xsd:anyURI ;
-    prov:wasDerivedFrom sg: ;
+.
+
+:shape-01
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "The Observation Collection has less than one member Observation" ;
+    sh:property
+        [
+            sh:class tern:Observation ;
+            sh:minCount 1 ;
+            sh:path sosa:hasMember ;
+        ] ;
+    sh:targetClass tern:ObservationCollection ;
+    schema:name "Observation Collection members" ;
 .
 
 <https://linked.data.gov.au/org/ausbigg>
@@ -68,18 +78,4 @@ sg:
     a schema:Organization ;
     schema:name "BDR Team" ;
     schema:url "https://bdr.gov.au/"^^xsd:anyURI ;
-.
-
-:shape-01
-    a sh:NodeShape ;
-    sh:property
-        [
-            sh:class tern:Observation ;
-            sh:minCount 1 ;
-            sh:path sosa:hasMember ;
-        ] ;
-    sh:targetClass tern:ObservationCollection ;
-    sh:message "The Observation Collection has less than one member Observation" ;
-    rdfs:isDefinedBy sg: ;
-    schema:name "Observation Collection members" ; 
 .

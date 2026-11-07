@@ -1,3 +1,4 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX vann: <http://purl.org/vocab/vann/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -6,12 +7,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a schema:DataCatalog ;
     vann:preferredNamespacePrefix "validators" ;
     vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/bdr/catalogues/validators"^^xsd:anyURI ;
-    schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/" ;
-    schema:creator <https://linked.data.gov.au/org/dcceew> ;
-    schema:dateCreated "2026-09-02"^^xsd:date ;
-    schema:dateModified "2026-09-02"^^xsd:date ;
-    schema:description "SHACL validators used by the Biodiversity Data Repository" ;
-    schema:hasPart
+    rdfs:member
         <http://www.opengis.net/def/geosparql/validator> ,
         <http://www.w3.org/ns/shacl-shacl#> ,
         <https://linked.data.gov.au/def/abis/validator> ,
@@ -22,9 +18,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/sosa-validator> ,
         <https://linked.data.gov.au/def/vocpub/validator> ,
         <https://w3id.org/tern/shapes/tern/> ;
+    schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/" ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2026-09-02"^^xsd:date ;
+    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:description "SHACL validators used by the Biodiversity Data Repository" ;
     schema:name "Validators Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "3" ;
+    schema:version "4" ;
 .
 
 <http://www.opengis.net/def/geosparql/validator>

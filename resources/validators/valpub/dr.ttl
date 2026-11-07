@@ -1,67 +1,77 @@
 PREFIX : <https://linked.data.gov.au/def/bdr-pr/dr/validator/>
 PREFIX dr: <https://linked.data.gov.au/def/bdr-pr/dr/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
+PREFIX sg: <https://linked.data.gov.au/def/bdr-pr/dr/validator>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX sm: <https://linked.data.gov.au/def/bdr-pr/sm/>
-PREFIX smrr: <https://linked.data.gov.au/dataset/bdr/smrr/>
 PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
 PREFIX time: <http://www.w3.org/2006/time#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-
-<https://linked.data.gov.au/def/bdr-pr/dr/validator>
-    a sh:ShapesGraph ;
-    schema:name "BDR Data Release Model Validator"@en ;
-    schema:description "SHACL validator for the BDR Data Release Model"@en ;
-    schema:creator <https://linked.data.gov.au/org/dcceew> ;
-    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:dateCreated "2025-02-15"^^xsd:date ;
-    schema:dateModified "2026-05-27"^^xsd:date ;
-    owl:versionIRI :1.0 ;
-    owl:versionInfo """1.0 First version""" ;
-    schema:hasPart
-        :shape-01 ,
-        :shape-01 ;
+:1.0
+    schema:name "1.0" ;
 .
 
-:1.0 schema:name "1.0" .
+:shape-01
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:property
+        [
+            sh:message "A Dataset that uses an embargoed until predicate must use it to indicate a xsd:date, xsd:dateTime or xsd:dateTimeStamp literal value" ;
+            sh:or (
+                
+                [
+                    sh:datatype xsd:date ;
+                ]
+                
+                [
+                    sh:datatype xsd:dateTime ;
+                ]
+                
+                [
+                    sh:datatype xsd:dateTimeStamp ;
+                ]
+            ) ;
+            sh:path dr:embargoedUntil ;
+        ] ;
+    sh:targetClass tern:Dataset ;
+    schema:description "A Dataset that uses an embargoed until predicate must use it to indicate a xsd:date, xsd:dateTime or xsd:dateTimeStamp literal value" ;
+    schema:name "Embarged until date" ;
+.
+
+:shape-02
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:property
+        [
+            sh:class time:DurationDescription ;
+            sh:message "A Dataset that uses an embargo period predicate must use it to indicate an instance of the class time:DurationDescription from OWL Time" ;
+            sh:path dr:embargoPeriod ;
+        ] ;
+    sh:targetClass tern:Dataset ;
+    schema:description "A Dataset that uses an embargo period predicate must use it to indicate an instance of the class time:DurationDescription from OWL Time" ;
+    schema:name "Embarged period duration" ;
+.
+
+sg:
+    a sh:ShapesGraph ;
+    rdfs:member
+        :shape-01 ,
+        :shape-02 ;
+    owl:versionIRI :1.0 ;
+    owl:versionInfo "1.0 First version" ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2025-02-15"^^xsd:date ;
+    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:description "SHACL validator for the BDR Data Release Model"@en ;
+    schema:name "BDR Data Release Model Validator"@en ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.
 
 <https://linked.data.gov.au/org/dcceew>
     a schema:Organization ;
     schema:name "Department of Climate Change, Energy, the Environment and Water" ;
     schema:url "https://www.dcceew.gov.au"^^xsd:anyURI ;
-.
-
-:shape-01
-    a sh:NodeShape ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/def/bdr-pr/dr/validator> ;
-    schema:name "Embarged until date" ;
-    schema:description "A Dataset that uses an embargoed until predicate must use it to indicate a xsd:date, xsd:dateTime or xsd:dateTimeStamp literal value" ;
-    sh:targetClass tern:Dataset ;
-    sh:property [
-        sh:path dr:embargoedUntil ;
-        sh:or (
-            [ sh:datatype xsd:date ]
-            [ sh:datatype xsd:dateTime ]
-            [ sh:datatype xsd:dateTimeStamp ]
-        ) ;
-        sh:message "A Dataset that uses an embargoed until predicate must use it to indicate a xsd:date, xsd:dateTime or xsd:dateTimeStamp literal value" ;
-    ] ;
-.
-
-:shape-02
-    a sh:NodeShape ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/def/bdr-pr/dr/validator> ;
-    schema:name "Embarged period duration" ;
-    schema:description "A Dataset that uses an embargo period predicate must use it to indicate an instance of the class time:DurationDescription from OWL Time" ;
-    sh:targetClass tern:Dataset ;
-    sh:property [
-        sh:path dr:embargoPeriod ;
-        sh:class time:DurationDescription ;
-        sh:message "A Dataset that uses an embargo period predicate must use it to indicate an instance of the class time:DurationDescription from OWL Time" ;
-    ] ;
 .

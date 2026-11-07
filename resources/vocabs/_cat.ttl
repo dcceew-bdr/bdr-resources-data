@@ -1,3 +1,4 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX vann: <http://purl.org/vocab/vann/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -6,12 +7,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a schema:DataCatalog ;
     vann:preferredNamespacePrefix "vocabs" ;
     vann:preferredNamespaceUri "https://linked.data.gov.au/dataset/bdr/catalogues/vocabs"^^xsd:anyURI ;
-    schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/" ;
-    schema:creator <https://linked.data.gov.au/org/dcceew> ;
-    schema:dateCreated "2023"^^xsd:gYear ;
-    schema:dateModified "2026-11-06"^^xsd:date ;
-    schema:description "Vocabularies used by the Biodiversity Data Repository" ;
-    schema:hasPart
+    rdfs:member
         <https://def.isotc211.org/codeset/RoleCode> ,
         <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/basisOfRecord> ,
         <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/conservationAuthority> ,
@@ -62,6 +58,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/nsl/tn-types> ,
         <https://linked.data.gov.au/def/nsl/tnu-types> ,
         <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0> ;
+    schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/" ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2023"^^xsd:gYear ;
+    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:description "Vocabularies used by the Biodiversity Data Repository" ;
     schema:name "Vocabularies Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "12" ;
@@ -215,6 +216,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
 .
 
+<https://linked.data.gov.au/dataset/bdr/taxonomic-rank>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
+.
+
 <https://linked.data.gov.au/dataset/epbc/ts/cats>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
 .
@@ -261,8 +266,4 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
-.
-
-<https://linked.data.gov.au/dataset/bdr/taxonomic-rank>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
 .
