@@ -513,8 +513,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://linked.data.gov.au/def/ontpub/req/2.1.4-property-shape-01>
     a sh:PropertyShape ;
     rdfs:isDefinedBy ont: ;
-    sh:datatype rdf:langString ;
-    sh:message "Requirement 2.1.4: OWL Ontologies MUST have exactly one title, a text literal, indicated using the skos:prefLabel or the schema:name property" ;
+    sh:or (
+        [ sh:datatype xsd:string ]
+        [ sh:datatype rdf:langString ]
+    ) ;
+    sh:message "Requirement 2.1.4: OWL Ontologies MUST have exactly one title, an xsd:string or rdf:langString literal, indicated using the skos:prefLabel or the schema:name property" ;
     sh:minCount 1 ;
     sh:path skos:prefLabel ;
     sh:uniqueLang true ;
@@ -524,7 +527,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://linked.data.gov.au/def/ontpub/req/2.1.4-property-shape-02>
     a sh:PropertyShape ;
     rdfs:isDefinedBy ont: ;
-    sh:message "Requirement 2.1.4: OWL Ontologies MUST have exactly one title, a text literal, indicated using the skos:prefLabel or the schema:name property" ;
+    sh:message "Requirement 2.1.4: OWL Ontologies MUST have exactly one title, an xsd:string or rdf:langString literal, indicated using the skos:prefLabel or the schema:name property" ;
     sh:minCount 1 ;
     sh:or (
         
@@ -585,7 +588,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sh:PropertyShape ;
     rdfs:isDefinedBy ont: ;
     sh:maxCount 1 ;
-    sh:message "Requirement 2.1.6: OWL Ontologies MUST have exactly one created date, exactly one modified date and exactly one issued date indicated using the schema:dateCreated & schema:dateModified properties respectively that must be either an xsd:date, xsd:dateTime or xsd:dateTimeStamp literal values" ;
+    sh:message "Requirement 2.1.6: Each ontology MUST have exactly one modified date indicated using schema:dateModified with an xsd:date, xsd:dateTime, xsd:dateTimeStamp or xsd:gYearMonth literal value." ;
     sh:minCount 1 ;
     sh:or (
         
@@ -599,6 +602,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         
         [
             sh:datatype xsd:dateTimeStamp ;
+        ]
+        [
+            sh:datatype xsd:gYearMonth ;
         ]
     ) ;
     sh:path schema:dateModified ;
@@ -609,7 +615,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sh:PropertyShape ;
     rdfs:isDefinedBy ont: ;
     sh:maxCount 1 ;
-    sh:message "Requirement 2.1.6: OWL Ontologies MUST have exactly one created date, exactly one modified date and exactly one issued date indicated using the schema:dateCreated & schema:dateModified properties respectively that must be either an xsd:date, xsd:dateTime or xsd:dateTimeStamp literal values" ;
+    sh:message "Requirement 2.1.6: Each ontology MUST have exactly one created date indicated using schema:dateCreated with an xsd:date, xsd:dateTime, xsd:dateTimeStamp or xsd:gYearMonth literal value." ;
     sh:minCount 1 ;
     sh:or (
         
@@ -623,6 +629,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         
         [
             sh:datatype xsd:dateTimeStamp ;
+        ]
+        [
+            sh:datatype xsd:gYearMonth ;
         ]
     ) ;
     sh:path schema:dateCreated ;
@@ -1010,8 +1019,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 ont:
     a owl:Ontology ;
-    owl:versionIRI :1.6 ;
-    owl:versionInfo """1.6 2026-04: Align schema:license allowed types with VocPub
+    owl:versionIRI :5.10 ;
+    owl:versionInfo """5.10 2026-11: Adopting common *.Pub version numbers
+
+1.6 2026-04: Align schema:license allowed types with VocPub
 
 1.5 2026-01: allow schema:license to indicate an IRI
 
@@ -1029,10 +1040,10 @@ ont:
     schema:creator <https://orcid.org/0000-0002-8742-7730> ;
     schema:dateCreated "2022-03-19"^^xsd:date ;
     schema:dateIssued "2023-09-21"^^xsd:date ;
-    schema:dateModified "2026-04-22"^^xsd:date ;
+    schema:dateModified "2026-11-06"^^xsd:date ;
     schema:description "SHACL Shapes to validate RDF data according to the Ontology Publications Profile" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Ontology Publication Profile Validator" ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
-    schema:version "1.6" ;
+    schema:version "5.10" ;
 .

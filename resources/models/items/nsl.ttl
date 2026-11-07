@@ -1,29 +1,33 @@
+PREFIX : <https://linked.data.gov.au/def/nsl/>
+PREFIX ont: <https://linked.data.gov.au/def/nsl>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/nsl/1> schema:name "1" .
-
-<https://linked.data.gov.au/def/nsl>
+ont:
     a owl:Ontology ;
-    owl:versionIRI <https://linked.data.gov.au/def/nsl/1> ;
-    prov:qualifiedAttribution [
-        prov:agent <https://linked.data.gov.au/org/kurrawongai> ;
-        prov:role <http://def.isotc211.org/CI/RoleCode/contributor> ;
-    ] ;
+    owl:versionIRI :1 ;
+    skos:historyNote "Created in 2024 to enable a Semantic Web representation of the NSL primarily for use with the BDR" ;
+    prov:qualifiedAttribution
+        [
+            prov:agent <https://linked.data.gov.au/org/kurrawongai> ;
+            prov:role <http://def.isotc211.org/CI/RoleCode/contributor> ;
+        ] ;
     schema:codeRepository "https://github.com/kurrawong/nsl-model/"^^xsd:anyURI ;
     schema:copyrightHolder <https://linked.data.gov.au/org/canbr> ;
     schema:creator <https://linked.data.gov.au/org/canbr> ;
     schema:dateCreated "2023-10-15"^^xsd:date ;
-    schema:dateModified "2024-03-15"^^xsd:date ;
     schema:dateIssued "2024-12-31"^^xsd:date ;
-    schema:description """A Semantic Web expression of the data structure of the content of the National Species List.""" ;
+    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:description "A Semantic Web expression of the data structure of the content of the National Species List." ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "National Species List Model"@en ;
     schema:publisher <https://linked.data.gov.au/org/canbr> ;
-    schema:version 1 ;
-    skos:historyNote "Created in 2024 to enable a Semantic Web representation of the NSL primarily for use with the BDR" ;
+    schema:version 2 ;
+.
+
+:2
+    schema:name "2" ;
 .

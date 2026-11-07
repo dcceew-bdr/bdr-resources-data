@@ -1,0 +1,929 @@
+PREFIX : <https://linked.data.gov.au/def/valpub/validator/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX req: <https://linked.data.gov.au/def/valpub/req/>
+PREFIX schema: <https://schema.org/>
+PREFIX sg: <https://linked.data.gov.au/def/valpub/validator>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+req:2.1.10
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.10" ;
+    sh:property req:2.1.10-p ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology version" ;
+.
+
+req:2.1.11
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.11" ;
+    sh:property req:2.1.11-p ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology repo" ;
+.
+
+req:2.1.12
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.12" ;
+    sh:or (
+        req:2.1.12-p-01
+        req:2.1.12-p-02
+    ) ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology license" ;
+.
+
+req:2.1.13
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.13" ;
+    sh:property req:2.1.13-p ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology usage info" ;
+.
+
+req:2.1.14a
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.14a" ;
+    sh:property req:2.1.14a-p ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology copyright info" ;
+.
+
+req:2.1.15
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.15" ;
+    sh:property req:2.1.15-p ;
+    sh:targetNode
+        sh:NodeShape ,
+        sh:PropertyShape ;
+    schema:name "Shape presence" ;
+.
+
+req:2.1.16
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.16" ;
+    sh:property req:2.1.16-p ;
+    sh:targetClass
+        sh:NodeShape ,
+        sh:PropertyShape ;
+    schema:name "Shape's defining ontology" ;
+.
+
+req:2.1.2-3
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.2-3" ;
+    sh:property req:2.1.2-3-p ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Single ontology" ;
+.
+
+req:2.1.4
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.4: SHACL ontologies MUST have exactly one title, an xsd:string or rdf:langString literal, indicated using the skos:prefLabel or the schema:name property" ;
+    sh:or (
+        req:2.1.4-p-01
+        req:2.1.4-p-02
+    ) ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology name" ;
+.
+
+req:2.1.5
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.5: SHACL ontologies MUST have exactly one definition, literal text, indicated using either the skos:definition or schema:description property" ;
+    sh:or (
+        req:2.1.5-p-01
+        req:2.1.5-p-02
+    ) ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Shapes Graph description" ;
+.
+
+req:2.1.6
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.6" ;
+    sh:property
+        req:2.1.6-p-01 ,
+        req:2.1.6-p-02 ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology dates" ;
+.
+
+req:2.1.7
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.7" ;
+    sh:property
+        req:2.1.7-p-01 ,
+        req:2.1.7-p-02 ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology agents" ;
+.
+
+req:2.1.8
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.8" ;
+    sh:property req:2.1.8-p ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology contributors" ;
+.
+
+req:2.1.9
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9: SHACL ontologies SHOULD indicate provenance with at least one of the following properties: skos:historyNote, dcterms:source or prov:wasDerivedFrom." ;
+    sh:or (
+        req:2.1.9-p-01
+        req:2.1.9-p-02
+        req:2.1.9-p-03
+        req:2.1.9-p-04
+    ) ;
+    sh:severity sh:Warning ;
+    sh:targetClass owl:Ontology ;
+    schema:name "Ontology provenance" ;
+.
+
+req:2.1.9b
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9b" ;
+    sh:property req:2.1.9b-p ;
+    sh:targetSubjectsOf skos:historyNote ;
+    schema:name "Single history note predicate" ;
+.
+
+req:2.1.9c
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9c" ;
+    sh:property req:2.1.9c-p ;
+    sh:targetSubjectsOf dcterms:source ;
+    schema:name "Single source predicate" ;
+.
+
+req:2.1.9d
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9d" ;
+    sh:property req:2.1.9d-p ;
+    sh:targetSubjectsOf prov:wasDerivedFrom ;
+    schema:name "Single was derived from predicate" ;
+.
+
+req:2.1.9e
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9e" ;
+    sh:property req:2.1.9e-p ;
+    sh:targetSubjectsOf dcterms:source ;
+    schema:name "Source predicate range type" ;
+.
+
+req:2.1.9f
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9f" ;
+    sh:property req:2.1.9f-p ;
+    sh:targetSubjectsOf skos:historyNote ;
+    schema:name "History node range type" ;
+.
+
+req:2.1.9g
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9g" ;
+    sh:property req:2.1.9g-p ;
+    sh:targetSubjectsOf prov:wasDerivedFrom ;
+    schema:name "Was derived from range type" ;
+.
+
+req:2.2.1
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.2.1: SHACL Shapes MUST have at least one name indicated using either the skos:prefLabel or schema:name property that must be either a string or a language-typed text literal value. Only one value per language is allowed if languages are used." ;
+    sh:or (
+        req:2.2.1-prefLabel
+        req:2.2.1-name
+    ) ;
+    sh:targetClass
+        sh:NodeShape ,
+        sh:PropertyShape ;
+    schema:name "Shape name" ;
+.
+
+req:2.2.2
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.2.2: SHACL Shapes MUST have a message value, indicated using sh:message" ;
+    sh:property req:2.2.2-p ;
+    sh:targetClass
+        sh:NodeShape ,
+        sh:PropertyShape ;
+    schema:name "Shape message" ;
+.
+
+req:2.2.3
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.2.3: SHACL Shapes provenance, if different from that of the SHACL ontology being validated, SHOULD be indicated by at least one of the following properties: skos:historyNote, dcterms:source or prov:wasDerivedFrom" ;
+    sh:or (
+        req:2.2.3-p-01
+        req:2.2.3-p-02
+        req:2.2.3-p-03
+    ) ;
+    sh:severity sh:Warning ;
+    sh:targetClass
+        sh:NodeShape ,
+        sh:PropertyShape ;
+    schema:name "Shape provenance" ;
+.
+
+req:2.7.2
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.7.2" ;
+    sh:property req:2.7.2-p ;
+    sh:targetClass
+        schema:Organization ,
+        schema:Person ;
+    schema:name "Agent name" ;
+.
+
+req:2.7.3a
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.7.3a" ;
+    sh:property req:2.7.3a-p ;
+    sh:targetClass schema:Organization ;
+    schema:name "Org URL" ;
+.
+
+req:2.7.3b
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.7.3b" ;
+    sh:property req:2.7.3b-p ;
+    sh:targetClass schema:Person ;
+    schema:name "Person email" ;
+.
+
+req:2.7.4
+    a sh:NodeShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.7.4" ;
+    sh:property
+        req:2.7.4-p-01 ,
+        req:2.7.4-p-02 ,
+        req:2.7.4-p-03 ;
+    sh:targetClass
+        schema:Organization ,
+        schema:Person ;
+    schema:name "Agent affiliation" ;
+.
+
+req:2.1.10-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.10: SHACL ontologies SHOULD indicate a version using the property owl:versionIRI with an IRI object." ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:path owl:versionIRI ;
+    sh:severity sh:Warning ;
+    schema:name "Ontology version - property shape" ;
+.
+
+req:2.1.11-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:datatype xsd:anyURI ;
+    sh:message "Requirement 2.1.11: SHACL ontologies SHOULD indicate any online version controlled source code repository storing the ontology and related content with the schema:codeRepository with a xsd:anyURI object." ;
+    sh:minCount 1 ;
+    sh:path schema:codeRepository ;
+    sh:severity sh:Warning ;
+    schema:name "Ontology repo - property shape" ;
+.
+
+req:2.1.12-p-01
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.12a: SHACL ontologies SHOULD present any licence pertaining to its use using the schema:license predicate preferentially indicating the IRI of a license if in RDF form or a literal URL (datatype xsd:anyURI) if online but not in RDF form. If the licence is expressed in text, a literal text field may be indicated." ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:anyURI ;
+        ]
+        
+        [
+            sh:nodeKind sh:Literal ;
+        ]
+    ) ;
+    sh:path schema:license ;
+    sh:severity sh:Warning ;
+    schema:name "Ontology license - literal" ;
+.
+
+req:2.1.12-p-02
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.12b: SHACL ontologies SHOULD present a license for its use indicated with the schema:license use indicating either the literal text of a license or a URL of a license using the datatype xsd:anyURI or they may link to a Semantic Web version of a license via its IRI." ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:path schema:license ;
+    sh:severity sh:Warning ;
+    schema:name "Ontology license - IRI" ;
+.
+
+req:2.1.13-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.13: SHACL ontologies MAY present usage information alongside license information using the schema:usageInfo property indicating literal text." ;
+    sh:nodeKind sh:Literal ;
+    sh:path schema:usageInfo ;
+    schema:name "Ontology usage info - property shape" ;
+.
+
+req:2.1.14a-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.14: SHACL ontologies SHOULD present a copyright information for it indicated with properties schema:copyrightHolder, schema:copyrightNotice and schema:copyrightYear. schema:copyrightHolder may be used with a text object or, preferably, an schema:Person or schema:Organization object." ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:class schema:Organization ;
+        ]
+        
+        [
+            sh:class schema:Person ;
+        ]
+    ) ;
+    sh:path schema:copyrightHolder ;
+    sh:severity sh:Warning ;
+    schema:name "Ontology copyright info - property shape" ;
+.
+
+req:2.1.15-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.15: SHACL ontologies MUST present at least one sh:NodeShape or sh:PropertyShape within the ontology file" ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path
+        [
+            sh:inversePath rdf:type ;
+        ] ;
+    schema:name "Shape presence - property shape" ;
+.
+
+req:2.1.16-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.16: All sh:NodeShape and sh:PropertyShape instances MUST indicate the ontology that defines then with the rdfs:isDefinedBy property." ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:path rdfs:isDefinedBy ;
+    schema:name "Shape's defining ontology - property shape" ;
+.
+
+req:2.1.2-3-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:maxCount 1 ;
+    sh:message "Requirement 2.1.2 SHACL ontologies MUST be presented as a single owl:Ontology object & Requirement 2.1.3 Each SHACL ontology MUST be presented in a single file which does not contain information other than that which is directly part of the ontology and the file is considered the point-of-truth" ;
+    sh:minCount 1 ;
+    sh:path rdf:type ;
+    schema:name "Single ontology - property shape" ;
+.
+
+req:2.1.4-p-01
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:or (
+        [ sh:datatype xsd:string ]
+        [ sh:datatype rdf:langString ]
+    ) ;
+    sh:message "Requirement 2.1.4: SHACL ontologies MUST have exactly one title, an xsd:string or rdf:langString literal, indicated using the skos:prefLabel or the schema:name property" ;
+    sh:minCount 1 ;
+    sh:path skos:prefLabel ;
+    sh:uniqueLang true ;
+    schema:name "Ontology name - property shape" ;
+.
+
+req:2.1.4-p-02
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.4: SHACL ontologies MUST have exactly one title, an xsd:string or rdf:langString literal, indicated using the skos:prefLabel or the schema:name property" ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:string ;
+        ]
+        
+        [
+            sh:datatype rdf:langString ;
+        ]
+    ) ;
+    sh:path schema:name ;
+    sh:uniqueLang true ;
+    schema:name "Ontology name - property shape" ;
+.
+
+req:2.1.5-p-01
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:maxCount 1 ;
+    sh:message "Requirement 2.1.5 p 1: SHACL ontologies MUST have exactly one definition, literal text, indicated using either the skos:definition or schema:description property" ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:string ;
+        ]
+        
+        [
+            sh:datatype rdf:langString ;
+        ]
+    ) ;
+    sh:path skos:definition ;
+    schema:name "Ontology description - property shape" ;
+.
+
+req:2.1.5-p-02
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:maxCount 1 ;
+    sh:message "Requirement 2.1.5 p 2: SHACL ontologies MUST have exactly one definition, literal text, indicated using either the skos:definition or schema:description property y" ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:string ;
+        ]
+        
+        [
+            sh:datatype rdf:langString ;
+        ]
+    ) ;
+    sh:path schema:description ;
+    schema:name "Ontology description - property shape" ;
+.
+
+req:2.1.6-p-01
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:maxCount 1 ;
+    sh:message "Requirement 2.1.6: Each SHACL ontology MUST have exactly one modified date indicated using schema:dateModified with an xsd:date, xsd:dateTime, xsd:dateTimeStamp or xsd:gYearMonth literal value." ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:dateTime ;
+        ]
+        
+        [
+            sh:datatype xsd:date ;
+        ]
+        
+        [
+            sh:datatype xsd:dateTimeStamp ;
+        ]
+        [ sh:datatype xsd:gYearMonth ]
+    ) ;
+    sh:path schema:dateModified ;
+    schema:name "Ontology dates - modified" ;
+.
+
+req:2.1.6-p-02
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:maxCount 1 ;
+    sh:message "Requirement 2.1.6: Each SHACL ontology MUST have exactly one created date indicated using schema:dateCreated with an xsd:date, xsd:dateTime, xsd:dateTimeStamp or xsd:gYearMonth literal value." ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:dateTime ;
+        ]
+        
+        [
+            sh:datatype xsd:date ;
+        ]
+        
+        [
+            sh:datatype xsd:dateTimeStamp ;
+        ]
+        [ sh:datatype xsd:gYearMonth ]
+    ) ;
+    sh:path schema:dateCreated ;
+    schema:name "Ontology dates - created" ;
+.
+
+req:2.1.7-p-01
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.7: SHACL ontologies MUST have at least one creator, indicated using schema:creator that must be IRI values indicating agents, that is instances of schema:Person, schema:Organization or a subclass of either" ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:class schema:Organization ;
+        ]
+        
+        [
+            sh:class schema:Person ;
+        ]
+    ) ;
+    sh:path schema:creator ;
+    schema:name "Ontology agents - creator" ;
+.
+
+req:2.1.7-p-02
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.7: SHACL ontologies MUST have at least one publisher, indicated using schema:publisher that must be IRI values indicating agents, that is instances of schema:Person, schema:Organization or a subclass of either" ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:class schema:Organization ;
+        ]
+        
+        [
+            sh:class schema:Person ;
+        ]
+    ) ;
+    sh:path schema:publisher ;
+    schema:name "Ontology agents - publisher" ;
+.
+
+req:2.1.8-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.8: SHACL ontologies MAY have at least any number of contributors, indicated using schema:contributor property that must be a IRI value indicating an agent, that is an instance of schema:Person, schema:Organization or a subclass of either" ;
+    sh:or (
+        
+        [
+            sh:class schema:Organization ;
+        ]
+        
+        [
+            sh:class schema:Person ;
+        ]
+    ) ;
+    sh:path schema:contributor ;
+    schema:name "Ontology contributors - property shape" ;
+.
+
+req:2.1.9-p-01
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "At least 1 prov:wasDerivedFrom must be present" ;
+    sh:minCount 1 ;
+    sh:path prov:wasDerivedFrom ;
+    schema:name "Ontology provenance - wasDerivedFrom" ;
+.
+
+req:2.1.9-p-02
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "At least 1 dcterms:source value must be present" ;
+    sh:minCount 1 ;
+    sh:path dcterms:source ;
+    schema:name "Ontology provenance - source" ;
+.
+
+req:2.1.9-p-03
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "At least 1 skos:historyNote value must be present" ;
+    sh:minCount 1 ;
+    sh:path skos:historyNote ;
+    schema:name "Ontology provenance - historyNote" ;
+.
+
+req:2.1.9-p-04
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "At least 1 schema:citation value must be present" ;
+    sh:minCount 1 ;
+    sh:path schema:citation ;
+    schema:name "Ontology provenance - citation" ;
+.
+
+req:2.1.9b-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:maxCount 1 ;
+    sh:message "Requirement 2.1.9b: SHACL ontologies MUST NOT use skos:historyNote property more than once on any object." ;
+    sh:path skos:historyNote ;
+    schema:name "Single history note predicate - property shape" ;
+.
+
+req:2.1.9c-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:maxCount 1 ;
+    sh:message "Requirement 2.1.9c: You MUST NOT use dcterms:source property more than once on any object." ;
+    sh:path dcterms:source ;
+    schema:name "Single source predicate - property shape" ;
+.
+
+req:2.1.9d-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:maxCount 1 ;
+    sh:message "Requirement 2.1.9d: You MUST NOT use prov:wasDerivedFrom property more than once on any object." ;
+    sh:path prov:wasDerivedFrom ;
+    schema:name "Single was derived from predicate - property shape" ;
+.
+
+req:2.1.9e-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9e: Whenever dcterms:source is used, it must be a datatype property indicating an object of type xsd:anyURI" ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:anyURI ;
+        ]
+        
+        [
+            sh:datatype xsd:string ;
+        ]
+    ) ;
+    sh:path dcterms:source ;
+    schema:name "Source predicate range type - property shape" ;
+.
+
+req:2.1.9f-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9f: Whenever skos:historyNote is used, it must be a datatype property indicating an object of type xsd:string or rdf:LangString" ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:string ;
+        ]
+        
+        [
+            sh:datatype rdf:langString ;
+        ]
+    ) ;
+    sh:path skos:historyNote ;
+    schema:name "History node range type - property shape" ;
+.
+
+req:2.1.9g-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.1.9g: Whenever prov:wasDerivedFrom is used, it must be an object property indicating an IRI" ;
+    sh:nodeKind sh:IRI ;
+    sh:path prov:wasDerivedFrom ;
+    schema:name "Was derived from range type - property shape" ;
+.
+
+req:2.2.1-name
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.2.1: SHACL Shapes MUST have at least one name indicated using either the skos:prefLabel or schema:name property that must be either a string or a language-typed text literal value. Only one value per language is allowed if languages are used." ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:string ;
+        ]
+        
+        [
+            sh:datatype rdf:langString ;
+        ]
+    ) ;
+    sh:path schema:name ;
+    sh:uniqueLang true ;
+    schema:name "Shape name - schema:name" ;
+.
+
+req:2.2.1-prefLabel
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.2.1: SHACL Shapes MUST have at least one name indicated using either the skos:prefLabel or schema:name property that must be either a string or a language-typed text literal value. Only one value per language is allowed if languages are used." ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:string ;
+        ]
+        
+        [
+            sh:datatype rdf:langString ;
+        ]
+    ) ;
+    sh:path skos:prefLabel ;
+    sh:uniqueLang true ;
+    schema:name "Shape name - skos:prefLabel" ;
+.
+
+req:2.2.2-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.2.2: SHACL Shapes MUST have a message value, indicated using sh:message or a description, indicated using schema:description" ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:datatype rdf:langString ;
+        ]
+        
+        [
+            sh:datatype xsd:string ;
+        ]
+    ) ;
+    sh:path
+        [
+            sh:alternativePath (
+                sh:message
+                schema:description
+            ) ;
+        ] ;
+    schema:name "Shape message or description" ;
+.
+
+req:2.2.3-p-01
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.2.3: SHACL Shapes provenance, if different from that of the SHACL ontology being validated, SHOULD be indicated by at least one of the following properties: skos:historyNote, dcterms:source or prov:wasDerivedFrom." ;
+    sh:minCount 1 ;
+    sh:path prov:wasDerivedFrom ;
+    schema:name "Shape provenance - wasDerivedFrom" ;
+.
+
+req:2.2.3-p-02
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.2.3: SHACL Shapes provenance, if different from that of the SHACL ontology being validated, SHOULD be indicated by at least one of the following properties: skos:historyNote, dcterms:source or prov:wasDerivedFrom." ;
+    sh:minCount 1 ;
+    sh:path dcterms:source ;
+    schema:name "Shape provenance - source" ;
+.
+
+req:2.2.3-p-03
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.2.3: SHACL Shapes provenance, if different from that of the SHACL ontology being validated, SHOULD be indicated by at least one of the following properties: skos:historyNote, dcterms:source or prov:wasDerivedFrom." ;
+    sh:minCount 1 ;
+    sh:path skos:historyNote ;
+    schema:name "Shape provenance - historyNote" ;
+.
+
+req:2.7.2-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:maxCount 1 ;
+    sh:message "Requirement 2.7.2: Each agent MUST indicate at exactly one name property with the schema:name property that must be a text literal value" ;
+    sh:minCount 1 ;
+    sh:or (
+        
+        [
+            sh:datatype xsd:string ;
+        ]
+        
+        [
+            sh:datatype rdf:langString ;
+        ]
+    ) ;
+    sh:path schema:name ;
+    schema:name "Agent name - property shape" ;
+.
+
+req:2.7.3a-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:datatype xsd:anyURI ;
+    sh:message "Requirement 2.7.3: Each organisation MUST indicate an schema:url property with a URL value" ;
+    sh:minCount 1 ;
+    sh:path schema:url ;
+    schema:name "Org URL - property shape" ;
+.
+
+req:2.7.3b-p
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:datatype xsd:anyURI ;
+    sh:message "Requirement 2.7.3: Each person MUST indicate an schema:email property with an email value" ;
+    sh:minCount 1 ;
+    sh:path schema:email ;
+    schema:name "Person email - property shape" ;
+.
+
+req:2.7.4-p-01
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.7.4: One agent MAY be affiliated with another using schema.org agent/agent linking properties, such as schema:affiliation between persons and organisations or schema:parentOrganization and similar between organizations." ;
+    sh:or (
+        
+        [
+            sh:class schema:Organization ;
+        ]
+        
+        [
+            sh:class schema:Person ;
+        ]
+    ) ;
+    sh:path schema:parentOrganization ;
+    schema:name "Agent affiliation - parent org" ;
+.
+
+req:2.7.4-p-02
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.7.4: One agent MAY be affiliated with another using schema.org agent/agent linking properties, such as schema:affiliation between persons and organisations or schema:parentOrganization and similar between organizations." ;
+    sh:or (
+        
+        [
+            sh:class schema:Organization ;
+        ]
+        
+        [
+            sh:class schema:Person ;
+        ]
+    ) ;
+    sh:path schema:affiliation ;
+    schema:name "Agent affiliation - affiliation" ;
+.
+
+req:2.7.4-p-03
+    a sh:PropertyShape ;
+    rdfs:isDefinedBy sg: ;
+    sh:message "Requirement 2.7.4: One agent MAY be affiliated with another using schema.org agent/agent linking properties, such as schema:affiliation between persons and organisations or schema:parentOrganization and similar between organizations." ;
+    sh:or (
+        
+        [
+            sh:class schema:Organization ;
+        ]
+        
+        [
+            sh:class schema:Person ;
+        ]
+    ) ;
+    sh:path schema:subOrganization ;
+    schema:name "Agent affiliation - sub org" ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    a schema:Person ;
+    schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
+    schema:name "Nicholas J. Car" ;
+.
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+sg:
+    a owl:Ontology ;
+    owl:versionIRI :5.10 ;
+    owl:versionInfo """5.10 2026-11: Adopting common *.Pub version numbers
+
+1.4 2026-07: differentiation of messages from property and node shapes
+
+1.3 2026-04: Align schema:license allowed types with VocPub
+
+1.2 2026-02: Changes a couple of Violations to Warnings
+
+1.1 2026-02: Made ValPub compliant; move all Property Shapes to IRIs, not BNs
+
+1.0 2025-12: Created based on OntPub Validator & the SHACL Profiling deaft recommendation""" ;
+    skos:historyNote "This validator was made to improve teh consistency of Australian ontology formulation, initially by CSIRO and then handed to the AGLDWG" ;
+    schema:codeRepository "https://github.com/agldwg/valpub-profile"^^xsd:anyURI ;
+    schema:copyrightHolder <https://kurrawong.ai> ;
+    schema:copyrightYear "2025"^^xsd:gYear ;
+    schema:creator <https://orcid.org/0000-0002-8742-7730> ;
+    schema:dateCreated "2025-12-15"^^xsd:date ;
+    schema:dateIssued "2026-02-09"^^xsd:date ;
+    schema:dateModified "2026-11-06"^^xsd:date ;
+    schema:description "SHACL Shapes to validate ontologies of SHACL shapes according to the Validator Publications Profile" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "Validator Publication Profile Validator" ;
+    schema:publisher <https://kurrawong.ai> ;
+    schema:version "5.10" ;
+.

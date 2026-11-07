@@ -16,6 +16,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/bdr-pr/validator> ,
         <https://linked.data.gov.au/def/ontpub/validator> ,
         <https://linked.data.gov.au/def/sosa-validator> ,
+        <https://linked.data.gov.au/def/spacepub/validator> ,
+        <https://linked.data.gov.au/def/valpub/validator> ,
         <https://linked.data.gov.au/def/vocpub/validator> ,
         <https://w3id.org/tern/shapes/tern/> ;
     schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/" ;
@@ -25,7 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "SHACL validators used by the Biodiversity Data Repository" ;
     schema:name "Validators Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "4" ;
+    schema:version "5" ;
 .
 
 <http://www.opengis.net/def/geosparql/validator>
