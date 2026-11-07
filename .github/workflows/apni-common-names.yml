@@ -1,0 +1,35 @@
+name: Reproduce APNI common-name dataset
+
+on:
+  pull_request:
+    paths:
+      - "source/datasets/ref/apni-common-names/**"
+      - "resources/datasets/items/apni-common-names-nsl.ttl"
+      - ".github/workflows/apni-common-names.yml"
+  push:
+    branches: [main]
+    paths:
+      - "source/datasets/ref/apni-common-names/**"
+      - "resources/datasets/items/apni-common-names-nsl.ttl"
+      - ".github/workflows/apni-common-names.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: source/datasets/ref/apni-common-names
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.11.3"
+          python-version: "3.13"
+      - name: Test input and comparison safeguards
+        run: uv run --locked python -m unittest -v
+      - name: Regenerate and compare the RDF graph
+        run: uv run --locked convert.py --check-existing ../../../../resources/datasets/items/apni-common-names-nsl.ttl

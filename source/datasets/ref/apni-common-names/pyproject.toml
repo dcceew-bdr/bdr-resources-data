@@ -1,0 +1,9 @@
+[project]
+name = "bdr-apni-common-names"
+version = "0.1.0"
+description = "Reproduce the APNI common-name reference dataset from preserved source evidence"
+requires-python = ">=3.13,<3.14"
+dependencies = ["rdflib==7.6.0"]
+
+[tool.uv]
+package = false
