@@ -1,0 +1,33 @@
+{
+  "snapshot_date": "2026-10-30",
+  "dataset_iri": "https://linked.data.gov.au/dataset/apni-common-names",
+  "csv": "inputs/APNI-common-names-2026-10-30-5314.csv",
+  "license": "http://creativecommons.org/licenses/by/3.0/",
+  "files": [
+    {
+      "path": "inputs/APNI-common-names-2026-10-30-5314.csv",
+      "sha256": "0f654184d6ae6f1f6b49e0b8ce357c0332440389fc9804b25c1bc00f75a2f4b7",
+      "bytes": 25115794,
+      "source_url": "https://biodiversity.org.au/nsl/services/export/index",
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "expected": {
+    "source_rows": 64714,
+    "converted_rows": 64714,
+    "distinct_common_name_ids": 28022,
+    "distinct_scientific_name_ids": 17204,
+    "distinct_name_id_pairs": 37165,
+    "lookup_pairs": 37160,
+    "mapping_triples": 54364,
+    "triples": 54379
+  },
+  "structural_checks": {
+    "scientific_names": 17204,
+    "lookup_pairs": 37160,
+    "lookups_without_scientific_name": 0,
+    "conflicting_scientific_labels": 0,
+    "nsl_relationship_triples": 0,
+    "anonymous_node_triples": 0
+  }
+}

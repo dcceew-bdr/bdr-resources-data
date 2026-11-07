@@ -1,0 +1,29 @@
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+SELECT ?metric (COUNT(*) AS ?count)
+WHERE {
+  {
+    ?name dwc:scientificName ?text .
+    BIND("scientific_names" AS ?metric)
+  } UNION {
+    ?name dwc:vernacularName ?text .
+    BIND("lookup_pairs" AS ?metric)
+  } UNION {
+    ?name dwc:vernacularName ?text .
+    FILTER NOT EXISTS { ?name dwc:scientificName ?scientific }
+    BIND("lookups_without_scientific_name" AS ?metric)
+  } UNION {
+    ?name dwc:scientificName ?a, ?b .
+    FILTER(?a != ?b)
+    BIND("conflicting_scientific_labels" AS ?metric)
+  } UNION {
+    ?s ?p ?o .
+    FILTER(STRSTARTS(STR(?p), "https://linked.data.gov.au/def/nsl/"))
+    BIND("nsl_relationship_triples" AS ?metric)
+  } UNION {
+    ?s ?p ?o .
+    FILTER(isBlank(?s) || isBlank(?o))
+    BIND("anonymous_node_triples" AS ?metric)
+  }
+}
+GROUP BY ?metric
+ORDER BY ?metric
