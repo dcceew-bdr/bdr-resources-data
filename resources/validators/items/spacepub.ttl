@@ -1,6 +1,6 @@
-PREFIX : <https://linked.data.gov.au/def/bcrp/validator/>
+PREFIX : <https://linked.data.gov.au/def/spacepub/validator/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX ont: <https://linked.data.gov.au/def/bcrp/validator>
+PREFIX ont: <https://linked.data.gov.au/def/spacepub/validator>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>

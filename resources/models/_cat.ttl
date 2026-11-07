@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Models Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "4" ;
+    schema:version "5" ;
 .
 
 <https://linked.data.gov.au/def/abis/rm>
@@ -43,7 +43,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/def/nsl>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/abis> ;
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
 .
 
 <https://w3id.org/tern/ontologies/tern>

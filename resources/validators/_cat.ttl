@@ -27,15 +27,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "SHACL validators used by the Biodiversity Data Repository" ;
     schema:name "Validators Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "5" ;
+    schema:version "6" ;
 .
 
 <http://www.opengis.net/def/geosparql/validator>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/abis> ;
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/international> ;
 .
 
 <http://www.w3.org/ns/shacl-shacl#>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/abis> ;
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/international> ;
 .
 
 <https://linked.data.gov.au/def/abis/validator>
@@ -55,15 +55,23 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/def/ontpub/validator>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/abis> ;
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
 .
 
 <https://linked.data.gov.au/def/sosa-validator>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/abis> ;
 .
 
+<https://linked.data.gov.au/def/spacepub/validator>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
+<https://linked.data.gov.au/def/valpub/validator>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
 <https://linked.data.gov.au/def/vocpub/validator>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/abis> ;
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
 .
 
 <https://w3id.org/tern/shapes/tern/>
