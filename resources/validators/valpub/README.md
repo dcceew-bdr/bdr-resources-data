@@ -1,1 +1,0 @@
-These validators are aiming towards ValPub validity, as opposed to those in items/ which are inherited and can't be changed.

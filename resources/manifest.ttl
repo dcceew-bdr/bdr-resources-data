@@ -10,33 +10,11 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
             prof:hasRole mrr:CompleteCatalogueAndResourceLabels ;
         ] ,
         [
-            prof:hasArtifact "vocabs/_cat.ttl" ;
+            prof:hasArtifact "datasets/_cat.ttl" ;
             prof:hasRole mrr:CatalogueData ;
         ] ,
         [
-            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
-            prof:hasArtifact
-                "vocabs/items/abis-mapping/*.ttl" ,
-                "vocabs/items/asls/*.ttl" ,
-                "vocabs/items/RoleCode.ttl" ,
-                "vocabs/items/abis-themes.ttl" ,
-                "vocabs/items/datatypes.ttl" ,
-                "vocabs/items/epbc-ts-cats.ttl" ,
-                "vocabs/items/mesh-block-categories.ttl" ,
-                "vocabs/items/nsl-taxonomic-rank.ttl" ,
-                "vocabs/items/nsl-tn-types.ttl" ,
-                "vocabs/items/nsl-tnu-types.ttl" ,
-                "vocabs/items/obsprops.ttl" ,
-                "vocabs/items/rescope.ttl" ,
-                "vocabs/items/sma.ttl" ,
-                "vocabs/items/smrr.ttl" ,
-                "vocabs/items/statsprops.ttl" ,
-                "vocabs/items/tern-cv-categorical_concepts.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-        ] ,
-        [
-            # Temporary: orgs.ttl currently fails VocPub validation, which needs to be fixed
-            prof:hasArtifact "vocabs/items/orgs.ttl" ;
+            prof:hasArtifact "datasets/items/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
         ] ,
         [
@@ -49,17 +27,7 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
             prof:hasRole mrr:ResourceData ;
         ] ,
         [
-            prof:hasArtifact "models/non-ontpub/tern.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-        ] ,
-        [
-            #dcterms:conformsTo <https://linked.data.gov.au/def/valpub/validator> ;
-            prof:hasArtifact "validators/items/*.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-        ] ,
-        [
-            #dcterms:conformsTo <https://linked.data.gov.au/def/valpub/validator> ;
-            prof:hasArtifact "validators/valpub/*.ttl" ;
+            prof:hasArtifact "models/non-ontpub/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
         ] ,
         [
@@ -67,11 +35,25 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
             prof:hasRole mrr:CatalogueData ;
         ] ,
         [
-            prof:hasArtifact "datasets/items/*.ttl" ;
+            #dcterms:conformsTo <https://linked.data.gov.au/def/valpub/validator> ;
+            prof:hasArtifact "validators/items/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
         ] ,
         [
-            prof:hasArtifact "datasets/_cat.ttl" ;
+            prof:hasArtifact "validators/non-valpub/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            prof:hasArtifact "vocabs/_cat.ttl" ;
             prof:hasRole mrr:CatalogueData ;
+        ] ,
+        [
+            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
+            prof:hasArtifact "vocabs/items/**/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            prof:hasArtifact "vocabs/non-vocpub/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
         ] ;
 .
