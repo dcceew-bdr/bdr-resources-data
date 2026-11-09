@@ -4,13 +4,13 @@ on:
   pull_request:
     paths:
       - "source/datasets/ref/apni-common-names/**"
-      - "resources/datasets/items/apni-common-names-nsl.ttl"
+      - "resources/datasets/items/apni-common-names.ttl"
       - ".github/workflows/apni-common-names.yml"
   push:
     branches: [main]
     paths:
       - "source/datasets/ref/apni-common-names/**"
-      - "resources/datasets/items/apni-common-names-nsl.ttl"
+      - "resources/datasets/items/apni-common-names.ttl"
       - ".github/workflows/apni-common-names.yml"
 
 permissions:
@@ -32,4 +32,4 @@ jobs:
       - name: Test input and comparison safeguards
         run: uv run --locked python -m unittest -v
       - name: Regenerate and compare the RDF graph
-        run: uv run --locked convert.py --check-existing ../../../../resources/datasets/items/apni-common-names-nsl.ttl
+        run: uv run --locked convert.py --check-existing ../../../../resources/datasets/items/apni-common-names.ttl
