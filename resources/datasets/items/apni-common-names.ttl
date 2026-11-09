@@ -37175,7 +37175,7 @@ d:
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:creditText "Derived from the Australian Plant Name Index (APNI), National Species List. The preserved source CSV supplies citations and attribution IRIs, all of which identify the scientific-name resources used as lookup subjects. Adapted into a deduplicated common-name lookup dataset." ;
     schema:dateCreated "2026-11-07"^^xsd:date ;
-    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:description """Common-name lookups from the APNI common-name export downloaded on 30 October 2026. The 64,714 source records yield 37,160 distinct scientific-name IRI and common-name text pairs across 17,204 scientific-name IRIs.
 
 Each scientific-name IRI has its scientific-name text and associated common-name texts expressed with dwc:scientificName and dwc:vernacularName. These APNI IRIs identify names; no taxon class assertions are added. Repeated lookup pairs are deduplicated while many-to-many associations are retained. Name-usage and citation evidence is available from the NSL; the original CSV is preserved with the reproducible method.""" ;
