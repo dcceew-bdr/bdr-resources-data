@@ -7,12 +7,13 @@ import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
+from uuid import UUID
 
 from rdflib import BNode, Graph, Literal, Namespace, URIRef
-from rdflib.namespace import RDFS
+from rdflib.namespace import RDF, RDFS
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_OUTPUT = ROOT / "build/apni-common-names-nsl.ttl"
+DEFAULT_OUTPUT = ROOT / "build/apni-common-names.ttl"
 SCHEMA = Namespace("https://schema.org/")
 DWC = Namespace("http://rs.tdwg.org/dwc/terms/")
 EXPECTED_COLUMNS = [
@@ -51,7 +52,7 @@ def verify_inputs():
     return manifest
 
 
-def build_lookup(rows, license_iri):
+def build_lookup(rows, source_license_iri):
     """Keep all supported lookup pairs; discard only duplicate RDF statements."""
     graph = Graph()
     scientific_labels = defaultdict(set)
@@ -71,8 +72,8 @@ def build_lookup(rows, license_iri):
         for column in ("common_name_id", "scientific_name_id"):
             if not NAME_IRI.fullmatch(row[column]):
                 raise ValueError(f"CSV row {number}: invalid APNI {column}")
-        if row["license"] != license_iri:
-            raise ValueError(f"CSV row {number}: licence differs from Dataset licence")
+        if row["license"] != source_license_iri:
+            raise ValueError(f"CSV row {number}: licence differs from recorded source licence")
         # All attribution IRIs in this snapshot are the scientific-name subjects.
         # Fail rather than silently drop different attribution in a future export.
         if row["ccAttributionIRI"] != row["scientific_name_id"]:
@@ -103,6 +104,55 @@ def build_lookup(rows, license_iri):
         "mapping_triples": len(graph),
     }
     return graph, summary
+
+
+def read_statement_ids(path, dataset):
+    """Read the pinned published identities, without consulting generated RDF."""
+    identities = {}
+    used = set()
+    with path.open(encoding="utf-8", newline="") as stream:
+        reader = csv.DictReader(stream)
+        if reader.fieldnames != ["scientific_name_id", "common_name", "statement_id"]:
+            raise ValueError("Unexpected statement identity columns")
+        for row in reader:
+            name, common, statement = (row.get(key) for key in reader.fieldnames)
+            if not name or not NAME_IRI.fullmatch(name) or not common or not statement:
+                raise ValueError("Invalid statement identity row")
+            namespace = str(dataset) + "/"
+            if not statement.startswith(namespace):
+                raise ValueError("Statement identity is outside the Dataset namespace")
+            suffix = statement[len(namespace):]
+            if str(UUID(suffix)) != suffix:
+                raise ValueError("Noncanonical statement UUID")
+            pair = (URIRef(name), Literal(common))
+            if pair in identities or statement in used:
+                raise ValueError("Duplicate statement pair or UUID")
+            identities[pair] = URIRef(statement)
+            used.add(statement)
+    return identities
+
+
+def add_statement_members(graph, identities, dataset):
+    """Reproduce version 3's reified lookup membership with stable UUIDs."""
+    pairs = set(graph.subject_objects(DWC.vernacularName))
+    if pairs != identities.keys():
+        raise ValueError("Published statement identities do not exactly cover lookup pairs")
+    for (name, common), statement in identities.items():
+        graph.add((dataset, RDFS.member, statement))
+        graph.add((statement, RDF.type, RDF.Statement))
+        graph.add((statement, RDF.subject, name))
+        graph.add((statement, RDF.predicate, DWC.vernacularName))
+        graph.add((statement, RDF.object, common))
+
+
+def add_dataset_metadata(graph, metadata, manifest):
+    """Validate publication metadata independently of the preserved source licence."""
+    dataset = URIRef(manifest["dataset_iri"])
+    expected = {URIRef(manifest["dataset_license"])}
+    if set(metadata.objects(dataset, SCHEMA.license)) != expected:
+        raise ValueError("Dataset licence does not match recorded publication licence")
+    for triple in metadata:
+        graph.add(triple)
 
 
 def validate_source_coverage(graph, rows):
@@ -169,16 +219,16 @@ def main():
         if reader.fieldnames != EXPECTED_COLUMNS:
             raise ValueError(f"Unexpected CSV columns: {reader.fieldnames}")
         rows = list(reader)
-    graph, summary = build_lookup(rows, manifest["license"])
+    graph, summary = build_lookup(rows, manifest["source_license"])
     metadata = Graph().parse(ROOT / "dataset-metadata.ttl", format="turtle")
     dataset = URIRef(manifest["dataset_iri"])
-    for subject in set(graph.subjects(DWC.scientificName)):
-        graph.add((dataset, RDFS.member, subject))
+    identities = read_statement_ids(ROOT / manifest["statement_ids"], dataset)
+    add_statement_members(graph, identities, dataset)
+    graph.bind("apni", Namespace("https://id.biodiversity.org.au/name/apni/"))
+    graph.bind("dwc", DWC)
+    graph.bind("", Namespace(str(dataset) + "/"), replace=True)
     graph.bind("rdfs", RDFS)
-    if set(metadata.objects(dataset, SCHEMA.license)) != {URIRef(manifest["license"])}:
-        raise ValueError("Dataset licence does not match source manifest")
-    for triple in metadata:
-        graph.add(triple)
+    add_dataset_metadata(graph, metadata, manifest)
     for prefix, namespace in metadata.namespaces():
         graph.bind(prefix, namespace, replace=True)
     summary.update(
@@ -187,7 +237,10 @@ def main():
             "dataset_iri": str(dataset),
             "source_file": manifest["csv"],
             "source_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
-            "licenses": dict(Counter(r["license"] for r in rows)),
+            "source_licenses": dict(Counter(r["license"] for r in rows)),
+            "source_license": manifest["source_license"],
+            "dataset_license": manifest["dataset_license"],
+            "statement_members": len(identities),
         }
     )
     for key, expected in manifest["expected"].items():

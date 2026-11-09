@@ -1,4 +1,6 @@
 PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?metric (COUNT(*) AS ?count)
 WHERE {
   {
@@ -15,6 +17,20 @@ WHERE {
     ?name dwc:scientificName ?a, ?b .
     FILTER(?a != ?b)
     BIND("conflicting_scientific_labels" AS ?metric)
+  } UNION {
+    <https://linked.data.gov.au/dataset/apni-common-names> rdfs:member ?member .
+    BIND("statement_members" AS ?metric)
+  } UNION {
+    ?member a rdf:Statement .
+    BIND("reified_statements" AS ?metric)
+  } UNION {
+    <https://linked.data.gov.au/dataset/apni-common-names> rdfs:member ?member .
+    FILTER NOT EXISTS {
+      ?member a rdf:Statement ; rdf:subject ?name ;
+              rdf:predicate dwc:vernacularName ; rdf:object ?common .
+      ?name dwc:vernacularName ?common .
+    }
+    BIND("invalid_statement_members" AS ?metric)
   } UNION {
     ?s ?p ?o .
     FILTER(STRSTARTS(STR(?p), "https://linked.data.gov.au/def/nsl/"))
