@@ -1,24 +1,17 @@
 PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/taxonRank>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://example.com/subkingdom>
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Subkingdom"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "SUBKINGDOM"@en ;
-    skos:topConceptOf cs: ;
-.
-
 <http://linked.data.gov.au/def/tern-cv/22829f2d-461d-4cf6-acbc-5b8f7d2d9c77>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Section within a genus. In Zoology a section sometimes refers to a group above family level, this is NOT meant"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/section> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SECTION"@en ;
+    skos:prefLabel "section"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -26,8 +19,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Species"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/species> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SPECIES"@en ;
+    skos:prefLabel "species"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -35,18 +29,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Subsection within a genus."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subsection> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBSECTION"@en ;
+    skos:prefLabel "subsection"@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/3ade9854-d90f-4709-bb5a-260d62a2c647>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "DIVISION"@en ;
+    skos:altLabel "division"@en ;
     skos:definition "Phylum"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/phylum> ;
     skos:inScheme cs: ;
-    skos:prefLabel "PHYLUM"@en ;
+    skos:prefLabel "phylum"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -54,8 +50,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Tribe"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/tribe> ;
     skos:inScheme cs: ;
-    skos:prefLabel "TRIBE"@en ;
+    skos:prefLabel "tribe"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -63,18 +60,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Used for any other unspecific rank below genera and above species."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/infraspecificname> ;
     skos:inScheme cs: ;
-    skos:prefLabel "INFRASPECIFIC NAME"@en ;
+    skos:prefLabel "infra-specific name"@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/45d214c6-894b-4fe5-a9ce-2db3a1fc3a7d>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "GREX"@en ;
+    skos:altLabel "grex"@en ;
     skos:definition "Cultivar group"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/cultivarGroup> ;
     skos:inScheme cs: ;
-    skos:prefLabel "CULTIVAR GROUP"@en ;
+    skos:prefLabel "cultivar group"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -82,8 +81,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Subfamily"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subfamily> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBFAMILY"@en ;
+    skos:prefLabel "subfamily"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -91,8 +91,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Superfamily"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/superfamily> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUPERFAMILY"@en ;
+    skos:prefLabel "superfamily"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -100,8 +101,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Genus"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/genus> ;
     skos:inScheme cs: ;
-    skos:prefLabel "GENUS"@en ;
+    skos:prefLabel "genus"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -109,18 +111,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Subseries within a genus."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subseries> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBSERIES"@en ;
+    skos:prefLabel "subseries"@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/6605eecb-e8ba-47fc-a364-81aa3ba5ce69>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "ALLIANCE"@en ;
+    skos:altLabel "alliance"@en ;
     skos:definition "Order"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/order> ;
     skos:inScheme cs: ;
-    skos:prefLabel "ORDER"@en ;
+    skos:prefLabel "order"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -128,18 +132,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Unranked"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/unranked> ;
     skos:inScheme cs: ;
-    skos:prefLabel "UNRANKED"@en ;
+    skos:prefLabel "unranked"@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/6fa4ff0a-acc8-482b-a574-0ffbbab83ca5>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "VARIETAS"@en ;
+    skos:altLabel "varietas"@en ;
     skos:definition "Variety"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/variety> ;
     skos:inScheme cs: ;
-    skos:prefLabel "VARIETY"@en ;
+    skos:prefLabel "variety"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -147,8 +153,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Subspecies"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subspecies> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBSPECIES"@en ;
+    skos:prefLabel "subspecies"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -156,17 +163,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Subgenus"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subgenus> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBGENUS"@en ;
+    skos:prefLabel "subgenus"@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/892fed0b-70cc-48d4-ac3f-0b0b495cc0c0>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "The epithet is usually output in single quotes and may contain multiple words, see ICBN §28. Examples: Taxus baccata 'Variegata', Juniperus ×pfitzeriana 'Wilhelm Pfitzer'; Magnolia 'Elizabeth' (= a hybrid, no species epithet)."@en ;
+    skos:definition "A group of plants selected for particular characteristics that remain distinct, uniform and stable when the plants are propagated by appropriate means."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/cultivar> ;
+    skos:example "Taxus baccata 'Variegata'."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "CULTIVAR"@en ;
+    skos:prefLabel "cultivar"@en ;
+    skos:scopeNote "Used here for the cultivar category governed by the International Code of Nomenclature for Cultivated Plants (ICNCP), rather than a botanical rank under the ICN. Cultivar is not equivalent to the botanical ranks variety (varietas) or form (forma)."@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -174,28 +185,31 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Used for any other unspecific rank below genera and above species."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/infragenericname> ;
     skos:inScheme cs: ;
-    skos:prefLabel "INFRAGENERIC NAME"@en ;
+    skos:prefLabel "infra-generic name"@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/9eeb2dcf-ec0c-4541-a409-28722e9b4f26>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "SUBFORMA"@en ;
+    skos:altLabel "subforma"@en ;
     skos:definition "Subform"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subform> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBFORM"@en ;
+    skos:prefLabel "subform"@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/a27dc8c9-25ed-4a82-b797-b9dd0add6da2>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "REGNUM"@en ;
+    skos:altLabel "regnum"@en ;
     skos:definition "Kingdom"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/kingdom> ;
     skos:inScheme cs: ;
-    skos:prefLabel "KINGDOM"@en ;
+    skos:prefLabel "kingdom"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -203,8 +217,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Suborder"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/suborder> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBORDER"@en ;
+    skos:prefLabel "suborder"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -212,8 +227,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Used for any other unspecific rank above genera."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/supragenericname> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUPRAGENERIC NAME"@en ;
+    skos:prefLabel "supra generic name"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -221,8 +237,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Used for any other unspecific rank below subspecies."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/infrasubspecificname> ;
     skos:inScheme cs: ;
-    skos:prefLabel "INFRASUBSPECIFIC NAME"@en ;
+    skos:prefLabel "infra-subspecific name"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -230,8 +247,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Infraorder"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/infraorder> ;
     skos:inScheme cs: ;
-    skos:prefLabel "INFRAORDER"@en ;
+    skos:prefLabel "infra-order"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -239,8 +257,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Subtribe"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subtribe> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBTRIBE"@en ;
+    skos:prefLabel "subtribe"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -248,22 +267,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
-        "AGGREGATE"@en ,
-        "SPECIES COMPLEX"@en ,
-        "SPECIES GROUP"@en ;
-    skos:definition "A loosely defined group of species. Zoology: 'Aggregate - a group of species, other than a subgenus, within a genus. An aggregate may be denoted by a group name interpolated in parentheses.' -- The Berlin/MoreTax model notes:'[these] aren't taxonomic ranks but circumscriptions because on the one hand they are necessary for the concatenation of the fullname and on the other hand they are necessary for distinguishing the aggregate or species group from the microspecies.' Compare subspecific aggregate for a group of subspecies within a species."@en ;
+        "aggregate"@en ,
+        "species complex"@en ,
+        "species group"@en ;
+    skos:definition "A loosely defined group of species."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/speciesAggregate> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SPECIES AGGREGATE"@en ;
+    skos:prefLabel "species aggregate"@en ;
+    skos:scopeNote "In zoological nomenclature, an aggregate groups species within a genus or subgenus; the aggregate is not itself a subgenus. Under ICZN Article 6.2, a species name in parentheses can denote the aggregate after the genus-group name. Distinguish this grouping of species from a subspecific aggregate, which groups subspecies within one species."@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/cb2627f0-e121-474b-a354-dd0e392daa84>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "SUBVARIETAS"@en ;
+    skos:altLabel "subvarietas"@en ;
     skos:definition "Subvariety"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subvariety> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBVARIETY"@en ;
+    skos:prefLabel "subvariety"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -271,8 +293,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Series within a genus."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/series> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SERIES"@en ;
+    skos:prefLabel "series"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -280,18 +303,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Informal"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/informal> ;
     skos:inScheme cs: ;
-    skos:prefLabel "INFORMAL"@en ;
+    skos:prefLabel "informal"@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/dae4d56e-7440-4ddd-90e7-9924b455ca40>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "FORMA"@en ;
+    skos:altLabel "forma"@en ;
     skos:definition "Form"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/form> ;
     skos:inScheme cs: ;
-    skos:prefLabel "FORM"@en ;
+    skos:prefLabel "form"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -299,8 +324,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Class"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/class> ;
     skos:inScheme cs: ;
-    skos:prefLabel "CLASS"@en ;
+    skos:prefLabel "class"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -308,17 +334,30 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Family"@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/family> ;
     skos:inScheme cs: ;
-    skos:prefLabel "FAMILY"@en ;
+    skos:prefLabel "family"@en ;
     skos:topConceptOf cs: ;
 .
 
 <http://linked.data.gov.au/def/tern-cv/fdbe211f-33d6-4446-a1fb-5eb8de45dd57>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "A loosely defined group of subspecies. Zoology:'Aggregate - a group of subspecies within a species. An aggregate may be denoted by a group name interpolated in parentheses.'"@en ;
+    skos:definition "A loosely defined group of subspecies within a species."@en ;
+    skos:exactMatch <http://rs.gbif.org/vocabulary/gbif/rank/subspecificAggregate> ;
     skos:inScheme cs: ;
-    skos:prefLabel "SUBSPECIFIC AGGREGATE"@en ;
+    skos:prefLabel "subspecific aggregate"@en ;
+    skos:scopeNote "Under ICZN Article 6.2, a subspecies name placed in parentheses between the species and subspecies names can denote an aggregate of subspecies. This parenthetical name is not counted as a word of the trinomen. Distinguish this grouping within one species from a species aggregate, which groups species."@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://rs.gbif.org/vocabulary/gbif/rank/subkingdom>
+    a skos:Concept ;
+    dcterms:replaces <http://example.com/subkingdom> ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank> ;
+    skos:definition "A taxonomic rank below kingdom and above phylum (division)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "subkingdom"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -332,7 +371,6 @@ Proposed as narrower terms of http://linked.data.gov.au/def/tern-cv/1e4d7110-5f0
 
 This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
     skos:hasTopConcept
-        <http://example.com/subkingdom> ,
         <http://linked.data.gov.au/def/tern-cv/22829f2d-461d-4cf6-acbc-5b8f7d2d9c77> ,
         <http://linked.data.gov.au/def/tern-cv/2b6fae57-f28e-4f24-b6f9-19f114dbb61e> ,
         <http://linked.data.gov.au/def/tern-cv/367a27ee-7c6f-48a0-ba50-ff137ed1fe0c> ,
@@ -365,12 +403,14 @@ This vocabulary was generated from application code used to convert CSV data to 
         <http://linked.data.gov.au/def/tern-cv/dae4d56e-7440-4ddd-90e7-9924b455ca40> ,
         <http://linked.data.gov.au/def/tern-cv/db985a35-6edb-4ba1-8939-b0a7b1efa287> ,
         <http://linked.data.gov.au/def/tern-cv/f2e2f14f-56d4-4d2f-9a37-7e140133cbd2> ,
-        <http://linked.data.gov.au/def/tern-cv/fdbe211f-33d6-4446-a1fb-5eb8de45dd57> ;
+        <http://linked.data.gov.au/def/tern-cv/fdbe211f-33d6-4446-a1fb-5eb8de45dd57> ,
+        <http://rs.gbif.org/vocabulary/gbif/rank/subkingdom> ;
+    skos:historyNote "The skos:exactMatch links from TERN concepts to GBIF rank concepts were copied unchanged from the reviewed BDR taxonomic rank scheme (https://linked.data.gov.au/dataset/bdr/taxonomic-rank), which retained them from TERN source records. No additional mappings were inferred by BDR in this update. The GBIF subkingdom concept is reused directly and has no self-mapping."@en ;
     skos:prefLabel "Taxon Rank"@en ;
     schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2026-09-20"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
 .

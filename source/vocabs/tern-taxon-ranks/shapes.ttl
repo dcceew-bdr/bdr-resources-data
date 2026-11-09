@@ -12,4 +12,4 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     sh:targetNode <https://linked.data.gov.au/dataset/bdr/taxonomic-rank> ;
     sh:class skos:ConceptScheme ;
     sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:uniqueLang true ] ;
-    sh:property [ sh:path skos:hasTopConcept ; sh:minCount 33 ; sh:maxCount 33 ; sh:class skos:Concept ] .
+    sh:property [ sh:path skos:hasTopConcept ; sh:minCount 34 ; sh:maxCount 34 ; sh:class skos:Concept ] .
