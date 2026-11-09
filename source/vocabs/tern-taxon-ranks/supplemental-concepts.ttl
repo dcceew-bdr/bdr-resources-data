@@ -1,0 +1,11 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# GBIF identifier and preferred label: rank_2015-04-24.xml, subkingdom entry.
+# GBIF has no definition; BDR paraphrase based on ICN Article 4.2:
+# https://www.iapt-taxon.org/nomen/pages/main/art_4.html
+<http://rs.gbif.org/vocabulary/gbif/rank/subkingdom>
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://rs.gbif.org/vocabulary/gbif/rank> ;
+    skos:prefLabel "subkingdom"@en ;
+    skos:definition "A taxonomic rank below kingdom and above phylum (division)."@en .

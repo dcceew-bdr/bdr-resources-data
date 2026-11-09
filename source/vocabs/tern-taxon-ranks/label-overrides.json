@@ -1,8 +1,38 @@
 {
+  "http://linked.data.gov.au/def/tern-cv/445b6830-8e31-4fab-889b-f18f88f382c0": {
+    "source_label": "infraspecificname",
+    "preferred_label": "infra-specific name",
+    "language": "en",
+    "reason": "Preserve reviewed BDR display spelling, including Nick’s November label refinements."
+  },
+  "http://linked.data.gov.au/def/tern-cv/45d214c6-894b-4fe5-a9ce-2db3a1fc3a7d": {
+    "source_label": "cultivarGroup",
+    "preferred_label": "cultivar group",
+    "language": "en",
+    "reason": "Preserve reviewed BDR display spelling, including Nick’s November label refinements."
+  },
   "http://linked.data.gov.au/def/tern-cv/8d227e73-f906-4d5f-9f15-8ae8bf29b2ce": {
     "source_label": "infragenericname",
-    "preferred_label": "infrageneric name",
+    "preferred_label": "infra-generic name",
     "language": "en",
-    "reason": "BDR display-label correction following review; concept IRI and definition are unchanged."
+    "reason": "Preserve reviewed BDR display spelling, including Nick’s November label refinements."
+  },
+  "http://linked.data.gov.au/def/tern-cv/a8889e2e-8eb3-4ed3-8d32-3974adae6158": {
+    "source_label": "supragenericname",
+    "preferred_label": "supra generic name",
+    "language": "en",
+    "reason": "Preserve reviewed BDR display spelling, including Nick’s November label refinements."
+  },
+  "http://linked.data.gov.au/def/tern-cv/b06ee648-55e2-435f-b453-2f6639addbcb": {
+    "source_label": "infrasubspecificname",
+    "preferred_label": "infra-subspecific name",
+    "language": "en",
+    "reason": "Preserve reviewed BDR display spelling, including Nick’s November label refinements."
+  },
+  "http://linked.data.gov.au/def/tern-cv/b49af045-88c2-44c0-ad34-901d1ff46d7a": {
+    "source_label": "infraorder",
+    "preferred_label": "infra-order",
+    "language": "en",
+    "reason": "Preserve reviewed BDR display spelling, including Nick’s November label refinements."
   }
 }

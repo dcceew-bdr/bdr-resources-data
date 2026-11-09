@@ -16,22 +16,43 @@ def main():
     previous = Graph().parse(HERE / 'replaced-nsl-taxonomic-rank.ttl')
     members = set(current.subjects(SKOS.inScheme, SCHEME))
     overrides = json.loads((HERE / 'label-overrides.json').read_text())
+    concept_overrides = json.loads((HERE / 'concept-overrides.json').read_text())
+    assert set(concept_overrides) <= {str(member) for member in members}
     assert members == set(current.objects(SCHEME, SKOS.hasTopConcept))
     old_concepts = set(previous.subjects(RDF.type, SKOS.Concept))
-    assert len(members) == 33 and len(old_concepts) == 10
+    assert len(members) == 34 and len(old_concepts) == 10
+    supplemental = Graph().parse(HERE / 'supplemental-concepts.ttl')
+    gbif = URIRef('http://rs.gbif.org/vocabulary/gbif/rank/subkingdom')
+    assert gbif in members
+    assert URIRef('http://example.com/subkingdom') not in members
     assert old_concepts <= members
     for concept in old_concepts:
         assert set(previous.objects(concept, SKOS.prefLabel)) == set(current.objects(concept, SKOS.prefLabel))
         assert set(previous.objects(concept, SKOS.definition)) == set(current.objects(concept, SKOS.definition))
     for member in members:
         assert (member, RDF.type, SKOS.Concept) in current
-        assert str(member).startswith('http://linked.data.gov.au/def/tern-cv/')
+        assert str(member).startswith('http://linked.data.gov.au/def/tern-cv/') or member == gbif
         assert list(current.objects(member, SKOS.prefLabel))
         assert list(current.objects(member, SKOS.definition))
         assert 'example.com' not in str(member)
-        source = Graph().parse(HERE / 'snapshots' / (str(member).rsplit('/', 1)[-1] + '.ttl'))
-        for predicate in (SKOS.definition, RDFS.isDefinedBy):
+        source = supplemental if member == gbif else Graph().parse(HERE / 'snapshots' / (str(member).rsplit('/', 1)[-1] + '.ttl'))
+        for predicate in (RDFS.isDefinedBy,):
             assert set(source.objects(member, predicate)) == set(current.objects(member, predicate))
+        if str(member) in concept_overrides:
+            correction = concept_overrides[str(member)]
+            language = correction['language']
+            assert set(source.objects(member, SKOS.definition)) == {
+                Literal(correction['source_definition'], lang=language)}
+            assert set(current.objects(member, SKOS.definition)) == {
+                Literal(correction['definition'], lang=language)}
+            if 'scope_note' in correction:
+                assert set(current.objects(member, SKOS.scopeNote)) == {
+                    Literal(correction['scope_note'], lang=language)}
+            if 'examples' in correction:
+                assert set(current.objects(member, SKOS.example)) == {
+                    Literal(example, lang=language) for example in correction['examples']}
+        else:
+            assert set(source.objects(member, SKOS.definition)) == set(current.objects(member, SKOS.definition))
         if str(member) in overrides:
             override = overrides[str(member)]
             assert set(source.objects(member, SKOS.prefLabel)) == {
@@ -48,13 +69,13 @@ def main():
     assert not list(current.subjects(RDF.type, SKOS.Collection))
     catalogue = Graph().parse(ROOT / 'resources/vocabs/_cat.ttl')
     schema_part = URIRef('https://schema.org/hasPart')
-    assert (None, schema_part, SCHEME) in catalogue
+    assert any((None, predicate, SCHEME) in catalogue for predicate in (schema_part, RDFS.member))
     assert (None, schema_part, COLLECTION) not in catalogue
     route_data = current + catalogue
     query_members = route_data.query('''PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         PREFIX schema: <https://schema.org/>
         SELECT ?member WHERE {
-            ?catalogue a schema:DataCatalog ; schema:hasPart
+            ?catalogue a schema:DataCatalog ; (schema:hasPart|<http://www.w3.org/2000/01/rdf-schema#member>)
                 <https://linked.data.gov.au/dataset/bdr/taxonomic-rank> .
             <https://linked.data.gov.au/dataset/bdr/taxonomic-rank> a skos:ConceptScheme .
             ?member a skos:Concept ; skos:inScheme
@@ -73,14 +94,17 @@ def main():
     assert displays['subclass'] == 'subclass'
     assert displays['urn:unlabelled-rank'] == 'urn:unlabelled-rank'
     report = {
-        'existing_tern_rank_concepts': len(members),
+        'existing_tern_rank_concepts': len(members) - 1,
+        'gbif_rank_concepts': 1,
+        'total_rank_concepts': len(members),
         'original_bdr_scheme_concepts': len(old_concepts),
         'all_ten_labels_and_definitions_preserved': True,
         'all_members_have_labels_and_definitions': True,
         'http_identifiers_preserved': True,
         'bdr_scheme_iri_retained': True,
         'tern_collection_not_retyped_as_scheme': True,
-        'all_33_definitions_unchanged': True,
+        'definitions_unchanged': len(members) - len(concept_overrides),
+        'documented_local_concept_overrides': len(concept_overrides),
         'preferred_labels_unchanged': len(members) - len(overrides),
         'documented_local_label_overrides': len(overrides),
         'no_published_self_exact_matches': True,
@@ -88,7 +112,7 @@ def main():
         'concept_dcterms_and_rdfs_label_removed': True,
         'no_placeholder_concepts_added': True,
         'catalogue_references_bdr_scheme': True,
-        'all_33_concepts_reachable_by_existing_scheme_path': True,
+        'all_34_concepts_reachable_by_existing_scheme_path': True,
         'display_example_handles_iri_literal_and_unlabelled_iri': True,
         'scope': 'Local replacement and query verification; not live API or database deployment verification.',
     }

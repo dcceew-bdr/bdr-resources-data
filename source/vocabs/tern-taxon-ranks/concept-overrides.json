@@ -1,0 +1,39 @@
+{
+  "http://linked.data.gov.au/def/tern-cv/892fed0b-70cc-48d4-ac3f-0b0b495cc0c0": {
+    "source_definition": "The epithet is usually output in single quotes and may contain multiple words, see ICBN \u00a728. Examples: Taxus baccata 'Variegata', Juniperus \u00d7pfitzeriana 'Wilhelm Pfitzer'; Magnolia 'Elizabeth' (= a hybrid, no species epithet).",
+    "definition": "A group of plants selected for particular characteristics that remain distinct, uniform and stable when the plants are propagated by appropriate means.",
+    "scope_note": "Used here for the cultivar category governed by the International Code of Nomenclature for Cultivated Plants (ICNCP), rather than a botanical rank under the ICN. Cultivar is not equivalent to the botanical ranks variety (varietas) or form (forma).",
+    "examples": [
+      "Taxus baccata 'Variegata'."
+    ],
+    "language": "en",
+    "source": "https://dafflibrary.com/wp-content/uploads/The-International-Code-of-Nomenclature-for-Cultivated-Plants-Ninth-Edition-2016.pdf#page=25",
+    "citation": "ICNCP, ninth edition (2016), Article 2.3 and Article 2.1 Note 1, printed page 6.",
+    "reason": "BDR editorial correction approved by Les: define the plant grouping, separate scope and example from the definition."
+  },
+  "http://linked.data.gov.au/def/tern-cv/b49af045-88c2-44c0-ad34-901d1ff46d7a": {
+    "source_definition": "infraorder",
+    "definition": "infra-order",
+    "language": "en",
+    "reason": "Preserve the existing reviewed BDR definition spelling from the November labels refinement; no new definition proposed here.",
+    "citation": "Existing BDR publication at base commit 13a3c13106261d63f74896ef42b9ee5e73a844c6."
+  },
+  "http://linked.data.gov.au/def/tern-cv/bc6b552f-5ab0-4d46-a236-a99fc2005c93": {
+    "source_definition": "A loosely defined group of species. Zoology: 'Aggregate - a group of species, other than a subgenus, within a genus. An aggregate may be denoted by a group name interpolated in parentheses.' -- The Berlin/MoreTax model notes:'[these] aren't taxonomic ranks but cirumscriptions because on the one hand they are necessary for the concatenation of the fullname and on the other hand they are necessary for distinguishing the aggregate or species group from the microspecies.' Compare subspecific aggregate for a group of subspecies within a species!",
+    "definition": "A loosely defined group of species.",
+    "scope_note": "In zoological nomenclature, an aggregate groups species within a genus or subgenus; the aggregate is not itself a subgenus. Under ICZN Article 6.2, a species name in parentheses can denote the aggregate after the genus-group name. Distinguish this grouping of species from a subspecific aggregate, which groups subspecies within one species.",
+    "language": "en",
+    "source": "https://code.iczn.org/chapter-2-the-number-of-words-in-the-scientific-names-of-animals/article-6-interpolated-names/",
+    "citation": "ICZN, fourth edition, Article 6.2; existing TERN/GBIF aggregate descriptions.",
+    "reason": "BDR editorial split: separate the grouping definition from zoological scope and naming guidance; retain the full original text in the unchanged TERN snapshot. Omit Berlin/MoreTax implementation commentary from the publication."
+  },
+  "http://linked.data.gov.au/def/tern-cv/fdbe211f-33d6-4446-a1fb-5eb8de45dd57": {
+    "source_definition": "A loosely defined group of subspecies. Zoology:'Aggregate - a group of subspecies within a species. An aggregate may be denoted by a group name interpolated in parentheses.'",
+    "definition": "A loosely defined group of subspecies within a species.",
+    "scope_note": "Under ICZN Article 6.2, a subspecies name placed in parentheses between the species and subspecies names can denote an aggregate of subspecies. This parenthetical name is not counted as a word of the trinomen. Distinguish this grouping within one species from a species aggregate, which groups species.",
+    "language": "en",
+    "source": "https://code.iczn.org/chapter-2-the-number-of-words-in-the-scientific-names-of-animals/article-6-interpolated-names/",
+    "citation": "ICZN, fourth edition, Article 6.2; existing TERN/GBIF aggregate descriptions.",
+    "reason": "BDR editorial split: separate the grouping definition from zoological scope and naming guidance; retain the full original text in the unchanged TERN snapshot. Omit Berlin/MoreTax implementation commentary from the publication."
+  }
+}
