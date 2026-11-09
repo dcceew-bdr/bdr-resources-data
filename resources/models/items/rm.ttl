@@ -1,5 +1,5 @@
-PREFIX : <https://linked.data.gov.au/def/abis/brm/>
-PREFIX ont: <https://linked.data.gov.au/def/abis/brm>
+PREFIX : <https://linked.data.gov.au/def/abis/rm/>
+PREFIX ont: <https://linked.data.gov.au/def/abis/rm>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -41,12 +41,20 @@ ont:
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2024-07-15"^^xsd:date ;
     schema:dateIssued "2024-07-30"^^xsd:date ;
-    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:description "The Records Model links objects represented in Semantic Web data to records about them that preserve identifiers from their original non-Semantic Web form. This allows easy association of Semantic Web and non-Semantic Web forms and facilitates good provenance for data conversions to Semantic Web form" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Records Model"@en ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version 2 ;
+    schema:version 3 ;
+    rdfs:member
+        schema:DataCatalogue ,
+        schema:Dataset ,
+        schema:Statement ,
+        rdfs:Resource ,
+        rdfs:member ,
+        schema:about ,
+        schema:identifier ;
 .
 
 :1
@@ -132,4 +140,15 @@ schema:about
     skos:scopeNote "To be used to associate Statement instances with the Semantic Web Objects (Resource) they are about" ;
     schema:description "The subject matter of the content" ;
     schema:name "about" ;
+.
+
+
+schema:identifier
+    a owl:DatatypeProperty ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for schema:Statement" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    skos:scopeNote "To be used to associate Statement instances with the Semantic Web Objects (Resource) they are about" ;
+    schema:description "The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc." ;
+    schema:name "identifier" ;
 .

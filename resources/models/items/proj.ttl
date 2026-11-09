@@ -1,29 +1,229 @@
 PREFIX : <https://linked.data.gov.au/def/bdr-pr/proj/>
+PREFIX abis: <https://linked.data.gov.au/def/abis/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX ont: <https://linked.data.gov.au/def/bdr-pr/proj>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX time: <http://www.w3.org/2006/time#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/bdr-pr/proj/1.1> schema:name "1.1" .
+geo:Geometry
+    a owl:Class ;
+    rdfs:isDefinedBy skos: ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from GeoSPARQL" ;
+    schema:description "" ;
+    schema:name "Geometry" ;
+.
+
+skos:Concept
+    a owl:Class ;
+    rdfs:isDefinedBy skos: ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from SKOS" ;
+    schema:description "" ;
+    schema:name "Concept" ;
+.
+
+time:TemporalEntity
+    a owl:Class ;
+    rdfs:isDefinedBy skos: ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from Time Ontology in OWL" ;
+    schema:description "" ;
+    schema:name "Temporal Entity" ;
+.
+
+prov:agent
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:range prov:Agent ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "References an prov:Agent which influenced a resource." ;
+    schema:name "agent" ;
+.
+
+prov:generated
+    a owl:ObjectProperty ;
+    rdfs:domain prov:Activity ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:range prov:Entity ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "The completion of production of a new entity by an activity." ;
+    schema:name "generated" ;
+.
+
+prov:hadRole
+    a owl:ObjectProperty ;
+    rdfs:domain prov:Association ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:range prov:Role ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "A role is the function of an entity or agent" ;
+    schema:name "had role" ;
+.
+
+prov:qualifiedAssociation
+    a owl:ObjectProperty ;
+    rdfs:domain prov:Association ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:range prov:Activity ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "An assignment of responsibility to an agent for an activity, indicating that the agent had a role in the activity." ;
+    schema:name "qualified association" ;
+.
+
+abis:purpose
+    a rdf:Property ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "The purpose of the activity" ;
+    schema:name "purpose" ;
+.
 
 ont:
     a owl:Ontology ;
-    owl:versionIRI <https://linked.data.gov.au/def/bdr-pr/proj/1.1> ;
+    rdfs:member
+        geo:Geometry ,
+        skos:Concept ,
+        time:TemporalEntity ,
+        prov:Agent ,
+        prov:Role ,
+        prov:agent ,
+        prov:generated ,
+        prov:hadRole ,
+        prov:qualifiedAssociation ,
+        abis:purpose ,
+        schema:Dataset ,
+        schema:Project ,
+        schema:description ,
+        schema:isPartOf ,
+        schema:keywords ,
+        schema:name ,
+        schema:spatial ,
+        schema:temporal ;
+    owl:versionIRI :1.2 ;
+    skos:historyNote """1.2 2026-11: added all members for catalogue showing
+
+1.1 2025-07 - Moved from ABIS to BDR Profile, alignment with other models
+
+1.0 2024-10 - First release""" ;
     schema:codeRepository "https://github.com/dcceew-bdr/bdr-profile-of-abis/"^^xsd:anyURI ;
     schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2023-10-15"^^xsd:date ;
-    schema:dateModified "2026-05-07"^^xsd:date ;
     schema:dateIssued "2025-04-30"^^xsd:date ;
-    schema:description """This model is for describing Projects where Project is defined as 'An Activity that requires concerted effort following a Plan in pursuit of an objective'""" ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
+    schema:description "This model is for describing Projects where Project is defined as 'An Activity that requires concerted effort following a Plan in pursuit of an objective'" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Project Model" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "1.1" ;
-    skos:historyNote """1.1 - 2025 Jul - Moved from ABIS to BDR Profile, alignment with other models
+    schema:version "1.2" ;
+.
 
-1.0 - 2024 Oct - First release""" ;
+:1.2
+    schema:name "1.2" ;
+.
+
+schema:Dataset
+    a owl:Class ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "A body of structured information describing some topic(s) of interest" ;
+    schema:name "Dataset" ;
+.
+
+schema:Project
+    a owl:Class ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:subClassOf prov:Activity ;
+    skos:example "" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    skos:usageNote "Use properties from Organization, subOrganization/parentOrganization to indicate project sub-structures." ;
+    schema:description "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim." ;
+    schema:name "Project" ;
+.
+
+schema:description
+    a owl:DatatypeProperty ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "A description of the item." ;
+    schema:name "description" ;
+.
+
+schema:isPartOf
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    skos:usageNote "" ;
+    schema:description "Indicates an item that this item is part of." ;
+    schema:name "is part of" ;
+.
+
+schema:keywords
+    a rdf:Property ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    skos:usageNote "You SHOULD indicate Concepts from a SKOS Concept Scheme but literal tage MAY be used" ;
+    schema:description "Keywords or tags used to describe some item." ;
+    schema:name "keywords" ;
+.
+
+schema:name
+    a owl:DatatypeProperty ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "The name of the item." ;
+    schema:name "name" ;
+.
+
+schema:spatial
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "Indicates spatiality" ;
+    schema:name "spatial" ;
+.
+
+schema:temporal
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "Indicates temporality" ;
+    schema:name "temporal" ;
+.
+
+prov:Agent
+    a owl:Class ;
+    rdfs:isDefinedBy prov: ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from PROV-O" ;
+    schema:description "" ;
+    schema:name "Agent" ;
+.
+
+prov:Role
+    a owl:Class ;
+    rdfs:isDefinedBy prov: ;
+    skos:example "See example for schema:Project" ;
+    skos:historyNote "Taken unchanged from PROV-O" ;
+    schema:description "" ;
+    schema:name "Role" ;
 .
