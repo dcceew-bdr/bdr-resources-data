@@ -5,11 +5,13 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-from rdflib import BNode, Graph, Literal, URIRef
+from rdflib import BNode, Graph, Literal, URIRef, RDF, RDFS
 import convert
 from verify import require_equivalent
 
 LICENSE = "http://creativecommons.org/licenses/by/3.0/"
+PUBLISHED_LICENSE = "http://purl.org/NET/rdflicense/cc-by4.0"
+DATASET = URIRef("https://linked.data.gov.au/dataset/apni-common-names")
 
 def row(common_id, common, scientific_id, scientific):
     return {
@@ -92,6 +94,63 @@ class InputTests(unittest.TestCase):
                 (root / "inputs/extra.json").write_text("{}")
                 with self.assertRaisesRegex(ValueError, "list changed"):
                     convert.verify_inputs()
+
+
+class PublicationTests(unittest.TestCase):
+    def test_source_and_publication_licences_are_validated_independently(self):
+        source = row(1, "Common", 10, "Species A")
+        graph, _ = convert.build_lookup([source], LICENSE)
+        metadata = Graph()
+        metadata.add((DATASET, convert.SCHEMA.license, URIRef(PUBLISHED_LICENSE)))
+        manifest = {"dataset_iri": str(DATASET), "source_license": LICENSE,
+                    "dataset_license": PUBLISHED_LICENSE}
+        convert.add_dataset_metadata(graph, metadata, manifest)
+        self.assertEqual(source["license"], LICENSE)
+        self.assertEqual(set(graph.objects(DATASET, convert.SCHEMA.license)),
+                         {URIRef(PUBLISHED_LICENSE)})
+        metadata.set((DATASET, convert.SCHEMA.license, URIRef(LICENSE)))
+        with self.assertRaisesRegex(ValueError, "publication licence"):
+            convert.add_dataset_metadata(Graph(), metadata, manifest)
+        with self.assertRaisesRegex(ValueError, "source licence"):
+            convert.build_lookup([source], PUBLISHED_LICENSE)
+
+    def test_published_uuid_is_preserved_for_a_quoted_common_name(self):
+        source = row(1, 'Common, "quoted" name', 10, "Species A")
+        statement = str(DATASET) + "/0001346f-e401-4419-a64f-438dd5f0f917"
+        with tempfile.TemporaryDirectory() as directory:
+            import csv
+            path = Path(directory) / "identities.csv"
+            with path.open("w", newline="") as stream:
+                writer = csv.writer(stream)
+                writer.writerow(["scientific_name_id", "common_name", "statement_id"])
+                writer.writerow([source["scientific_name_id"], source["common_name"], statement])
+            identities = convert.read_statement_ids(path, DATASET)
+            graph, _ = convert.build_lookup([source], LICENSE)
+            convert.add_statement_members(graph, identities, DATASET)
+            self.assertIn((DATASET, RDFS.member, URIRef(statement)), graph)
+            self.assertIn((URIRef(statement), RDF.object, Literal(source["common_name"])), graph)
+            self.assertEqual(len(graph), 7)
+            convert.validate_source_coverage(graph, [source])
+            convert.validate_graph(graph, {"statement_members": 1, "reified_statements": 1,
+                                           "invalid_statement_members": 0})
+            second, _ = convert.build_lookup([source], LICENSE)
+            convert.add_statement_members(second, identities, DATASET)
+            require_equivalent(graph, second)
+
+    def test_missing_or_extra_statement_identities_are_rejected(self):
+        graph, _ = convert.build_lookup([row(1, "Common", 10, "Species A")], LICENSE)
+        with self.assertRaisesRegex(ValueError, "exactly cover"):
+            convert.add_statement_members(graph, {}, DATASET)
+        wrong = {(URIRef("https://id.biodiversity.org.au/name/apni/11"), Literal("Common")):
+                 URIRef(str(DATASET) + "/0001346f-e401-4419-a64f-438dd5f0f917")}
+        with self.assertRaisesRegex(ValueError, "exactly cover"):
+            convert.add_statement_members(graph, wrong, DATASET)
+
+    def test_malformed_statement_members_are_detected(self):
+        graph, _ = convert.build_lookup([row(1, "Common", 10, "Species A")], LICENSE)
+        graph.add((DATASET, RDFS.member, URIRef("urn:broken:member")))
+        with self.assertRaisesRegex(ValueError, "invalid_statement_members"):
+            convert.validate_graph(graph, {"invalid_statement_members": 0})
 
 if __name__ == "__main__":
     unittest.main()

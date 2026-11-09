@@ -2,7 +2,6 @@
   "snapshot_date": "2026-10-30",
   "dataset_iri": "https://linked.data.gov.au/dataset/apni-common-names",
   "csv": "inputs/APNI-common-names-2026-10-30-5314.csv",
-  "license": "http://creativecommons.org/licenses/by/3.0/",
   "files": [
     {
       "path": "inputs/APNI-common-names-2026-10-30-5314.csv",
@@ -10,6 +9,15 @@
       "bytes": 25115794,
       "source_url": "https://biodiversity.org.au/nsl/services/export/index",
       "retrieved": "2026-10-30"
+    },
+    {
+      "path": "inputs/published-statement-ids.csv",
+      "sha256": "9ce8f2a662a1e735c4f25e57017ac656ce450df37ebe8c0ea6339c32a626270e",
+      "bytes": 5708314,
+      "source_url": "https://github.com/dcceew-bdr/bdr-resources-data/blob/a2031a4b05257762649e6105c34bf2c6c0383481/resources/datasets/items/apni-common-names.ttl",
+      "extracted": "2026-11-09",
+      "source_artifact_sha256": "5599b7f99f743179f881fe8cfd0a31800504dcec26a60e3332675ce7724f980d",
+      "purpose": "Preserve the published version 3 statement UUIDs without reading generated output during regeneration"
     }
   ],
   "expected": {
@@ -20,7 +28,8 @@
     "distinct_name_id_pairs": 37165,
     "lookup_pairs": 37160,
     "mapping_triples": 54364,
-    "triples": 71583
+    "triples": 240178,
+    "statement_members": 37160
   },
   "structural_checks": {
     "scientific_names": 17204,
@@ -28,6 +37,12 @@
     "lookups_without_scientific_name": 0,
     "conflicting_scientific_labels": 0,
     "nsl_relationship_triples": 0,
-    "anonymous_node_triples": 0
-  }
+    "anonymous_node_triples": 0,
+    "statement_members": 37160,
+    "reified_statements": 37160,
+    "invalid_statement_members": 0
+  },
+  "source_license": "http://creativecommons.org/licenses/by/3.0/",
+  "dataset_license": "http://purl.org/NET/rdflicense/cc-by4.0",
+  "statement_ids": "inputs/published-statement-ids.csv"
 }

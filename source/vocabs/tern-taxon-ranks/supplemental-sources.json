@@ -1,0 +1,11 @@
+{
+  "concept": "http://rs.gbif.org/vocabulary/gbif/rank/subkingdom",
+  "identifier_source": "https://rs.gbif.org/vocabulary/gbif/rank.xml",
+  "resolved_concept_document": "https://rs.gbif.org/vocabulary/gbif/rank_2015-04-24.xml",
+  "snapshot": "snapshots/gbif-rank-2026-11-09.xml",
+  "sha256": "e89cecdd8c7e448cde74fcc8caa46a096d8b310d26e3678d7573e4030ba15648",
+  "definition_source": "https://www.iapt-taxon.org/nomen/pages/main/art_4.html",
+  "definition_citation": "ICN Article 4.2; BDR paraphrase of the rank sequence, not a GBIF-supplied definition.",
+  "replaces": "http://example.com/subkingdom",
+  "decision": "Use the GBIF concept directly. A future TERN concept does not automatically replace this identifier; review any equivalence explicitly."
+}
