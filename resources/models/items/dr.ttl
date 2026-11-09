@@ -5,25 +5,130 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX time: <http://www.w3.org/2006/time#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/bdr-pr/dr/1.1> schema:name "1.1" .
+:1.2
+    schema:name "1.2" ;
+.
+
+:embargoPeriod
+    a owl:DatatypeProperty ;
+    rdfs:domain schema:Dataset ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:range time:Duration ;
+    skos:example """PREFIX : <http://example.com/thing/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dr: <https://linked.data.gov.au/def/bdr-pr/dr/>
+PREFIX schema: <https://schema.org/>
+PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Dataset X is embargoed for a period of 3 months, calculated to start
+# from the issued date.
+# The calculation is defined by a business rule which is not
+# able to be expressed in RDF
+
+:dataset-x
+    a tern:Dataset ;
+    schema:name "Dataset X" ;
+    dcterms:issued "2023-12-25"^^xsd:date ;
+    dr:embargoPeriod [
+        a time:DurationDescription ;
+        time:months 3 ;
+    ] ;
+    # ... other dataset properties
+.""" ;
+    skos:scopeNote "This predicate can only be used if the start of the embargo period’s duration can be established by a business or system rule. If it cannot, use embargoed until instead, with a fixed date." ;
+    schema:description "A temporal duration within which the object is embargoed" ;
+    schema:name "embargoed until" ;
+.
+
+:embargoedUntil
+    a owl:DatatypeProperty ;
+    rdfs:domain schema:Dataset ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:range xsd:date ;
+    skos:example """PREFIX : <http://example.com/thing/>
+PREFIX dr: <https://linked.data.gov.au/def/bdr-pr/dr/>
+PREFIX schema: <https://schema.org/>
+PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+# Dataset X is embargoed until the 5th of May, 2024
+:dataset-x
+    a tern:Dataset ;
+    schema:name "Dataset X" ;
+    dr:embargoedUntil "2024-05-11"^^xsd:date ;
+    # ... other dataset properties
+.
+
+# Dataset Y is embargoed until 2025
+:dataset-y
+    a tern:Dataset ;
+    schema:name "Dataset Y" ;
+    dr:embargoedUntil "2025-01-01"^^xsd:date ;
+    # ... other dataset properties
+.
+""" ;
+    skos:scopeNote "The embargo period is understood to cease on the time instance of the start of the object value, e.g. at 00:00:00 (midnight) of a given date, or midnight of the first day of a given month." ;
+    schema:description "A date after which the is no longer embargoed" ;
+    schema:name "embargoed until" ;
+.
+
+xsd:date
+    a owl:DatatypeProperty ;
+    rdfs:isDefinedBy xsd: ;
+    rdfs:range prov:Agent ;
+    skos:example "See examples for embargoed until and embargo period" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "References an prov:Agent which influenced a resource." ;
+    schema:name "agent" ;
+.
+
+time:Duration
+    a owl:Class ;
+    rdfs:isDefinedBy skos: ;
+    skos:example "See examples for embargoed until and embargo period" ;
+    skos:historyNote "Taken unchanged from Time Ontology in OWL" ;
+    schema:description "Duration of a temporal extent expressed as a decimal number scaled by a temporal unit" ;
+    schema:name "Duration" ;
+.
 
 ont:
     a owl:Ontology ;
-    owl:versionIRI <https://linked.data.gov.au/def/bdr-pr/dr/1.1> ;
+    rdfs:member
+        xsd:date ,
+        time:Duration ,
+        :embargoPeriod ,
+        :embargoedUntil ,
+        schema:Dataset ;
+    owl:versionIRI :1.2 ;
+    skos:historyNote """1.2 2026-11: added all members for catalogue showing
+
+1.1 2025-07 - Moved from ABIS to BDR Profile, simplification to use schema.org Project
+
+1.0 2024-10 - First release""" ;
     schema:codeRepository "https://github.com/dcceew-bdr/bdr-pr/"^^xsd:anyURI ;
     schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2023-10-15"^^xsd:date ;
-    schema:dateModified "2025-07-28"^^xsd:date ;
     schema:dateIssued "2023-12-28"^^xsd:date ;
-    schema:description """This model is for describing aspects of data release: to whom, under what circumstances and when data may be released""" ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
+    schema:description "This model is for describing aspects of data release: to whom, under what circumstances and when data may be released" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Data Release Model" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "1.1" ;
-    skos:historyNote """1.1 - 2025 July - Moved from ABIS to BDR Profile, simplification to use schema.org Project
+    schema:version "1.2" ;
+.
 
-1.0 - 2023 Oct - First release""" ;
+schema:Dataset
+    a owl:Class ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See examples for embargoed until and embargo period" ;
+    skos:historyNote "Taken unchanged from schema.org" ;
+    schema:description "A body of structured information describing some topic(s) of interest" ;
+    schema:name "Dataset" ;
 .

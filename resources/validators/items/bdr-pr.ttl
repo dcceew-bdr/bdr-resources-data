@@ -127,9 +127,9 @@ drv:shape-04
     sh:property
         [
             sh:maxCount 1 ;
-            sh:message "If a Project indicates a qualified association, the indicated object must further indicate a Role for that association with the prov:role predicate" ;
+            sh:message "If a Project indicates a qualified association, the indicated object must further indicate a Role for that association with the prov:hadRole predicate" ;
             sh:minCount 1 ;
-            sh:path prov:role ;
+            sh:path prov:hadRole ;
         ] ;
     sh:targetObjectsOf prov:qualifiedAssociation ;
     schema:description "Project indicating qualified association indicates role with prov:Agent" ;

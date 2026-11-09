@@ -31,7 +31,7 @@ skos:Concept
 
 time:TemporalEntity
     a owl:Class ;
-    rdfs:isDefinedBy skos: ;
+    rdfs:isDefinedBy time: ;
     skos:example "See example for schema:Project" ;
     skos:historyNote "Taken unchanged from Time Ontology in OWL" ;
     schema:description "" ;
@@ -40,7 +40,7 @@ time:TemporalEntity
 
 prov:agent
     a owl:ObjectProperty ;
-    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:isDefinedBy prov: ;
     rdfs:range prov:Agent ;
     skos:example "See example for schema:Project" ;
     skos:historyNote "Taken unchanged from schema.org" ;
@@ -51,7 +51,7 @@ prov:agent
 prov:generated
     a owl:ObjectProperty ;
     rdfs:domain prov:Activity ;
-    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:isDefinedBy prov: ;
     rdfs:range prov:Entity ;
     skos:example "See example for schema:Project" ;
     skos:historyNote "Taken unchanged from schema.org" ;
@@ -62,7 +62,7 @@ prov:generated
 prov:hadRole
     a owl:ObjectProperty ;
     rdfs:domain prov:Association ;
-    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:isDefinedBy prov: ;
     rdfs:range prov:Role ;
     skos:example "See example for schema:Project" ;
     skos:historyNote "Taken unchanged from schema.org" ;
@@ -73,7 +73,7 @@ prov:hadRole
 prov:qualifiedAssociation
     a owl:ObjectProperty ;
     rdfs:domain prov:Association ;
-    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:isDefinedBy prov: ;
     rdfs:range prov:Activity ;
     skos:example "See example for schema:Project" ;
     skos:historyNote "Taken unchanged from schema.org" ;

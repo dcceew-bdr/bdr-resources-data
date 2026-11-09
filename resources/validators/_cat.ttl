@@ -13,6 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/abis/validator> ,
         <https://linked.data.gov.au/def/bdr-pr/cats/validator> ,
         <https://linked.data.gov.au/def/bdr-pr/dr/validator> ,
+        <https://linked.data.gov.au/def/bdr-pr/sm/validator> ,
         <https://linked.data.gov.au/def/bdr-pr/validator> ,
         <https://linked.data.gov.au/def/ontpub/validator> ,
         <https://linked.data.gov.au/def/sosa-validator> ,
@@ -27,7 +28,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "SHACL validators used by the Biodiversity Data Repository" ;
     schema:name "Validators Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "6" ;
+    schema:version "7" ;
 .
 
 <http://www.opengis.net/def/geosparql/validator>

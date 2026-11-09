@@ -1,33 +1,269 @@
 PREFIX : <https://linked.data.gov.au/def/nsl/>
+PREFIX biro: <http://purl.org/spar/biro/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX cn: <https://linked.data.gov.au/def/cn/>
 PREFIX ont: <https://linked.data.gov.au/def/nsl>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+cito:isCitedBy
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy <http://purl.org/spar/cito> ;
+    owl:inverseOf cito:cites ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from CiTO." ;
+    schema:description "Links a cited entity to an entity citing it." ;
+    schema:name "is cited by" ;
+.
+
+prov:agent
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy prov: ;
+    rdfs:range prov:Agent ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from PROV-O." ;
+    skos:scopeNote "Used on prov:Attribution instances in this model." ;
+    schema:description "Identifies the agent responsible in an influence relationship." ;
+    schema:name "agent" ;
+.
+
+prov:hadRole
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy prov: ;
+    rdfs:range prov:Role ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from PROV-O." ;
+    skos:scopeNote "Used on prov:Attribution instances in this model." ;
+    schema:description "Identifies the function performed by an entity or agent." ;
+    schema:name "had role" ;
+.
+
+prov:qualifiedAttribution
+    a owl:ObjectProperty ;
+    rdfs:domain prov:Entity ;
+    rdfs:isDefinedBy prov: ;
+    rdfs:range prov:Attribution ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from PROV-O." ;
+    schema:description "Links an entity to an attribution identifying a responsible agent and role." ;
+    schema:name "qualified attribution" ;
+.
+
+cn:isNameFor
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy ont: ;
+    owl:inverseOf schema:name ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Defined in the NSL specification using the Compound Naming namespace." ;
+    schema:description "Links a name to the item it names." ;
+    schema:name "is name for" ;
+.
+
+:3
+    schema:name "3" ;
+.
+
+:Taxon
+    a owl:Class ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:subClassOf rdfs:Resource ;
+    owl:equivalentClass <https://w3id.org/tern/ontologies/tern/Taxon> ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Based on the OBI definition of Organism." ;
+    schema:description "A taxonomic grouping of organisms treated as a homogeneous unit." ;
+    schema:name "Taxon" ;
+.
+
+:TaxonName
+    a owl:Class ;
+    rdfs:isDefinedBy ont: ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Defined by the NSL team." ;
+    schema:description "A name assigned to a taxon by people at a particular time." ;
+    schema:name "Taxon Name" ;
+.
+
+:cited
+    a owl:ObjectProperty ;
+    rdfs:domain :Usage ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:range rdfs:Resource ;
+    owl:equivalentProperty cito:hasCitedEntity ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Renamed from CiTO hasCitedEntity." ;
+    schema:description "Links a usage to its cited entity." ;
+    schema:name "cited" ;
+.
+
+:citing
+    a owl:ObjectProperty ;
+    rdfs:domain :Usage ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:range rdfs:Resource ;
+    owl:equivalentProperty cito:hasCitingEntity ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Renamed from CiTO hasCitingEntity." ;
+    schema:description "Links a usage to its citing entity." ;
+    schema:name "citing" ;
+.
+
+<https://linked.data.gov.au/org/kurrawongai>
+    a schema:Organization ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai/"^^xsd:anyURI ;
+.
+
+schema:CreativeWork
+    a owl:Class ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    rdfs:subClassOf rdfs:Resource ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from schema.org." ;
+    schema:description "A creative product, including a publication, image or software." ;
+    schema:name "Creative Work" ;
+.
+
+cito:Citation
+    a owl:Class ;
+    rdfs:isDefinedBy <http://purl.org/spar/cito> ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from CiTO through the Usage subclass." ;
+    skos:scopeNote "Use :Usage rather than this class directly." ;
+    schema:description "A directed conceptual link between a citing entity and a cited entity." ;
+    schema:name "Citation" ;
+.
+
+cito:cites
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy <http://purl.org/spar/cito> ;
+    owl:equivalentProperty schema:citation ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from CiTO." ;
+    skos:scopeNote "Provides a shortcut between citing and cited entities." ;
+    schema:description "Links an entity to an entity it cites." ;
+    schema:name "cites" ;
+.
+
+prov:Agent
+    a owl:Class ;
+    rdfs:isDefinedBy prov: ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from PROV-O." ;
+    skos:scopeNote "Use schema:Person or schema:Organization for specific agents." ;
+    schema:description "An entity bearing responsibility for an activity or entity." ;
+    schema:name "Agent" ;
+.
+
+schema:citation
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from schema.org." ;
+    skos:scopeNote "Provides a shortcut between citing and cited entities." ;
+    schema:description "References another creative work." ;
+    schema:name "citation" ;
+.
+
+schema:name
+    a rdf:Property ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from schema.org; names may be literals or named resources." ;
+    schema:description "A name identifying an item." ;
+    schema:name "name" ;
+.
+
+:Usage
+    a owl:Class ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:subClassOf
+        biro:BibliographicReference ,
+        cito:Citation ;
+    skos:example """PREFIX ex: <https://example.com/>
+PREFIX nsl: <https://linked.data.gov.au/def/nsl/>
+PREFIX cn: <https://linked.data.gov.au/def/cn/>
+PREFIX schema: <https://schema.org/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX cito: <http://purl.org/spar/cito/>
+
+ex:taxon a nsl:Taxon ; schema:name ex:name .
+ex:name a nsl:TaxonName ; cn:isNameFor ex:taxon ;
+    schema:name "Example taxon name" ;
+    cito:cites ex:publication ; schema:citation ex:publication .
+ex:usage a nsl:Usage ; nsl:citing ex:name ; nsl:cited ex:publication .
+ex:publication a schema:CreativeWork ; schema:name "Example publication" ;
+    cito:isCitedBy ex:name ;
+    prov:qualifiedAttribution [
+        a prov:Attribution ; prov:agent ex:author ; prov:hadRole ex:authorRole
+    ] .
+ex:author a schema:Person, prov:Agent ; schema:name "Example author" .
+ex:authorRole a prov:Role .
+""" ;
+    skos:historyNote "Defined by the NSL team." ;
+    schema:description "An occurrence of an entity being used through citation." ;
+    schema:name "Taxon Name Usage" ;
+.
+
+<https://linked.data.gov.au/org/canbr>
+    a schema:Organization ;
+    schema:name "Centre for Australian National Biodiversity Research" ;
+    schema:url "https://www.anbg.gov.au/cpbr/"^^xsd:anyURI ;
+.
+
+rdfs:Resource
+    a owl:Class ;
+    rdfs:isDefinedBy rdfs: ;
+    skos:example "See example for :Usage" ;
+    skos:historyNote "Reused from RDFS." ;
+    skos:scopeNote "Use specialised classes rather than this class directly." ;
+    schema:description "Anything represented as a resource." ;
+    schema:name "Resource" ;
+.
+
 ont:
     a owl:Ontology ;
-    owl:versionIRI :1 ;
-    skos:historyNote "Created in 2024 to enable a Semantic Web representation of the NSL primarily for use with the BDR" ;
+    rdfs:member
+        cito:Citation ,
+        cito:cites ,
+        cito:isCitedBy ,
+        rdfs:Resource ,
+        prov:Agent ,
+        prov:agent ,
+        prov:hadRole ,
+        prov:qualifiedAttribution ,
+        cn:isNameFor ,
+        :Taxon ,
+        :TaxonName ,
+        :Usage ,
+        :cited ,
+        :citing ,
+        schema:CreativeWork ,
+        schema:citation ,
+        schema:name ;
+    rdfs:seeAlso <https://dcceew-bdr.github.io/nsl-model/spec.html> ;
+    owl:versionIRI :3 ;
+    skos:historyNote """3 - 2026 Nov - Added model elements from the NSL specification for catalogue display.
+
+Created in 2024 to enable a Semantic Web representation of the NSL primarily for use with the BDR""" ;
     prov:qualifiedAttribution
         [
             prov:agent <https://linked.data.gov.au/org/kurrawongai> ;
-            prov:role <http://def.isotc211.org/CI/RoleCode/contributor> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/contributor> ;
         ] ;
-    schema:codeRepository "https://github.com/kurrawong/nsl-model/"^^xsd:anyURI ;
+    schema:codeRepository "https://github.com/dcceew-bdr/nsl-model/"^^xsd:anyURI ;
     schema:copyrightHolder <https://linked.data.gov.au/org/canbr> ;
     schema:creator <https://linked.data.gov.au/org/canbr> ;
     schema:dateCreated "2023-10-15"^^xsd:date ;
     schema:dateIssued "2024-12-31"^^xsd:date ;
-    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:description "A Semantic Web expression of the data structure of the content of the National Species List." ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "National Species List Model"@en ;
     schema:publisher <https://linked.data.gov.au/org/canbr> ;
-    schema:version 2 ;
-.
-
-:2
-    schema:name "2" ;
+    schema:version 3 ;
 .

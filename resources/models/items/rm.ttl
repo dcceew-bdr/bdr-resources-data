@@ -34,7 +34,7 @@ ont:
     prov:qualifiedAttribution
         [
             prov:agent <https://linked.data.gov.au/org/ausbigg> ;
-            prov:role <http://def.isotc211.org/CI/RoleCode/owner> ;
+            prov:hadRole <https://def.isotc211.org/codeset/RoleCode/owner> ;
         ] ;
     schema:codeRepository "https://github.com/ausbigg/abis/"^^xsd:anyURI ;
     schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;

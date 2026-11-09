@@ -1,31 +1,149 @@
 PREFIX : <https://linked.data.gov.au/def/bdr-pr/sm/>
 PREFIX ont: <https://linked.data.gov.au/def/bdr-pr/sm>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/bdr-pr/sm/1.1> schema:name "1.1" .
+skos:inScheme
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy skos: ;
+    skos:example "See example for :SubmissionManifest" ;
+    skos:historyNote "Reused from SKOS." ;
+    skos:scopeNote "Use on the role indicated by prof:hasRole to identify the Submission Manifest Resource Roles vocabulary." ;
+    schema:description "Relates a resource to its concept scheme." ;
+    schema:name "in scheme" ;
+.
+
+prof:hasArtifact
+    a owl:DatatypeProperty ;
+    rdfs:domain prof:ResourceDescriptor ;
+    rdfs:isDefinedBy prof: ;
+    rdfs:range xsd:string ;
+    skos:example "See example for :SubmissionManifest" ;
+    skos:historyNote "Adapted from the Profiles Vocabulary to use string file paths in submission manifests." ;
+    skos:scopeNote "File paths may identify multiple files." ;
+    schema:description "Identifies the file described by a resource descriptor." ;
+    schema:name "has artifact" ;
+.
+
+prof:hasResource
+    a owl:ObjectProperty ;
+    rdfs:isDefinedBy prof: ;
+    rdfs:range prof:ResourceDescriptor ;
+    skos:example "See example for :SubmissionManifest" ;
+    skos:historyNote "Reused from the Profiles Vocabulary." ;
+    skos:scopeNote "Use the submission manifest as the subject." ;
+    schema:description "Links to a descriptor of an artifact and its role." ;
+    schema:name "has resource" ;
+.
+
+prof:hasRole
+    a owl:ObjectProperty ;
+    rdfs:domain prof:ResourceDescriptor ;
+    rdfs:isDefinedBy prof: ;
+    skos:example "See example for :SubmissionManifest" ;
+    skos:historyNote "Reused from the Profiles Vocabulary." ;
+    skos:scopeNote "Select a role from the Submission Manifest Resource Roles vocabulary." ;
+    schema:description "Indicates the resource's function within the profile." ;
+    schema:name "has role" ;
+.
+
+sh:conformsToShapesGraph
+    a owl:ObjectProperty ;
+    rdfs:domain sh:DataGraph ;
+    rdfs:isDefinedBy sh: ;
+    rdfs:range sh:ShapesGraph ;
+    rdfs:seeAlso <https://w3c.github.io/data-shapes/shacl12-profiling/#prop-conformstoshapesgraph> ;
+    skos:example "See example for :SubmissionManifest" ;
+    skos:historyNote "Reused from SHACL 1.2, as described in SHACL 1.2 Profiling." ;
+    skos:usageNote "Indicates unqualified conformance. Use validation provenance to record conformance at a particular time." ;
+    schema:description "Indicates that validation of the subject data graph against the object shapes graph produces no results at disallowed severity levels." ;
+    schema:name "conforms to shapes graph" ;
+.
+
+:1.2
+    schema:name "1.2" ;
+.
+
+:SubmissionManifest
+    a owl:Class ;
+    rdfs:isDefinedBy ont: ;
+    skos:example """PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sm: <https://linked.data.gov.au/def/bdr-pr/sm/>
+PREFIX smrr: <https://linked.data.gov.au/dataset/bdr/smrr/>
+PREFIX ex: <https://example.com/>
+
+ex:manifest
+    a sm:SubmissionManifest ;
+    prof:hasResource [
+        a prof:ResourceDescriptor ;
+        prof:hasArtifact "data.ttl" ;
+        prof:hasRole smrr:SufficientForValidation ;
+    ] ;
+.
+
+smrr:SufficientForValidation
+    skos:inScheme smrr: ;
+.
+
+<data.ttl>
+    sh:conformsToShapesGraph <https://linked.data.gov.au/def/bdr-pr/sm/validator> ;
+.
+""" ;
+    skos:historyNote "Created by the BDR Team in 2025 for processing submissions." ;
+    schema:description "An inventory of a BDR data submission's contents." ;
+    schema:name "Submission Manifest" ;
+.
 
 ont:
     a owl:Ontology ;
-    owl:versionIRI <https://linked.data.gov.au/def/bdr-pr/sm/1.1> ;
-    schema:codeRepository "https://github.com/dcceew-bdr/bdr-catalogues"^^xsd:anyURI ;
+    rdfs:member
+        skos:inScheme ,
+        prof:ResourceDescriptor ,
+        prof:hasArtifact ,
+        prof:hasResource ,
+        prof:hasRole ,
+        sh:conformsToShapesGraph ,
+        :SubmissionManifest ;
+    owl:versionIRI :1.2 ;
+    skos:historyNote """1.2 - 2026 Nov - Added model members and SHACL conformance property
+
+1.1 - 2025 Jul - Moved from ABIS to BDR Profile
+
+1.0 - 2025 Mar - First release""" ;
+    schema:codeRepository "https://github.com/dcceew-bdr/bdr-profile-of-abis/"^^xsd:anyURI ;
     schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
-    schema:copyrightYear "2025"^^xsd:gYear ;
     schema:copyrightNotice "© Department of Climate Change, Energy, the Environment and Water" ;
+    schema:copyrightYear "2025"^^xsd:gYear ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2025-02-15"^^xsd:date ;
-    schema:dateModified "2025-07-28"^^xsd:date ;
     schema:dateIssued "2025-03-01"^^xsd:date ;
-    schema:description """This model is for a manifest - a listing of contents - of data submissions to the Biodiversity Data Repository""" ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
+    schema:description "This model is for a manifest - a listing of contents - of data submissions to the Biodiversity Data Repository" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Submission Manifest Model" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "1.1" ;
-    skos:historyNote """1.1 - 2025 Jul - Moved from ABIS to BDR Profile
+    schema:version "1.2" ;
+.
 
-1.0 - 2025 Mar - First release""" ;
+<https://linked.data.gov.au/org/dcceew>
+    a schema:Organization ;
+    schema:name "Department of Climate Change, Energy, the Environment and Water" ;
+    schema:url "https://www.dcceew.gov.au/"^^xsd:anyURI ;
+.
+
+prof:ResourceDescriptor
+    a owl:Class ;
+    rdfs:isDefinedBy prof: ;
+    skos:example "See example for :SubmissionManifest" ;
+    skos:historyNote "Reused from the Profiles Vocabulary." ;
+    skos:scopeNote "The associated profile is the submission manifest." ;
+    schema:description "A resource describing one aspect of a profile." ;
+    schema:name "Resource Descriptor" ;
 .

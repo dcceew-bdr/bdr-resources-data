@@ -13,6 +13,7 @@ PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX time: <http://www.w3.org/2006/time#>
 PREFIX vann: <http://purl.org/vocab/vann/>
 PREFIX void: <http://rdfs.org/ns/void#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://datashapes.org/dash>
     schema:name "DASH Data Shapes Vocabulary" ;
@@ -108,6 +109,10 @@ dcterms:type
 
 <http://purl.org/linked-data/registry#status>
     schema:name "status"@en ;
+.
+
+<http://purl.org/spar/cito>
+    schema:name "The Citation Typing Ontology" ;
 .
 
 vann:preferredNamespacePrefix
@@ -306,6 +311,10 @@ rdfs:
     schema:name "RDFS Ontology" ;
 .
 
+xsd:
+    schema:name "XML Schema" ;
+.
+
 owl:
     schema:name "The OWL 2 Schema vocabulary (OWL 2)" ;
 .
@@ -466,6 +475,10 @@ skos:topConceptOf
     schema:name "is top concept in scheme" ;
 .
 
+time:
+    schema:name "Time Ontology in OWL" ;
+.
+
 time:DurationDescription
     schema:name "Duration description" ;
 .
@@ -568,6 +581,10 @@ dcat:distribution
 
 dcat:theme
     schema:name "theme" ;
+.
+
+prof:
+    schema:name "The Profiles Vocabulary" ;
 .
 
 prof:hasArtifact
