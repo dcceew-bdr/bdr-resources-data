@@ -85,10 +85,10 @@ This vocabulary was generated from application code used to convert CSV data to 
         <http://linked.data.gov.au/def/tern-cv/91ac9f1f-be73-40a0-b652-c06b289885e0> ,
         <http://linked.data.gov.au/def/tern-cv/936cbae5-5d16-4d98-89c9-315cc3f88f8d> ;
     skos:prefLabel "Sampling Effort Unit"@en ;
-    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:codeRepository <https://github.com/dcceew-bdr/bdr-resources-data/> ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2026-09-20"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
 .

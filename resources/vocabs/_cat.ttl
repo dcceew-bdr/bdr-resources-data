@@ -58,10 +58,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/nsl/tn-types> ,
         <https://linked.data.gov.au/def/nsl/tnu-types> ,
         <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0> ;
-    schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/" ;
+    schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/" ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2023"^^xsd:gYear ;
-    schema:dateModified "2026-11-07"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:description "Vocabularies used by the Biodiversity Data Repository" ;
     schema:name "Vocabularies Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;

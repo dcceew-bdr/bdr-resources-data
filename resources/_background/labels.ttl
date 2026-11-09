@@ -5,6 +5,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -301,6 +302,10 @@ rdf:value
     schema:name "value" ;
 .
 
+rdfs:
+    schema:name "RDFS Ontology" ;
+.
+
 owl:
     schema:name "The OWL 2 Schema vocabulary (OWL 2)" ;
 .
@@ -366,6 +371,10 @@ owl:versionInfo
 .
 
 <http://www.w3.org/2004/02/skos/core>
+    schema:name "SKOS Vocabulary" ;
+.
+
+skos:
     schema:name "SKOS Vocabulary" ;
 .
 
@@ -462,11 +471,11 @@ time:DurationDescription
 .
 
 time:TemporalEntity
-    schema:name "Temporal entity" ;
+    schema:name "Temporal Entity" ;
 .
 
 time:TimePosition
-    schema:name "Time position" ;
+    schema:name "Time Position" ;
 .
 
 time:hasBeginning
@@ -579,6 +588,10 @@ prov:Activity
 
 prov:Agent
     schema:name "Agent" ;
+.
+
+prov:Association
+    schema:name "Association" ;
 .
 
 prov:Entity
@@ -1031,6 +1044,10 @@ sosa:phenomenonTime
 
 sosa:usedProcedure
     schema:name "used procedure" ;
+.
+
+<https://linked.data.gov.au/def/abis>
+    schema:name "Australian Biodiversity Information Standard" ;
 .
 
 <https://linked.data.gov.au/def/bdr-pr/proj/validator>

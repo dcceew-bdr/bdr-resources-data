@@ -24,10 +24,10 @@ Proposed as narrower terms of https://linked.data.gov.au/dataset/bdr/bdr-cv/meth
 This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
     skos:hasTopConcept <http://linked.data.gov.au/def/tern-cv/fd083167-3cbf-4f7e-a611-4550a5926a8b> ;
     skos:prefLabel "Check Protocol"@en ;
-    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:codeRepository <https://github.com/dcceew-bdr/bdr-resources-data/> ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2026-09-20"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
 .

@@ -215,10 +215,10 @@ This vocabulary was generated from application code used to convert CSV data to 
         <http://linked.data.gov.au/def/tern-cv/e09b5da0-8a77-4b33-b051-a616a3ccf087> ,
         <http://linked.data.gov.au/def/tern-cv/f17e64f8-02c1-40c5-9ad2-51155c92e0a3> ;
     skos:prefLabel "Identification Qualifier"@en ;
-    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:codeRepository <https://github.com/dcceew-bdr/bdr-resources-data/> ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2026-09-20"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
 .

@@ -160,10 +160,10 @@ This vocabulary was generated from application code used to convert CSV data to 
         <http://linked.data.gov.au/def/tern-cv/e839f161-0b40-4294-8bcb-8c1eb2af13f9> ,
         <http://linked.data.gov.au/def/tern-cv/faaf7d96-fb87-4ce3-87b4-6d1aec4c4b3c> ;
     skos:prefLabel "Life Stage"@en ;
-    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:codeRepository <https://github.com/dcceew-bdr/bdr-resources-data/> ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2026-09-20"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
 .

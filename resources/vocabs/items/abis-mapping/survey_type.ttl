@@ -24,10 +24,10 @@ Proposed as narrower terms of https://linked.data.gov.au/dataset/bdr/bdr-cv/conc
 This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
     skos:hasTopConcept <https://linked.data.gov.au/def/nrm/054145e7-137d-50c5-a750-d85a47e81fad> ;
     skos:prefLabel "Survey Type"@en ;
-    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:codeRepository <https://github.com/dcceew-bdr/bdr-resources-data/> ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2026-09-20"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
 .

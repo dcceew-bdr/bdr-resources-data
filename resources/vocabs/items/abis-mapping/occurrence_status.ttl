@@ -35,10 +35,10 @@ This vocabulary was generated from application code used to convert CSV data to 
         <http://linked.data.gov.au/def/tern-cv/2ca99992-75ff-4b48-b426-ca86a0b5d40f> ,
         <http://linked.data.gov.au/def/tern-cv/a2fb93cd-ad72-4c15-b23b-14882c2418c2> ;
     skos:prefLabel "Occurrence Status"@en ;
-    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:codeRepository <https://github.com/dcceew-bdr/bdr-resources-data/> ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2026-09-20"^^xsd:date ;
-    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
 .

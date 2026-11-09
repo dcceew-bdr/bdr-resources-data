@@ -89,10 +89,10 @@ cs:
     skos:prefLabel "EPBC Threatened Species Categories"@en ;
     skos:scopeNote "This vocabulary is based on the threatened species categories defined in the EPBC Act 1999 and broadly aligns with the IUCN Red List Categories and Criteria."@en ;
     schema:citation "Chapter 5 Part 13 Division 1 Subdivision A  Clause 178 - Categories of threatened species, of the Environment Protection and Biodiversity Conservation Act 1999" ;
-    schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/"^^xsd:anyURI ;
+    schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2026-05-15"^^xsd:date ;
-    schema:dateModified "2026-09-02"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "3" ;

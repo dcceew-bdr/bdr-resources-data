@@ -602,10 +602,10 @@ This vocabulary was generated from application code used to convert CSV data to 
         <https://linked.data.gov.au/def/nrm/ffb1c491-bbb1-5823-ac03-0543f9a9627a> ;
     skos:historyNote "On 2026-09-28, 12 WildNet sampling protocol codes with confirmed canonical matches were published as skos:notation values. Each canonical concept was linked using dcterms:replaces to the non-canonical BDR IRI generated for that code by earlier submissions. The scheme description was corrected to refer to proposed membership of the TERN SKOS collection; see https://github.com/dcceew-bdr/bdr-ops/issues/285."@en ;
     skos:prefLabel "Sampling Protocol"@en ;
-    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:codeRepository <https://github.com/dcceew-bdr/bdr-resources-data/> ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2026-09-20"^^xsd:date ;
-    schema:dateModified "2026-09-28"^^xsd:date ;
+    schema:dateModified "2026-11-09"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
 .
