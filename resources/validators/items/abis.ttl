@@ -23,21 +23,21 @@ sg:
             schema:identifier "https://w3id.org/tern/shapes/tern/" ;
             schema:name "TERN Ontology Validator" ;
             schema:url
-                "file://tern.ttl" ,
+                "file://../non-valpub/tern.ttl" ,
                 "https://w3id.org/tern/shapes/tern/" ;
         ] ,
         [
             schema:identifier "https://linked.data.gov.au/def/sosa-validator" ;
             schema:name "SOSA Validator" ;
             schema:url
-                "file://sosa.ttl" ,
+                "file://../non-valpub/sosa.ttl" ,
                 "https://linked.data.gov.au/def/sosa-validator" ;
         ] ,
         [
             schema:identifier "http://www.opengis.net/def/geosparql/validator" ;
             schema:name "GeoSPARQL Validator" ;
             schema:url
-                "file://geo.ttl" ,
+                "file://../non-valpub/geo.ttl" ,
                 "http://www.opengis.net/def/geosparql/validator" ;
         ] ;
     owl:versionIRI :2 ;
