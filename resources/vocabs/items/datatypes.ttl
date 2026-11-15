@@ -1,54 +1,15 @@
-@prefix : <https://linked.data.gov.au/dataset/bdr/datatypes/> .
-@prefix cs: <https://linked.data.gov.au/dataset/bdr/datatypes> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <https://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX : <https://linked.data.gov.au/dataset/bdr/datatypes/>
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/datatypes>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:act-atlas a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/act-atlas> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for an ACT Wildlife Atlas record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "act-atlas recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/act-atlas> .
-
-:bdbsa a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/bdbsa> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for a Biodiversity Database of South Australia record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "bdbsa recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/bdbsa> .
-
-:birdlife a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/birdlife> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for an Australian Bird science and conservation Organization record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "birdlife recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/birdlife> .
-
-:csiro a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/CSIRO>,
-        <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/csiro> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for a CSIRO Environment record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "CSIRO recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/csiro-environment> .
-
-:MERITCreatorID a rdfs:Datatype,
+:MERITCreatorID
+    a
+        rdfs:Datatype ,
         skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "String literal type that represents the unique identifier for Person in the Creator role of a MERIT submission to the BDR."@en ;
@@ -56,9 +17,12 @@
     skos:inScheme cs: ;
     skos:prefLabel "MERITCreatorID"@en ;
     skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/tern> .
+    dcat:contactPoint <https://linked.data.gov.au/org/tern> ;
+.
 
-:MERITProjectID a rdfs:Datatype,
+:MERITProjectID
+    a
+        rdfs:Datatype ,
         skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "String literal type that represents the unique identifier for a Project in MERIT."@en ;
@@ -66,9 +30,185 @@
     skos:inScheme cs: ;
     skos:prefLabel "MERITProjectID"@en ;
     skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/tern> .
+    dcat:contactPoint <https://linked.data.gov.au/org/tern> ;
+.
 
-:MERITSampleID a rdfs:Datatype,
+:MonitorGitSHA1
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The GIT SHA hash of the version of the MONITOR application"@en ;
+    skos:historyNote "Defined by BDR admin for the ingestion of MONITOR data" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MONITOR Git SHA1 Hash"@en ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/merit> ;
+.
+
+:NSLRankCode
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:source "Australian National Species List rank codes, observed in BDR data. This is a BDR-defined datatype, not an NSL-issued rank concept."@en ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A string representing a taxonomic rank code recorded by the Australian National Species List, preserving its source spelling and nomenclatural-code qualifiers."@en ;
+    skos:historyNote "Defined by the BDR team to identify NSL rank codes used as SKOS notations in the taxonomic rank vocabulary proposal for bdr-ops issue 299."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSL rank code"@en ;
+    skos:scopeNote "Code strings are preserved verbatim, including case, whitespace and punctuation. This datatype identifies the source coding system; it does not establish an approved mapping to a taxonomic rank concept or restrict values to a particular BDR dataset snapshot."@en ;
+    skos:topConceptOf cs: ;
+    schema:dateCreated "2026-10-19"^^xsd:date ;
+.
+
+:NT-Atlas
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/NT-Atlas> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for a NT Fauna Atlas record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT Atlas recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/NT-Atlas> ;
+.
+
+:Qld-WildNet
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/Qld-WildNet> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for a WildNet platform record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Qld WildNet recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/qld-wildnet> ;
+.
+
+:WamNumber
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Western Australian Museum Number - a catalogue number issued by the WA Museum"@en ;
+    skos:historyNote "Defined by BDR admin as real datatype expected in data from WA but also as an example" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WAM Number"@en ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/wam> ;
+.
+
+:act-atlas
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/act-atlas> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for an ACT Wildlife Atlas record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "act-atlas recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/act-atlas> ;
+.
+
+:bdbsa
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/bdbsa> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for a Biodiversity Database of South Australia record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bdbsa recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/bdbsa> ;
+.
+
+:birdlife
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/birdlife> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for an Australian Bird science and conservation Organization record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "birdlife recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/birdlife> ;
+.
+
+:csiro
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces
+        <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/CSIRO> ,
+        <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/csiro> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for a CSIRO Environment record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "CSIRO recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/csiro-environment> ;
+.
+
+:nsw-bionet
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/nsw-bionet> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for a NSW BioNet record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "nsw-bionet recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/nsw-bionet> ;
+.
+
+:tas-nva
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/tas-nva> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for a Tasmanian Natural Values Atlas record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tas-nva recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/tas-nva> ;
+.
+
+:vic-deeca
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/vic-deeca> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for a Vic Department of Energy, Environment and Climate Action record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "vic-deeca recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/vic-deeca> ;
+.
+
+:wa-bio
+    a
+        rdfs:Datatype ,
+        skos:Concept ;
+    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/wa-bio> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An identifier for a Dandjoo biodiversity data platform record" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wa-bio recordID" ;
+    skos:topConceptOf cs: ;
+    dcat:contactPoint <https://linked.data.gov.au/org/wa-bio> ;
+.
+
+:MERITSampleID
+    a
+        rdfs:Datatype ,
         skos:Concept ;
     dcterms:replaces :MERITSampleID ;
     rdfs:isDefinedBy cs: ;
@@ -77,126 +217,37 @@
     skos:inScheme cs: ;
     skos:prefLabel "MERITSampleID"@en ;
     skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/tern> .
+    dcat:contactPoint <https://linked.data.gov.au/org/tern> ;
+.
 
-:MonitorGitSHA1 a rdfs:Datatype,
-        skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "The GIT SHA hash of the version of the MONITOR application"@en ;
-    skos:historyNote "Defined by BDR admin for the ingestion of MONITOR data" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "MONITOR Git SHA1 Hash"@en ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/merit> .
-
-:NSLRankCode a rdfs:Datatype,
-        skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "A string representing a taxonomic rank code recorded by the Australian National Species List, preserving its source spelling and nomenclatural-code qualifiers."@en ;
-    skos:scopeNote "Code strings are preserved verbatim, including case, whitespace and punctuation. This datatype identifies the source coding system; it does not establish an approved mapping to a taxonomic rank concept or restrict values to a particular BDR dataset snapshot."@en ;
-    skos:historyNote "Defined by the BDR team to identify NSL rank codes used as SKOS notations in the taxonomic rank vocabulary proposal for bdr-ops issue 299."@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "NSL rank code"@en ;
-    skos:topConceptOf cs: ;
-    dcterms:source "Australian National Species List rank codes, observed in BDR data. This is a BDR-defined datatype, not an NSL-issued rank concept."@en ;
-    schema:dateCreated "2026-10-19"^^xsd:date .
-
-:nsw-bionet a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/nsw-bionet> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for a NSW BioNet record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "nsw-bionet recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/nsw-bionet> .
-
-:NT-Atlas a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/NT-Atlas> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for a NT Fauna Atlas record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "NT Atlas recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/NT-Atlas> .
-
-:Qld-WildNet a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/Qld-WildNet> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for a WildNet platform record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Qld WildNet recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/qld-wildnet> .
-
-:tas-nva a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/tas-nva> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for a Tasmanian Natural Values Atlas record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "tas-nva recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/tas-nva> .
-
-:vic-deeca a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/vic-deeca> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for a Vic Department of Energy, Environment and Climate Action record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "vic-deeca recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/vic-deeca> .
-
-:wa-bio a rdfs:Datatype,
-        skos:Concept ;
-    dcterms:replaces <https://linked.data.gov.au/dataset/bdr/datatypes/recordID/wa-bio> ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "An identifier for a Dandjoo biodiversity data platform record" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "wa-bio recordID" ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/wa-bio> .
-
-:WamNumber a rdfs:Datatype,
-        skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Western Australian Museum Number - a catalogue number issued by the WA Museum"@en ;
-    skos:historyNote "Defined by BDR admin as real datatype expected in data from WA but also as an example" ;
-    skos:inScheme cs: ;
-    skos:prefLabel "WAM Number"@en ;
-    skos:topConceptOf cs: ;
-    dcat:contactPoint <https://linked.data.gov.au/org/wam> .
-
-cs: a skos:ConceptScheme ;
+cs:
+    a skos:ConceptScheme ;
     skos:definition "Literal datatypes defined for use within the Biodiversity Data Repository"@en ;
-    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
-    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     skos:hasTopConcept
-        :act-atlas ,
-        :bdbsa ,
-        :birdlife ,
-        :csiro ,
         :MERITCreatorID ,
         :MERITProjectID ,
         :MERITSampleID ,
         :MonitorGitSHA1 ,
         :NSLRankCode ,
-        :nsw-bionet ,
         :NT-Atlas ,
         :Qld-WildNet ,
+        :WamNumber ,
+        :act-atlas ,
+        :bdbsa ,
+        :birdlife ,
+        :csiro ,
+        :nsw-bionet ,
         :tas-nva ,
         :vic-deeca ,
-        :wa-bio ,
-        :WamNumber ;
+        :wa-bio ;
     skos:historyNote "This vocabulary was developed for the Biodiversity Data Repository and is live in that it grows with new data submissions that use define new datatypes" ;
     skos:prefLabel "BDR Datatypes"@en ;
-    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:creator
+        <https://linked.data.gov.au/org/bdr-team> ,
+        <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2024-07-09"^^xsd:date ;
     schema:dateModified "2026-10-19"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "3" .
+    schema:version "3" ;
+.
