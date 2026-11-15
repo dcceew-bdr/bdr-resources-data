@@ -124,6 +124,7 @@ ror:030c92375
     skos:topConceptOf cs: ;
     schema:name "KurrawongAI" ;
     schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+    schema:identifier "https://ror.org/0071fq917"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/abs>
@@ -265,6 +266,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:topConceptOf cs: ;
     schema:name "Australian Wildlife Conservancy" ;
     schema:url "https://www.australianwildlife.org"^^xsd:anyURI ;
+    schema:identifier "https://ror.org/04b3ehq94"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/awmm>
@@ -278,6 +280,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:topConceptOf cs: ;
     schema:name "Auckland War Memorial Museum" ;
     schema:url "https://www.aucklandmuseum.com"^^xsd:anyURI ;
+    schema:identifier "Auckland War Memorial Museum"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/baam>
@@ -337,6 +340,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:topConceptOf cs: ;
     schema:name "Bribie Island Environmental Protection Association Inc" ;
     schema:url "https://www.biepa.online"^^xsd:anyURI ;
+    schema:identifier "18064697900"^^xsd:ausbn ;
 .
 
 <https://linked.data.gov.au/org/birdlife>
@@ -352,6 +356,9 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:topConceptOf cs: ;
     schema:name "BirdLife Australia" ;
     schema:url "https://birdlife.org.au"^^xsd:anyURI ;
+    schema:identifier 
+        "https://ror.org/03fhpab87"^^xsd:id ,
+        "75149124774"^^xsd:ausbn ;
 .
 
 <https://linked.data.gov.au/org/canbr>
@@ -364,7 +371,9 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:prefLabel "Centre for Australian National Biodiversity Research"@en ;
     skos:topConceptOf cs: ;
     schema:name "Centre for Australian National Biodiversity Research" ;
-    schema:url "https://www.anbg.gov.au/cpbr"^^xsd:anyURI ;
+    schema:alternateName "Centre for Australian National Biodiversity Research and Australian National Herbarium"@en ;
+    schema:url "https://www.cpbr.gov.au/cpbr"^^xsd:anyURI ;
+    schema:identifier "https://ror.org/00n82gt57"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/cooloolacc>
@@ -379,6 +388,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:topConceptOf cs: ;
     schema:name "Cooloola Coastcare" ;
     schema:url "https://www.cooloolacoastcare.org.au"^^xsd:anyURI ;
+    schema:identifier "41112645288"^^id:ausbn ;
 .
 
 <https://linked.data.gov.au/org/csiro-environment>
@@ -406,7 +416,9 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:prefLabel "WA Department of Agriculture and Food"@en ;
     skos:topConceptOf cs: ;
     schema:name "WA Department of Agriculture and Food" ;
+    schema:alternateName "Department of Agriculture and Food Western Australia"@en ;
     schema:url "https://www.dpird.wa.gov.au"^^xsd:anyURI ;
+    schema:identifier "https://ror.org/02jq36h12"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/des>
@@ -414,12 +426,16 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "This Department was renamed the Department of Environment, Tourism, Science & Innovation in early 2025."@en ;
+    skos:historyNote "This Department was renamed the Department of Environment, Tourism, Science & Innovation in early 2025."@en ;
+    skos:definition "The Department of the Environment, Tourism, Science and Innovation (DETSI) is a department of the Queensland Government which is responsible for protecting the state's natural environment, developing the government's tourism, science and innovation strategy."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Qld Department of Environment and Science"@en ;
+    skos:prefLabel "Department of Environment, Tourism, Science & Innovation" ;
+    skos:altLabel "Qld Department of Environment and Science"@en ;
     skos:topConceptOf cs: ;
-    schema:name "Qld Department of Environment and Science" ;
+    schema:name "Department of Environment, Tourism, Science & Innovation" ;
+    schema:alternateName "Qld Department of Environment and Science" ;
     schema:url "https://www.detsi.qld.gov.au"^^xsd:anyURI ;
+    schema:identifier "https://ror.org/02wtcj248"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/ecosmartecology>
@@ -1621,7 +1637,7 @@ This vocabulary was initially developed for the Biodiversity Data Repository and
     skos:prefLabel "BDR Organizations"@en ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2024-07-09"^^xsd:date ;
-    schema:dateModified "2026-09-21"^^xsd:date ;
+    schema:dateModified "2026-11-13"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "2" ;

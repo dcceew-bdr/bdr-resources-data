@@ -258,26 +258,26 @@ sg:
             prof:hasArtifact <http://www.opengis.net/def/geosparql/validator> ;
             prof:hasRole profrole:validation ;
             schema:name "GeoSPARQL" ;
-            schema:url "file://geo.ttl" ;
+            schema:url "file://../non-valpub/geo.ttl" ;
         ] ,
         [
             prof:hasArtifact <https://linked.data.gov.au/def/sosa-validator> ;
             prof:hasRole profrole:validation ;
             schema:name "SOSA Validator" ;
-            schema:url "file://sosa.ttl" ;
+            schema:url "file://../non-valpub/sosa.ttl" ;
         ] ,
         [
             prof:hasArtifact <https://w3id.org/tern/shapes/tern/> ;
             prof:hasRole profrole:validation ;
             schema:name "TERN Ontology Shapes" ;
-            schema:url "file://tern.ttl" ;
+            schema:url "file://../non-valpub/tern.ttl" ;
         ] ;
     schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/"^^xsd:anyURI ;
     schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
     schema:copyrightNotice "(c) 2025 DCCEEW" ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2022-05-11"^^xsd:date ;
-    schema:dateModified "2026-11-09"^^xsd:date ;
+    schema:dateModified "2026-11-10"^^xsd:date ;
     schema:description "SHACL validator for the Biodiversity Data Repository (BDR)'s profile of Australian Biodiversity Information Standard (ABIS)" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "BDR Profile of ABIS Core Validator" ;
