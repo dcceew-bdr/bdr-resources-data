@@ -407,7 +407,7 @@ This vocabulary was generated from application code used to convert CSV data to 
         <http://rs.gbif.org/vocabulary/gbif/rank/subkingdom> ;
     skos:historyNote "The skos:exactMatch links from TERN concepts to GBIF rank concepts were copied unchanged from the reviewed BDR taxonomic rank scheme (https://linked.data.gov.au/dataset/bdr/taxonomic-rank), which retained them from TERN source records. No additional mappings were inferred by BDR in this update. The GBIF subkingdom concept is reused directly and has no self-mapping."@en ;
     skos:prefLabel "Taxon Rank"@en ;
-    schema:codeRepository <https://github.com/dcceew-bdr/bdr-resources-data/> ;
+    schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/bdr-team> ;
     schema:dateCreated "2026-09-20"^^xsd:date ;
     schema:dateModified "2026-11-09"^^xsd:date ;
