@@ -122,9 +122,9 @@ ror:030c92375
     skos:inScheme cs: ;
     skos:prefLabel "KurrawongAI"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "https://ror.org/0071fq917"^^id:ror ;
     schema:name "KurrawongAI" ;
     schema:url "https://kurrawong.ai"^^xsd:anyURI ;
-    schema:identifier "https://ror.org/0071fq917"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/abs>
@@ -264,9 +264,9 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:notation "36 068 572 556"^^id:ausbn ;
     skos:prefLabel "Australian Wildlife Conservancy"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "https://ror.org/04b3ehq94"^^id:ror ;
     schema:name "Australian Wildlife Conservancy" ;
     schema:url "https://www.australianwildlife.org"^^xsd:anyURI ;
-    schema:identifier "https://ror.org/04b3ehq94"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/awmm>
@@ -278,9 +278,9 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:inScheme cs: ;
     skos:prefLabel "Auckland War Memorial Museum"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "Auckland War Memorial Museum"^^xsd:id ;
     schema:name "Auckland War Memorial Museum" ;
     schema:url "https://www.aucklandmuseum.com"^^xsd:anyURI ;
-    schema:identifier "Auckland War Memorial Museum"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/baam>
@@ -338,9 +338,9 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:notation "18 064 697 900"^^id:ausbn ;
     skos:prefLabel "Bribie Island Environmental Protection Association Inc"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "18064697900"^^xsd:ausbn ;
     schema:name "Bribie Island Environmental Protection Association Inc" ;
     schema:url "https://www.biepa.online"^^xsd:anyURI ;
-    schema:identifier "18064697900"^^xsd:ausbn ;
 .
 
 <https://linked.data.gov.au/org/birdlife>
@@ -354,11 +354,11 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:notation "75 149 124 774"^^id:ausbn ;
     skos:prefLabel "BirdLife Australia"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier
+        "https://ror.org/03fhpab87"^^id:ror ,
+        "75149124774"^^xsd:ausbn ;
     schema:name "BirdLife Australia" ;
     schema:url "https://birdlife.org.au"^^xsd:anyURI ;
-    schema:identifier 
-        "https://ror.org/03fhpab87"^^xsd:id ,
-        "75149124774"^^xsd:ausbn ;
 .
 
 <https://linked.data.gov.au/org/canbr>
@@ -370,10 +370,10 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:inScheme cs: ;
     skos:prefLabel "Centre for Australian National Biodiversity Research"@en ;
     skos:topConceptOf cs: ;
-    schema:name "Centre for Australian National Biodiversity Research" ;
     schema:alternateName "Centre for Australian National Biodiversity Research and Australian National Herbarium"@en ;
+    schema:identifier "https://ror.org/00n82gt57"^^id:ror ;
+    schema:name "Centre for Australian National Biodiversity Research" ;
     schema:url "https://www.cpbr.gov.au/cpbr"^^xsd:anyURI ;
-    schema:identifier "https://ror.org/00n82gt57"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/cooloolacc>
@@ -386,9 +386,9 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:notation "41 112 645 288"^^id:ausbn ;
     skos:prefLabel "Cooloola Coastcare"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "41112645288"^^id:ausbn ;
     schema:name "Cooloola Coastcare" ;
     schema:url "https://www.cooloolacoastcare.org.au"^^xsd:anyURI ;
-    schema:identifier "41112645288"^^id:ausbn ;
 .
 
 <https://linked.data.gov.au/org/csiro-environment>
@@ -415,10 +415,10 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
     skos:inScheme cs: ;
     skos:prefLabel "WA Department of Agriculture and Food"@en ;
     skos:topConceptOf cs: ;
-    schema:name "WA Department of Agriculture and Food" ;
     schema:alternateName "Department of Agriculture and Food Western Australia"@en ;
+    schema:identifier "https://ror.org/02jq36h12"^^id:ror ;
+    schema:name "WA Department of Agriculture and Food" ;
     schema:url "https://www.dpird.wa.gov.au"^^xsd:anyURI ;
-    schema:identifier "https://ror.org/02jq36h12"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/des>
@@ -426,16 +426,16 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:historyNote "This Department was renamed the Department of Environment, Tourism, Science & Innovation in early 2025."@en ;
+    skos:altLabel "Qld Department of Environment and Science"@en ;
     skos:definition "The Department of the Environment, Tourism, Science and Innovation (DETSI) is a department of the Queensland Government which is responsible for protecting the state's natural environment, developing the government's tourism, science and innovation strategy."@en ;
+    skos:historyNote "This Department was renamed the Department of Environment, Tourism, Science & Innovation in early 2025."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Department of Environment, Tourism, Science & Innovation" ;
-    skos:altLabel "Qld Department of Environment and Science"@en ;
     skos:topConceptOf cs: ;
-    schema:name "Department of Environment, Tourism, Science & Innovation" ;
     schema:alternateName "Qld Department of Environment and Science" ;
+    schema:identifier "https://ror.org/02wtcj248"^^id:ror ;
+    schema:name "Department of Environment, Tourism, Science & Innovation" ;
     schema:url "https://www.detsi.qld.gov.au"^^xsd:anyURI ;
-    schema:identifier "https://ror.org/02wtcj248"^^xsd:id ;
 .
 
 <https://linked.data.gov.au/org/ecosmartecology>
