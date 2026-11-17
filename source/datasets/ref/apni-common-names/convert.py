@@ -73,7 +73,9 @@ def build_lookup(rows, source_license_iri):
             if not NAME_IRI.fullmatch(row[column]):
                 raise ValueError(f"CSV row {number}: invalid APNI {column}")
         if row["license"] != source_license_iri:
-            raise ValueError(f"CSV row {number}: licence differs from recorded source licence")
+            raise ValueError(
+                f"CSV row {number}: licence differs from recorded source licence"
+            )
         # All attribution IRIs in this snapshot are the scientific-name subjects.
         # Fail rather than silently drop different attribution in a future export.
         if row["ccAttributionIRI"] != row["scientific_name_id"]:
@@ -84,7 +86,6 @@ def build_lookup(rows, source_license_iri):
         common_labels[row["common_name_id"]].add(row["common_name"])
         name_id_pairs.add((row["common_name_id"], row["scientific_name_id"]))
         subject = URIRef(row["scientific_name_id"])
-        graph.add((subject, DWC.scientificName, Literal(row["scientific_name"])))
         graph.add((subject, DWC.vernacularName, Literal(row["common_name"])))
     conflicts = {
         key: sorted(values)
@@ -121,7 +122,7 @@ def read_statement_ids(path, dataset):
             namespace = str(dataset) + "/"
             if not statement.startswith(namespace):
                 raise ValueError("Statement identity is outside the Dataset namespace")
-            suffix = statement[len(namespace):]
+            suffix = statement[len(namespace) :]
             if str(UUID(suffix)) != suffix:
                 raise ValueError("Noncanonical statement UUID")
             pair = (URIRef(name), Literal(common))
@@ -136,7 +137,9 @@ def add_statement_members(graph, identities, dataset):
     """Reproduce version 3's reified lookup membership with stable UUIDs."""
     pairs = set(graph.subject_objects(DWC.vernacularName))
     if pairs != identities.keys():
-        raise ValueError("Published statement identities do not exactly cover lookup pairs")
+        raise ValueError(
+            "Published statement identities do not exactly cover lookup pairs"
+        )
     for (name, common), statement in identities.items():
         graph.add((dataset, RDFS.member, statement))
         graph.add((statement, RDF.type, RDF.Statement))
@@ -156,35 +159,26 @@ def add_dataset_metadata(graph, metadata, manifest):
 
 
 def validate_source_coverage(graph, rows):
-    """Compare exact emitted lookup/scientific-name pairs with the source sets."""
+    """Compare emitted lookup pairs with the exact source set."""
     expected_common = {
         (URIRef(r["scientific_name_id"]), Literal(r["common_name"])) for r in rows
     }
-    expected_scientific = {
-        (URIRef(r["scientific_name_id"]), Literal(r["scientific_name"])) for r in rows
-    }
-    for predicate, expected in (
-        (DWC.vernacularName, expected_common),
-        (DWC.scientificName, expected_scientific),
-    ):
-        actual = set(graph.subject_objects(predicate))
-        if actual != expected:
-            raise ValueError(
-                f"Source coverage differs for {predicate}: missing={len(expected - actual)}, extra={len(actual - expected)}"
-            )
+    actual = set(graph.subject_objects(DWC.vernacularName))
+    if actual != expected_common:
+        raise ValueError(
+            f"Source coverage differs: missing={len(expected_common - actual)}, extra={len(actual - expected_common)}"
+        )
     if any(isinstance(node, BNode) for triple in graph for node in triple):
         raise ValueError("Unexpected anonymous nodes in lookup dataset")
-    for subject in {subject for subject, _ in expected_scientific}:
+    for subject in {subject for subject, _ in expected_common}:
         if any(
-            predicate not in (DWC.scientificName, DWC.vernacularName)
+            predicate != DWC.vernacularName
             for predicate, _ in graph.predicate_objects(subject)
         ):
             raise ValueError(
                 f"Unexpected background statements on scientific-name resource {subject}"
             )
-    print(
-        "Every distinct CSV lookup and scientific-name pair is preserved.", flush=True
-    )
+    print("Every distinct CSV lookup pair is preserved.", flush=True)
 
 
 def validate_graph(graph, expected):

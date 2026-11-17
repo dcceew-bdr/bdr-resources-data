@@ -14,7 +14,8 @@ uv run --locked python -m unittest -v
 uv run --locked convert.py --check-existing ../../../../resources/datasets/items/apni-common-names.ttl
 ```
 
-The converter verifies input hashes, source counts, exact scientific-name and vernacular-name coverage, and RDF structure. It checks that the generated graph equals the committed graph, independently of prefix names and statement order, then writes the generated file and a conversion report into ignored `build/`. This command does not overwrite the catalogue file. The converter makes no network requests; uv may download the locked Python environment and packages on first use.
+The converter verifies input hashes, source counts, exact lookup coverage,
+and RDF structure. It checks that the generated graph equals the committed graph, independently of prefix names and statement order, then writes the generated file and a conversion report into ignored `build/`. This command does not overwrite the catalogue file. The converter makes no network requests; uv may download the locked Python environment and packages on first use.
 
 To generate a reviewed replacement deliberately:
 
@@ -31,13 +32,14 @@ The read-only PR workflow runs the tests and full reproduction check when the so
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 
 apni:92084
-    dwc:scientificName "Ficus opposita Miq. var. opposita" ;
     dwc:vernacularName "Sandpaper Fig" .
 ```
 
-The subject comes from `scientific_name_id`, scientific text from `scientific_name`, and common-name text from `common_name`, with literal text preserved. APNI name IRIs are reused as supplied. These are name identifiers: no taxon class assertion or new identifier is added. Multiple common names per scientific name and common names shared by different scientific names are retained. The source-to-graph coverage check compares exact sets of pairs so unchanged totals cannot conceal a changed mapping.
+The subject comes from `scientific_name_id` and common-name text from `common_name`, with literal text preserved.
+Scientific-name text remains in the source export. APNI name IRIs are reused as supplied. These are name identifiers: no taxon class assertion or new identifier is added. Multiple common names per scientific name and common names shared by different scientific names are retained. The source-to-graph coverage check compares exact sets of pairs so unchanged totals cannot conceal a changed mapping.
 
-The scientific-name resources contain only the two Darwin Core properties above. Version 3 additionally has one UUID-identified `rdf:Statement` per lookup pair, with `rdf:subject`, `rdf:predicate dwc:vernacularName`, and `rdf:object`. The Dataset links to these statement resources using `rdfs:member`. The direct lookup triples are still asserted, so API search need not traverse the statement resources. No NSL usage nodes or blank nodes are generated.
+Each name has only `dwc:vernacularName` assertions. The graph also has one UUID-identified `rdf:Statement` per lookup
+pair, with `rdf:subject`, `rdf:predicate dwc:vernacularName`, and `rdf:object`. The Dataset links to these statement resources using `rdfs:member`. The direct lookup triples are still asserted, so API search need not traverse the statement resources. No NSL usage nodes or blank nodes are generated.
 
 `inputs/published-statement-ids.csv` pins all 37,160 published statement IDs, extracted from the reviewed version 3 artifact at main commit `a2031a4b05257762649e6105c34bf2c6c0383481`. The manifest records that artifact's origin and byte checksum. This compact identity table preserves the existing publication identifiers without consulting the generated output or minting random UUIDs during each build. Missing, extra, duplicate, or malformed identities fail validation. Supporting name-usage and citation evidence remains available from NSL and the original CSV; API enrichment is not required.
 
@@ -50,14 +52,14 @@ The scientific-name resources contain only the two Darwin Core properties above.
 | `source-manifest.json` | Input origins/checksums, separate source and publication licence declarations, expected source and output counts |
 | `dataset-metadata.ttl` | Dataset identifier, explicit dates, description, licence, attribution and source provenance |
 | `convert.py` | Offline deduplicated lookup generation and exact coverage checks |
-| `checks.rq` | Lookup and statement membership counts, malformed/unasserted members, conflicting labels, NSL relationships and anonymous nodes |
+| `checks.rq` | Lookup and statement membership counts, malformed/unasserted members, scientific-name triple count, NSL relationships and anonymous nodes |
 | `verify.py` | Exact RDF graph comparison; anonymous nodes are rejected |
 | `test_workflow.py` | Tests for many-to-many preservation, deduplication, changed mappings, labels, attribution and source integrity |
 | `pyproject.toml`, `uv.lock`, `.python-version` | Locked execution environment |
 
 The source CSV is preserved unchanged. Source provenance and byte checksums are recorded in the manifest. `schema:license` and `schema:creditText` reproduce the reviewed Dataset metadata. Every row's attribution IRI in this snapshot equals its scientific-name subject; changed attribution fails validation.
 
-The generator validates CSV row licences against `source_license` and the Dataset's `schema:license` against `dataset_license`. It does not require the two declarations to be identical. Both values and the observed source licence counts are included in the build report. The metadata template contains exactly the 14 Dataset triples in the reviewed version 3 artifact; it does not restore the earlier provenance triple that was removed from the publication.
+The generator validates CSV row licences against `source_license` and the Dataset's `schema:license` against `dataset_license`. It does not require the two declarations to be identical. Both values and the observed source licence counts are included in the build report. The metadata template contains 14 Dataset triples; it does not restore the earlier provenance triple that was removed from the publication.
 
 The catalogue file is generated from the maintained method and metadata. Do not maintain changes only in the generated output. No external working directory, API cache, or production GraphDB access is needed to reproduce it.
 

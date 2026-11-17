@@ -10,14 +10,6 @@ WHERE {
     ?name dwc:vernacularName ?text .
     BIND("lookup_pairs" AS ?metric)
   } UNION {
-    ?name dwc:vernacularName ?text .
-    FILTER NOT EXISTS { ?name dwc:scientificName ?scientific }
-    BIND("lookups_without_scientific_name" AS ?metric)
-  } UNION {
-    ?name dwc:scientificName ?a, ?b .
-    FILTER(?a != ?b)
-    BIND("conflicting_scientific_labels" AS ?metric)
-  } UNION {
     <https://linked.data.gov.au/dataset/apni-common-names> rdfs:member ?member .
     BIND("statement_members" AS ?metric)
   } UNION {
