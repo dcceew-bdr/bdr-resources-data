@@ -55,6 +55,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/asls-soil-profile> ,
         <https://linked.data.gov.au/def/asls-substrate> ,
         <https://linked.data.gov.au/def/asls-vegetation> ,
+        <https://linked.data.gov.au/def/data-roles> ,
         <https://linked.data.gov.au/def/nsl/tn-types> ,
         <https://linked.data.gov.au/def/nsl/tnu-types> ,
         <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0> ;
@@ -254,6 +255,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/def/asls-vegetation>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
+<https://linked.data.gov.au/def/data-roles>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
 .
 
 <https://linked.data.gov.au/def/nsl/tn-types>
