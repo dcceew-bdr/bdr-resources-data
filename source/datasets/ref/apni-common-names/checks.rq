@@ -10,13 +10,13 @@ WHERE {
     ?name dwc:vernacularName ?text .
     BIND("lookup_pairs" AS ?metric)
   } UNION {
-    <https://linked.data.gov.au/dataset/apni-common-names> rdfs:member ?member .
+    <https://linked.data.gov.au/dataset/bdr/apni-common-names> rdfs:member ?member .
     BIND("statement_members" AS ?metric)
   } UNION {
     ?member a rdf:Statement .
     BIND("reified_statements" AS ?metric)
   } UNION {
-    <https://linked.data.gov.au/dataset/apni-common-names> rdfs:member ?member .
+    <https://linked.data.gov.au/dataset/bdr/apni-common-names> rdfs:member ?member .
     FILTER NOT EXISTS {
       ?member a rdf:Statement ; rdf:subject ?name ;
               rdf:predicate dwc:vernacularName ; rdf:object ?common .

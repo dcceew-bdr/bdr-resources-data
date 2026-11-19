@@ -13,7 +13,7 @@ from verify import require_equivalent
 
 LICENSE = "http://creativecommons.org/licenses/by/3.0/"
 PUBLISHED_LICENSE = "http://purl.org/NET/rdflicense/cc-by4.0"
-DATASET = URIRef("https://linked.data.gov.au/dataset/apni-common-names")
+DATASET = URIRef("https://linked.data.gov.au/dataset/bdr/apni-common-names")
 
 
 def row(common_id, common, scientific_id, scientific):

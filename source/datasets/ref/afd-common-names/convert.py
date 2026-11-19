@@ -13,7 +13,7 @@ from rdflib.namespace import RDF, RDFS
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT.parents[3] / "resources/datasets/items/afd-common-names.ttl"
-DATASET = URIRef("https://linked.data.gov.au/dataset/afd-common-names")
+DATASET = URIRef("https://linked.data.gov.au/dataset/bdr/afd-common-names")
 AFD = Namespace("https://id.biodiversity.org.au/name/afd/")
 DWC = Namespace("http://rs.tdwg.org/dwc/terms/")
 SCHEMA = Namespace("https://schema.org/")

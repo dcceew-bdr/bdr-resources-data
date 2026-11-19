@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-10-30",
-  "dataset_iri": "https://linked.data.gov.au/dataset/apni-common-names",
+  "dataset_iri": "https://linked.data.gov.au/dataset/bdr/apni-common-names",
   "csv": "inputs/APNI-common-names-2026-10-30-5314.csv",
   "files": [
     {
