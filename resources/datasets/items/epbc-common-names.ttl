@@ -3319,7 +3319,7 @@ d:
         :ffc468f9-eec6-586f-9823-647b3c637223 ,
         :ffd6d220-9724-5121-a2a9-e9afc463669b ,
         :ffeb0978-6662-544e-b79f-b08166c9ddbd ;
-    schema:citation "EPBC threatened species with common names from SPRAT" ;
+    schema:citation "EPBC threatened species with common names from SPRAT, downloaded from https://sprat.dcceew.gov.au/search?type=Species" ;
     schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/tree/main/source/datasets/ref/epbc-common-names"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2026-11-07"^^xsd:date ;
@@ -3332,7 +3332,7 @@ Common names are attached to Taxon Name objects in the NSL as matched using the 
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EPBC Common Names" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "2" ;
+    schema:version "3" ;
 .
 
 <https://id.biodiversity.org.au/name/afd/70163108>

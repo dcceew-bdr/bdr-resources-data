@@ -4,7 +4,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 d:
     a schema:Dataset ;
-    schema:citation "EPBC threatened species with common names from SPRAT" ;
+    schema:citation "EPBC threatened species with common names from SPRAT, downloaded from https://sprat.dcceew.gov.au/search?type=Species" ;
     schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/tree/main/source/datasets/ref/epbc-common-names"^^xsd:anyURI ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2026-11-07"^^xsd:date ;
@@ -17,5 +17,5 @@ Common names are attached to Taxon Name objects in the NSL as matched using the 
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "EPBC Common Names" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "1" ;
+    schema:version "3" ;
 .
