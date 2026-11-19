@@ -48,7 +48,8 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
             prof:hasRole mrr:CatalogueData ;
         ] ,
         [
-            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
+            # Pin validation to the checked-in VocPub shape.
+            dcterms:conformsTo "validators/items/vocpub.ttl" ;
             prof:hasArtifact "vocabs/items/**/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
         ] ,
