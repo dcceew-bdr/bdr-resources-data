@@ -1,0 +1,21 @@
+PREFIX d: <https://linked.data.gov.au/dataset/bdr/apni-common-names>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+d:
+    a schema:Dataset ;
+    schema:citation "EPBC threatened species with common names from SPRAT" ;
+    schema:codeRepository "https://github.com/dcceew-bdr/bdr-resources-data/tree/main/source/datasets/ref/epbc-common-names"^^xsd:anyURI ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2026-11-07"^^xsd:date ;
+    schema:dateModified "2026-11-19"^^xsd:date ;
+    schema:description """Common names for species listed as threatened species as published by a Declaration under s178, s181, and s183 of the Environment Protection and Biodiversity Conservation Act 1999.
+
+This dataset was created from an extract from the SPRAT system asking for common names for species with an 'EPBC Act Status' on 2026-11-19. That search yielded 3,081 species and a total of 3,435 common names but not all threatened species have common names and some have multiple.
+
+Common names are attached to Taxon Name objects in the NSL as matched using the BDR's BDR Query Utilities, see https://github.com/dcceew-bdr/bdr-query-utilities/blob/main/docs/nsl_matching.md.""" ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:name "EPBC Common Names" ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "1" ;
+.

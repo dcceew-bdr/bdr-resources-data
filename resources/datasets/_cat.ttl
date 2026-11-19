@@ -10,6 +10,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:member
         <https://linked.data.gov.au/dataset/bdr/afd-common-names> ,
         <https://linked.data.gov.au/dataset/bdr/apni-common-names> ,
+        <https://linked.data.gov.au/dataset/bdr/epbc-common-names> ,
         <https://linked.data.gov.au/dataset/asgsed3> ,
         <https://linked.data.gov.au/dataset/epbc/mig> ,
         <https://linked.data.gov.au/dataset/epbc/ts> ,
@@ -24,7 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Reference Datasets Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "5" ;
+    schema:version "6" ;
 .
 
 <https://linked.data.gov.au/dataset/bdr/afd-common-names>
