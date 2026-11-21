@@ -1,0 +1,1523 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://linked.data.gov.au/def/tern-cv/06461021-a6c2-4175-9651-23653c2b9116> a skos:Concept ;
+    dcterms:description "Soil surface materials are collected in the most representative geomorphic setting for a site.  In general, it useful to include information such as a sample id, name for the sample, collection depth, latitude and longitude, date of collection and soil moisture content/conditions of collection. Information about the landform, land use and vegetation cover are also useful." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Friske, P. W. B., et al. North American soil geochemical landscapes project: Canadian field protocols for collecting mineral soils and measuring soil gas radon and natural radioactivity. Geological Survey of Canada, Open File 6282 (2010): 177.",
+        "Simons, B., Wilson, P., Ritchie, A. and Cox, S., 2013, April. ANZSoilML: an Australian-New Zealand standard for exchange of soil data. In EGU General Assembly Conference Abstracts (pp. EGU2013-6802).",
+        "http://vocabs.lter-europe.net/EnvThes/30211" ;
+    skos:altLabel "soil sample material",
+        "soil surface material" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/98e8d72d-f361-41ed-af9d-6e7f90c1dfce> ;
+    skos:definition "A quantity of soil where observations and measurements are performed.",
+        "The soil surface is the uppermost boundary of the Earth's crust where the atmosphere, biosphere, and lithosphere meet." ;
+    skos:example "1. The bulk density of a soil surface material; 2. 1000 grams of soil are collected." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "soil-surface" ;
+    skos:prefLabel "soil surface" ;
+    schema:citation "Friske, P. W. B., et al. North American soil geochemical landscapes project: Canadian field protocols for collecting mineral soils and measuring soil gas radon and natural radioactivity. Geological Survey of Canada, Open File 6282 (2010): 177.",
+        "Simons, B., Wilson, P., Ritchie, A. and Cox, S., 2013, April. ANZSoilML: an Australian-New Zealand standard for exchange of soil data. In EGU General Assembly Conference Abstracts (pp. EGU2013-6802)." .
+
+<http://linked.data.gov.au/def/tern-cv/07a75262-f9b7-458d-87ee-28614f535da6> a skos:Concept ;
+    dcterms:created "2021-12-17T03:50:10"^^xsd:dateTime ;
+    dcterms:description "In vascular plants, branches arise from an axillary bud meristem and from divisions of the meristematic apical cell in non-vascular plants." ;
+    dcterms:modified "2022-07-15T03:23:16"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:definition "A shoot axis that develops from an axillary bud meristem or from equal divisions of a meristematic apical cell." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/PO_0025073> ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "individual-branch" ;
+    skos:prefLabel "plant branch individual"@en .
+
+<http://linked.data.gov.au/def/tern-cv/08fa4ec4-29ce-4a0f-b7ce-60adcbdb0ebc> a skos:Concept ;
+    dcterms:created "2024-01-03T03:03:09"^^xsd:dateTime ;
+    dcterms:description "An outlook zone is a designated zone/area used for ecological surveys and is represented along a particular compass direction (NE, SW, etc.). Observations within the zone are made from a vantage point." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "McCallum K, Bignall J, Cox B, O’Neill S, Sparrow B (2023) Fauna Ground Counts Module. In ‘Ecological Field Monitoring Protocols Manual using the Ecological Monitoring System Australia’. (Eds S O’Neill, K Irvine, A Tokmakoff, B Sparrow). TERN, Adelaide." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> ;
+    skos:definition "An area/designated zone intended for ecological observations, especially fauna surveys/ground counts."@en ;
+    skos:example "A surveyor recording the presence of a target fauna species within an intended 'outlook zone' from a vantage point." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "outlook zone"@en ;
+    schema:citation "McCallum K, Bignall J, Cox B, O’Neill S, Sparrow B (2023) Fauna Ground Counts Module. In ‘Ecological Field Monitoring Protocols Manual using the Ecological Monitoring System Australia’. (Eds S O’Neill, K Irvine, A Tokmakoff, B Sparrow). TERN, Adelaide." .
+
+<http://linked.data.gov.au/def/tern-cv/0c30e871-63ae-4f84-a37c-ef6e7ce02928> a skos:Concept ;
+    dcterms:created "2022-08-05T04:01:37"^^xsd:dateTime ;
+    dcterms:description "A bird occurrence is a sample of a bird or group of birds at a particular point in time. Unlike bird individuals, this may not specifically relate to a distinct physical entity (e.g. a specific bird individual), but provides a sample which may come from an individuals or a group." ;
+    dcterms:modified "2025-10-01T06:21:31"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5cd1dbb0-c30e-4c8e-ae1b-0b388638163c> ;
+    skos:definition "An existence of bird sampled at a particular place at a particular time." ;
+    skos:example "1. A male cassowary with chicks in the Daintree in 2020. 2. A group of migratory birds observed in a wetland region." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "bird-occurrence" ;
+    skos:prefLabel "bird occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/0e354d29-e23f-4ba7-84d6-9b58ca289782> a skos:Concept ;
+    dcterms:description "All dead woody materials present in the stand." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Rondeux, J., Sanchez, C. Review of indicators and field methods for monitoring biodiversity within national forest inventories. Core variable: Deadwood. Environ Monit Assess 164, 617–630 (2010). https://doi.org/10.1007/s10661-009-0917-6" ;
+    skos:altLabel "dead woody material in a stand" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a8b1a7fb-b479-48ff-b706-b3cc4691710b> ;
+    skos:definition "The collection of all non-living woody detritus comprising stems, twigs and roots but excluding deadwood parts of living trees in a specific sampled space."@en ;
+    skos:example "The abundance of coarse woody debris in a forest." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "stand-dead-wood" ;
+    skos:prefLabel "stand dead wood"@en ;
+    schema:citation "Rondeux, J., Sanchez, C. Review of indicators and field methods for monitoring biodiversity within national forest inventories. Core variable: Deadwood. Environ Monit Assess 164, 617–630 (2010). https://doi.org/10.1007/s10661-009-0917-6" .
+
+<http://linked.data.gov.au/def/tern-cv/13dec53e-1062-4060-9281-f133c8269afb> a skos:Concept ;
+    dcterms:modified "2021-04-22T01:45:48"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:definition "A point in space where observations are made or measurements taken." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "spatial point" ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> .
+
+<http://linked.data.gov.au/def/tern-cv/19a72ff8-8ab2-41b8-849a-4f9c6af4ac2b> a skos:Concept ;
+    dcterms:created "2024-04-16T22:49:57"^^xsd:dateTime ;
+    dcterms:description "A mammal population may refer to one or several individuals of a species sampled from a region." ;
+    dcterms:modified "2024-04-16T23:34:17"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5c93aeef-c625-4117-85be-3a886416f2be> ;
+    skos:definition "Group of individuals of a species of mammal (of Class Mammalia) sampled at a particular place at a particular time." ;
+    skos:example "1. The total number of Wombats in Cradle mountain, Tasmania.; 2. The count of male indivduals of two species of Gliders (e.g., Acrobates frontalis and Acrobates pygmaeus) in a Eucalypt woodland." ;
+    skos:historyNote "Added to the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "mammal population"@en .
+
+<http://linked.data.gov.au/def/tern-cv/1c8b7ef9-640c-44b7-b3be-bd2ff92c1edd> a skos:Concept ;
+    dcterms:created "2026-06-26T10:00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-06-26T10:00:00"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/afc81cca-9122-4e36-823d-31dd765e9257> ;
+    skos:definition "The geologic substrate composed of unconsolidated mineral or organic material (e.g. mud, sand, peat) forming the surface of a coastal wetland, on which surface elevation and accretion measurements are taken." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "sediment" ;
+    skos:prefLabel "sediment"@en .
+
+<http://linked.data.gov.au/def/tern-cv/1d21f4a5-996b-405a-a6f6-2e6fff1035fe> a skos:Concept ;
+    dcterms:created "2022-05-17T03:40:34"^^xsd:dateTime ;
+    dcterms:modified "2022-08-26T05:29:24"^^xsd:dateTime ;
+    dcterms:source <https://www.nrs.fs.fed.us/fia/topics/dwm/glossary/> ;
+    owl:deprecated true ;
+    skos:altLabel "downed woody material" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a8b1a7fb-b479-48ff-b706-b3cc4691710b> ;
+    skos:definition "Woody pieces of trees and shrubs that have been uprooted (no longer supporting growth) or severed from their root system, not self-supporting, and are lying on the ground."@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "downed dead wood"@en .
+
+<http://linked.data.gov.au/def/tern-cv/1f93a3e8-4c78-4b08-85a4-6869c9ee17ac> a skos:Concept ;
+    dcterms:description "A vegetation stand is a sample of a plant community (see Mueller-Dombois & Ellenberg 1974; Allen & Hoekstra 1992). Usually vegetation stands are selected on the basis of uniformity and discreteness (Van Der Maarel and Franklin, 2013). The vegetation included in the stand looks uniform and should be discernible from surrounding vegetation (Van Der Maarel and Franklin, 2013)." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Allen, Timothy FH, and Thomas W. Hoekstra. The confusion between scale‐defined levels and conventional levels of organization in ecology. Journal of vegetation science 1.1 (1990): 5-12.",
+        "Ellenberg, Dieter, and Dieter Mueller-Dombois. Aims and methods of vegetation ecology. New York: Wiley, 1974.",
+        "Van Der Maarel, Eddy, and Janet Franklin. Vegetation ecology: historical notes and outline. Vegetation ecology 2 (2013): 1-27." ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "Continuos community of plants occupying a specific area and sufficiently uniform in species composition, structure, age, size, class, distribution." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "vegetation-stand" ;
+    skos:prefLabel "vegetation stand" ;
+    schema:citation "Allen, Timothy FH, and Thomas W. Hoekstra. The confusion between scale‐defined levels and conventional levels of organization in ecology. Journal of vegetation science 1.1 (1990): 5-12.",
+        "Ellenberg, Dieter, and Dieter Mueller-Dombois. Aims and methods of vegetation ecology. New York: Wiley, 1974.",
+        "Van Der Maarel, Eddy, and Janet Franklin. Vegetation ecology: historical notes and outline. Vegetation ecology 2 (2013): 1-27." .
+
+<http://linked.data.gov.au/def/tern-cv/2090cfd9-8b6b-497b-9512-497456a18b99> a skos:Concept ;
+    dcterms:created "2021-11-19T00:47:12"^^xsd:dateTime ;
+    dcterms:description "In ecology, a habitat is where a species lives or exists. It is where it will derive its food, shelter, and mate for reproduction." ;
+    dcterms:modified "2024-04-17T06:39:04"^^xsd:dateTime ;
+    dcterms:source <http://purl.obolibrary.org/obo/ENVO_01000739> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/4381b1b0-d432-4764-aec3-a26d2b8d85af> ;
+    skos:definition "An environmental system which can sustain and allow the growth of an ecological population." ;
+    skos:example "1. A tussock grassland is a habitat typified by perennial grasses with a tufted growth habit; 2. A hollow on a eucalypt tree is a habitat where gliders live." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:note "A habitat's specificity to an ecological population differentiates it from other environment classes." ;
+    skos:prefLabel "habitat"@en .
+
+<http://linked.data.gov.au/def/tern-cv/226a127b-7248-476a-84ad-0412a5e3af52> a skos:Concept ;
+    dcterms:created "2022-08-05T04:32:59"^^xsd:dateTime ;
+    dcterms:description "A single individual from the Mammalia class, which is a physiological independent individual that has some kind of autonomous agency and has a life cycle that allow them to form some kind of reproductive lineages." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/1554c27a-e777-49da-abc3-10296734f80b> ;
+    skos:definition "A mammal which is physiologically distinct and independent." ;
+    skos:example "A possum individual tagged and observed for their feeding behaviour over time." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "mammal-individual" ;
+    skos:prefLabel "mammal individual"@en ;
+    schema:citation "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." .
+
+<http://linked.data.gov.au/def/tern-cv/2361dea8-598c-4b6f-a641-2b98ff199e9e> a skos:Concept ;
+    dcterms:created "2021-12-07T06:06:14"^^xsd:dateTime ;
+    dcterms:description "An animal occurrence is a sample of an animal or group of animals at a particular point and time. Unlike animal individuals, an animal occurrence may not specifically relate to a distinct physical entity (e.g. a specific animal individual), but provides a sample which may come from an individuals or a group." ;
+    dcterms:modified "2024-10-15T13:06:49"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/f6a6cdf8-d8cf-4e2d-b2c1-febd8a41a07b> ;
+    skos:closeMatch <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+    skos:definition "An existence of an animal or group of animals sampled at a particular place at a particular time." ;
+    skos:example "1. A cassowary in the Daintree rainforest in 2020; 2. A pack of dingoes in K'gari (formerly Fraser Island) seen on the 18 of December of 2017." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "animal-occurrence" ;
+    skos:prefLabel "animal occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/2676d764-fe96-4799-ad2d-6706107cdf9e> a skos:Concept ;
+    dcterms:created "2024-04-18T01:27:38"^^xsd:dateTime ;
+    dcterms:modified "2025-10-03T04:06:44"^^xsd:dateTime ;
+    dcterms:source "http://purl.obolibrary.org/obo/NCIT_C14340"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/ea6c4b26-2fa1-4d0e-9413-b53f248f2269> ;
+    skos:definition "An individual non-vascular plant. Plant that does not have vascular tubes/tissues to transport food and water. It belongs to the division Bryophyta, which includes liverwort, and moss." ;
+    skos:example "An individual moss, tagged and identified to a taxonomic rank sampled from a tropical montane rainforest." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "non-vascular plant individual"@en .
+
+<http://linked.data.gov.au/def/tern-cv/275458c3-2ebf-48d5-bb5a-8b9f9d970a79> a skos:Concept ;
+    dcterms:created "2024-04-16T23:38:15"^^xsd:dateTime ;
+    dcterms:description "A population of reptiles is a collection of individuals belonging to the same reptile species, living in the same area." ;
+    dcterms:modified "2024-04-16T23:43:33"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5c93aeef-c625-4117-85be-3a886416f2be> ;
+    skos:definition "Group of individuals of the same repte species (Class: Reptilia) living in a given area at a given time." ;
+    skos:example "The total count of Squamata (lizards and snakes) in a Protected Area." ;
+    skos:historyNote "Added to the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "reptile population"@en .
+
+<http://linked.data.gov.au/def/tern-cv/2787089d-4f7f-4d08-b59a-cb790b825b54> a skos:Concept ;
+    dcterms:created "2024-04-18T03:34:00"^^xsd:dateTime ;
+    dcterms:description "Woody plants are perennials that produce secondary growth in the form of wood." ;
+    dcterms:modified "2024-04-18T03:43:49"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2217ab3c-0359-42a3-9361-b3b895121841> ;
+    skos:definition "Woody plants such as trees, palms, shrubs, that are occurring at a specific area at a specific time." ;
+    skos:example "An individual or a group of palms sampled from a sub-tropical rainforest site." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "woody vascular plant occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/2cf3ed29-440e-4a50-9bbc-5aab30df9fcd> a skos:Concept ;
+    dcterms:created "2021-02-25T01:34:44"^^xsd:dateTime ;
+    dcterms:description "The whole land surface is viewed as a mosaic of tiles of odd shapes and two sizes. The larger size is composed of mosaics of the smaller ones. Larger tiles (> 600 m across) are called landform patterns. Smaller tiles (~40m across) are called landform elements." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/8282fb22-4135-415c-8ca2-317860d102fb> ;
+    skos:definition "Visible features of an area of land, including the physical elements of it soils, landforms (LandSurface Feature) , geology (GeologicFeature), water bodies (StreamChannel Feature), living elements of land cover (VegetationFeature), human elements (LandUse Feature) and transitory elements (Climate Feature)." ;
+    skos:example "Land surface features such as mountains and hills. Stream channel features such as rivers, lakes and ponds. Land use features including different forms of land use, buildings and structures. Climate feature such as lighting and weather conditions." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "landform" ;
+    skos:prefLabel "landform"@en ;
+    schema:citation "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." .
+
+<http://linked.data.gov.au/def/tern-cv/338c05d6-cc0e-4a41-ba9c-c5060c4d4501> a skos:Concept ;
+    dcterms:created "2024-04-18T01:12:46"^^xsd:dateTime ;
+    dcterms:description "Woody plants are trees, shrubs and Palms whose shoots are durable and survive over a period of years." ;
+    dcterms:modified "2025-10-03T04:33:46"^^xsd:dateTime ;
+    dcterms:source "https://www.britannica.com/plant/woody-plant"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/b64cfbb3-86a2-43b3-a749-11243805cb85> ;
+    skos:definition "These plants are perennials that produce secondary growth in the form of wood." ;
+    skos:example "A community of trees and palms sampled from a sub-tropical rainforest site for its total biomass." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "woody vascular plants community"@en .
+
+<http://linked.data.gov.au/def/tern-cv/415be87e-66e1-4a53-a5c8-3d34ab93036c> a skos:Concept ;
+    dcterms:created "2022-08-22T05:06:31"^^xsd:dateTime ;
+    dcterms:description "An individual or a group of Amphibia class observed at a particular geographic location. Amphibians are cold-blooded, smooth-skinned vertebrate which characteristically hatches as an aquatic larva, breathing by gills. When mature, the amphibian breathes with lungs." ;
+    dcterms:modified "2025-10-01T06:21:07"^^xsd:dateTime ;
+    dcterms:source "http://purl.bioontology.org/ontology/STY/T011"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5cd1dbb0-c30e-4c8e-ae1b-0b388638163c> ;
+    skos:definition "An existence of an amphibian sampled at a particular place at a particular time." ;
+    skos:example "An individual or a group of frogs of a particular taxonomic rank sampled during a vertebrate fauna survey." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "amphibian-occurrence" ;
+    skos:prefLabel "amphibian occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/42f2b20b-89bb-4d65-99de-38282fb860d9> a skos:Concept ;
+    dcterms:created "2024-04-18T01:28:54"^^xsd:dateTime ;
+    dcterms:description "Any individual non-woody vascular plant, i.e., belonging to a herb, grass, forb or fern species for example. They do not produce wood, but have vascular tissues consisting of xylem, which carries water and nutrients from the roots up the stem to the leaves, and the phloem, which carries sugar produced in the leaves to other parts of the plant." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Petruzzello, M. (2024, March 21). herbaceous plant. Encyclopedia Britannica. https://www.britannica.com/plant/herbaceous-plant" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/57c778e4-5a82-4dfd-8087-d616ac629ab1> ;
+    skos:definition "A non-woody vascular plant individual is an individual that does not produce secondary growth in the form of wood." ;
+    skos:example "An individual fern, tagged and identified to its species level and studied for its growth over multiple site visits." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "non-woody vascular plant individual"@en ;
+    schema:citation "Petruzzello, M. (2024, March 21). herbaceous plant. Encyclopedia Britannica. https://www.britannica.com/plant/herbaceous-plant" .
+
+<http://linked.data.gov.au/def/tern-cv/4362c8f2-b3cc-4816-b5a2-fb7bb4c0cff5> a skos:Concept ;
+    dcterms:created "2021-05-06T05:14:19"^^xsd:dateTime ;
+    dcterms:modified "2026-02-24T22:42:42"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> ;
+    skos:definition "A transportable frame (usually a square made out of PVC tube, metal rod or wood) used to isolate a standard unit of area for study of the distribution of item(s) over a large area (e.g. a plot)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "quadrat"@en .
+
+<http://linked.data.gov.au/def/tern-cv/4507e510-bf25-467b-a97e-abd56776507a> a skos:Concept ;
+    dcterms:created "2023-12-12T03:57:59"^^xsd:dateTime ;
+    dcterms:description "Animal evidence provides information about the signs or the presence of an animal at a given location and time."@en ;
+    dcterms:modified "2025-10-01T06:15:48"^^xsd:dateTime ;
+    dcterms:source "http://purl.obolibrary.org/obo/ECO_0000000"^^xsd:anyURI ;
+    skos:altLabel "fauna evidence" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/f6a6cdf8-d8cf-4e2d-b2c1-febd8a41a07b> ;
+    skos:definition "Any information/knowledge that is used to support an assertion of the presence of an animal in a geographic area."@en ;
+    skos:example "1. The footprints/tracks of dingoes are used as signs-based evidence to support the presence of dingos in Fraser Island; 2. The presence of reptile detected by skin sheds after ecdysis in a survey area."@en ;
+    skos:historyNote "Added as a concept under for the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "animal-evidence" ;
+    skos:prefLabel "animal evidence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/45a73139-f6bf-47b7-88d4-4b2865755545> a skos:Concept ;
+    dcterms:created "2021-12-16T04:48:41"^^xsd:dateTime ;
+    dcterms:description "A fungi occurrence is a sample of a fungi at a particular point and time." ;
+    dcterms:modified "2024-04-17T06:37:41"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/1a017998-f59d-43f8-ac47-bea75e50d24d> ;
+    skos:closeMatch <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+    skos:definition "An existence of a fungi sampled at a particular place at a particular time." ;
+    skos:example "1.The presence of mycorrhizae in soils. 2. The presence of basidiomycetes on a log of wood." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "fungi-occurrence" ;
+    skos:prefLabel "fungi occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/47fbe947-4f8b-4586-9cf7-13a610f8aedb> a skos:Concept ;
+    dcterms:created "2022-08-22T06:11:43"^^xsd:dateTime ;
+    dcterms:description "A single individual from the Amphibia class. Amphibians are cold-blooded, smooth-skinned vertebrate which characteristically hatches as an aquatic larva, breathing by gills. When mature, the amphibian breathes with lungs." ;
+    dcterms:modified "2025-10-01T06:19:59"^^xsd:dateTime ;
+    dcterms:source "http://purl.bioontology.org/ontology/STY/T011"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/1554c27a-e777-49da-abc3-10296734f80b> ;
+    skos:definition "An amphibian which is a physiologically distinct and independent." ;
+    skos:example "An individual frog or toad in a given geographic location that has been identified and observations/measurements made on their acoustic behaviour over time." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "amphibian-individual" ;
+    skos:prefLabel "amphibian individual"@en .
+
+<http://linked.data.gov.au/def/tern-cv/481a315d-e963-4f93-88e5-027b5369c72d> a skos:Concept ;
+    dcterms:created "2024-04-18T03:48:49"^^xsd:dateTime ;
+    dcterms:description "Non-woody plants are those that do not produce secondary growth in the form of wood. They include herbaceous species such as grasses, forbs, ferns, etc." ;
+    dcterms:modified "2024-04-18T04:51:37"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/95e72362-8575-46e9-bc60-a45f48b95390> ;
+    skos:definition "The total number of individuals of non-woody vascular plants sampled at a specific location and time." ;
+    skos:example "A study on the population size of all the Cyperus spp. (sedges) from a conservation area following a cyclone event." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "non-woody vascular plant population"@en .
+
+<http://linked.data.gov.au/def/tern-cv/51e0e6c3-b833-4f32-8d0e-00cc76031b83> a skos:Concept ;
+    dcterms:description "A fish occurrence is a sample of a fish (aquatic, gill-bearing animals) at a particular point and time. A fish occurrence may come from an individual or a group." ;
+    dcterms:modified "2024-04-16T23:29:06"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5cd1dbb0-c30e-4c8e-ae1b-0b388638163c> ;
+    skos:definition "An existence of fish sampled at a particular place at a particular time." ;
+    skos:example "A collection of mangrove snappers sampled in Burdekin river." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "fish-occurrence" ;
+    skos:prefLabel "fish occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/5916bd8d-ba9f-45d1-b761-20d186f23311> a skos:Concept ;
+    dcterms:created "2024-04-16T23:32:35"^^xsd:dateTime ;
+    dcterms:description "An amphibian population may refer to one or several individuals of an amphibian species sampled from a given region." ;
+    dcterms:modified "2024-04-16T23:37:49"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5c93aeef-c625-4117-85be-3a886416f2be> ;
+    skos:definition "Group of individuals of a species of amphibians (of Class Amphibia) sampled at a particular place at a particular time." ;
+    skos:example "The total number of male cane toads sampled along an elevation transect in north Queensland." ;
+    skos:historyNote "Added to the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "amphibian population"@en .
+
+<http://linked.data.gov.au/def/tern-cv/5ba6ba64-cf48-4c1e-93e5-3892c2b92f4b> a skos:Concept ;
+    dcterms:created "2022-08-22T00:28:37"^^xsd:dateTime ;
+    dcterms:description "An fish indvidual is a physiological independent individual that has some kind of autonomous agency and has a life cycle that allow them to form some kind of reproductive lineages." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/1554c27a-e777-49da-abc3-10296734f80b> ;
+    skos:definition "A physiologically distinct and independent organism (i.e., aquatic, gill-bearing animal)." ;
+    skos:example "An individual fish in a stream tagged for studying their feeding activity over time. " ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "fish-individual" ;
+    skos:prefLabel "fish individual"@en ;
+    schema:citation "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." .
+
+<http://linked.data.gov.au/def/tern-cv/5ca63df3-55b2-4bf0-9720-e7f7130bb64c> a skos:Concept ;
+    dcterms:created "2024-04-18T01:13:05"^^xsd:dateTime ;
+    dcterms:description "The non-woody vascular plants (also known as herbaceous plants) are grasses, sedges, herbs, ferns, and forbs. " ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Petruzzello, M. (2024, March 21). herbaceous plant. Encyclopedia Britannica. https://www.britannica.com/plant/herbaceous-plant" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/b64cfbb3-86a2-43b3-a749-11243805cb85> ;
+    skos:definition "These plants do not have a woody stem, but have vascular tissue, consisting of xylem, which carries water and nutrients from the roots up the stem to the leaves, and the phloem, which carries sugar produced in the leaves to other parts of the plant." ;
+    skos:example "A community of grasses and sedges sampled from an arid location." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "non-woody vascular plants community"@en ;
+    schema:citation "Petruzzello, M. (2024, March 21). herbaceous plant. Encyclopedia Britannica. https://www.britannica.com/plant/herbaceous-plant" .
+
+<http://linked.data.gov.au/def/tern-cv/60d7edf8-98c6-43e9-841c-e176c334d270> a skos:Concept ;
+    dcterms:description "In ecology, plant individuals are often studied as part of a plant community, which is a group of plant species living and interacting with one another in a specific location. Plant individuals are important components of ecological systems because they are primary producers, meaning that they are able to convert sunlight into energy through photosynthesis, and provide food and habitat for other organisms." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Cook, Robert Edward. Asexual reproduction: a further consideration. The American Naturalist 113.5 (1979): 769-772.",
+        "Harper, J. L. Modules, branches, and the capture of resources. In Population biology and evolution of clonal organisms.(Eds JBC Jackson, LW Buss, RE Cook) pp. 1–33. (1985)." ;
+    skos:broadMatch <http://www.eionet.europa.eu/gemet/concept/5914> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/881bcb98-1c31-4710-a9a4-58dbe1bc4a95> ;
+    skos:definition "In ecological terms, a plant individual is a single, physically distinct organism belonging to the plant kingdom. This can refer to a single plant, such as a tree or shrub, or a single member of a plant species, such as a single blade of grass or a single leaf." ;
+    skos:example "In the TERN vocab collection 'plant individual' is specifically used as a feature of interest representing an individual plant (i.e., either a tree, shrub or palm) in a given geographic location, and is tagged with a unique identification label with repeated observations/measurements such as plant height, stem diameter, etc. perfomed on that individual over time." ;
+    skos:historyNote "Added as a narrower concept of 'plant' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-individual" ;
+    skos:prefLabel "plant individual" ;
+    schema:citation "Cook, Robert Edward. Asexual reproduction: a further consideration. The American Naturalist 113.5 (1979): 769-772.",
+        "Harper, J. L. Modules, branches, and the capture of resources. In Population biology and evolution of clonal organisms.(Eds JBC Jackson, LW Buss, RE Cook) pp. 1–33. (1985)." .
+
+<http://linked.data.gov.au/def/tern-cv/61311a0e-5b09-406c-9f64-b0637271ecf2> a skos:Concept ;
+    dcterms:created "2021-04-20T04:49:27"^^xsd:dateTime ;
+    dcterms:modified "2026-02-24T22:46:24"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/8cadf069-01d7-4420-b454-cae37740c2a2> ;
+    skos:definition "A smaller sampling unit established within a larger plot, used to collect more detailed or specific measurements of abiotic or biotic properties. Subplots help capture variability within the main plot and support finer-scale analysis.",
+        "The plot that is part of the main survey plot." ;
+    skos:historyNote "Updated on 10/09/2025: added this concept to Site type scheme, updated the definition so that it fits in both Attribute and Site Type scheme." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d>,
+        <http://linked.data.gov.au/def/tern-cv/dd085299-ae86-4371-ae15-61dfa432f924> ;
+    skos:prefLabel "subplot"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/dd085299-ae86-4371-ae15-61dfa432f924> .
+
+<http://linked.data.gov.au/def/tern-cv/62a51999-f3ca-41d2-8576-3a053dd116a6> a skos:Concept ;
+    dcterms:created "2022-08-05T03:58:45"^^xsd:dateTime ;
+    dcterms:description "A population of birds (vertebrates class Aves) is a collection of individuals belonging to the same bird species, living in the same area." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Begon, Michael, Martin Mortimer, and David J. Thompson. Population ecology: a unified study of animals and plants. John Wiley & Sons, 2009." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5c93aeef-c625-4117-85be-3a886416f2be> ;
+    skos:definition "Group of individuals of the same bird species (class Aves) living within a given area." ;
+    skos:example "A flock of Galah feeding on fruits." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "bird-population" ;
+    skos:prefLabel "bird population"@en ;
+    schema:citation "Begon, Michael, Martin Mortimer, and David J. Thompson. Population ecology: a unified study of animals and plants. John Wiley & Sons, 2009." .
+
+<http://linked.data.gov.au/def/tern-cv/62de2d02-4635-4835-b005-83890d755c34> a skos:Concept ;
+    dcterms:created "2024-04-18T03:17:17"^^xsd:dateTime ;
+    dcterms:modified "2025-10-03T04:06:57"^^xsd:dateTime ;
+    dcterms:source "http://purl.obolibrary.org/obo/NCIT_C14340"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/ea6c4b26-2fa1-4d0e-9413-b53f248f2269> ;
+    skos:definition "Non-vascular plants that are occurring at a specific region at a specific time. They are plants that do not have vascular tubes/tissues to transport food and water. It belongs to the division Bryophyta, which includes liverwort, and moss." ;
+    skos:example "An individual or a group of lichens sampled from a rocky area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "non-vascular plant occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/63e83f29-7240-499b-a6ca-015b265beda7> a skos:Concept ;
+    dcterms:modified "2021-04-22T01:45:43"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:definition "Straight line through space along which observations are made or measurements taken." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "transect" ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> .
+
+<http://linked.data.gov.au/def/tern-cv/6631aee8-6b8c-4ce0-ae0b-27ad55263a7e> a skos:Concept ;
+    dcterms:created "2024-04-16T05:23:50"^^xsd:dateTime ;
+    dcterms:modified "2024-04-19T04:45:14"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/c242f606-1df2-4222-a5f1-a899ae66fde4> ;
+    skos:definition "A vertebrate community (i.e., animals that possess or develop a vertebral column) are a group/s or vertebrates of different species and or populations living in a geographic area." ;
+    skos:example "A collection of vertebrates (such as birds and mammals) from a wetland region." ;
+    skos:historyNote "Added to the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vertebrate community"@en .
+
+<http://linked.data.gov.au/def/tern-cv/699b7fcb-6816-4f2a-9f2f-72b8a913f1d0> a skos:Concept ;
+    dcterms:created "2022-09-19T03:07:43"^^xsd:dateTime ;
+    dcterms:description "Dead plant material (leaves, bark, needles, and twigs) that have fallen to the ground in a specific sampled space." ;
+    dcterms:modified "2023-06-23T05:56:27"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/e6ed6e58-5916-4d31-9ed5-109ab3436fce> ;
+    skos:definition "Dead plant material (not wood) that have fallen to the ground in a sampled contiguous community of plants." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "stand-plant-litter" ;
+    skos:prefLabel "stand plant litter"@en .
+
+<http://linked.data.gov.au/def/tern-cv/6ac5044b-ffac-4cfb-b135-1983e0ea2f7a> a skos:Concept ;
+    dcterms:created "2024-12-06T01:39:41"^^xsd:dateTime ;
+    dcterms:description "Plant disturbance occurs when a plant is damaged, its growth is restricted, or its reproduction is limited. This can be natural and/or human induced." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Johnson, E. A., & Miyanishi, K. (Eds.). (2010). Plant disturbance ecology: the process and the response. Elsevier." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/d4fc54b1-0ad3-4512-86b7-d42b121ece45> ;
+    skos:definition "Events that disrupts individual plant or plant components directly, impacting its physical structure and functions." ;
+    skos:example "Frequency and intensity of fires or pests on individual plants; Anthropogenic disturbance such as logging, lopping, etc." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "plant disturbance"@en ;
+    schema:citation "Johnson, E. A., & Miyanishi, K. (Eds.). (2010). Plant disturbance ecology: the process and the response. Elsevier." .
+
+<http://linked.data.gov.au/def/tern-cv/6d40d71e-58cd-4f75-8304-40c01fe5f74c> a skos:Concept ;
+    dcterms:created "2021-02-25T01:00:37"^^xsd:dateTime ;
+    dcterms:description "All weather conditions for a given location over a period of time. Climate refers to atmospheric changes over longer periods of time, usually defined as 30 years or more." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "https://education.nationalgeographic.org/resource/weather-or-climate-whats-difference/"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/db6d3a22-8bf4-4e27-a9a4-a49e228b6f52> ;
+    skos:definition "Climate is commonly defined as the weather averaged, or otherwise summarised, over a period of time much longer than the duration of any phenomenon that constitutes weather." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01001082> ;
+    skos:example "A change in climate forecasted for Litchfield, based on historical climate records from the flux tower. Climate based on region types include: equatorial, tropical, sub-tropical, temperate, desert, grassland." ;
+    skos:historyNote "Added as a narrower of 'atmosphere' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "climate" ;
+    skos:prefLabel "climate"@en .
+
+<http://linked.data.gov.au/def/tern-cv/6e8feb2a-6e55-42d0-9e1e-0d85bed27843> a skos:Concept ;
+    dcterms:created "2022-08-05T03:56:43"^^xsd:dateTime ;
+    dcterms:description "A bird indvidual is a physiological independent individual that has some kind of autonomous agency and has a life cycle that allow them to form some kind of reproductive lineages." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/1554c27a-e777-49da-abc3-10296734f80b> ;
+    skos:definition "A physiologically distinct and independent bird individual." ;
+    skos:example "An individual bird tagged with a ring band for studying their activity over time." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "bird-individual" ;
+    skos:prefLabel "bird individual"@en ;
+    schema:citation "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." .
+
+<http://linked.data.gov.au/def/tern-cv/6f3aedf7-4ab8-4ba5-82af-928ec9d51c7f> a skos:Concept ;
+    dcterms:created "2024-01-03T03:02:37"^^xsd:dateTime ;
+    dcterms:description "A vantage point is a view point, usually high and provides a clear scenic aerial perspective/vision of an area."@en ;
+    dcterms:modified "2026-02-24T22:54:54"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> ;
+    skos:definition "A place, especially a high place, that provides a good, clear view of an area."@en ;
+    <http://www.w3.org/2004/02/skos/core#exactMatch:> <https://dictionary.cambridge.org/dictionary/english/vantage-point> ;
+    skos:example "A surveyor studying the presence of a fauna (pest) from a 'vantage point'." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vantage point"@en .
+
+<http://linked.data.gov.au/def/tern-cv/6fb57064-7198-4df9-bf7c-86b73f69da66> a skos:Concept ;
+    dcterms:created "2021-04-09T00:32:52"^^xsd:dateTime ;
+    dcterms:modified "2026-02-24T22:47:09"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> ;
+    skos:definition "A designated area within a larger survey site that is treated as a separate unit for sampling or data collection. Subsites allow researchers to capture spatial variation across different parts of the main site. Subsites can be of type plots, transects, quadrats or simply point locations within the site." ;
+    skos:historyNote "Updated on 10/09/2025: activated the deprecated concept, move it from Feature type to Site type scheme, and added definition." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "subsite"@en .
+
+<http://linked.data.gov.au/def/tern-cv/7fd49a58-6b46-497c-b5d6-68cda55531df> a skos:Concept ;
+    dcterms:created "2025-09-09T02:09:46"^^xsd:dateTime ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Wood, S., Stephens, H., Foulkes, J., Ebsworth, E. and Bowman, D., (2012). AusPlots Forests Survey Protocols Manual. Version 1.6 page 61-70.Terrestrial Ecosystem Research Network and The University of Adelaide Press." ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/e6ed6e58-5916-4d31-9ed5-109ab3436fce> ;
+    skos:definition "Fine litter includes detached leaves of trees or shrubs, twigs ≤ 6 mm diameter and any detached part of grasses or herbs." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "fine litter"@en ;
+    schema:citation "Wood, S., Stephens, H., Foulkes, J., Ebsworth, E. and Bowman, D., (2012). AusPlots Forests Survey Protocols Manual. Version 1.6 page 61-70.Terrestrial Ecosystem Research Network and The University of Adelaide Press." .
+
+<http://linked.data.gov.au/def/tern-cv/80c39b95-0912-4267-bb66-2fa081683723> a skos:Concept ;
+    dcterms:description "A soil profile is a vertical section of a soil from the soil surface through all its horizons to parent material, other consolidated substrate material or selected depth in unconsolidated material. Because soil depth varies between very wide limits the depth of examination in practice frequently may not exceed 1.5–2 m." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/98e8d72d-f361-41ed-af9d-6e7f90c1dfce> ;
+    skos:definition "A collection of vertical sections of soil, usually collected to 1m depth." ;
+    skos:example "The depth of the soil profile." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "soil-profile" ;
+    skos:prefLabel "soil profile" ;
+    schema:citation "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." .
+
+<http://linked.data.gov.au/def/tern-cv/8a68b4a9-167b-40f0-9222-293a2d20ffee> a skos:Concept ;
+    dcterms:created "2021-04-21T06:28:27"^^xsd:dateTime ;
+    dcterms:description "A population of animals is a collection of individuals belonging to the same species, living in the same area. Vital rates such as survival, growth, migration structure the population size." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Begon, Michael, Martin Mortimer, and David J. Thompson. Population ecology: a unified study of animals and plants. John Wiley & Sons, 2009.",
+        "Silvertown, Jonathan, and Deborah Charlesworth. Introduction to plant population biology. John Wiley & Sons, 2009." ;
+    skos:broadMatch <http://vocabs.lter-europe.net/EnvThes/20715> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/f6a6cdf8-d8cf-4e2d-b2c1-febd8a41a07b> ;
+    skos:definition "The total number of individuals or groups of the same animal species living within a given area." ;
+    skos:example "1. A colony of red ants in a study plot in Kakadu National Park, NT; 2. The number of male and female Koalas on a Eucalypt woodland, Fig Tree Pocket, Brisbane." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "animal-population" ;
+    skos:prefLabel "animal population"@en ;
+    schema:citation "Begon, Michael, Martin Mortimer, and David J. Thompson. Population ecology: a unified study of animals and plants. John Wiley & Sons, 2009.",
+        "Silvertown, Jonathan, and Deborah Charlesworth. Introduction to plant population biology. John Wiley & Sons, 2009." .
+
+<http://linked.data.gov.au/def/tern-cv/8cd716ed-7d4f-4c44-81ba-c921cb431962> a skos:Concept ;
+    dcterms:created "2022-09-19T23:52:34"^^xsd:dateTime ;
+    dcterms:description "Dead or alive plant organic matter characteristics relevant to its flammability sampled over a transect." ;
+    dcterms:modified "2023-06-23T05:47:16"^^xsd:dateTime ;
+    dcterms:source "https://www.ecologyandsociety.org/vol7/iss1/art9/des_fuel_load.html" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/df7fd606-8145-4206-b66e-b86444888802> ;
+    skos:definition "Sample of dead and alive vegetation matter relevant to its flammability using a transect." ;
+    skos:example "The fuel load in a transect." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "transect vegetation fuel sample"@en .
+
+<http://linked.data.gov.au/def/tern-cv/972669a7-8a3c-4bd6-9d24-04606fcdd773> a skos:Concept ;
+    dcterms:created "2022-03-10T05:57:00"^^xsd:dateTime ;
+    dcterms:modified "2023-06-23T06:31:23"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/32834f36-a478-45be-97f4-ff2ff51e9f5c> ;
+    skos:definition "TBD" ;
+    skos:description "TBD" ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-taxa-per-stratum" ;
+    skos:prefLabel "plant taxa per stratum"@en .
+
+<http://linked.data.gov.au/def/tern-cv/9f0ed180-2b85-4efa-b09f-9e20caf1d069> a skos:Concept ;
+    dcterms:created "2024-11-14T00:36:53"^^xsd:dateTime ;
+    dcterms:description "Tree stump is a part of a plant and especially a tree remaining attached to the root after the trunk is cut or broken from natural disturbances. The stump may not be completely dead and can regenerate under favourable conditions, either at its apex, base, or via epicormal growth." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "McCallum K, Potter T, Cox, B, Laws M, Bignall J, O’Neill S, Sparrow B. (2023) Condition Module. In ‘Ecological Field Monitoring Protocols Manual using the Ecological Monitoring System Australia’. (Eds S O’Neill, K Irvine, A Tokmakoff, B Sparrow). TERN, Adelaide." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "Standing upright portion of dead trees above ground surface <1.3 m that remains after cutting or natural processes have occurred." ;
+    skos:example "A count of the total stumps, including stump height following a logging activity." ;
+    skos:historyNote "Created this feature type for the EMSA Condition Module." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "tree stump"@en ;
+    schema:citation "McCallum K, Potter T, Cox, B, Laws M, Bignall J, O’Neill S, Sparrow B. (2023) Condition Module. In ‘Ecological Field Monitoring Protocols Manual using the Ecological Monitoring System Australia’. (Eds S O’Neill, K Irvine, A Tokmakoff, B Sparrow). TERN, Adelaide." .
+
+<http://linked.data.gov.au/def/tern-cv/a0bcca19-143c-4898-9f43-321bad63ebad> a skos:Concept ;
+    dcterms:created "2022-09-19T05:11:30"^^xsd:dateTime ;
+    dcterms:modified "2023-06-23T05:56:33"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/4b36a1ab-7a77-49ca-866a-e68bce2db9e5> ;
+    skos:definition "Organic material which is primarily composed of plant structures, living or dead in a specific sampled area."@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "stand-plant-matter" ;
+    skos:prefLabel "stand plant matter"@en .
+
+<http://linked.data.gov.au/def/tern-cv/a1523a81-8865-401e-8ae6-c9bd26faee02> a skos:Concept ;
+    dcterms:created "2022-05-17T03:40:34"^^xsd:dateTime ;
+    dcterms:modified "2025-10-14T22:15:38"^^xsd:dateTime ;
+    dcterms:source <https://www.nrs.fs.fed.us/fia/topics/dwm/glossary/> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a8b1a7fb-b479-48ff-b706-b3cc4691710b> ;
+    skos:definition "Dead branches, twigs, wood splinters 1 - 10cm in diameter."@en ;
+    skos:example "Any observations made or derived from fine woody debris. For example, the count, length and/or mass of fine woody debris in a forest area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "fine woody debris"@en .
+
+<http://linked.data.gov.au/def/tern-cv/a1cd1820-458f-422c-b346-aec7612a39f9> a skos:Concept ;
+    dcterms:created "2024-04-17T23:55:04"^^xsd:dateTime ;
+    dcterms:modified "2025-10-03T04:07:12"^^xsd:dateTime ;
+    dcterms:source "http://purl.obolibrary.org/obo/NCIT_C14340"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/ea6c4b26-2fa1-4d0e-9413-b53f248f2269> ;
+    skos:definition "A community of non-vascular plants. Plants that do not have vascular tubes/tissues to transport food and water. It belongs to the division Bryophyta, which includes liverwort, and moss." ;
+    skos:example "A community of lichens, mosses and liverworts sampled from a tropical montane rainforest." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "non-vascular plants community"@en .
+
+<http://linked.data.gov.au/def/tern-cv/a4c351f8-741e-4790-a62e-00af9dfcb28c> a skos:Concept ;
+    dcterms:created "2024-04-16T04:25:16"^^xsd:dateTime ;
+    dcterms:description "As of 2024, there are 566 Local Government Areas covering the whole of Australia, including unincorporated areas, without gaps or overlaps. This incorporates 19 non-spatial special purpose codes including a new Outside Australia code. ABS approximations of administrative boundaries do not match official legal boundaries and should only be used for statistical purposes."@en ;
+    dcterms:modified "2025-10-13T23:13:41"^^xsd:dateTime ;
+    dcterms:source "Australian Bureau of Statistics. (Jul2021-Jun2026). Australia and State/Territory. ABS. https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/main-structure-and-greater-capital-city-statistical-areas/australia-and-stateterritory." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/05dac53a-269c-4699-9673-bf99a9406b14> ;
+    skos:definition "Local Government Areas are an ABS Mesh Block approximation of gazetted local government boundaries as defined by each state and territory."@en ;
+    skos:example "Local Government Areas (LGA) serve as a feature of interest for biodiversity, habitat, and ecosystem monitoring. Each government area represents a relatively large adminstrative unit of land or water containing a assemblage of species and natural communities managed within the local government administrative area." ;
+    skos:historyNote "Added as a narrower of 'administrative area' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "Local Government Areas"@en .
+
+<http://linked.data.gov.au/def/tern-cv/a5179275-33e7-4eed-b57c-474787ac39ea> a skos:Concept ;
+    dcterms:created "2024-04-16T04:40:34"^^xsd:dateTime ;
+    dcterms:description "There are 867 terrestrial ecoregions, classified into 14 different biomes such as forests, grasslands, or deserts."@en ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D., Powell, G. V. N., Underwood, E. C., D'Amico, J. A., Itoua, I., Strand, H. E., Morrison, J. C., Loucks, C. J., Allnutt, T. F., Ricketts, T. H., Kura, Y., Lamoreux, J. F., Wettengel, W. W., Hedao, P., Kassem, K. R. 2001. Terrestrial ecoregions of the world: a new map of life on Earth. Bioscience 51(11):933-938." ;
+    skos:altLabel "Terrestrial Ecoregions of the World (TEOW)" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/05dac53a-269c-4699-9673-bf99a9406b14> ;
+    skos:definition "The WWF Ecoregions, also referred to as Terrestrial Ecoregions of the World (TEOW) is a biogeographic regionalization of the earth's terrestrial biodiversity. The biogeographic units are ecoregions, which are defined as relatively large units of land or water containing a distinct assemblage of natural communities sharing a large majority of species, dynamics, and environmental conditions."@en ;
+    skos:example "WWF Ecoregions serve as a feature of interest for biodiversity, habitat, and ecosystem monitoring. Each ecoregion represents a relatively large unit of land or water containing a geographically distinct assemblage of species and natural communities on which observations can be made at that ecoregion." ;
+    skos:historyNote "Added as a narrower of 'administrative area' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "WWF Ecoregions"@en ;
+    schema:citation "Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D., Powell, G. V. N., Underwood, E. C., D'Amico, J. A., Itoua, I., Strand, H. E., Morrison, J. C., Loucks, C. J., Allnutt, T. F., Ricketts, T. H., Kura, Y., Lamoreux, J. F., Wettengel, W. W., Hedao, P., Kassem, K. R. 2001. Terrestrial ecoregions of the world: a new map of life on Earth. Bioscience 51(11):933-938." .
+
+<http://linked.data.gov.au/def/tern-cv/ae71c3f6-d430-400f-a1d4-97a333b4ee02> a skos:Concept ;
+    dcterms:created "2021-02-01T04:29:24"^^xsd:dateTime ;
+    dcterms:description "Collection of individuals belonging to the same species, living in the same area (Silvertown and Charlesworth 2001). In practice, the focal set of individuals and the spatial scale of the populations has to be define." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Silvertown, Jonathan, and Deborah Charlesworth. Introduction to plant population biology. John Wiley & Sons, 2009." ;
+    skos:broadMatch <http://vocabs.lter-europe.net/EnvThes/20715> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/881bcb98-1c31-4710-a9a4-58dbe1bc4a95> ;
+    skos:definition "Group of individuals of the same plant species living within a given area." ;
+    skos:example "In the TERN vocabs the plant population is a feature of interest representing a population of a given plant species. For example, 1. The population of Corymbia clarksoniana in a Eucalypt woodland; 2. 20 individuals of Taraxacum officinalis" ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-population" ;
+    skos:prefLabel "plant population"@en ;
+    schema:citation "Silvertown, Jonathan, and Deborah Charlesworth. Introduction to plant population biology. John Wiley & Sons, 2009." .
+
+<http://linked.data.gov.au/def/tern-cv/aef12cd6-3826-4988-a54c-8578d3fb4c8d> a skos:Concept ;
+    dcterms:created "2021-05-10T02:34:49"^^xsd:dateTime ;
+    dcterms:description "Land surface substrate is the combination of soil, rock, dead plant materials which make up the land surface." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/8282fb22-4135-415c-8ca2-317860d102fb> ;
+    skos:definition "Materials, soils or rock that can be found on the land surface." ;
+    skos:example "1. decomposing plant matter on a forest floor; 2. The abundance of coarse fragments." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "land-surface-substrate" ;
+    skos:prefLabel "land surface substrate"@en ;
+    schema:citation "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." .
+
+<http://linked.data.gov.au/def/tern-cv/b123913b-d601-4777-9298-7576c44879d2> a skos:Concept ;
+    dcterms:created "2022-08-23T01:35:59"^^xsd:dateTime ;
+    dcterms:description "A single invertebrate individual (animals that neither possess nor develop a vertebral column)." ;
+    dcterms:modified "2025-10-01T06:18:32"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/86758d4d-e4d9-4d03-9e5d-f528bb4a5889> ;
+    skos:definition "An invertebrate which is physiologically distinct and independent." ;
+    skos:example "Venom extracted from a tagged funnel-web spider over time." ;
+    skos:historyNote "Added to the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "invertebrate-individual" ;
+    skos:prefLabel "invertebrate individual"@en .
+
+<http://linked.data.gov.au/def/tern-cv/b293a07e-a1ff-4a4e-9af9-922057d5d742> a skos:Concept ;
+    dcterms:created "2024-11-04T06:11:22"^^xsd:dateTime ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Godfree, RC, Knerr, N, Encinas-Viso, F, Albrecht, D, Bush, D, Cargill, DC, Clements, M, Gueidan, C, Guja, LK, Harwood, T (2021) Implications of the 2019–2020 megafires for the biogeography and conservation of Australian vegetation. Nature communications 12, 1–13." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/7e256d28-e686-4b6a-b64a-ac1b1a8f164d> ;
+    skos:definition "Fire events that disrupt the ecosystem, community, or population structure and changes resources, substrate availability, or the physical environment." ;
+    skos:example "Observations on plant char height made in a forest plot after a fire event." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "fire disturbance"@en ;
+    schema:citation "Godfree, RC, Knerr, N, Encinas-Viso, F, Albrecht, D, Bush, D, Cargill, DC, Clements, M, Gueidan, C, Guja, LK, Harwood, T (2021) Implications of the 2019–2020 megafires for the biogeography and conservation of Australian vegetation. Nature communications 12, 1–13." .
+
+<http://linked.data.gov.au/def/tern-cv/b311c0d3-4a1a-4932-a39c-f5cdc1afa611> a skos:Concept ;
+    dcterms:created "2021-10-06T23:53:25"^^xsd:dateTime ;
+    dcterms:description "Plant occurrence can be used to describe the distribution and abundance of plants within a population or community, and it is often used in studies of plant populations and communities. Plant occurrence can be influenced by many factors, such as environmental conditions, competition for resources, and interactions with other species. Plant occurrence is an important concept in plant ecology because it provides information about the distribution and abundance of plants in a given area, which can help to understand the dynamics of plant populations and communities." ;
+    dcterms:modified "2024-04-17T06:18:57"^^xsd:dateTime ;
+    skos:altLabel "plant sample" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/881bcb98-1c31-4710-a9a4-58dbe1bc4a95> ;
+    skos:closeMatch <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+    skos:definition "In the context of plant ecology, plant occurrence typically refers to the presence of a single plant or a group of plants of the same species in a specific area." ;
+    skos:example "1) A clump of grass sampled at a point intercept along a transect; 2) An individual tree sampled along a transect. 3) An Ironbark population on State Forest. 4) A plant in Kakadu National Park in the dry season of 2020." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-occurrence" ;
+    skos:prefLabel "plant occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/b9a72809-6d53-4dad-bac6-bfe4dc76be31> a skos:Concept ;
+    dcterms:created "2023-01-17T03:43:55"^^xsd:dateTime ;
+    dcterms:description "Soil subsites are sampled to capture soil diversity across the plot, with soil characters that are atypical of the soil pit recorded at each sub-site." ;
+    dcterms:modified "2023-06-28T00:43:29"^^xsd:dateTime ;
+    dcterms:source "Laws M, McCallum K, Cox B, Bignall J, Matthews K, O’Neill S, Sparrow B. (unpublished draft) ‘Soils module’ in ….. (eds) Ecological Field Monitoring Protocols Manual: Standardising environmental monitoring and data systems for improved decision making. Draft v 0.1 Report to DAWE. TERN, Adelaide." ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/98e8d72d-f361-41ed-af9d-6e7f90c1dfce> ;
+    skos:definition "A soil subsite is a spatial point within a plot used for soil characterisation to capture the soil diversity across the plot." ;
+    skos:example "The soil horizon depth in a subsite." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "soil sub-pits"@en .
+
+<http://linked.data.gov.au/def/tern-cv/bab5d9ff-cd5f-4d15-868a-598c98044d21> a skos:Concept ;
+    dcterms:created "2024-04-16T04:10:39"^^xsd:dateTime ;
+    dcterms:description "CAPAD, published every 2 years (since 1997), is used to provide a national perspective of the conservation of biodiversity in protected areas. It also allows Australia to report on the status of protected areas to meet international obligations such as those under the Convention on Biological Diversity (CBD)"@en ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/05dac53a-269c-4699-9673-bf99a9406b14> ;
+    skos:definition "Collaborative Australian Protected Areas Database (CAPAD) is a textual and spatial database with information available for terrestrial protected areas covering 169,941,262 ha (22.1 per cent) of the Australian landmass. "@en ;
+    skos:exactMatch <https://www.dcceew.gov.au/environment/land/nrs/science/capad> ;
+    skos:example "CAPAD serve as a feature of interest for Australian biodiversity, habitat, and ecosystem monitoring. Each protected area represents a relatively large unit of land and/or water containing a geographically distinct assemblage of species and natural communities. CAPAD 2024 shows Australia now has 14,575 terrestrial protected areas, covering 22.57 per cent of the Australian landmass, 319 marine protected areas and 11 Sea Country Indigenous Protected Areas that collectively cover 48.9 per cent of Australian waters." ;
+    skos:historyNote "Added as a narrower of 'administrative area' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "CAPAD" ;
+    skos:prefLabel "Collaborative Australian Protected Areas Database (CAPAD)"@en .
+
+<http://linked.data.gov.au/def/tern-cv/bc02be3f-6c9c-4abe-bec9-5c2de8497897> a skos:Concept ;
+    dcterms:created "2022-08-23T03:58:52"^^xsd:dateTime ;
+    dcterms:description "An invertebrate occurrence (animals that neither possess nor develop a vertebral column) is a sample of an invertebrate individual or group of invertebrates at a particular point and time." ;
+    dcterms:modified "2025-10-01T06:18:44"^^xsd:dateTime ;
+    dcterms:source "http://rs.tdwg.org/dwc/terms/Occurrence"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/86758d4d-e4d9-4d03-9e5d-f528bb4a5889> ;
+    skos:definition "An existence of a single invertebrate or group of invertebrates sampled at a particular place at a particular time." ;
+    skos:example "1. The presence of moths in a tree canopy at a given time.; 2. A group of invertebrates of a particular taxonomic rank sampled from the topsoil in a tropical rainforest" ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "invertebrate-occurrence" ;
+    skos:prefLabel "invertebrate occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/c4e95889-9205-432f-9748-e83966e742c9> a skos:Concept ;
+    dcterms:created "2022-08-15T06:19:57"^^xsd:dateTime ;
+    dcterms:description "An occurrence is a sample of an reptile individual or group of reptiles at a particular point and time." ;
+    dcterms:modified "2025-10-01T06:22:01"^^xsd:dateTime ;
+    dcterms:source "http://rs.tdwg.org/dwc/terms/Occurrence"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5cd1dbb0-c30e-4c8e-ae1b-0b388638163c> ;
+    skos:definition "An existence of reptile sampled at a particular place at a particular time." ;
+    skos:example "The presence of lizards in Granite Belt National Park, Queensland." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "reptile-occurrence" ;
+    skos:prefLabel "reptile occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/c61dd945-c6e5-4287-8349-90ef2d5c304e> a skos:Concept ;
+    dcterms:created "2024-04-16T05:24:15"^^xsd:dateTime ;
+    dcterms:modified "2024-04-19T04:40:30"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/86758d4d-e4d9-4d03-9e5d-f528bb4a5889> ;
+    skos:definition "An invertebrate community (i.e., animals that neither possess nor develop a vertebral column) are a group or invertebrates of different species and or populations living in a geographic area." ;
+    skos:example "A collection of beetles or ants from a region." ;
+    skos:historyNote "Added to the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "invertebrate community"@en .
+
+<http://linked.data.gov.au/def/tern-cv/c8385d99-2c71-4e52-ae94-4895745e0e36> a skos:Concept ;
+    dcterms:created "2024-04-16T04:01:23"^^xsd:dateTime ;
+    dcterms:description "The latest version, IBRA7, classifies Australia's landscapes into 89 large geographically distinct bioregions based on common climate, geology, landform, native vegetation and species information. For example, the Australian Alps, the Nullabor Plain and the Wet Tropics are distinct bioregions. The 89 bioregions are further refined to form 419 subregions which are more localised and homogenous geomorphological units in each bioregion. The bioregions and subregions are defined in the IBRA7 bioregional map. "@en ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    skos:altLabel "Australia's IBRA" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/05dac53a-269c-4699-9673-bf99a9406b14> ;
+    skos:definition "The Interim Biogeographic Regionalisation for Australia (IBRA) are bioregions based on a national and regional planning framework for the systematic development of a comprehensive, adequate and representative (‘CAR’) National Reserve System."@en ;
+    skos:exactMatch <https://www.dcceew.gov.au/environment/land/nrs/science/ibra> ;
+    skos:example "IBRA bioregions serve as a feature of interest for Australian biodiversity, habitat, and ecosystem monitoring. Each region represents a relatively large unit of land or water containing a geographically distinct assemblage of species and natural communities." ;
+    skos:historyNote "Added as a narrower of 'administrative area' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "IBRA" ;
+    skos:prefLabel "Interim Biogeographic Regionalisation for Australia (IBRA)"@en .
+
+<http://linked.data.gov.au/def/tern-cv/c8a66c8a-af06-44fc-b556-3ff242e622aa> a skos:Concept ;
+    dcterms:created "2022-07-14T03:54:36"^^xsd:dateTime ;
+    dcterms:modified "2023-06-23T06:22:29"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "A set of plants exhibiting similar responses to environmental conditions and having similar effects on the dominant ecosystem processes." ;
+    skos:description "Plant functional types represent broad groupings of plant species that share similar characteristics (e.g. growth form) and roles (e.g. photosynthetic pathway) in ecosystem function." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-functional-type" ;
+    skos:prefLabel "plant functional type"@en .
+
+<http://linked.data.gov.au/def/tern-cv/caab05f4-084e-4cd8-b219-199529807d3d> a skos:Concept ;
+    dcterms:created "2021-12-17T03:50:10"^^xsd:dateTime ;
+    dcterms:description "A stem often bears leaves and buds. It is usually above ground, and is more or less negatively geotropic. A shoot axis (PO:0025029) that is the primary axis of a plant." ;
+    dcterms:modified "2022-07-15T03:29:23"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:definition "A shoot axis that is the primary axis of a plant." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/PO_0009047> ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "individual-stem" ;
+    skos:prefLabel "plant stem individual"@en .
+
+<http://linked.data.gov.au/def/tern-cv/cb92dce1-d0ab-4ed7-b586-9a55bc31c3d6> a skos:Concept ;
+    dcterms:created "2024-11-26T23:16:36"^^xsd:dateTime ;
+    dcterms:modified "2026-09-06T23:39:29"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:altLabel "Australian CZO Network Site",
+        "CZO Site",
+        "OzCZO Site" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> ;
+    skos:definition "Monitoring site sampling a diversity of Australia’s geologies, biomes, land uses and climates. Critical Zone Observatory Sites host automated monitoring infrastructure to record stocks and flows of carbon, water, energy and mass across the Critical Zone—the vertical span from plant canopies to fresh bedrock." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "critical zone observatory site"@en .
+
+<http://linked.data.gov.au/def/tern-cv/cd5cbdbb-07d9-4a5b-9b11-5ab9d6015be6> a skos:Concept ;
+    dcterms:created "2021-11-24T02:21:51"^^xsd:dateTime ;
+    dcterms:description "An animal specimen is used for vouchering purposes. Animal specimens can include whole or part/s of animal such as hair, nails, etc. that will be archived in a collection or museum for future studies." ;
+    dcterms:modified "2025-10-01T06:17:51"^^xsd:dateTime ;
+    dcterms:source "http://purl.org/zonmw/generic/10009"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/f6a6cdf8-d8cf-4e2d-b2c1-febd8a41a07b> ;
+    skos:definition "A part of an animal, or of whole animal, taken and stored in a preservative for potential future use to demonstrate or to determine the traits or behaviour of the animal." ;
+    skos:example "Hair sample number 113AB collected from a possum during a vertebrate fauna survey." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "animal-specimen" ;
+    skos:prefLabel "animal specimen"@en .
+
+<http://linked.data.gov.au/def/tern-cv/cdb28aaa-bcec-431b-9afe-e8a03d9ef11c> a skos:Concept ;
+    dcterms:created "2021-02-01T04:37:24"^^xsd:dateTime ;
+    dcterms:modified "2025-10-30T00:26:53"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2e122e23-881c-43fa-a921-a8745f016ceb> ;
+    skos:definition "A sample (or part) of the voucher specimen of a plant." ;
+    skos:example "Voucher specimen samples can be an important feature of interest, when observations are made on those samples. For example, species identification for plants by designating a scientific name from observations on plant morphological features from a sample twig in a specimen." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "plant voucher specimen sample"@en .
+
+<http://linked.data.gov.au/def/tern-cv/cff98a66-48bb-4654-ad6d-a5f36079efae> a skos:Concept ;
+    dcterms:created "2023-06-23T01:36:43"^^xsd:dateTime ;
+    dcterms:description "Theoretically, it is useful to consider the complete set of animals belonging to all species living in a particular place and time as an animal community (community sensu lato Vellend 2016). In practice, studies often focus on a subset of the whole animal community chosen on the basis of growth, taxonomy or particular interactions (Morin 2011)." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Morin, P. J. Community ecology. Wiley. (2011); Vellend, Mark. The theory of ecological communities (MPB-57). Princeton University Press, 2020." ;
+    skos:broadMatch <http://vocabs.lter-europe.net/EnvThes/20715> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/f6a6cdf8-d8cf-4e2d-b2c1-febd8a41a07b> ;
+    skos:definition "Group of animals representing multiple species living in a specified place and time." ;
+    skos:example "1. Birds from different species present-in, or sharing the same water body.; 2. Measurements of total mass made for all the mammals residing in a given ecological niche." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "animal-community" ;
+    skos:prefLabel "animal community"@en ;
+    schema:citation "Morin, P. J. Community ecology. Wiley. (2011); Vellend, Mark. The theory of ecological communities (MPB-57). Princeton University Press, 2020." .
+
+<http://linked.data.gov.au/def/tern-cv/d63f3330-5687-4c55-bb91-184fa062a755> a skos:Concept ;
+    dcterms:created "2022-08-19T04:13:12"^^xsd:dateTime ;
+    dcterms:description "A reptile indvidual is a physiological independent individual that has some kind of autonomous agency and has a life cycle that allow them to form some kind of reproductive lineages." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/1554c27a-e777-49da-abc3-10296734f80b> ;
+    skos:definition "Physiologically distinct and independent reptile." ;
+    skos:example "An individual snake identified and tagged with a microchip for studying their feeding behaviour over time." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "reptile-individual" ;
+    skos:prefLabel "reptile individual"@en ;
+    schema:citation "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." .
+
+<http://linked.data.gov.au/def/tern-cv/d738a3f9-9b00-4adf-9dc8-0577269b691d> a skos:Concept ;
+    dcterms:created "2021-02-23T04:51:29"^^xsd:dateTime ;
+    dcterms:description "Soil specimens, are collected for their preservation. Information about the type of specimens, the amount of material, the specimen id, collection depth, latitude and longitude, date of collection and soil moisture content/conditions of collection are recorded." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Simons, B., Wilson, P., Ritchie, A. and Cox, S., 2013, April. ANZSoilML: an Australian-New Zealand standard for exchange of soil data. In EGU General Assembly Conference Abstracts (pp. EGU2013-6802)." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/98e8d72d-f361-41ed-af9d-6e7f90c1dfce> ;
+    skos:definition "A preserved (physical) soil sample." ;
+    skos:example "A soil sample preserved in a collection usually with a voucher number." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "soil-specimen" ;
+    skos:prefLabel "soil specimen"@en ;
+    schema:citation "Simons, B., Wilson, P., Ritchie, A. and Cox, S., 2013, April. ANZSoilML: an Australian-New Zealand standard for exchange of soil data. In EGU General Assembly Conference Abstracts (pp. EGU2013-6802)." .
+
+<http://linked.data.gov.au/def/tern-cv/de081296-00ba-4ddf-aa7a-947bf3a3e0aa> a skos:Concept ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Rondeux, J., Sanchez, C. Review of indicators and field methods for monitoring biodiversity within national forest inventories. Core variable: Deadwood. Environ Monit Assess 164, 617–630 (2010). https://doi.org/10.1007/s10661-009-0917-6" ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/c001183f-c6b5-4162-8de9-0c7ed0eb3bfe> ;
+    skos:definition "An individual piece of dead wood (diameter >10cm) including downed, dead tree and shrub boles, large limbs, and other woody pieces that are severed from their original source of growth."@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "coarse woody debris piece"@en ;
+    schema:citation "Rondeux, J., Sanchez, C. Review of indicators and field methods for monitoring biodiversity within national forest inventories. Core variable: Deadwood. Environ Monit Assess 164, 617–630 (2010). https://doi.org/10.1007/s10661-009-0917-6" .
+
+<http://linked.data.gov.au/def/tern-cv/de1e18e4-6cfd-4c78-b389-a5b1dd04b899> a skos:Concept ;
+    dcterms:created "2023-01-10T04:09:56"^^xsd:dateTime ;
+    dcterms:description "Horizon is a soil layer which is parallel to the soil surface and which has roughly homogenous physical, chemical and biological properties relative to the soil layers above or beneath it." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/98e8d72d-f361-41ed-af9d-6e7f90c1dfce> ;
+    skos:definition "A vertical section of a soil profile." ;
+    skos:example "1) The O horizon is composed of humus; 2) The colour of the B horizon." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "soil horizon"@en ;
+    schema:citation "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." .
+
+<http://linked.data.gov.au/def/tern-cv/de46fa49-d1c9-4bef-8462-d7ee5174e1e1> a skos:Concept ;
+    dcterms:created "2021-05-11T02:59:21"^^xsd:dateTime ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    skos:altLabel "line transect" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> ;
+    skos:definition "A survey method in which observers record the presence, abundance, or behavior of organisms along a straight line of known length, either by walking, driving, or viewing from a fixed position. It is commonly used in ecology to estimate species distribution and population density." ;
+    skos:exactMatch <http://linked.data.gov.au/def/corveg-cv/de357d5f-0a69-4c25-9da5-d581371438fa> ;
+    skos:historyNote "In the earlier version, the concept was defined as 'A line along which biotic and abiotic characteristics are sampled', and belongs to 'Site type' scheme. Updated on 08/09/2025 with new definition, added it to the 'Method type' scheme and added an altLabel and exactMatch." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "transect"@en .
+
+<http://linked.data.gov.au/def/tern-cv/e0eff420-ec86-4cad-b321-97dd5bfd83b0> a skos:Concept ;
+    dcterms:created "2024-04-18T03:34:25"^^xsd:dateTime ;
+    dcterms:description "Non-woody plants are those that do not produce secondary growth in the form of wood. They include herbaceous species such as grasses, forbs, ferns, etc." ;
+    dcterms:modified "2024-04-18T04:41:20"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2217ab3c-0359-42a3-9361-b3b895121841> ;
+    skos:definition "The presence of non-woody plants at a specific location and time." ;
+    skos:example "An individual or a group of sedges sampled from a rocky outcrop during the dry season." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "non-woody vascular plant occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/e1021d25-7d76-4faa-bfcc-fb6d225eb3ec> a skos:Concept ;
+    dcterms:modified "2026-02-24T22:41:38"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/8cadf069-01d7-4420-b454-cae37740c2a2> ;
+    skos:definition "A plot within a survey region that is established for long-term monitoring, where abiotic and biotic properties are repeatedly sampled over time to track changes.",
+        "Whether the plot has been placed permanently or not." ;
+    skos:historyNote "Updated on 08/09/2025 to include this concept to 'Site type' scheme, as a narrow concept of 'plot'. Also update the definition accordingly." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d>,
+        <http://linked.data.gov.au/def/tern-cv/dd085299-ae86-4371-ae15-61dfa432f924> ;
+    skos:prefLabel "permanent plot" ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/dd085299-ae86-4371-ae15-61dfa432f924> .
+
+<http://linked.data.gov.au/def/tern-cv/e16f8309-5db3-4efb-ba4d-a352fb3dcd94> a skos:Concept ;
+    dcterms:created "2022-08-12T00:07:56"^^xsd:dateTime ;
+    dcterms:description "A mammal occurrence is a sample of a mammal (class Mammalia) at a particular point and time. A mammal occurrence may come from an individual or a group." ;
+    dcterms:modified "2025-10-01T06:21:51"^^xsd:dateTime ;
+    dcterms:source "http://rs.tdwg.org/dwc/terms/Occurrence"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5cd1dbb0-c30e-4c8e-ae1b-0b388638163c> ;
+    skos:definition "An existence of mammal sampled at a particular place at a particular time." ;
+    skos:example "The presence of a Wombat or a group of Wombats recorded from a camera trap survey in Cradle mountain, Tasmania." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "mammal-occurrence" ;
+    skos:prefLabel "mammal occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/e196c39e-959f-4dd4-8816-d0a58b7cc630> a skos:Concept ;
+    dcterms:created "2023-06-23T04:10:11"^^xsd:dateTime ;
+    dcterms:description "Weather events are short-term conditions of the lower atmosphere such as precipitation, temperature, humidity, wind direction, wind speed, and atmospheric pressure." ;
+    dcterms:modified "2024-06-28T01:30:24"^^xsd:dateTime ;
+    dcterms:source "https://education.nationalgeographic.org/resource/weather-or-climate-whats-difference/" ;
+    skos:altLabel "weather events" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/db6d3a22-8bf4-4e27-a9a4-a49e228b6f52> ;
+    skos:definition "State of the atmosphere, including temperature, atmospheric pressure, wind, humidity, precipitation, and cloudiness." ;
+    skos:example "1. A rainfall event characterized by severe thunderstorms.; 2. A heatwave event where the maximum and minimum ambient air temperature is unusually hot over 3 days." ;
+    skos:historyNote "Added the label 'weather events' as altLabel and as a narrower of 'atmosphere' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "weather-events" ;
+    skos:prefLabel "weather"@en .
+
+<http://linked.data.gov.au/def/tern-cv/e1c7c434-1321-4601-9079-e837b7ffc293> a skos:Concept ;
+    dcterms:modified "2021-04-22T01:45:53"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:definition "An area in space where observations are made or measurements taken." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "site" ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> .
+
+<http://linked.data.gov.au/def/tern-cv/e590824a-ab58-4ea4-9026-47f337273f45> a skos:Concept ;
+    dcterms:created "2022-09-19T23:30:58"^^xsd:dateTime ;
+    dcterms:description "Sample of dead or alive plant organic matter characteristics relevant to its flammability using a quadrat." ;
+    dcterms:modified "2024-06-14T04:19:17"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/df7fd606-8145-4206-b66e-b86444888802> ;
+    skos:definition "Sample of dead and alive vegetation matter relevant to its flammability using a quadrat." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "quadrat-vegetation-fuel-sample" ;
+    skos:prefLabel "quadrat vegetation fuel sample"@en .
+
+<http://linked.data.gov.au/def/tern-cv/ea3a4c64-dac3-4660-809a-8ad5ced8997b> a skos:Concept ;
+    dcterms:created "2021-02-25T01:03:50"^^xsd:dateTime ;
+    dcterms:description "Theoretically, it is useful to consider the complete set of plants belonging to all species living in a particular place and time as plant community (community sensu lato see Vellend 2016). In practice, studies often focus on a subset of the whole plant community chosen on the basis of growth form, taxonomy or particular interactions (Morin 2011)." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Morin, P. J. Community ecology. Wiley. (2011).",
+        "Vellend, Mark. The theory of ecological communities (MPB-57). Princeton University Press, 2020." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/881bcb98-1c31-4710-a9a4-58dbe1bc4a95> ;
+    skos:definition "Group of plants representing multiple species living in a specified place and time." ;
+    skos:example "1. Trees, shrubs, and grasses in an area.; 2. Above ground biomass of all woody species in a specific area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-community" ;
+    skos:prefLabel "plant community"@en ;
+    schema:citation "Morin, P. J. Community ecology. Wiley. (2011).",
+        "Vellend, Mark. The theory of ecological communities (MPB-57). Princeton University Press, 2020." .
+
+<http://linked.data.gov.au/def/tern-cv/ea785694-dd98-485b-b504-6b3c81674792> a skos:Concept ;
+    dcterms:created "2024-04-16T04:16:45"^^xsd:dateTime ;
+    dcterms:modified "2025-10-14T03:05:33"^^xsd:dateTime ;
+    dcterms:source "Australian Bureau of Statistics. (Jul2021-Jun2026). Australia and State/Territory. ABS. https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/main-structure-and-greater-capital-city-statistical-areas/australia-and-stateterritory." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/05dac53a-269c-4699-9673-bf99a9406b14> ;
+    skos:definition "Australia is broken up into the States and Territories that are recognised in the Australian Statistical Geography Standard (ASGS) as: New South Wales, Victoria, Queensland, South Australia, Western Australia, Tasmania, Northern Territory, Australian Capital Territory and Other Territories (Jervis Bay Territory, Territory of Christmas Island, Territory of the Cocos (Keeling) Islands and Norfolk Island)"@en ;
+    skos:example "Any ecological observations made/collected within a particular state or Territory. For example Biodiversity metrics (Shannon or Simpson Index) for the Queensland State.",
+        "Australian States and Territories serve as a feature of interest for reporting biodiversity, habitat, and ecosystem monitoring datasets at the State and Territory level. Each government represents a relatively large adminstrative unit of land and/or water containing assemblage of natural communities managed within the government administrative area." ;
+    skos:historyNote "Added as a narrower of 'administrative area' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "States and Territories"@en .
+
+<http://linked.data.gov.au/def/tern-cv/ecb855ed-50e1-4299-8491-861759ef40b7> a skos:Concept ;
+    dcterms:created "2021-04-21T06:30:18"^^xsd:dateTime ;
+    dcterms:description "An animal indvidual is a physiological independent individual that has some kind of autonomous agency and has a life cycle that allow them to form some kind of reproductive lineages. Operationally, in some cases superorganisms or colonies (e.g. corals) may be considered a special kind of individual." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." ;
+    skos:broadMatch <http://linkeddata.ge.imati.cnr.it/resource/EARTh/45460>,
+        <http://www.eionet.europa.eu/gemet/concept/5914> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/f6a6cdf8-d8cf-4e2d-b2c1-febd8a41a07b> ;
+    skos:definition "Physiologically distinct and independent organism." ;
+    skos:example "All animal individuals should be identified as a unique individual based on some sort of unique ID and any observations or measurements on that individual animal is unique to that individual. For instance, a Wombat is tagged with a unique identifier in a study area for studying its feeding and sleeping behaviour over time." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "animal-individual" ;
+    skos:prefLabel "animal individual"@en ;
+    schema:citation "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." .
+
+<http://linked.data.gov.au/def/tern-cv/edebcd9a-a42e-49ba-a629-056cb1a7ba73> a skos:Concept ;
+    dcterms:created "2022-09-19T23:25:46"^^xsd:dateTime ;
+    dcterms:description "Dead or alive plant organic matter characteristics relevant to its flammability, sampled in a define area." ;
+    dcterms:modified "2023-06-23T05:55:59"^^xsd:dateTime ;
+    dcterms:source "https://www.ecologyandsociety.org/vol7/iss1/art9/des_fuel_load.html" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/df7fd606-8145-4206-b66e-b86444888802> ;
+    skos:definition "Dead or alive plant organic matter characteristics relevant to its flammability, sampled in a define area." ;
+    skos:example "The fuel load of the forest stand." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "stand-vegetation-fuel" ;
+    skos:prefLabel "stand vegetation fuel"@en .
+
+<http://linked.data.gov.au/def/tern-cv/f0a62303-5d37-47eb-a940-58661698cdd7> a skos:Concept ;
+    dcterms:created "2024-04-18T03:47:26"^^xsd:dateTime ;
+    dcterms:description "These are plants such as lichens or mosses that do not have vascular tubes/tissues to transport food and water. It belongs to the division Bryophyta, which includes liverwort, and moss." ;
+    dcterms:modified "2024-04-21T22:55:11"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/ea6c4b26-2fa1-4d0e-9413-b53f248f2269> ;
+    skos:definition "A non-vascular plant population refers to the total count of individuals of a particular species of non-vascular plants." ;
+    skos:example "A count of the total number of Usnea scabrida (lichen species) sampled from a rocky area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "non-vascular plant population"@en .
+
+<http://linked.data.gov.au/def/tern-cv/f31c7f93-78d1-47de-92c2-c5541aa5f8e8> a skos:Concept ;
+    dcterms:created "2024-04-18T03:50:07"^^xsd:dateTime ;
+    dcterms:description "Woody plants are perennials that produce secondary growth in the form of wood. They include trees, palms, shrubs and cycads." ;
+    dcterms:modified "2024-04-18T04:47:17"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/95e72362-8575-46e9-bc60-a45f48b95390> ;
+    skos:definition "The group of indivdiuals of a particular species of woody vascular plant at a specific region and time." ;
+    skos:example "The count of Fan Palm (Licuala ramsayi) in a 1 hectare plot in the Daintree National Park sampled post-cyclone in 2023." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "woody vascular plant population"@en .
+
+<http://linked.data.gov.au/def/tern-cv/f65eb204-4a58-485f-b339-4396a05ce251> a skos:Concept ;
+    dcterms:created "2024-04-16T04:31:55"^^xsd:dateTime ;
+    dcterms:description "Australia has thousands of national parks across the State and Territory agencies, of which six Major Parks are managed by the Commonwealth Government."@en ;
+    dcterms:modified "2024-06-28T01:05:12"^^xsd:dateTime ;
+    dcterms:source "https://www.dcceew.gov.au/parks-heritage/national-parks" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/05dac53a-269c-4699-9673-bf99a9406b14> ;
+    skos:definition "A list of National Parks within Australia that are managed by the Australian, State and Territory governments." ;
+    skos:example "Some popular national parks include: 1) Kakadu National Park; 2) Booderee National Park; 3) Uluru - Kata Tjuta National Park; 4) Great Barrier Reef Marine Park; 5) Norfolk, Christmas and Cocos (Keeling) Islands"@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "National Parks"@en .
+
+<http://linked.data.gov.au/def/tern-cv/f6e064c6-e2e9-4f9a-90dd-66434a93d985> a skos:Concept ;
+    dcterms:created "2022-04-20T04:18:46"^^xsd:dateTime ;
+    dcterms:description "A population of ants (insects from the family Formicidae) is a collection of individuals belonging to the same ant species, living in the same area." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Begon, Michael, Martin Mortimer, and David J. Thompson. Population ecology: a unified study of animals and plants. John Wiley & Sons, 2009." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/c892f830-4c65-4ac2-a81a-323e2ef42657> ;
+    skos:definition "Group of individuals of the same ant species (family Formicidae) living within a given area." ;
+    skos:example "Yellow crazy ant population detected in north Queensland." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "ant-population" ;
+    skos:prefLabel "ant population"@en ;
+    schema:citation "Begon, Michael, Martin Mortimer, and David J. Thompson. Population ecology: a unified study of animals and plants. John Wiley & Sons, 2009." .
+
+<http://linked.data.gov.au/def/tern-cv/f7b324fe-c042-463f-ae93-11ba2efcf0bb> a skos:Concept ;
+    dcterms:created "2024-04-18T01:29:14"^^xsd:dateTime ;
+    dcterms:description "Any individual woody vascular plant, i.e., belonging to a shrub, tree, palm or cycad. They have vascular tissues consisting of xylem, which carries water and nutrients from the roots up the stem to the leaves, and the phloem, which carries sugar produced in the leaves to other parts of the plant." ;
+    dcterms:modified "2024-04-18T03:10:57"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/57c778e4-5a82-4dfd-8087-d616ac629ab1> ;
+    skos:definition "A woody vascular plant individual is an individual perennial plant that produce secondary growth in the form of wood." ;
+    skos:example "An individual tree or shrub, tagged and identified to its species level and studied for its diameter growth over multiple site visits." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "woody vascular plant individual"@en .
+
+<http://linked.data.gov.au/def/tern-cv/ffbe3c8c-23f1-4fc4-8aaf-dfba9f12576c> a skos:Concept ;
+    dcterms:modified "2026-02-24T22:37:21"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> ;
+    skos:definition "Parent site." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "parent site"@en .
+
+<http://linked.data.gov.au/def/tern-cv/1a017998-f59d-43f8-ac47-bea75e50d24d> a skos:Concept ;
+    dcterms:created "2024-04-17T06:37:18"^^xsd:dateTime ;
+    dcterms:modified "2025-10-14T03:09:48"^^xsd:dateTime ;
+    dcterms:source "Global Biodiversity Information Facility (GBIF)" ;
+    skos:altLabel "fungal organisms" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/3d355008-117e-48ec-a822-adb09495ac78> ;
+    skos:definition "A biological kingdom comprising eukaryotic organisms such as mushrooms, yeasts, and moulds, characterized by chitinous cell walls and heterotrophic nutrition through the absorption of dissolved organic matter." ;
+    skos:example "Mycorrhizal fungal abundance in Eucalyptus woodland soils measured via ITS DNA sequencing." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "fungi"@en ;
+    skos:scopeNote "Fungi serve as a feature of interest for biodiversity, soil, and ecosystem function studies. Observations may include fungal biomass, species richness, community composition, mycorrhizal colonization, or DNA-based taxa counts." .
+
+<http://linked.data.gov.au/def/tern-cv/2e122e23-881c-43fa-a921-a8745f016ceb> a skos:Concept ;
+    dcterms:description "Plant specimens usually are dried and mounted on a sheet of paper, but they may also be stored in boxes or kept in liquid preservatives. Plant specimens may be used for identification purposes, morphometrics, plant taxonomy and nomenclature, and the study of geographic distribution of plants." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Heberling, J. Mason, L. Alan Prather, and Stephen J. Tonsor. The changing uses of herbarium data in an era of global change: An overview using automated content analysis. BioScience 69.10 (2019): 812-822." ;
+    skos:altLabel "plant voucher specimen" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/881bcb98-1c31-4710-a9a4-58dbe1bc4a95> ;
+    skos:closeMatch <http://rs.tdwg.org/dwc/terms/PreservedSpecimen> ;
+    skos:definition "A plant specimen is a part of an individual plant or whole plant preserved, usually in a herbarium." ;
+    skos:example "A vouchered sample of an individual plant preserved in a herbarium sheet." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-specimen" ;
+    skos:prefLabel "plant specimen" ;
+    schema:citation "Heberling, J. Mason, L. Alan Prather, and Stephen J. Tonsor. The changing uses of herbarium data in an era of global change: An overview using automated content analysis. BioScience 69.10 (2019): 812-822." .
+
+<http://linked.data.gov.au/def/tern-cv/32834f36-a478-45be-97f4-ff2ff51e9f5c> a skos:Concept ;
+    dcterms:created "2021-03-15T02:16:26"^^xsd:dateTime ;
+    dcterms:description "A stratum is an easily seen layer of foliage and branches of a distinct and measurable height. One or more strata can exist in a patch of vegetation." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Hnatiuk, R.J., Thackway, R., and Walker, J. Vegetation. In National Committee on Soil and Terrain (2009) ‘Australian soil and land survey field handbook (3rd edn).’ (CSIRO Publishing: Melbourne).",
+        "http://purl.obolibrary.org/obo/ENVO_01000355" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "A layer which is determined by a form of vegetation and is of a distinct height class in the vegetation." ;
+    skos:example "The uppemost part of a rainforest canopy; an understory layer comprised of shrubs." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "vegetation-stratum" ;
+    skos:prefLabel "vegetation stratum"@en ;
+    schema:citation "Hnatiuk, R.J., Thackway, R., and Walker, J. Vegetation. In National Committee on Soil and Terrain (2009) ‘Australian soil and land survey field handbook (3rd edn).’ (CSIRO Publishing: Melbourne)." .
+
+<http://linked.data.gov.au/def/tern-cv/4381b1b0-d432-4764-aec3-a26d2b8d85af> a skos:Concept ;
+    dcterms:created "2023-06-23T03:39:01"^^xsd:dateTime ;
+    dcterms:description "<p>Australia boasts a rich variety of ecosystems, shaped by its diverse climate, geology, and native species. Here are some of the key ecosystem types found across the continent:</p> <p>1. Desert and Xeric Shrublands: The vast central region of Australia is characterized by arid deserts and shrublands, adapted to extreme heat and limited water availability.</p> <p>2. Tropical and Subtropical Regions: A smaller area hosts tropical and subtropical broadleaf forests, remnants of ecosystems that once dominated Australia millions of years ago.</p> <p>3. Mediterranean Forests and Woodlands: These ecosystems thrive in regions with a Mediterranean climate, featuring dry summers and mild, wet winters. They include iconic eucalyptus forests.</p> <p>4. Temperate Regions: These encompass temperate forests, grasslands, and woodlands. Eucalypt-dominated forests and diverse grassy plains are common.</p> <p>5. Montane ecosystems and Tundra: At higher elevations, one will find the montane ecosystems, including alpine meadows and tundra."^^rdf:HTML ;
+    dcterms:modified "2025-10-14T03:32:08"^^xsd:dateTime ;
+    dcterms:source "http://purl.dataone.org/odo/ECSO_00000309",
+        "https://soe.dcceew.gov.au/biodiversity/environment/ecosystems-and-habitats" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/237df7e1-2d92-4e9d-851e-28439bf5d8d8> ;
+    skos:definition "Ecosystems are dynamic entities composed of the biological community and the abiotic environment. They are a system formed by the interaction of a community of organisms with their physical environment." ;
+    skos:example "Ecosystem releated observations such as for reporting biodiversity, habitat, and ecosystem monitoring datasets at the Ecosystem level. For example, comparing carbon dioxide concentrations coming out of rainforest ecosystems and desert ecosystems." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "ecosystem"@en .
+
+<http://linked.data.gov.au/def/tern-cv/4b36a1ab-7a77-49ca-866a-e68bce2db9e5> a skos:Concept ;
+    dcterms:created "2022-09-19T05:09:06"^^xsd:dateTime ;
+    dcterms:description "Plant matter are plant parts that are either living or dead and contribute to the organic layer in the environment. " ;
+    dcterms:modified "2024-04-17T06:15:02"^^xsd:dateTime ;
+    dcterms:source "http://purl.obolibrary.org/obo/ENVO_01001121" ;
+    owl:deprecated true ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "Organic material which is primarily composed of plant structures, living or dead."@en ;
+    skos:example "A collection of roots, leaves, twigs and branches on the forest floor." ;
+    skos:historyNote "This concept is now deprecated from the TERN Feature Type (Release Version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "plant matter"@en .
+
+<http://linked.data.gov.au/def/tern-cv/657ee703-1122-4fdb-b0a5-7285cef27be1> a skos:Concept ;
+    dcterms:created "2024-04-17T06:31:08"^^xsd:dateTime ;
+    dcterms:description "Ecological dynamics refers to the complex interactions and processes that occur within ecosystems over time. These dynamics encompass a wide range of biological, physical, and chemical interactions that influence the structure, composition, and function of ecosystems. Understanding ecological dynamics is crucial for predicting changes in ecosystems, managing natural resources, and conserving biodiversity." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Garry Peterson. The Human Actor In Ecological-Economic Models. Political ecology and ecological resilience: An integration of human and ecological dynamics. Ecological Economics 35 (2000) 323 - 336" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/237df7e1-2d92-4e9d-851e-28439bf5d8d8> ;
+    skos:definition "Ecological dynamics describes coupled dynamics of human-ecological systems." ;
+    skos:example "Observations made on fire ",
+        "Observations may include rates of succession, turnover, productivity, decomposition, and species interactions across spatial and temporal scales. Monitoring vegetation succession and carbon fluxes following fire disturbance at a long-term ecological research (LTER) site." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "ecological dynamics"@en ;
+    skos:scopeNote "Ecological dynamics represents process-based or system-level change within ecosystems — not a discrete object (like a plant or soil profile), but a complex feature of interest describing interacting biological, physical, and chemical processes over time. Ecological dynamics serve as a feature of interest for studies examining how ecosystems respond to natural disturbances, climatic variation, and anthropogenic pressures." ;
+    schema:citation "Garry Peterson. The Human Actor In Ecological-Economic Models. Political ecology and ecological resilience: An integration of human and ecological dynamics. Ecological Economics 35 (2000) 323 - 336" .
+
+<http://linked.data.gov.au/def/tern-cv/afc81cca-9122-4e36-823d-31dd765e9257> a skos:Concept ;
+    dcterms:created "2021-02-26T05:11:16"^^xsd:dateTime ;
+    dcterms:description "Geological substrates are materials and masses of earth or rock that do not show pedological development. They are not soils, but typically underlie them. The geological substrate includes the R horizon (continuous masses of rock, excluding pans, e.g. bedrock) and the part of the C horizon that shows no pedological development, but excludes the solum, buried soil horizons (including D horizons), and pans. The geological substrate beneath a soil profile may or may not be the parent material of the soil." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing.",
+        "Valentine, P.C., 2019, Sediment classification and the characterization, identification, and mapping of geologic substrates for the glaciated Gulf of Maine seabed and other terrains, providing a physical framework for ecological research and seabed management: U.S. Geological Survey Scientific Investigations Report 2019–5073, 37 p., https://doi.org/10.3133/sir20195073." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/8282fb22-4135-415c-8ca2-317860d102fb> ;
+    skos:definition "Surface (or volume) of sediment or rock where physical, chemical, and biological processes occur, such as the movement and deposition of sediment, the formation of bedforms, and the attachment, burrowing, feeding, reproduction, and sheltering of organisms." ;
+    skos:example "By origin sedimentary, igneous, metamorphic. By chemical composition alluvium, sandstone, carbonate" ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "geologic-substrate" ;
+    skos:prefLabel "geologic substrate"@en ;
+    schema:citation "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing.",
+        "Valentine, P.C., 2019, Sediment classification and the characterization, identification, and mapping of geologic substrates for the glaciated Gulf of Maine seabed and other terrains, providing a physical framework for ecological research and seabed management: U.S. Geological Survey Scientific Investigations Report 2019–5073, 37 p., https://doi.org/10.3133/sir20195073." .
+
+<http://linked.data.gov.au/def/tern-cv/c001183f-c6b5-4162-8de9-0c7ed0eb3bfe> a skos:Concept ;
+    dcterms:created "2022-05-17T03:40:34"^^xsd:dateTime ;
+    dcterms:modified "2025-10-14T22:18:06"^^xsd:dateTime ;
+    dcterms:source <https://www.nrs.fs.fed.us/fia/topics/dwm/glossary/> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a8b1a7fb-b479-48ff-b706-b3cc4691710b> ;
+    skos:definition "Dead pieces of wood (diameter >10cm) including downed, dead tree and shrub boles, large limbs, and other woody pieces that are severed from their original source of growth."@en ;
+    skos:example "Any observations made on coarse woody debris. For example, the count, abundance, length  and/or mass of coarse woody debris in a forest stand." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "coarse woody debris"@en .
+
+<http://linked.data.gov.au/def/tern-cv/c892f830-4c65-4ac2-a81a-323e2ef42657> a skos:Concept ;
+    dcterms:created "2022-04-20T04:18:19"^^xsd:dateTime ;
+    dcterms:description "A population of invertebrates (animals that neither possess nor develop a vertebral column) is a collection of individuals belonging to the same invertebrate species, living in the same area." ;
+    dcterms:modified "2024-04-19T04:41:12"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/86758d4d-e4d9-4d03-9e5d-f528bb4a5889> ;
+    skos:definition "Group of individuals of the same invertebrate species living within a given area." ;
+    skos:example "The total number of male red crabs living in an area in Chrismas Island National Park." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "invertebrate-population" ;
+    skos:prefLabel "invertebrate population"@en .
+
+<http://linked.data.gov.au/def/tern-cv/d4fc54b1-0ad3-4512-86b7-d42b121ece45> a skos:Concept ;
+    dcterms:created "2021-03-11T00:22:45"^^xsd:dateTime ;
+    dcterms:description "Vegetation disturbance occurs at multiple temporal and spatial scales (Pickett and White, 1985). The main sources of variation in disturbance include difference in ecosystem scale, the type of disturbance and differences in the disturbance regime. Disturbance can be described in terms of their distribution, frequency, cycle/turnover time, rotation period, predictability, area, magnitude/intensity, severity and synergism with other disturbances (Pickett and White, 1985). Most disturbance produce heterogenous and patchy effects (Pickett and White, 1985)." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Pickett, S. T. A., and P. S. White. Natural disturbance and patch dynamics. (1985)." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/7e256d28-e686-4b6a-b64a-ac1b1a8f164d> ;
+    skos:closeMatch <http://vocabs.lter-europe.net/EnvThes/USLterCV_805> ;
+    skos:definition "Events that disrupts the plant component of ecosystems and communities or directly impact plant population structure." ;
+    skos:example "Frequency and intensity of fires or pests; the amout of land clearing; presence and abundance of cattle." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "vegetation-disturbance" ;
+    skos:prefLabel "vegetation disturbance"@en ;
+    schema:citation "Pickett, S. T. A., and P. S. White. Natural disturbance and patch dynamics. (1985)." .
+
+<http://linked.data.gov.au/def/tern-cv/2217ab3c-0359-42a3-9361-b3b895121841> a skos:Concept ;
+    dcterms:created "2024-04-18T03:18:57"^^xsd:dateTime ;
+    dcterms:modified "2024-04-21T22:53:57"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a050f023-5d6a-4688-8345-d978eabe3c54> ;
+    skos:definition "Vascular plants occurring at a specific region at a specific time. These plants have vascular tissue, consisting of xylem, which carries water and nutrients from the roots up the stem to the leaves, and the phloem, which carries sugar produced in the leaves to other parts of the plant." ;
+    skos:example "An individual or a groups of trees sampled from a rocky area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vascular plant occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/57c778e4-5a82-4dfd-8087-d616ac629ab1> a skos:Concept ;
+    dcterms:created "2024-04-18T01:28:02"^^xsd:dateTime ;
+    dcterms:description "Any individual vascular plant, i.e., belonging to a herb, shrub, tree, palm, cycad and fern. They have vascular tissues consisting of xylem, which carries water and nutrients from the roots up the stem to the leaves, and the phloem, which carries sugar produced in the leaves to other parts of the plant." ;
+    dcterms:modified "2024-04-21T22:53:42"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a050f023-5d6a-4688-8345-d978eabe3c54> ;
+    skos:definition "A vascular plant individual is a plant individual with vascular tissue." ;
+    skos:example "A tree or a shrub species, tagged and identified to its species level and studied for its diameter growth over multiple site visits." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vascular plant individual"@en .
+
+<http://linked.data.gov.au/def/tern-cv/7e256d28-e686-4b6a-b64a-ac1b1a8f164d> a skos:Concept ;
+    dcterms:created "2021-03-09T07:21:46"^^xsd:dateTime ;
+    dcterms:description "In ecology, a disturbance is a temporary change in average environmental conditions that causes a pronounced change in an ecosystem. Outside disturbance forces often act quickly and with great effect, sometimes resulting in the removal of large amounts of biomass. Ecological disturbances include fires, flooding, windstorm, insect outbreaks, as well as anthropogenic disturbances such as forest clearing and the introduction of exotic species." ;
+    dcterms:modified "2024-06-28T02:56:45"^^xsd:dateTime ;
+    dcterms:source "https://vocab.lternet.edu/vocab/vocab/index.php?tema=662&/disturbance",
+        "https://w3id.org/inbio#_000001" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/657ee703-1122-4fdb-b0a5-7285cef27be1> ;
+    skos:closeMatch <http://vocabs.lter-europe.net/EnvThes/20373> ;
+    skos:definition "Events that disrupts ecosystem, community, or population structure and changes resources, substrate availability, or the physical environment." ;
+    skos:example "1. A fire event that causes a change in the community profile in the Litchfield National Park, NT; 2. Tropical cyclones leading to disturbance in a forest community structure." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "land-surface-disturbance" ;
+    skos:prefLabel "disturbance"@en .
+
+<http://linked.data.gov.au/def/tern-cv/8cadf069-01d7-4420-b454-cae37740c2a2> a skos:Concept ;
+    dcterms:created "2021-05-06T05:15:16"^^xsd:dateTime ;
+    dcterms:modified "2026-02-24T22:38:22"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> ;
+    skos:definition "Land area selected from within a survey region which abiotic and biotic properties are sampled." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "plot"@en .
+
+<http://linked.data.gov.au/def/tern-cv/95e72362-8575-46e9-bc60-a45f48b95390> a skos:Concept ;
+    dcterms:created "2024-04-18T03:48:07"^^xsd:dateTime ;
+    dcterms:description "These are plants such as trees, shrubs, palms, cycads etc. which have true vascular tubes/tissues to transport food and water." ;
+    dcterms:modified "2024-04-21T22:54:10"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a050f023-5d6a-4688-8345-d978eabe3c54> ;
+    skos:definition "The vascular plant population refers to the total count of individuals of a particular species of vascular plants." ;
+    skos:example "1. A count of the total number of Eucalyptus citriodora.; 2. The total number of seedlings and adult pine trees (Pinus radiata) in a forest stand." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vascular plant population"@en .
+
+<http://linked.data.gov.au/def/tern-cv/b64cfbb3-86a2-43b3-a749-11243805cb85> a skos:Concept ;
+    dcterms:created "2024-04-17T23:54:43"^^xsd:dateTime ;
+    dcterms:description "These plants have vascular tissue, consisting of xylem, which carries water and nutrients from the roots up the stem to the leaves, and the phloem, which carries sugar produced in the leaves to other parts of the plant." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a050f023-5d6a-4688-8345-d978eabe3c54> ;
+    skos:definition "A community of plants such as the herbs, shrubs, trees, palms, cycads and ferns." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/NCIT_C14336> ;
+    skos:example "A community of trees, shrubs and ferns sampled from a protected area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vascular plants community"@en .
+
+<http://linked.data.gov.au/def/tern-cv/db6d3a22-8bf4-4e27-a9a4-a49e228b6f52> a skos:Concept ;
+    dcterms:created "2024-04-16T04:45:42"^^xsd:dateTime ;
+    dcterms:description "A gaseous envelope gravitationally bound to a celestial body (e.g., a planet, its satellite, or a star)." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Glossary of the American Meteorological Society, 2018. http://glossary.ametsoc.org/wiki/Atmosphere" ;
+    skos:definition "An atmosphere is a layer of gases surrounding a material body of sufficient mass that is held in place by the gravity of the body."@en ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01000267> ;
+    skos:example "Atmospheric CO₂ concentration measured at 2 m above ground level at Warra Tall Eucalypt, Tasmania, Australia." ;
+    skos:historyNote "Added as a top concept for the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "atmosphere"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:citation "Glossary of the American Meteorological Society, 2018. http://glossary.ametsoc.org/wiki/Atmosphere" .
+
+<http://linked.data.gov.au/def/tern-cv/e6ed6e58-5916-4d31-9ed5-109ab3436fce> a skos:Concept ;
+    dcterms:created "2021-04-20T03:43:43"^^xsd:dateTime ;
+    dcterms:description "Dead plant material, such as leaves, bark, needles, twigs, and other woody debris that has fallen to the ground. Plant litter make up a large portion of above ground net primary production of all terrestrial ecosystems." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Chapin III, F. Stuart, Pamela A. Matson, and Peter Vitousek. Principles of terrestrial ecosystem ecology. Springer Science & Business Media, 2011." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:closeMatch <http://vocabs.lter-europe.net/EnvThes/20955> ;
+    skos:definition "Partly decomposed plant residues (i.e. wood, leaf or root) and related characteristics on the surface of soil." ;
+    skos:example "Leaf litterfall collected from forest floor can include observations on 'litter depth' and 'litter mass'. Such observations qualify under 'plant litter' as a feature of interest." ;
+    skos:historyNote "Added as a narrower concept of 'plant' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-litter" ;
+    skos:prefLabel "plant litter"@en ;
+    schema:citation "Chapin III, F. Stuart, Pamela A. Matson, and Peter Vitousek. Principles of terrestrial ecosystem ecology. Springer Science & Business Media, 2011." .
+
+<http://linked.data.gov.au/def/tern-cv/237df7e1-2d92-4e9d-851e-28439bf5d8d8> a skos:Concept ;
+    dcterms:created "2024-04-17T06:26:26"^^xsd:dateTime ;
+    dcterms:modified "2025-10-13T22:56:25"^^xsd:dateTime ;
+    dcterms:source "https://nationalgeographic.org"^^xsd:anyURI ;
+    skos:definition "The biosphere is made up of the parts of Earth where life exists. The biosphere extends from the deepest root systems of trees, to the dark environment of ocean trenches, to lush rain forests and high mountaintops."@en ;
+    skos:example "Biosphere as a feature of interest can be modelled to any earth observations (e.g., atmospheric CO2 concentrations, biomass, etc.) made on entities (either terrestrial or aquatic) at a planetary scale where life exists." ;
+    skos:historyNote "Added as a top concept for the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "biosphere"@en ;
+    skos:scopeNote "In the W3C/OGC SSN and SOSA frameworks, the biosphere represents a feature of interest at a planetary scale. It is often the subject of environmental observations, modelling, and sustainability assessments, encompassing terrestrial, aquatic, and atmospheric life systems." ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> .
+
+<http://linked.data.gov.au/def/tern-cv/3d355008-117e-48ec-a822-adb09495ac78> a skos:Concept ;
+    dcterms:created "2024-04-16T05:03:57"^^xsd:dateTime ;
+    dcterms:description "Organisms are classified based on how similar they are. Historically, similarity was determined by examining the physical characteristics of an organism but modern classification uses a variety of techniques including genetic analysis. Organisms are classified according to a system of seven taxonomic ranks: Kingdom; Phylum; Class; Order; Family; Genus; Species"@en ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Global Change Master Directory (GCMD). 2024. GCMD Keywords, Version 18.1. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://forum.earthdata.nasa.gov/app.php/tag/GCMD%20Keywords" ;
+    skos:altLabel "systematics"@en,
+        "taxonomic classification"@en,
+        "taxonomy"@en ;
+    skos:definition "Biological classification is the process of classification of living organisms into groups based on shared common traits and genetic information."@en ;
+    skos:example "Example of biological classification as a feature of interest include observations made on a 'taxon' (e.g., Genus: Eucalyptus) from which their taxonomic ranks such as domain, kingdom, phylum, class, order, family, and species (if identified) can be organized." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "biological classification"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:citation "Global Change Master Directory (GCMD). 2024. GCMD Keywords, Version 18.1. Greenbelt, MD: Earth Science Data and Information System, Earth Science Projects Division, Goddard Space Flight Center (GSFC) National Aeronautics and Space Administration (NASA). URL (GCMD Keyword Forum Page): https://forum.earthdata.nasa.gov/app.php/tag/GCMD%20Keywords" .
+
+<http://linked.data.gov.au/def/tern-cv/df7fd606-8145-4206-b66e-b86444888802> a skos:Concept ;
+    dcterms:created "2021-04-20T04:15:03"^^xsd:dateTime ;
+    dcterms:description "Organic matter provides the fuel for fire. The diversity of types of natural fire is, in part, a result of the corresponding diversity in vegetation and litter (Cornnwell et al., 2015). The fire regime in a place will be dependent on the vegetation fule properties, along wiht climate, weather and ignition sources (Johnson, 1992; Swetnam, 1993). Vegation fuels can be classified into three major categories: crown, surface and ground." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Cornwell, William K., et al. Flammability across the gymnosperm phylogeny: the importance of litter particle size. New Phytologist 206.2 (2015): 672-681.",
+        "Cruz, M.G., Gould, J.S., Hollis, J.J. and McCaw, W., 2018. A Hierarchical classification of wildland fire fuels for Australian vegetation types. Fire, 1(1), p.13.",
+        "Johnson, Kirk R. Leaf-fossil evidence for extensive floral extinction at the Cretaceous-Tertiary boundary, North Dakota, USA. Cretaceous Research 13.1 (1992): 91-117.",
+        "Swetnam, Thomas W. Fire history and climate change in giant sequoia groves. Science 262.5135 (1993): 885-889." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "Dead and alive vegetation characteristics relevant to its flammability." ;
+    skos:example "Canopy length and load; bark fuels; biomass of dead and live plants on the ground." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "vegetation-fuel" ;
+    skos:prefLabel "vegetation fuel"@en ;
+    schema:citation "Cornwell, William K., et al. Flammability across the gymnosperm phylogeny: the importance of litter particle size. New Phytologist 206.2 (2015): 672-681.",
+        "Cruz, M.G., Gould, J.S., Hollis, J.J. and McCaw, W., 2018. A Hierarchical classification of wildland fire fuels for Australian vegetation types. Fire, 1(1), p.13.",
+        "Johnson, Kirk R. Leaf-fossil evidence for extensive floral extinction at the Cretaceous-Tertiary boundary, North Dakota, USA. Cretaceous Research 13.1 (1992): 91-117.",
+        "Swetnam, Thomas W. Fire history and climate change in giant sequoia groves. Science 262.5135 (1993): 885-889." .
+
+<http://linked.data.gov.au/def/tern-cv/5c93aeef-c625-4117-85be-3a886416f2be> a skos:Concept ;
+    dcterms:created "2024-04-16T06:03:07"^^xsd:dateTime ;
+    dcterms:description "A population of vertebrates (animals that possess or develop a vertebral column) is a collection of individuals belonging to the same vertebrate species, living in the same area." ;
+    dcterms:modified "2024-04-19T04:44:51"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/c242f606-1df2-4222-a5f1-a899ae66fde4> ;
+    skos:definition "Group of individuals of the same vertebrate species living within a given area." ;
+    skos:example "The total count of Blue-faced Parrotfinch (Erythrura trichroa) from a tropical rainforest.; The number of male Koalas (Phascolarctos cinereus) in a Protected Area." ;
+    skos:historyNote "Added to the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vertebrate population"@en .
+
+<http://linked.data.gov.au/def/tern-cv/8282fb22-4135-415c-8ca2-317860d102fb> a skos:Concept ;
+    dcterms:created "2021-02-25T01:11:44"^^xsd:dateTime ;
+    dcterms:description "Most of the attributes for land surface deal with its physical properties (e.g. aspect, elevation). Some other reflect properties within (e.g. microrelief). Some attributes reflect the influence of present or past land use practice (e.g. disturbance of site, erosion)." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." ;
+    skos:definition "Surface layer of Earth which is primarily composed of solid material and is not covered by oceans or other bodies of water." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01001785> ;
+    skos:example "1. The average slope of the mountain range; 2. The dominant lithology of the Great Artesian Basin." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "land-surface" ;
+    skos:prefLabel "land surface"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:citation "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." .
+
+<http://linked.data.gov.au/def/tern-cv/86758d4d-e4d9-4d03-9e5d-f528bb4a5889> a skos:Concept ;
+    dcterms:created "2024-04-19T04:37:35"^^xsd:dateTime ;
+    dcterms:description "An invertebrate is any animal that lacks a vertebral column, commonly known as a spine or backbone. Unlike the cartilaginous or bony vertebrates, invertebrates make up over 90 percent of all living animal species. They span a diverse range, including sea stars, earthworms, sponges, insects, and jellyfish." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Gould, J. and W.Keaton. 1996. Biological Science. W.W. Norton and Company. New York." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/f6a6cdf8-d8cf-4e2d-b2c1-febd8a41a07b> ;
+    skos:definition "Invertebrates are animals lacking a backbone, or without bones." ;
+    skos:example "Any observation made on the animal class 'invertebrates' (e.g., ants, beetles, moths, etc.) from a study area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "invertebrates"@en ;
+    schema:citation "Gould, J. and W.Keaton. 1996. Biological Science. W.W. Norton and Company. New York." .
+
+<http://linked.data.gov.au/def/tern-cv/a050f023-5d6a-4688-8345-d978eabe3c54> a skos:Concept ;
+    dcterms:created "2024-04-21T22:52:42"^^xsd:dateTime ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/881bcb98-1c31-4710-a9a4-58dbe1bc4a95> ;
+    skos:definition "The flowering herbs, shrubs, trees and ferns. These plants have vascular tissue, consisting of xylem, which carries water and nutrients from the roots up the stem to the leaves, and the phloem, which carries sugar produced in the leaves to other parts of the plant." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/NCIT_C14336> ;
+    skos:example "Observations made on vascular plants can include ecological, physiological and or genetic features. For instance, measurement of leaf carbon content on all vacular plants within a forest plot." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vascular plants"@en .
+
+<http://linked.data.gov.au/def/tern-cv/a8b1a7fb-b479-48ff-b706-b3cc4691710b> a skos:Concept ;
+    dcterms:description "Dead wood refers to the dead woody components of a tree, either free standing, leaning or lying on the ground, which contributes to biomass and ecological processes in natural ecosystems." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Rondeux, J., Sanchez, C. Review of indicators and field methods for monitoring biodiversity within national forest inventories. Core variable: Deadwood. Environ Monit Assess 164, 617–630 (2010). https://doi.org/10.1007/s10661-009-0917-6" ;
+    skos:altLabel "dead woody material" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "All non-living woody detritus comprising stems, twigs and roots but excluding the deadwood parts of living trees."@en ;
+    skos:example "A coarse woody debris lying on a forest floor; a free-standing or leaning tree, without any living parts." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "dead-wood" ;
+    skos:prefLabel "dead wood"@en ;
+    schema:citation "Rondeux, J., Sanchez, C. Review of indicators and field methods for monitoring biodiversity within national forest inventories. Core variable: Deadwood. Environ Monit Assess 164, 617–630 (2010). https://doi.org/10.1007/s10661-009-0917-6" .
+
+<http://linked.data.gov.au/def/tern-cv/c242f606-1df2-4222-a5f1-a899ae66fde4> a skos:Concept ;
+    dcterms:created "2024-04-19T04:37:51"^^xsd:dateTime ;
+    dcterms:description "A vertebrate is an animal with a backbone, scientifically classified under the subphylum Vertebrata. These animals are characterized by several key features that include: Backbone; Muscular System; Central Nervous System; Distinct Head; Pharyngeal Slits and Gills." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Starr, C. and R.Taggart. 1998. Biology: the unity and diversity of life. Wadsworth Publishing Company. Belmont, California." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/f6a6cdf8-d8cf-4e2d-b2c1-febd8a41a07b> ;
+    skos:definition "Vertebrates are chordates with a backbone, either of cartilage or bone, and a brain located inside a protective chamber of skull bones." ;
+    skos:example "Any observations (morphological, physiological, genetic, etc.) made on the animal class 'vertebrates' (e.g., mammals, birds, etc.) in a study area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vertebrates"@en ;
+    schema:citation "Starr, C. and R.Taggart. 1998. Biology: the unity and diversity of life. Wadsworth Publishing Company. Belmont, California." .
+
+<http://linked.data.gov.au/def/tern-cv/ea6c4b26-2fa1-4d0e-9413-b53f248f2269> a skos:Concept ;
+    dcterms:created "2024-04-21T22:53:01"^^xsd:dateTime ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/881bcb98-1c31-4710-a9a4-58dbe1bc4a95> ;
+    skos:definition "A plant that does not have vascular tubes/tissues to transport food and water. It belongs to the division Bryophyta, which includes liverwort, and moss." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/NCIT_C14340> ;
+    skos:example "Observations made on non-vascular plants can include ecological, physiological and or genetic features. For instance, observations on the total abundance of all non-vascular plants (e.g., bryophytes and lichens) within a forest plot." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "non-vascular plants"@en .
+
+<http://linked.data.gov.au/def/tern-cv/1554c27a-e777-49da-abc3-10296734f80b> a skos:Concept ;
+    dcterms:created "2024-04-16T05:24:48"^^xsd:dateTime ;
+    dcterms:description "A single physiologically distinct vertebrate individual (animals that possess a vertebral column), which are tagged and studied." ;
+    dcterms:modified "2024-04-19T04:44:22"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/c242f606-1df2-4222-a5f1-a899ae66fde4> ;
+    skos:definition "A vertebrate which is physiologically distinct and independent." ;
+    skos:example "A collection of individually tagged vertebrates (such as birds, mammals, reptiles etc.) that are monitored for their abundance over time." ;
+    skos:historyNote "Added to the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vertebrate individual"@en .
+
+<http://linked.data.gov.au/def/tern-cv/5cd1dbb0-c30e-4c8e-ae1b-0b388638163c> a skos:Concept ;
+    dcterms:created "2024-04-16T05:48:56"^^xsd:dateTime ;
+    dcterms:description "A vertebrate occurrence (animals that neither possess or develop a vertebral column) is a sample of a vertebrate individual or group at a particular point and time." ;
+    dcterms:modified "2024-04-19T04:44:40"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/c242f606-1df2-4222-a5f1-a899ae66fde4> ;
+    skos:definition "An existence of a single vertebrate or group of vertebrates sampled at a particular place at a particular time." ;
+    skos:example "The presence of vertebrates (e.g., Koalas, Gliders and Lorikeets) in a tree canopy." ;
+    skos:historyNote "Updated the heirarchy of the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "vertebrate occurrence"@en .
+
+<http://linked.data.gov.au/def/tern-cv/98e8d72d-f361-41ed-af9d-6e7f90c1dfce> a skos:Concept ;
+    dcterms:created "2021-03-16T05:07:09"^^xsd:dateTime ;
+    dcterms:description "It's a natural body consisting of layers (soil horizons) that are primarily composed of minerals, mixed with at least some organic matter, which differ from their parent materials in their texture, structure, consistency, color, chemical, biological and other characteristics. It is the loose covering of fine rock particles that covers the surface of the earth." ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Simons, B., Wilson, P., Ritchie, A. and Cox, S., 2013, April. ANZSoilML: an Australian-New Zealand standard for exchange of soil data. In EGU General Assembly Conference Abstracts (pp. EGU2013-6802).",
+        "http://cerrado.linkeddata.es/ecology/ccon#Soil" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/8282fb22-4135-415c-8ca2-317860d102fb> ;
+    skos:definition "Natural body comprised of minerals, soil organic matter, living organisms, gas, and water." ;
+    skos:exactMatch <http://vocabs.lter-europe.net/EnvThes/24> ;
+    skos:example "1) The texture of a soil; 2) The water holding capacity of a soil." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "soil" ;
+    skos:prefLabel "soil"@en ;
+    schema:citation "Simons, B., Wilson, P., Ritchie, A. and Cox, S., 2013, April. ANZSoilML: an Australian-New Zealand standard for exchange of soil data. In EGU General Assembly Conference Abstracts (pp. EGU2013-6802)." .
+
+<http://linked.data.gov.au/def/tern-cv/05dac53a-269c-4699-9673-bf99a9406b14> a skos:Concept ;
+    dcterms:created "2022-03-01T01:52:56"^^xsd:dateTime ;
+    dcterms:description "An administrative area is a human-defined region for business purposes. These areas are typically defined by defined boundaries and serve governmental and administrative purposes and include areas reserved for nature preservation; areas allocated for mineral exploitation; or zoned for suburbs."@en ;
+    dcterms:modified "2026-10-19T05:29:51+00:00"^^xsd:dateTime ;
+    dcterms:source "Administrative area. (n.d.) WordNet 3.0, Farlex clipart collection. (2003-2008). Retrieved June 22 2023 from https://www.thefreedictionary.com/Administrative+area"@en ;
+    skos:altLabel "adminstrative region" ;
+    skos:broadMatch <http://purl.obolibrary.org/obo/ENVO_00000004> ;
+    skos:definition "A region of the earth's surface, terrestrial or marine or mixed, that is defined for human purposes and is designated with a specific level of administrative authority."@en ;
+    skos:example "Some examples of an 'administrative area' are: 1) Kakadu National Park; 2) Tom Price Mine; 3) Southern Kangaroo Island Marine Park; 4) Shorncliffe (suburb of Brisbane); 5) State Jurisdiction of New South Wales; 6) Meshblock 11234 (ABS census region)"@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "administrative-area" ;
+    skos:prefLabel "administrative area"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:citation "Administrative area. (n.d.) WordNet 3.0, Farlex clipart collection. (2003-2008). Retrieved June 22 2023 from https://www.thefreedictionary.com/Administrative+area"@en .
+
+<http://linked.data.gov.au/def/tern-cv/881bcb98-1c31-4710-a9a4-58dbe1bc4a95> a skos:Concept ;
+    dcterms:created "2024-04-17T05:59:57"^^xsd:dateTime ;
+    dcterms:modified "2025-10-14T03:14:04"^^xsd:dateTime ;
+    dcterms:source "http://www.fao.org/aims/aos/cwr.owl#Plant"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/3d355008-117e-48ec-a822-adb09495ac78> ;
+    skos:definition "Any of a kingdom (Plantae) of living beings typically lacking locomotive movement or obvious sensory organs, generally making its own food, possessing cell walls, and unlimited growth." ;
+    skos:example "Observations made on plant can include ecological, physiological and or genetic features. For instance, measurement of leaf chlorophyll content on all plants within a forest plot." ;
+    skos:historyNote "Added as a narrower concept of 'biological classification' in the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "plant"@en ;
+    skos:scopeNote "Plants serve as a feature of interest for ecological, physiological, and genetic observations including morphology, biomass, productivity, phenology, and nutrient dynamics. Observations may be made at individual, population, or community levels."@en .
+
+<http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> a skos:Concept ;
+    dcterms:created "2021-03-11T00:21:46"^^xsd:dateTime ;
+    dcterms:description "Vegetation is an assemblage of plant species occurring in a given geographic area. They often comprise of layers/stratum that is characteristic of the vegetation type." ;
+    dcterms:modified "2024-04-17T06:29:00"^^xsd:dateTime ;
+    dcterms:source "http://www.fao.org/aims/aos/cwr.owl#Vegetation" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/237df7e1-2d92-4e9d-851e-28439bf5d8d8> ;
+    skos:definition "The assemblage of plant species in a given area; also used as a general term for plant life." ;
+    skos:exactMatch <http://vocabs.lter-europe.net/EnvThes/20535> ;
+    skos:example "1. A eucalypt woodland; 2. A Mallee shrubland; 3. A simple notophyll vine forest." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "vegetation" ;
+    skos:prefLabel "vegetation"@en .
+
+<http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> a skos:Concept ;
+    dcterms:modified "2026-02-24T22:33:39"^^xsd:dateTime ;
+    skos:closeMatch <http://purl.obolibrary.org/obo/NCIT_C80403> ;
+    skos:definition "A place in which study/protocol/sampling activities are conducted." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "site"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> .
+
+<http://linked.data.gov.au/def/tern-cv/f6a6cdf8-d8cf-4e2d-b2c1-febd8a41a07b> a skos:Concept ;
+    dcterms:created "2023-12-12T03:42:09"^^xsd:dateTime ;
+    dcterms:description "Animals are organisms with eukaryotic cells that derive nutrition from external sources (of organic nature) and are capable of voluntary movement in search of food and shelter "@en ;
+    dcterms:modified "2025-10-01T06:14:54"^^xsd:dateTime ;
+    dcterms:source "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14182"^^xsd:anyURI ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/3d355008-117e-48ec-a822-adb09495ac78> ;
+    skos:definition "A living organism (non-human) that has membranous cell walls, requires oxygen and organic foods, and is capable of voluntary movement, as distinguished from a plant or mineral."@en ;
+    skos:example "Any animal which includes vertebrates such as amphibians, birds,  mammals, or invertebrates such as ants, beetles, etc."@en ;
+    skos:historyNote "Updated the heirarchy for the TERN Feature Type (Release version, 2024)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "animal"@en ;
+    skos:prefLabel "animal"@en .
+
+<http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> a skos:ConceptScheme ;
+    dcterms:created "2021-02-01T04:23:43"^^xsd:dateTime ;
+    dcterms:description "<p><div><p>A <em>feature type</em> is a conceptual category of <strong>feature of interest</strong> used within the TERN Ontology to support data integration, harmonisation, and interoperability across ecological datasets. Feature types provide a common semantic framework through which observations and measured properties from different monitoring programs and surveys can be linked and interpreted consistently.<p>For example, the feature type <strong>Plant Occurrence</strong> represents the presence of a plant within a sampling unit (such as a plot, quadrat, or transect). Observable properties associated with a plant occurrence may include <em>species name</em>, <em>plant height</em>, <em>stem diameter</em>, <em>canopy cover</em>, and other attributes recorded during ecological surveys. By assigning these observations to the feature type <em>Plant Occurrence</em>, data collected using different survey protocols can be harmonised around a common ecological concept: the occurrence of a plant at a particular place and time.<p>In contrast, the feature type <strong>Plant Individual</strong> refers to a specific, identifiable plant that can be repeatedly observed through time. Observable properties may be similar to those recorded for a plant occurrence, including <em>species name</em>, <em>plant height</em>, and <em>stem diameter</em>. However, the distinguishing characteristic of a plant individual is the existence of a persistent identifier, such as a <em>stem ID</em>, <em>tree tag number</em>, or another unique identifier. This allows observations collected across multiple census events or monitoring campaigns to be unambiguously linked to the same biological entity over time. Consequently, a plant individual supports longitudinal analyses such as growth, mortality, recruitment, and condition change.<p>The distinction between these two feature types is therefore important:<ul><li><strong>Plant Occurrence</strong> focuses on the observation of a plant's presence within a survey context, without necessarily identifying the same plant through time.<li><strong>Plant Individual</strong> focuses on a uniquely identified plant that can be tracked and re-observed across multiple monitoring events.</ul><p>Feature types therefore act as harmonisation points within the ontology, enabling observations from different ecological surveys and monitoring programs to be integrated while preserving their ecological meaning and context.</div><p> "^^rdf:HTML ;
+    dcterms:modified "2026-08-04T01:56:22"^^xsd:dateTime ;
+    skos:definition "The scheme feature type is an observation feature on which parameters or observable properties are derived." ;
+    skos:prefLabel "Feature Type"@en .
